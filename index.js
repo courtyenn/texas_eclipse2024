@@ -12,6 +12,14 @@ const map = L.map("map", {
   zoom: 14,
 })
 map.fitBounds(FIT_BOUNDS)
+map.on("zoomstart", function () {
+  const zoomLevel = map.getZoom()
+  const tooltips = document.getElementsByClassName("tooltips")
+
+  for (const tooltip of tooltips) {
+    tooltip.style.fontSize = `${zoomLevel * 2 - 14}px`
+  }
+})
 L.tileLayer(`https://tile.openstreetmap.org/{z}/{x}/{y}.png`, {
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
