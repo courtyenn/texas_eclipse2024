@@ -20,10 +20,13 @@ map.on("zoomstart", function () {
     tooltip.style.fontSize = `${zoomLevel * 2 - 14}px`
   }
 })
-L.tileLayer(`https://tile.openstreetmap.org/{z}/{x}/{y}.png`, {
-  attribution:
-    '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-}).addTo(map)
+L.tileLayer(
+  `https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY291cnR5ZW4iLCJhIjoiY2x0bXR5bnNzMXM3dTJscGF3NG9kYW1kcCJ9.EikiYGKRyBhxnNBCtWU2sA`,
+  {
+    attribution:
+      '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }
+).addTo(map)
 
 const convertHslToColor = (hsl) => ({
   color: `hsl(${hsl.hue}, ${hsl.saturation}%, ${hsl.lightness}%)`,
