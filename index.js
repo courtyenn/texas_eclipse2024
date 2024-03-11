@@ -27,6 +27,7 @@ L.tileLayer(
       '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }
 ).addTo(map)
+//
 
 const convertHslToColor = (hsl) => ({
   color: `hsl(${hsl.hue}, ${hsl.saturation}%, ${hsl.lightness}%)`,
