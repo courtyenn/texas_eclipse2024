@@ -2,13 +2,17 @@ const MAX_BOUNDS = [
   [30.863045, -98.421356],
   [30.722219, -98.181716],
 ]
-const START = [30.796385, -98.359466]
+const FIT_BOUNDS = [
+  [30.79844, -98.361284],
+  [30.7907, -98.34513],
+]
+const CRS = L.CRS.EPSG3857
 const map = L.map("map", {
   maxBounds: MAX_BOUNDS,
-}).setView(START, 14)
+  zoom: 14,
+})
 map.fitBounds(FIT_BOUNDS)
 L.tileLayer(`https://tile.openstreetmap.org/{z}/{x}/{y}.png`, {
-  maxZoom: 19,
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(map)
@@ -19,30 +23,38 @@ const convertHslToColor = (hsl) => ({
   fillOpacity: 0.5,
 })
 
-const addPlacemarks = (Placemark, { hsl }) => {
+const addPlacemarks = (Placemark, { hsl, icon }) => {
   Placemark.forEach((placemark) => {
     const { name, Point, Polygon } = placemark
     const placemarkConfig = convertHslToColor(hsl)
     if (Point) {
       const { coordinates } = Point
       const [longitude, latitude] = coordinates.split(",")
-      L.marker([latitude, longitude])
+      L.marker([latitude, longitude], {
+        icon,
+      })
         .addTo(map)
         .bindTooltip(name, {
           permanent: true,
           direction: "bottom",
+          className: "tooltips",
         })
         .openTooltip()
-      // L.tooltip([latitude, longitude], { content: `<h2>${name}</h2>` }).addTo(
-      //   map
-      // )
     } else if (Polygon) {
       const { coordinates } = Polygon.outerBoundaryIs.LinearRing
       const latlngs = coordinates.split(" ").map((coord) => {
         const [longitude, latitude] = coord.split(",")
         return [latitude, longitude]
       })
-      L.polygon(latlngs, placemarkConfig).addTo(map).bindPopup(name)
+      const poly = L.polygon(latlngs, placemarkConfig)
+      const center = L.PolyUtil.polygonCenter(latlngs, CRS)
+      L.tooltip(center, {
+        permanent: true,
+        direction: "bottom",
+        className: "boundary_label",
+        content: name,
+      }).addTo(map)
+      poly.addTo(map).bindPopup(name)
     } else {
       console.log("No point or polygon")
     }
@@ -50,11 +62,16 @@ const addPlacemarks = (Placemark, { hsl }) => {
 }
 const TexasEclipse = (data) => {
   const { Folders, Placemark } = data
-  console.log(Folders, Placemark)
   let placemarkConfig = { hsl: { hue: 0, saturation: 100, lightness: 90 } }
   for (const folder of Folders) {
-    const { name, Placemark } = folder
-    console.log(name)
+    const { name, icon, Placemark } = folder
+
+    if (icon) {
+      placemarkConfig.icon = L.icon({
+        iconUrl: `/assets/${icon}.png`,
+        iconSize: [34, 34],
+      })
+    }
     if (Array.isArray(Placemark)) {
       addPlacemarks(Placemark, placemarkConfig)
     } else {

@@ -2,6 +2,7 @@
   "Folders": [
     {
       "name": "Stages",
+      "icon": "star",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
@@ -215,6 +216,7 @@
     },
     {
       "name": "Camping Areas",
+      "icon": "tent",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
@@ -367,6 +369,7 @@
     },
     {
       "name": "Entrance / Parking",
+      "icon": "car",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
@@ -643,6 +646,7 @@
     },
     {
       "name": "Festival Areas",
+      "icon": "unicorn_face",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
@@ -739,6 +743,7 @@
     },
     {
       "name": "Food",
+      "icon": "pizza",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
@@ -803,6 +808,7 @@
     },
     {
       "name": "Vendors",
+      "icon": "shopping_bags",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": {
@@ -837,6 +843,7 @@
     },
     {
       "name": "Art",
+      "icon": "art",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [

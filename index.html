@@ -23,6 +23,29 @@
       #map {
         height: 100vh;
       }
+      .tooltips {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        font-size: 1rem;
+        color: white;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+          1px 1px 3px #000;
+        margin-top: 10px;
+      }
+      .boundary_label {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        font-size: 0.8rem;
+        margin-top: -20px;
+        text-transform: uppercase;
+      }
+      .tooltips::before,
+      .boundary_label::before {
+        content: "";
+        border-bottom-color: transparent;
+      }
     </style>
     <script src="index.js"></script>
   </body>
