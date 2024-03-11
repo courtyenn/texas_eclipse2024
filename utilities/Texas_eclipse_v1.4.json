@@ -368,33 +368,11 @@
       "@_id": "07D4D890E82F29F7733C"
     },
     {
-      "name": "Entrance / Parking",
+      "name": "Parking",
       "icon": "car",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
-        {
-          "name": "North Staging Area",
-          "LookAt": {
-            "longitude": -98.35009606647786,
-            "latitude": 30.81085977344375,
-            "altitude": 357.7147290913954,
-            "heading": 25.06205162730388,
-            "tilt": 0,
-            "gx:fovy": 35,
-            "range": 947.111063578923,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_0B26779DE12F53BFFD5C",
-          "Polygon": {
-            "outerBoundaryIs": {
-              "LinearRing": {
-                "coordinates": "-98.35015784378299,30.81089661443458,0 -98.35092314375861,30.80988027290793,0 -98.3502886052346,30.80966457868896,0 -98.35011955638126,30.81002054663412,0 -98.34967577535969,30.81021749281033,0 -98.3493822114839,30.81046485308869,0 -98.35015784378299,30.81089661443458,0"
-              }
-            }
-          },
-          "@_id": "05F570F36A2F26CEA8F9"
-        },
         {
           "name": "Parking",
           "LookAt": {
@@ -424,62 +402,6 @@
           "@_id": "0FB61AA2C22F2808CC1D"
         },
         {
-          "name": "Production Road/ Artist Entrance",
-          "LookAt": {
-            "longitude": -98.34787521214564,
-            "latitude": 30.80623907127429,
-            "altitude": 357.26778778262,
-            "heading": 357.1448819288536,
-            "tilt": 0,
-            "gx:fovy": 35,
-            "range": 2538.155728288984,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_6E29400A852F53BFFD5C",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "0B978CAB192F28115892"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-0k-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/hbb4nsjq4ge205kkfba3cmr1c8/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgpd4JGH4mMGjz-4hDlqBkdAf2-1iefSFLXcvpWe_aN4yHOIYyCQclcEQzV-qlMPK9TA-Z6u_TvsB0i5aUQBnHvJW-yW7E9TiEgXoMmMQG0UQV4lQ4ct7qSSzQ6kfJ3CpVIjOcM56FOH8eWRiC7-Qt3YhZrBlhWSKdX5XwipMhZUS-2jjqPK_86DEJA3z3ELFi2XSsyzL9Kh5-8KLtwtK3DjyE3e_Hc__xW7b1k8-hZKZL2-5w?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tncC8zZE5XSjVjdjg2ZHBXejVXd09JdnNhYU52QkhkWE5oYnFieVpPZXo0NWlxcC93cHhYcjcwQVhoclpOMThZdkh2ekM4S3lsOVFkSS84UGNiQmtoZnBnNTRsYjBZeW1VSHYyVFM2N2luMnQxR1g0SGNlUmgrdm9ZKzlObHFZY3lPaStZTjdFQUZ6VFFVNW5adUdGWDQrdTJaMTlsM0Q1VFRIODhZRElHK2YzNGQ2aHZCa2FVU3FpT2RLTkZ0SzhjNTlGcVR2S3RZKzY2SWNBZHNPbDJCWjExWnhuQUt1a0xtSzcwNEJ3dk5rc2g2dFpBTWJHZXJIVWREaGJhSjZyV0ZzakphcEZ0N1BiK1AzWEpDK1hGa1I3RFNWTHh0UQ"
-            }
-          },
-          "Point": {
-            "extrude": 1,
-            "coordinates": "-98.34496533960937,30.80775326126695,371.4101400202527"
-          },
-          "@_id": "0E9D4096182F28115886"
-        },
-        {
-          "name": "Toll Staging Area",
-          "LookAt": {
-            "longitude": -98.35646433794362,
-            "latitude": 30.80466663247463,
-            "altitude": 358.1508936850628,
-            "heading": 21.84112372783392,
-            "tilt": 0,
-            "gx:fovy": 35,
-            "range": 1039.721241078369,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
-          "Polygon": {
-            "outerBoundaryIs": {
-              "LinearRing": {
-                "coordinates": "-98.35756567911716,30.80396094165889,0 -98.35780202733071,30.80225642081717,0 -98.35762178712311,30.80120672449632,0 -98.35539938363752,30.80401912004096,0 -98.35647748445939,30.8046818228362,0 -98.35756567911716,30.80396094165889,0"
-              }
-            }
-          },
-          "@_id": "0B354970482F26C1CCA4"
-        },
-        {
           "name": "General Parking",
           "LookAt": {
             "longitude": -98.35285357747146,
@@ -500,124 +422,6 @@
             }
           },
           "@_id": "080AF5E60F2F26C2F81B"
-        },
-        {
-          "name": "South Vehicle Staging",
-          "LookAt": {
-            "longitude": -98.35196383370666,
-            "latitude": 30.80836373388322,
-            "altitude": 357.5719161906548,
-            "heading": 21.84336905201149,
-            "tilt": 0,
-            "gx:fovy": 35,
-            "range": 1669.217144726717,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_0B26779DE12F53BFFD5C",
-          "Polygon": {
-            "outerBoundaryIs": {
-              "LinearRing": {
-                "coordinates": "-98.35284183244647,30.80715661979939,0 -98.35200414699828,30.80673988205704,0 -98.35029574266862,30.80740979894316,0 -98.35013283425246,30.80768130743429,0 -98.35184678666832,30.80833966325824,0 -98.35284183244647,30.80715661979939,0"
-              }
-            }
-          },
-          "@_id": "0C19F9AEC72F26C37035"
-        },
-        {
-          "name": "Main Entrance",
-          "LookAt": {
-            "longitude": -98.35021830252504,
-            "latitude": 30.81078942508539,
-            "altitude": 357.8827834064832,
-            "heading": 11.19585334187671,
-            "tilt": 60.00015711739045,
-            "gx:fovy": 35,
-            "range": 322.146380605409,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_0E374655672F53BFFD71",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "09FB84F8622F102CDDF4"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "Point": {
-            "extrude": 1,
-            "coordinates": "-98.34932590456931,30.81042981521318,357.0871883315834"
-          },
-          "@_id": "0DCE5043192F102CDDED"
-        },
-        {
-          "name": "Emergency exit",
-          "LookAt": {
-            "longitude": -98.35141744796987,
-            "latitude": 30.81020998583323,
-            "altitude": 357.5325102456538,
-            "heading": 25.06251151945909,
-            "tilt": 0,
-            "gx:fovy": 35,
-            "range": 1027.144797534565,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_0A72E7ED3B2F53BFFD74",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "068540DF562F26CCF49C"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "Point": {
-            "extrude": 1,
-            "coordinates": "-98.35053168282911,30.81108186072736,357.5964557130525"
-          },
-          "@_id": "05A7AD6BE72F26CCF48D"
-        },
-        {
-          "name": "RV/ Shuttle entry",
-          "LookAt": {
-            "longitude": -98.34677708101563,
-            "latitude": 30.80877907289057,
-            "altitude": 369.6128066862188,
-            "heading": 25.06490940996805,
-            "tilt": 0,
-            "gx:fovy": 35,
-            "range": 459.9374405752314,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_3A7FC464752F53BFFD74",
-          "Point": {
-            "coordinates": "-98.34677708101563,30.80877907289057,369.6128066862188"
-          },
-          "@_id": "08DCC9C3FF2F26CBE238"
-        },
-        {
-          "name": "Staff Camping and Parking",
-          "LookAt": {
-            "longitude": -98.34696174840961,
-            "latitude": 30.8088357808774,
-            "altitude": 369.2960373380017,
-            "heading": 25.06480571622409,
-            "tilt": 0,
-            "gx:fovy": 35,
-            "range": 658.8420356569259,
-            "altitudeMode": "absolute"
-          },
-          "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
-          "Polygon": {
-            "outerBoundaryIs": {
-              "LinearRing": {
-                "coordinates": "-98.34697318186046,30.80886046102312,0 -98.34762107594253,30.80928646482214,0 -98.34829933112108,30.8088820715655,0 -98.34796909297508,30.80840542396978,0 -98.34697318186046,30.80886046102312,0"
-              }
-            }
-          },
-          "@_id": "02D00DF7AE2F26CC72AA"
         },
         {
           "name": "Day Parking North",
@@ -646,7 +450,6 @@
     },
     {
       "name": "Festival Areas",
-      "icon": "unicorn_face",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
@@ -740,6 +543,99 @@
         }
       ],
       "@_id": "0A176949332F29F9F3CE"
+    },
+    {
+      "name": "Staff Areas",
+      "Placemark": [
+        {
+          "name": "North Staging Area",
+          "LookAt": {
+            "longitude": -98.35009606647786,
+            "latitude": 30.81085977344375,
+            "altitude": 357.7147290913954,
+            "heading": 25.06205162730388,
+            "tilt": 0,
+            "gx:fovy": 35,
+            "range": 947.111063578923,
+            "altitudeMode": "absolute"
+          },
+          "styleUrl": "#__managed_style_0B26779DE12F53BFFD5C",
+          "Polygon": {
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.35015784378299,30.81089661443458,0 -98.35092314375861,30.80988027290793,0 -98.3502886052346,30.80966457868896,0 -98.35011955638126,30.81002054663412,0 -98.34967577535969,30.81021749281033,0 -98.3493822114839,30.81046485308869,0 -98.35015784378299,30.81089661443458,0"
+              }
+            }
+          },
+          "@_id": "05F570F36A2F26CEA8F9"
+        },
+        {
+          "name": "South Vehicle Staging",
+          "LookAt": {
+            "longitude": -98.35196383370666,
+            "latitude": 30.80836373388322,
+            "altitude": 357.5719161906548,
+            "heading": 21.84336905201149,
+            "tilt": 0,
+            "gx:fovy": 35,
+            "range": 1669.217144726717,
+            "altitudeMode": "absolute"
+          },
+          "styleUrl": "#__managed_style_0B26779DE12F53BFFD5C",
+          "Polygon": {
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.35284183244647,30.80715661979939,0 -98.35200414699828,30.80673988205704,0 -98.35029574266862,30.80740979894316,0 -98.35013283425246,30.80768130743429,0 -98.35184678666832,30.80833966325824,0 -98.35284183244647,30.80715661979939,0"
+              }
+            }
+          },
+          "@_id": "0C19F9AEC72F26C37035"
+        },
+        {
+          "name": "Toll Staging Area",
+          "LookAt": {
+            "longitude": -98.35646433794362,
+            "latitude": 30.80466663247463,
+            "altitude": 358.1508936850628,
+            "heading": 21.84112372783392,
+            "tilt": 0,
+            "gx:fovy": 35,
+            "range": 1039.721241078369,
+            "altitudeMode": "absolute"
+          },
+          "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
+          "Polygon": {
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.35756567911716,30.80396094165889,0 -98.35780202733071,30.80225642081717,0 -98.35762178712311,30.80120672449632,0 -98.35539938363752,30.80401912004096,0 -98.35647748445939,30.8046818228362,0 -98.35756567911716,30.80396094165889,0"
+              }
+            }
+          },
+          "@_id": "0B354970482F26C1CCA4"
+        },
+        {
+          "name": "Staff Camping and Parking",
+          "LookAt": {
+            "longitude": -98.34696174840961,
+            "latitude": 30.8088357808774,
+            "altitude": 369.2960373380017,
+            "heading": 25.06480571622409,
+            "tilt": 0,
+            "gx:fovy": 35,
+            "range": 658.8420356569259,
+            "altitudeMode": "absolute"
+          },
+          "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
+          "Polygon": {
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.34697318186046,30.80886046102312,0 -98.34762107594253,30.80928646482214,0 -98.34829933112108,30.8088820715655,0 -98.34796909297508,30.80840542396978,0 -98.34697318186046,30.80886046102312,0"
+              }
+            }
+          },
+          "@_id": "02D00DF7AE2F26CC72AA"
+        }
+      ]
     },
     {
       "name": "Food",
@@ -1164,6 +1060,114 @@
         "coordinates": "-98.3528169450373,30.79144034206574,304.2135175137208"
       },
       "@_id": "0E6CFEF8E02F53B6B228"
+    },
+    {
+      "name": "Main Entrance",
+      "LookAt": {
+        "longitude": -98.35021830252504,
+        "latitude": 30.81078942508539,
+        "altitude": 357.8827834064832,
+        "heading": 11.19585334187671,
+        "tilt": 60.00015711739045,
+        "gx:fovy": 35,
+        "range": 322.146380605409,
+        "altitudeMode": "absolute"
+      },
+      "styleUrl": "#__managed_style_0E374655672F53BFFD71",
+      "ExtendedData": {
+        "SchemaData": {
+          "SimpleData": {
+            "#text": 0,
+            "@_name": "09FB84F8622F102CDDF4"
+          },
+          "@_schemaUrl": "#__managed_schema"
+        }
+      },
+      "Point": {
+        "extrude": 1,
+        "coordinates": "-98.34932590456931,30.81042981521318,357.0871883315834"
+      },
+      "@_id": "0DCE5043192F102CDDED"
+    },
+    {
+      "name": "Production Road/ Artist Entrance",
+      "LookAt": {
+        "longitude": -98.34787521214564,
+        "latitude": 30.80623907127429,
+        "altitude": 357.26778778262,
+        "heading": 357.1448819288536,
+        "tilt": 0,
+        "gx:fovy": 35,
+        "range": 2538.155728288984,
+        "altitudeMode": "absolute"
+      },
+      "styleUrl": "#__managed_style_6E29400A852F53BFFD5C",
+      "ExtendedData": {
+        "SchemaData": {
+          "SimpleData": {
+            "#text": 0,
+            "@_name": "0B978CAB192F28115892"
+          },
+          "@_schemaUrl": "#__managed_schema"
+        }
+      },
+      "gx:Carousel": {
+        "gx:Image": {
+          "gx:ImageUrl": "https://doc-0k-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/hbb4nsjq4ge205kkfba3cmr1c8/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgpd4JGH4mMGjz-4hDlqBkdAf2-1iefSFLXcvpWe_aN4yHOIYyCQclcEQzV-qlMPK9TA-Z6u_TvsB0i5aUQBnHvJW-yW7E9TiEgXoMmMQG0UQV4lQ4ct7qSSzQ6kfJ3CpVIjOcM56FOH8eWRiC7-Qt3YhZrBlhWSKdX5XwipMhZUS-2jjqPK_86DEJA3z3ELFi2XSsyzL9Kh5-8KLtwtK3DjyE3e_Hc__xW7b1k8-hZKZL2-5w?fife=s{size}",
+          "@_kml:id": "hosted_image_QUhVR0tncC8zZE5XSjVjdjg2ZHBXejVXd09JdnNhYU52QkhkWE5oYnFieVpPZXo0NWlxcC93cHhYcjcwQVhoclpOMThZdkh2ekM4S3lsOVFkSS84UGNiQmtoZnBnNTRsYjBZeW1VSHYyVFM2N2luMnQxR1g0SGNlUmgrdm9ZKzlObHFZY3lPaStZTjdFQUZ6VFFVNW5adUdGWDQrdTJaMTlsM0Q1VFRIODhZRElHK2YzNGQ2aHZCa2FVU3FpT2RLTkZ0SzhjNTlGcVR2S3RZKzY2SWNBZHNPbDJCWjExWnhuQUt1a0xtSzcwNEJ3dk5rc2g2dFpBTWJHZXJIVWREaGJhSjZyV0ZzakphcEZ0N1BiK1AzWEpDK1hGa1I3RFNWTHh0UQ"
+        }
+      },
+      "Point": {
+        "extrude": 1,
+        "coordinates": "-98.34496533960937,30.80775326126695,371.4101400202527"
+      },
+      "@_id": "0E9D4096182F28115886"
+    },
+    {
+      "name": "RV/ Shuttle entry",
+      "LookAt": {
+        "longitude": -98.34677708101563,
+        "latitude": 30.80877907289057,
+        "altitude": 369.6128066862188,
+        "heading": 25.06490940996805,
+        "tilt": 0,
+        "gx:fovy": 35,
+        "range": 459.9374405752314,
+        "altitudeMode": "absolute"
+      },
+      "styleUrl": "#__managed_style_3A7FC464752F53BFFD74",
+      "Point": {
+        "coordinates": "-98.34677708101563,30.80877907289057,369.6128066862188"
+      },
+      "@_id": "08DCC9C3FF2F26CBE238"
+    },
+    {
+      "name": "Emergency exit",
+      "LookAt": {
+        "longitude": -98.35141744796987,
+        "latitude": 30.81020998583323,
+        "altitude": 357.5325102456538,
+        "heading": 25.06251151945909,
+        "tilt": 0,
+        "gx:fovy": 35,
+        "range": 1027.144797534565,
+        "altitudeMode": "absolute"
+      },
+      "styleUrl": "#__managed_style_0A72E7ED3B2F53BFFD74",
+      "ExtendedData": {
+        "SchemaData": {
+          "SimpleData": {
+            "#text": 0,
+            "@_name": "068540DF562F26CCF49C"
+          },
+          "@_schemaUrl": "#__managed_schema"
+        }
+      },
+      "Point": {
+        "extrude": 1,
+        "coordinates": "-98.35053168282911,30.81108186072736,357.5964557130525"
+      },
+      "@_id": "05A7AD6BE72F26CCF48D"
     }
   ]
 }
