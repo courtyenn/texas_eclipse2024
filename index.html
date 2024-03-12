@@ -27,18 +27,11 @@
       {
         display: none;
       }
-      .zoom-15 .tooltips,
-      .zoom-15 .boundary_label {
+      .zoomed-out .tooltips,
+      .zoomed-out .boundary_label {
         opacity: 0 !important;
       }
-      .zoom-14 .tooltips,
-      .zoom-14 .boundary_label {
-        opacity: 0 !important;
-      }
-      .zoom-13 .tooltips,
-      .zoom-13 .boundary_label {
-        opacity: 0 !important;
-      }
+
       .tooltips {
         background-color: transparent;
         border: none;
@@ -51,16 +44,8 @@
         opacity: 1;
         transition: all 0.5s ease-in-out;
       }
-      .boundary_label {
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
-        font-size: 0.8rem;
-        margin-top: -20px;
-        text-transform: uppercase;
-      }
-      .tooltips::before,
-      .boundary_label::before {
+
+      .tooltips::before {
         content: "";
         border-bottom-color: transparent;
       }

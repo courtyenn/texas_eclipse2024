@@ -17,13 +17,8 @@ map.on("zoomend", function () {
   console.log("zoom", zoomLevel)
   const mapEle = document.getElementById("map")
 
-  mapEle.classList.remove("zoom-15", "zoom-16", "zoom-17", "zoom-18")
-  if (zoomLevel === 18) mapEle.classList.add("zoom-18")
-  if (zoomLevel === 17) mapEle.classList.add("zoom-17")
-  if (zoomLevel === 16) mapEle.classList.add("zoom-16")
-  if (zoomLevel === 15) mapEle.classList.add("zoom-15")
-  if (zoomLevel === 14) mapEle.classList.add("zoom-14")
-  if (zoomLevel === 13) mapEle.classList.add("zoom-13")
+  mapEle.classList.remove("zoomed-out")
+  if (zoomLevel <= 16) mapEle.classList.add("zoomed-out")
 })
 L.tileLayer(
   `https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY291cnR5ZW4iLCJhIjoiY2x0bXR5bnNzMXM3dTJscGF3NG9kYW1kcCJ9.EikiYGKRyBhxnNBCtWU2sA`,
@@ -64,7 +59,6 @@ const addPlacemarks = (Placemark, { hsl, icon, iconName }) => {
       const poly = L.polygon(latlngs, placemarkConfig)
       const center = L.PolyUtil.polygonCenter(latlngs, CRS)
       L.marker(center, iconConfig).addTo(map).bindTooltip(name, {
-        permanent: true,
         direction: "bottom",
         className: "boundary_label",
       })
@@ -96,7 +90,16 @@ const TexasEclipse = (data) => {
     placemarkConfig.icon = undefined
   }
   for (const placemark of Placemark) {
+    const { icon } = placemark
+    if (icon) {
+      placemarkConfig.icon = L.icon({
+        iconUrl: `/assets/${icon}.png`,
+        iconSize: [34, 34],
+      })
+      placemarkConfig.iconName = icon
+    }
     addPlacemarks([placemark], placemarkConfig)
+    placemarkConfig.icon = undefined
   }
 }
 

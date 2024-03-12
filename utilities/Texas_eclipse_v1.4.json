@@ -221,7 +221,7 @@
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
         {
-          "name": "GA camping",
+          "name": "RV Camping",
           "LookAt": {
             "longitude": -98.35273308842189,
             "latitude": 30.79088306457352,
@@ -834,6 +834,7 @@
     },
     {
       "name": "Workshops",
+      "icon": "",
       "LookAt": {
         "longitude": -98.35430617587141,
         "latitude": 30.79187733897998,
@@ -862,6 +863,7 @@
     },
     {
       "name": "Pedestrian Bridge Venus",
+      "icon": "arrow_right",
       "LookAt": {
         "longitude": -98.35493499041942,
         "latitude": 30.7965716698857,
@@ -890,6 +892,7 @@
     },
     {
       "name": "Pedestrian Bridge Mars",
+      "icon": "arrow_right",
       "LookAt": {
         "longitude": -98.35612160784746,
         "latitude": 30.79125364549165,
@@ -918,6 +921,7 @@
     },
     {
       "name": "Quarry (swimmable)",
+      "icon": "cherry_blossom",
       "LookAt": {
         "longitude": -98.35413977445889,
         "latitude": 30.78975588869935,
@@ -989,52 +993,8 @@
       "@_id": "01126714342F280C4FC7"
     },
     {
-      "name": "Sample Vendor",
-      "description": "<div>Propane and propane accessories.</div>",
-      "LookAt": {
-        "longitude": -98.34890869669378,
-        "latitude": 30.79205750288832,
-        "altitude": 320.4255797398272,
-        "heading": 0.0003178093933133764,
-        "tilt": 0,
-        "gx:fovy": 30.00000003,
-        "range": 388.6032331184833,
-        "altitudeMode": "absolute"
-      },
-      "styleUrl": "#__managed_style_06AD4EA42A2F53BFFD59",
-      "ExtendedData": {
-        "SchemaData": {
-          "SimpleData": {
-            "#text": 0,
-            "@_name": "055E0EEBA42F28307648"
-          },
-          "@_schemaUrl": "#__managed_schema"
-        }
-      },
-      "gx:Carousel": {
-        "gx:Image": [
-          {
-            "gx:ImageUrl": "https://doc-0k-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/ftnfhb2214ml51l71emdefiiso/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgr5Cf4MwRfjc87Kvet4OWRkL5ZXeFZHTkf2F9iUy6l_0wPktB5lJSN0WAuCfIA0YYk6_D-L7VnLQKnK9XTZoMnW0_Vyt1cDJJkE2mgq1-IUyJ-hzpQaWzeH16THv7Pii3ixHyMJ_BR00xTS4NQEVjwGQdWHEU0WReAyA4kE4ITCNzrUOD-hunU30K48PN8eCVoAt5bSywEH_-YBj57x43AA0BKbcvQ9bxC-yACUbPI14L7Udw?fife=s{size}",
-            "@_kml:id": "hosted_image_QUhVR0tncXJrRmJSMFNMUUFLSHl0cUZvcit4OHhqcUdmNnVRblhmODdUUHNhL2s2aUcyMFQ3M1ZkeFh1SXN3N09od0tIRUk3bTVqUjkvZUFueE9GU3lhNVBMNzRtNXh4cW9vdlI0NFVRQ2YydXVJWlR3aWFhbGIyLzE4NmxpeUtpWkk4eUFKYmtXblVOMnRNR2hQT2dXU1VGRHE4Q0phckJNcW0ya0FWR0tZSFh5cS9RZ2RlNEozajcvSTB5RDdsZ1pDWFBia3F3bDhkVTdhMVYxTmkzRnpVT3BYVStWUDVkMXc0bkw5U1U4NzE5WW5lckZPaVVJYitabDJHaTVtZGtVQkk0Uk55WjNCV2FDYnF3TmlNbVZwV1d3Ui9tbHI3eFBoMw"
-          },
-          {
-            "gx:ImageUrl": "https://doc-10-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/9efcdgsn5fic3i8qeqngm1nj94/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgocD_oWGTqpFM1KuzqMGxUkPSqJBXTofJR_C3jBe36o2akWjBAtE6LyKY4Vq02tWieY4e9BNDf9UqInvLZnl6T6-KBqdkHGP0J7AOXuZek0lXL22sZdrMWNCFFShxeU5k7SypOpHHt51iz-NjGNgwHRxlA-buwSahwbtB62IIEfT0-9HsKX9X6VXIDtqmrnYGH09k27sYhRWjUv6RpPSMFA8koe01Hd-DmmQHqczI2WiuEw-Q?fife=s{size}",
-            "@_kml:id": "hosted_image_QUhVR0tncGJTKzdudnhzVGFWZThiVFhvNGdhVW5hazN2LzZlWERXSm1WTjNBeTJtaGZSUVZaMEU0S3Ewendtdy9SZExLQmVQQUtSK3YvNFZ5b0Frem5maVFSandwY1Njd2tVVkg1ZmZuM1FwWG5hUUZ5ZUVqVVJmZXRKcjNwZ1BiT0FLZW5KaUhDQTNsZ0w1dkFqVjRydVFLdjg4aUFyQk0rSW1tMitEQ0NzYlVZMnVFK2lMSjlEbTdEdGM0Y2FiU1dZazN0MmZuOGVrOVlySkc1VDcyMTVHS3Jsc0xWZGtVUjRCNDRtTHF1dzJQdEhlZzBtcVBkVFgvWjJYMXErcXUzUUJ2Sk9Lc2FaaXZFajMxTHNKNnd4M1k0NmNQYkRWdm5haw_0"
-          },
-          {
-            "gx:ImageUrl": "https://doc-0g-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/6h1mdkt22bga6bsndc5h9pcnh4/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgroxVD-9nCAE89SrL1oiVSxOjsa9Bpqj7uYOfuhfPGAvg-Zo9ccxg-SqsABEbdbAKiKZnglDs_3HV3kfJnd73LQc_3k5TxkPswrfg9iBu1_mHzyTTk8JAWm7nYs5lcy44Q3QkPW_P9J0Ko0wI5mYHIxvwSqnXoiVAySGuTU25UKcDHVpo2pAFTrdFOA25RqRag3PVh7nRknV8CtnjGgYUle5RD8NT31TKiSEIDOTCsv94XFjA?fife=s{size}",
-            "@_kml:id": "hosted_image_QUhVR0tnb0M5SjBBQ3dYN0VvVlpsMjlTRXlyRTBrQzBTcWRWZDdtUFdrSjRDbC9aOWdRTldJdzArN3N6NW13emRuWXY3SDdFdUlKRTZHMGw5djFXSDhqMEVXYnpoTGp4VFpUUTNwOEVyTGh4aXlwUGN2WnArUXI4U1lxVXk3Mk5FdXhxK202blg2R1hIZ2ZTY0ZQY3VZY0hWTUpuVG9yS1dPaU5JVDJiY1dLWWRYaDZJQjJNbGNwRko5b3dabkFidzVwU3R3WXo4Rmd3bjY5clU1UER4emtwUkt0Mi92SktqUG5NZ3lMVmRkVDVoYU1yTkJxVUMwWXhFejdoU2tIelk0NEU5Yk1qNGxVWjQ0MzFzSmd3V1krN2VtMU4vM2lUN2VINw"
-          }
-        ]
-      },
-      "Point": {
-        "extrude": 1,
-        "coordinates": "-98.3490222383481,30.79238058642122,318.8225422888166"
-      },
-      "@_id": "023CB2D2562F2830763F"
-    },
-    {
-      "name": "Sample Community giving tree",
+      "name": "Giving Tree",
+      "icon": "tree",
       "LookAt": {
         "longitude": -98.35287910678198,
         "latitude": 30.7915579892763,
@@ -1063,6 +1023,7 @@
     },
     {
       "name": "Main Entrance",
+      "icon": "door",
       "LookAt": {
         "longitude": -98.35021830252504,
         "latitude": 30.81078942508539,
@@ -1090,7 +1051,8 @@
       "@_id": "0DCE5043192F102CDDED"
     },
     {
-      "name": "Production Road/ Artist Entrance",
+      "name": "Production Road / Artist Entrance",
+      "icon": "door",
       "LookAt": {
         "longitude": -98.34787521214564,
         "latitude": 30.80623907127429,
@@ -1124,7 +1086,8 @@
       "@_id": "0E9D4096182F28115886"
     },
     {
-      "name": "RV/ Shuttle entry",
+      "name": "RV / Shuttle entry",
+      "icon": "door",
       "LookAt": {
         "longitude": -98.34677708101563,
         "latitude": 30.80877907289057,
@@ -1143,6 +1106,7 @@
     },
     {
       "name": "Emergency exit",
+      "icon": "door",
       "LookAt": {
         "longitude": -98.35141744796987,
         "latitude": 30.81020998583323,
