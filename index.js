@@ -33,46 +33,58 @@ const convertHslToColor = (hsl) => ({
   weight: 4,
   fillOpacity: 0.5,
 })
+const createIcon = (iconConfig) => {}
+const makeMarker = (map, latlngs, iconConfig) => {}
 
-const addPlacemarks = (Placemark, { hsl, icon, iconName }) => {
-  Placemark.forEach((placemark) => {
-    const { name, Point, Polygon } = placemark
-    const placemarkConfig = convertHslToColor(hsl)
-    const iconConfig = icon ? { icon } : {}
-    if (Point) {
-      const { coordinates } = Point
-      const [longitude, latitude] = coordinates.split(",")
-      L.marker([latitude, longitude], iconConfig)
-        .addTo(map)
-        .bindTooltip(name, {
-          permanent: true,
-          direction: "bottom",
-          className: "tooltips",
-        })
-        .openTooltip()
-    } else if (Polygon) {
-      const { coordinates } = Polygon.outerBoundaryIs.LinearRing
-      const latlngs = coordinates.split(" ").map((coord) => {
-        const [longitude, latitude] = coord.split(",")
-        return [latitude, longitude]
-      })
-      const poly = L.polygon(latlngs, placemarkConfig)
-      const center = L.PolyUtil.polygonCenter(latlngs, CRS)
-      L.marker(center, iconConfig).addTo(map).bindTooltip(name, {
+const addPlacemark = (placemark, config) => {
+  const { icon, name, Point, Polygon } = placemark
+  const iconConfig = icon
+    ? {
+        icon: L.icon({
+          iconUrl: `/assets/${icon}.png`,
+          iconSize: [34, 34],
+        }),
+      }
+    : config
+  if (Point) {
+    const { coordinates } = Point
+    const [longitude, latitude] = coordinates.split(",")
+    L.marker([latitude, longitude], iconConfig)
+      .addTo(map)
+      .bindTooltip(name, {
+        permanent: true,
         direction: "bottom",
-        className: "boundary_label",
+        className: "tooltips",
       })
-      poly.addTo(map).bindPopup(name)
-    } else {
-      console.log("No point or polygon")
-    }
-  })
+      .openTooltip()
+  } else if (Polygon) {
+    const { coordinates } = Polygon.outerBoundaryIs.LinearRing
+    const hueConfig = convertHslToColor(config.hsl)
+    const latlngs = coordinates.split(" ").map((coord) => {
+      const [longitude, latitude] = coord.split(",")
+      return [latitude, longitude]
+    })
+    const poly = L.polygon(latlngs, hueConfig)
+    const center = L.PolyUtil.polygonCenter(latlngs, CRS)
+    L.marker(center, iconConfig).addTo(map).bindTooltip(name, {
+      direction: "bottom",
+      permanent: true,
+      className: "tooltips",
+    })
+    poly.addTo(map).bindPopup(name)
+  } else {
+    console.error("No point or polygon")
+  }
 }
 const TexasEclipse = (data) => {
   const { Folders, Placemark } = data
-  let placemarkConfig = { hsl: { hue: 0, saturation: 100, lightness: 70 } }
+  const initialPlacemarkConfig = {
+    hsl: { hue: 0, saturation: 100, lightness: 70 },
+    hoverLabel: false,
+  }
   for (const folder of Folders) {
-    const { icon, Placemark } = folder
+    const { icon, Placemark, hoverLabel = false } = folder
+    const placemarkConfig = { ...initialPlacemarkConfig, hoverLabel }
 
     if (icon) {
       placemarkConfig.icon = L.icon({
@@ -82,24 +94,16 @@ const TexasEclipse = (data) => {
       placemarkConfig.iconName = icon
     }
     if (Array.isArray(Placemark)) {
-      addPlacemarks(Placemark, placemarkConfig)
+      Placemark.forEach((pm) => addPlacemark(pm, placemarkConfig))
     } else {
-      addPlacemarks([Placemark], placemarkConfig)
+      addPlacemark(Placemark, placemarkConfig)
     }
-    placemarkConfig.hsl.hue += 60
-    placemarkConfig.icon = undefined
+    initialPlacemarkConfig.hsl.hue += 60
   }
+  initialPlacemarkConfig.hsl.hue = 30
   for (const placemark of Placemark) {
-    const { icon } = placemark
-    if (icon) {
-      placemarkConfig.icon = L.icon({
-        iconUrl: `/assets/${icon}.png`,
-        iconSize: [34, 34],
-      })
-      placemarkConfig.iconName = icon
-    }
-    addPlacemarks([placemark], placemarkConfig)
-    placemarkConfig.icon = undefined
+    addPlacemark(placemark, initialPlacemarkConfig)
+    initialPlacemarkConfig.hsl.hue += 60
   }
 }
 

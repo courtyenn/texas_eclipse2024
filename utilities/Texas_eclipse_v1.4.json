@@ -3,8 +3,6 @@
     {
       "name": "Stages",
       "icon": "star",
-      "open": 1,
-      "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
       "Placemark": [
         {
           "name": "(Lone Star?) Stage",
@@ -18,27 +16,10 @@
             "range": 1323.105497224897,
             "altitudeMode": "absolute"
           },
-          "styleUrl": "#__managed_style_06AD4EA42A2F53BFFD59",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "085FB70DD62EE2ED6B06"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-14-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/cnju0uem5cr7sik2vj6ktbakv8/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgrfAo7Tv4fLHAPKgPxwzTk85FYMeBHomwRs4YS_HoAe-bX-Ltlybf1LzTHcB2gGQT5iLO3sRqxb17K9WRydPwTQVbwIkWBnuFCYB1BsohdFfJArh2eoZM8KsNnVeG4eOt8GvkJW-XhTxSRHgyAqHQZNBF6Yq699SkoEQIgSO5lquXwc2hCTjxnSsqoE5TKHW-TeRRcqmFgGhHxGUEONqtf4cLbzlvaLOfTQ3L5cVdsTaWviAQ?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tncXMrTkJxU0ZHMzc5RlJUMDVaVXoyUVJkTGxscmdCOFBYV2pGdGJGRjRYY2JOZXZBM2VxbWVCVU5iZG1vUmo4bmlqRWxHSUpzcVJuMjJZYVVTOU5JclVka0lKeDVWTWUwNWF0T0wrMzlMYlBBTktEQVduK3BUODB5M0p2bVJyQk9wUXROSnUzRVprblB4T3RkUEkra0pFMERsTnJJaVJlcmorU1JEMVdsVVBKLzNEYnArUGVTamNTSlhGSXJlTlhHZFovelk0dzRhYVhZcGcrUnM3S0RWeTlZMnk4MEhFMUNhYXZlU0UrWU16QWJlYk9NM3dJaC9tR3BMTWg2WVhKbUxSL3pvVEJmT2M4N0s3K3ZVZ3prV3I3dmtCNUVhZA"
-            }
-          },
           "Point": {
             "extrude": 1,
             "coordinates": "-98.35328949443394,30.79240597365892,306.610819991451"
-          },
-          "@_id": "0AF777F5DE2EE2ED6B00"
+          }
         },
         {
           "name": "(Sky?) Stage",
@@ -52,31 +33,13 @@
             "range": 966.3597817160191,
             "altitudeMode": "absolute"
           },
-          "styleUrl": "#__managed_style_06AD4EA42A2F53BFFD59",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "00687F526C2EE2EE80F8"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-14-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/995ar5h86ao3551qeaq4eta4h8/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgr6Jnn0WPtXTIac-PQKxcwc8rqampzdlIouBitTSOgBcDF6PFwmtzE-7HmzxIpFQg8J8LL9I7Kc8UZMzbf4qvm8d86mwCDaEJ8Jx_a_2K5tA4U2WK60a7LaeSRl6e-7dHfsR3W1QhJ30J-xcj8qJAdnfZOQt6kbSpZZ3TTmjfSgNfMgoDaOPpBvxkz5otipsbj0TSk6ga_yHGbUlzD0QBgLtiLpu4NivFs6FXGCe9IkXHV2Ow?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tncHhwWnhRdEhadUN4clNicWt4RzV3NmRnbW1oVmRYOTY0dFhmeXVEYmxhRDhHVG9XSHF1L2prcjZZUGgvOWQ4dnpKaFM2Wjg3ZExEUnViY2lwaTJUSS9oSmtxa1FhenFsS3dGc1NQMStJL1lRSzRNOTFVNWp2THJYVUpnNE1MTzZsdkw3eStMclBmR2FoZ2RzNGkwMm9YZm5naEJ4OEVBa1d1dTJtdlYvUVdlV0dneHVKbkJvTys3ZFd2S09tSURPYUJZcFFzNlh3UEUzc3cxN1lyMUt0M0tsZWNtemNKK04rckkxNFM3VXlIVVZPaTk5K0dlMXhDazdDOFRnTUtQczdnTnVqbDdOR0VLZ0VBb3U4ZXRoYzRsN1hvZmRHcQ"
-            }
-          },
           "Point": {
             "extrude": 1,
             "coordinates": "-98.34981804235687,30.79400192481555,308.6098076181536"
-          },
-          "@_id": "0C0E671D3E2EE2EE80F4"
+          }
         },
         {
           "name": "Sun Stage",
-          "description": "<div>Sample set times<br></div><div>Friday: Absolutely forever and then some<br></div><div><br></div><div class=\"align-right\" style=\"text-align: right;\"><b>Saturday:&nbsp;</b><i>I thought i told you old man</i>.<br></div><div class=\"align-right\" style=\"text-align: right;\">&nbsp;This is sparta.<br></div><div class=\" align-left\" style=\"text-align: left;\">Sunday:Daft Punk secret set</div><div class=\"align-right\" style=\"text-align: right;\"><br></div>",
           "LookAt": {
             "longitude": -98.34800561118533,
             "latitude": 30.79216888302018,
@@ -87,27 +50,10 @@
             "range": 640.1983455735171,
             "altitudeMode": "absolute"
           },
-          "styleUrl": "#__managed_style_06AD4EA42A2F53BFFD59",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "035CD10D6A2F102B8511"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-08-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/sq0hoo3svi3q65tquoe39nemr8/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgoy2LlsZcj0CIqrbWChbFO39r1Tp7CYeLe0bPqyVGt82Jj7WHHQnzOJYDbstRXx05iEUaDO3mmPMtozLIJ9RgY-a0xWfUd0Intxjsci5utPJr0jer7i6DY9yXY6OY2N44Yb4CBo3Jn3kfbNNtYmiNjuG7b7l75ZsktAaa5N1UBm621sdy1ZgPze2lOzUddumVQIhtCq2ZepQEHotf07RH0ad5_aC1ih1jkPdQXhkL4RXodQjQ?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tnb1RYbW1zeUtMdnFodE1VaVVUVVc5UitNUEhuVzhRNnNVdlNyVHVGNldxdkJLWjU0NGhyOHM3VXNkOGJKK1lrNGNuRllCQUh2VlZheWZnY1dzTlRsVGg3SFFzQTlpcjdrOWEzTjBnM2NmdHJ3ZVhabk1qU1F1U3grNVpWd2duLy9qdTVjVHB4UUIyenRnb1FsVXUwRzFhRWNQc0NHL3BHa2RqTmN0Z0ZlUVhnYUlEeFV3SGxZTDAzVEpKS1hPZ1dEMndXNDF2UzcvM3U2SFAyL2tUYVVqUjBOb1dYbFpBNmZzaTVkOEZhWWVnYkRHYzdtMVRnZy9iSk9LMzlkVlZHNkJXazkxTEhmdGdvVXQ5MDB3blZYa1ZSN3N5V2M3OA"
-            }
-          },
           "Point": {
             "extrude": 1,
             "coordinates": "-98.34794852967821,30.79230746070517,312.9362121154404"
-          },
-          "@_id": "05238377732F102B8509"
+          }
         },
         {
           "name": "(Moon?) Stage",
@@ -121,27 +67,10 @@
             "range": 879.301937208802,
             "altitudeMode": "absolute"
           },
-          "styleUrl": "#__managed_style_06AD4EA42A2F53BFFD59",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "02614C8B0C2F102BB8E1"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-00-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/jv2ojhtco8cub3vl8l2na71cbg/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgrX2eNGysRj9Hz2D0CEzmD3CFMfJdjHg6gz9LJvDR_uCJGmvpT7AxadgTuZM5iWlTzP3u5js7gt_hTSO_8bvBgrgV-BlL5oa05Tw4cDP0XIHsWbO02QNVP7skH7D9IekgY14pduFlHC8he7VdYwGvI3A-ZYJ3fykwws5tvVlMVoRq6WDAYTYCXVa2t1Jbm_A2oR0-xMFZe9_673heUE7s8Sx0nqf4fkDJq0rfbeMITzWiEN9Q?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tnb0doNGtJQ3RUT1ZXMzlMdDh4aGNCYmhpZEpTZU5aMWlscUtDT2t5ZnBhNkxQbFYrVGNONjNkb1dmeFhITkl5blRxRVhUenJ0VHdkMksxL1BpeC9rN295TlVaclVqdE9vVXdnZXYyR3ZjcFhyS0JiQTlMRlJYeHRVTzFjNFdWWEl3dGs3UlJYSU1QNG01MDJWdHBtVXBRQi91WUg4OW1BUXJSQmZyeUl1c25NMElHbDZkMGFtV2JKOE1NRVk2OWdEN0YwWHAxWU82aUpXckpGcXBpbi8zaC9lbFRtbThzQkhzcnlHNGY0VHVXMXZZNlRHdFJqd0ZYSmU3a2kvY1FtTFVsVUhaVStzbGRPVmlMb05OdHkyV2FoMVczZ0J3Mg"
-            }
-          },
           "Point": {
             "extrude": 1,
             "coordinates": "-98.34980321223834,30.79483523045164,307.97450520317"
-          },
-          "@_id": "01F6F9E0182F102BB8DA"
+          }
         },
         {
           "name": "(Eclipse?) Stage",
@@ -155,27 +84,10 @@
             "range": 1236.266912807623,
             "altitudeMode": "absolute"
           },
-          "styleUrl": "#__managed_style_06AD4EA42A2F53BFFD59",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "00E3248D2E2F102A3FDB"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-0k-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/b3oskeaad9v166crdc401782k0/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgoGgOxkmB4urQji5jXnc8UHusuqgZ9YhmsNaW_yFFikj81YFN55CD-8dCPWfZZHUhso9ExpcQlGbyF83GtZZDdUGujR46H-IRT6_2ehErN8SxJgE0Pminl55VzvAsyfOCeWaFnS-b41RVBHaUQP568rSXxj3G-NeTBe9kedRnxNXzkQdRQvpwSSntRej5JLtWhj_wAdp2YlwkQ_HIZC6qMionoCAgO71Orw3heEM6frfIo95g?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tnb1VDamJGNk5YZGpkeG9GM1RYQUN6eGY1TVVFT29MQU95RWlneGFrRXd6dGh1d25jRzRrWGFEVVFMQ0kwU214am5yeVJqV0diR2lYRmpZVjcwcUhQT09vM3BEd3pJcmd4MEFNVmoreEw2b202a254TEo0bHp6NHRGcjhSeC9UK3E5N3l3bHdPOFg3Wlo3bTJXYlZHanEwT3A2L0t2ZCtBOFlnUFhUK21JYmYvUGU3ZmI0dEkzMkJrUDM3YnNTa1lKRGJwTHd0UWNxOTFWZndkSXUvQVNDVzZVZjV6YUU0OWF5Nkc0Tk5teWVwRlZ6bVVxVnE4Sk5GV2JMZGdxQno0VkNuNzFFMlhVcGxteHE1ajMwM0hCQU9LT2h4UENvdg"
-            }
-          },
           "Point": {
             "extrude": 1,
             "coordinates": "-98.35097564557074,30.79274289665267,308.5035605987281"
-          },
-          "@_id": "051CBB42EC2F102A3FD4"
+          }
         },
         {
           "name": "Earth Stage",
@@ -189,30 +101,12 @@
             "range": 891.8816256165155,
             "altitudeMode": "absolute"
           },
-          "styleUrl": "#__managed_style_06AD4EA42A2F53BFFD59",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "0D317DC5EE2EE2F75612"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-0k-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/avpa34fbj0qe5gpu07olrf5onc/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgqsPbGIfPrz_qhgFF8rXLv2WSUPD4slrton5CD6tDhNVRRuOJ6yL3Hdw0UoJmZ_hMa7m7nLVww2h2RW6beNW5057P-O87lOgHiZT8iYsEhy509UX8EOJaBcd8XcIZMr_CoX4ggx7AjicNA0KYjZGTynWfGeOApVa5Em6sYgsneBLABQ0zyblz-jVyB3VB19c1txuLPKUjwhWspwrZx96e4p1kobmoOOytpFSBVcLKtdSoRyfw?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tncVhzUlUxOW5wZWFWQ2pGYzFSak5FUUpYOG1zclA0MHd2TTl5RHpqVkYyekhUNzJTZGhzUHZhWFNxSEZyMEtSd1orUC9EL0lGMklWamJGQk5MZm9kVW5VZzdlQk1rSlNncjhBNDJtcEFub3hKLzdmbjMyTEFWWkVSRjcvK0FUQVJEc2ZaTHdQYVlmSzQ2VkdZQW9WMUwxZXoxc3NkRXRvb1dQU2NzcmpZRnVqT0MzbG9wT3drRlZnR0pITHcrWjRsTkR4Z24waGsveDhBSmovTkV0QW9VMzROUGhOcjlMbTdoZFUzdnZUbW1lUXBIYUtjbysvUDRYRysxOTlrT3djL2JuaFQrNjB0d0NVT2pPSHVtWkxEdDllUk55MXNxUA"
-            }
-          },
           "Point": {
             "extrude": 1,
             "coordinates": "-98.35455044809426,30.79222466637587,308.8544600838187"
-          },
-          "@_id": "0DA43AE31D2EE2F7560F"
+          }
         }
-      ],
-      "@_id": "0080B1B6872F29F623BA"
+      ]
     },
     {
       "name": "Camping Areas",
@@ -546,6 +440,8 @@
     },
     {
       "name": "Staff Areas",
+      "icon": "key",
+      "hoverLabel": true,
       "Placemark": [
         {
           "name": "North Staging Area",
@@ -707,34 +603,63 @@
       "icon": "shopping_bags",
       "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD58",
-      "Placemark": {
-        "name": "Vendors",
-        "LookAt": {
-          "longitude": -98.35040643175792,
-          "latitude": 30.79320174952277,
-          "altitude": 305.8411379507866,
-          "heading": 0,
-          "tilt": 0,
-          "gx:fovy": 30.00009073614813,
-          "range": 2608.029329789279,
-          "altitudeMode": "absolute"
+      "Placemark": [
+        {
+          "name": "Vendors",
+          "LookAt": {
+            "longitude": -98.35040643175792,
+            "latitude": 30.79320174952277,
+            "altitude": 305.8411379507866,
+            "heading": 0,
+            "tilt": 0,
+            "gx:fovy": 30.00009073614813,
+            "range": 2608.029329789279,
+            "altitudeMode": "absolute"
+          },
+          "ExtendedData": {
+            "SchemaData": {
+              "SimpleData": {
+                "#text": 0,
+                "@_name": "05824E4E672F102ED6EE"
+              },
+              "@_schemaUrl": "#__managed_schema"
+            }
+          },
+          "Point": {
+            "extrude": 1,
+            "coordinates": "-98.35108337062168,30.79438857404292,318.1294091477455"
+          },
+          "@_id": "04FBDC90022F102ED6EB"
         },
-        "styleUrl": "#__managed_style_0ECBCE92AC2F53BFFD72",
-        "ExtendedData": {
-          "SchemaData": {
-            "SimpleData": {
-              "#text": 0,
-              "@_name": "05824E4E672F102ED6EE"
-            },
-            "@_schemaUrl": "#__managed_schema"
-          }
-        },
-        "Point": {
-          "extrude": 1,
-          "coordinates": "-98.35108337062168,30.79438857404292,318.1294091477455"
-        },
-        "@_id": "04FBDC90022F102ED6EB"
-      },
+        {
+          "name": "Vendors",
+          "LookAt": {
+            "longitude": -98.34908833409752,
+            "latitude": 30.79221687755058,
+            "altitude": 320.0869479809638,
+            "heading": 0,
+            "tilt": 0,
+            "gx:fovy": 30.00009073614813,
+            "range": 1260.321088975179,
+            "altitudeMode": "absolute"
+          },
+          "styleUrl": "#__managed_style_3A440589B82F53BFFD71",
+          "ExtendedData": {
+            "SchemaData": {
+              "SimpleData": {
+                "#text": 0,
+                "@_name": "0FA081DCFB2F102E6B53"
+              },
+              "@_schemaUrl": "#__managed_schema"
+            }
+          },
+          "Point": {
+            "extrude": 1,
+            "coordinates": "-98.34878074903497,30.79236669630638,318.9658611809965"
+          },
+          "@_id": "0741225A972F102E6B4E"
+        }
+      ],
       "@_id": "0F16194B5A2F29FAE5F1"
     },
     {
@@ -805,36 +730,8 @@
   ],
   "Placemark": [
     {
-      "name": "Vendors",
-      "LookAt": {
-        "longitude": -98.34908833409752,
-        "latitude": 30.79221687755058,
-        "altitude": 320.0869479809638,
-        "heading": 0,
-        "tilt": 0,
-        "gx:fovy": 30.00009073614813,
-        "range": 1260.321088975179,
-        "altitudeMode": "absolute"
-      },
-      "styleUrl": "#__managed_style_3A440589B82F53BFFD71",
-      "ExtendedData": {
-        "SchemaData": {
-          "SimpleData": {
-            "#text": 0,
-            "@_name": "0FA081DCFB2F102E6B53"
-          },
-          "@_schemaUrl": "#__managed_schema"
-        }
-      },
-      "Point": {
-        "extrude": 1,
-        "coordinates": "-98.34878074903497,30.79236669630638,318.9658611809965"
-      },
-      "@_id": "0741225A972F102E6B4E"
-    },
-    {
       "name": "Workshops",
-      "icon": "",
+      "icon": "hammer_and_pick",
       "LookAt": {
         "longitude": -98.35430617587141,
         "latitude": 30.79187733897998,
@@ -982,7 +879,6 @@
         "range": 6509.485518954461,
         "altitudeMode": "absolute"
       },
-      "styleUrl": "#__managed_style_0B15BC74BD2F53BFFD75",
       "Polygon": {
         "outerBoundaryIs": {
           "LinearRing": {
