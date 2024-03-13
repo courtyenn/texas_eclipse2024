@@ -28,8 +28,15 @@
         display: none;
       }
       .zoomed-out .tooltips,
-      .zoomed-out .boundary_label {
+      .zoomed-out .area_label {
         opacity: 0 !important;
+      }
+      .area_label {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+        font-size: 0.8rem;
+        margin-top: 19px;
       }
 
       .tooltips {
@@ -44,8 +51,8 @@
         opacity: 1;
         transition: all 0.5s ease-in-out;
       }
-
-      .tooltips::before {
+      .tooltips::before,
+      .area_label::before {
         content: "";
         border-bottom-color: transparent;
       }

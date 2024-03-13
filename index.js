@@ -19,6 +19,7 @@ map.on("zoomend", function () {
 
   mapEle.classList.remove("zoomed-out")
   if (zoomLevel <= 16) mapEle.classList.add("zoomed-out")
+  // if(zoomLevel === 15)
 })
 L.tileLayer(
   `https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY291cnR5ZW4iLCJhIjoiY2x0bXR5bnNzMXM3dTJscGF3NG9kYW1kcCJ9.EikiYGKRyBhxnNBCtWU2sA`,
@@ -36,7 +37,7 @@ const convertHslToColor = (hsl) => ({
 const createIcon = (iconConfig) => {}
 const makeMarker = (map, latlngs, iconConfig) => {}
 
-const addPlacemark = (placemark, config) => {
+const addPlacemark = (placemark, { hoverLabel, ...config }) => {
   const { icon, name, Point, Polygon } = placemark
   const iconConfig = icon
     ? {
@@ -52,9 +53,9 @@ const addPlacemark = (placemark, config) => {
     L.marker([latitude, longitude], iconConfig)
       .addTo(map)
       .bindTooltip(name, {
-        permanent: true,
+        permanent: !hoverLabel,
         direction: "bottom",
-        className: "tooltips",
+        className: hoverLabel ? "" : "tooltips",
       })
       .openTooltip()
   } else if (Polygon) {
@@ -66,12 +67,14 @@ const addPlacemark = (placemark, config) => {
     })
     const poly = L.polygon(latlngs, hueConfig)
     const center = L.PolyUtil.polygonCenter(latlngs, CRS)
-    L.marker(center, iconConfig).addTo(map).bindTooltip(name, {
-      direction: "bottom",
-      permanent: true,
-      className: "tooltips",
-    })
-    poly.addTo(map).bindPopup(name)
+    L.marker(center, iconConfig)
+      .addTo(map)
+      .bindTooltip(name, {
+        direction: "bottom",
+        permanent: !hoverLabel,
+        className: hoverLabel ? "" : !!icon ? "tooltips" : "area_label",
+      })
+    poly.addTo(map)
   } else {
     console.error("No point or polygon")
   }
@@ -80,6 +83,10 @@ const TexasEclipse = (data) => {
   const { Folders, Placemark } = data
   const initialPlacemarkConfig = {
     hsl: { hue: 0, saturation: 100, lightness: 70 },
+    icon: L.icon({
+      iconUrl: "/assets/unicorn_face.png",
+      iconSize: [3, 3],
+    }),
     hoverLabel: false,
   }
   for (const folder of Folders) {
