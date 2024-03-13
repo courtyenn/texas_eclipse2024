@@ -2,21 +2,23 @@
 
 A static JS project meant to become an easy-lookup for the laxadaisical festival-goer.
 
+
+
 ## Development
 
-If you plan on contributing, please fork this repository then make a pull request.
 
 ### Prerequisites
 
-- Node v18.X+
+- Install Node v18.X+
 
 ```
 node -v
 ```
 
-- PNPM
+- NPM or PNPM
 
 ```
+npm -v 
 pnpm -v
 ```
 
@@ -24,7 +26,7 @@ pnpm -v
 
 ### Installation
 
-1. Fork then clone repository
+1. Clone the repository
 2. Install dependencies
 
 ```
@@ -39,10 +41,8 @@ http-server
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+Pull requests welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
 
 ## License
 
@@ -53,3 +53,4 @@ Please make sure to update tests as appropriate.
 - https://emoji.aranja.com/
 - https://leafletjs.com/
 - https://www.ogc.org/
+- https://mapbox.com

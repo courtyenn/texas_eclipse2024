@@ -19,7 +19,6 @@ map.on("zoomend", function () {
 
   mapEle.classList.remove("zoomed-out")
   if (zoomLevel <= 16) mapEle.classList.add("zoomed-out")
-  // if(zoomLevel === 15)
 })
 L.tileLayer(
   `https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY291cnR5ZW4iLCJhIjoiY2x0bXR5bnNzMXM3dTJscGF3NG9kYW1kcCJ9.EikiYGKRyBhxnNBCtWU2sA`,
