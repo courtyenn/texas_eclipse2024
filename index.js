@@ -1,3 +1,5 @@
+import { useSharePinModule } from "/sharePins.js"
+
 const MAX_BOUNDS = [
   [30.863045, -98.421356],
   [30.722219, -98.181716],
@@ -33,8 +35,6 @@ const convertHslToColor = (hsl) => ({
   weight: 4,
   fillOpacity: 0.5,
 })
-const createIcon = (iconConfig) => {}
-const makeMarker = (map, latlngs, iconConfig) => {}
 
 const addPlacemark = (placemark, { hoverLabel, ...config }) => {
   const { icon, name, Point, Polygon } = placemark
@@ -78,13 +78,17 @@ const addPlacemark = (placemark, { hoverLabel, ...config }) => {
     console.error("No point or polygon")
   }
 }
+
 const TexasEclipse = (data) => {
   const { Folders, Placemark } = data
+  const mapEle = document.getElementById("map")
+  const { configureNewPinButton } = useSharePinModule(L, map, mapEle)
+  configureNewPinButton({ hideTooltipClass: "hide-tooltips" })
   const initialPlacemarkConfig = {
     hsl: { hue: 0, saturation: 100, lightness: 70 },
     icon: L.icon({
-      iconUrl: "/assets/unicorn_face.png",
-      iconSize: [3, 3],
+      iconUrl: "/assets/transparent_pixel.png",
+      iconSize: [1, 1],
     }),
     hoverLabel: false,
   }

@@ -1,7 +1,7 @@
 {
   "name": "texas_eclipse2024",
   "version": "1.0.0",
-  "description": "",
+  "description": "An interactive emoji map for the Texas Eclipse 2024 Festival",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emoji-mart/data": "^1.1.2",
     "fast-xml-parser": "^4.3.5"
   }
 }
