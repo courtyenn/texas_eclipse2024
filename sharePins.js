@@ -47,26 +47,28 @@ const applyStyles = (element, styles) => {
   }
 }
 
+const initObj = {
+  id: "test",
+  myPins: [{ name: "", latlng: [] }],
+  otherPins: [],
+}
 export const useSharePinModule = (L, map, mapEle) => {
   const createPinButton = document.getElementById("create-pin")
   const sharePin = document.getElementById("share-pins")
   const leafletControl = document.querySelector(".leaflet-control")
+  const { myPins } = JSON.parse(localStorage.getItem("TexasEclipse")) || {
+    myPins: [],
+  }
+  // const debug = document.getElementById("debugger")
   document.body.removeChild(createPinButton)
   document.body.removeChild(sharePin)
   leafletControl.appendChild(createPinButton)
   leafletControl.appendChild(sharePin)
 
-  // const sharePins = () => {
-  //   document.addEventListener("click", (e) => {
-  //     const latlng = map.mouseEventToLatLng(e)
-  //     console.log("click", latlng)
-  //   })
-  // }
-
-  const createPin = ({ latlng, name }) => {
+  const createPin = ({ latlng, name, isMyPin, persist }) => {
     const iconConfig = {
       icon: L.icon({
-        iconUrl: `/assets/pin.png`,
+        iconUrl: `/assets/${isMyPin ? "pin" : "blue_pin"}.png`,
         iconSize: [34, 34],
       }),
     }
@@ -78,7 +80,34 @@ export const useSharePinModule = (L, map, mapEle) => {
         className: "tooltips",
       })
       .openTooltip()
+
+    const pin = {
+      latlng,
+      name,
+    }
+    persist &&
+      localStorage.setItem(
+        "TexasEclipse",
+        JSON.stringify({ myPins: [...myPins, pin] })
+      )
   }
+
+  const setSavedPins = (pins, isMyPin) => {
+    pins.forEach((pin) => {
+      const { latlng, name } = pin
+      const [lat, lng] = latlng
+      createPin({ latlng: { lat, lng }, name, isMyPin })
+    })
+  }
+
+  setSavedPins(myPins, true)
+
+  // const sharePins = () => {
+  //   document.addEventListener("click", (e) => {
+  //     const latlng = map.mouseEventToLatLng(e)
+  //     console.log("click", latlng)
+  //   })
+  // }
 
   const configureNewPinButton = ({ hideTooltipClass }) => {
     const setMarkerPinOnMap = () => {
@@ -125,8 +154,7 @@ export const useSharePinModule = (L, map, mapEle) => {
     }
     const trackMarker = () => {
       const { marker, confirm, cancel, input } = setMarkerPinOnMap()
-      const { x, y } = marker.getBoundingClientRect()
-
+      let { x, y } = marker.getBoundingClientRect()
       const eventHandler = (eles, eventName, callback) => {
         eles.forEach((ele) =>
           ele.addEventListener(eventName, (e) => {
@@ -134,20 +162,23 @@ export const useSharePinModule = (L, map, mapEle) => {
               eles.forEach((el) => {
                 el.removeEventListener(eventName, callback)
               })
-              callback(e.target.type === "submit")
+              e.preventDefault()
+              callback(e, e.target.type === "submit")
             }
           })
         )
       }
-      eventHandler([confirm, cancel], "click", (confirmed) => {
-        document.body.removeChild(marker)
+      eventHandler([confirm, cancel], "click", (e, confirmed) => {
         const { lat, lng } = map.containerPointToLatLng([x, y])
         confirmed &&
           createPin({
             latlng: [lat, lng],
             name: input.value,
+            persist: true,
+            isMyPin: true,
           })
         map.getContainer().classList.remove(hideTooltipClass)
+        document.body.removeChild(marker)
       })
 
       mapEle.classList.add(hideTooltipClass)

@@ -1,5 +1,4 @@
 import { useSharePinModule } from "/sharePins.js"
-
 const MAX_BOUNDS = [
   [30.863045, -98.421356],
   [30.722219, -98.181716],
