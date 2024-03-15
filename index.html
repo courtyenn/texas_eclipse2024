@@ -1,67 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Texas Eclipse 2024</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin=""
-    />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-      crossorigin=""
-    ></script>
-  </head>
-  <body>
-    <div id="map"></div>
-    <style>
-      body {
-        margin: 0;
-      }
-      #map {
-        height: 100vh;
-      }
-      .leaflet-marker-pane img[src^="https://"]
-      {
-        display: none;
-      }
-      .hide-tooltips .tooltips,
-      .hide-tooltips .area_label,
-      .zoomed-out .tooltips,
-      .zoomed-out .area_label {
-        opacity: 0 !important;
-      }
-      .area_label {
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
-        font-size: 0.8rem;
-        margin-top: 19px;
-      }
 
-      .tooltips {
-        background-color: transparent;
-        border: none;
-        box-shadow: none;
-        font-size: 1rem;
-        color: white;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-          1px 1px 3px #000;
-        margin-top: 10px;
-        opacity: 1;
-        transition: all 0.5s ease-in-out;
-      }
-      .tooltips::before,
-      .area_label::before {
-        content: "";
-        border-bottom-color: transparent;
-      }
-    </style>
-    <script type="module" src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Texas Eclipse 2024</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+
+<body>
+  <div id="map"></div>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    #map {
+      height: 100vh;
+    }
+
+    .leaflet-marker-pane img[src^="https://"] {
+      display: none;
+    }
+
+    .hide-tooltips .tooltips,
+    .hide-tooltips .area_label,
+    .zoomed-out .tooltips,
+    .zoomed-out .area_label {
+      opacity: 0 !important;
+    }
+
+    .area_label {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      font-size: 0.8rem;
+      margin-top: 19px;
+    }
+
+    .tooltips {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      font-size: 1rem;
+      color: white;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 3px #000;
+      margin-top: 10px;
+      opacity: 1;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .tooltips::before,
+    .area_label::before {
+      content: "";
+      border-bottom-color: transparent;
+    }
+
+    /** Leaflet Controls **/
+    .custom_pins {
+      position: relative;
+      border: none;
+      background: white;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 22px;
+      cursor: pointer;
+      padding: 0;
+      display: block;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #create-pin::before {
+      content: '+';
+      position: absolute;
+      color: #4bc74b;
+      font-weight: bolder;
+      right: 2px;
+      bottom: 0;
+      text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+    }
+
+    .custom_pins:active,
+    .custom_pins:hover {
+      background-color: #f4f4f4;
+    }
+
+    #create-pin svg {
+      width: 30px;
+      fill: #000;
+    }
+
+    #share-pins svg {
+      width: 20px;
+      fill: #000;
+      margin-top: 4px;
+    }
+  </style>
+  <button id="create-pin" class="custom_pins" aria-label="Create New Pin" title="Create a new pin">
+    <svg viewBox="-9.5 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M6.781 4c3.625 0 6.531 2.969 6.531 6.531C13.312 14.125 6.656 28 6.656 28S0 14.125 0 10.531C0 6.968 2.906 4 6.531 4h.25zm-.125 8.969c1.625 0 2.969-1.375 2.969-3.031a2.988 2.988 0 0 0-2.969-2.969c-1.656 0-3 1.344-3 2.969 0 1.656 1.344 3.031 3 3.031z" />
+    </svg>
+  </button>
+  <button id="share-pins" class="custom_pins" aria-label="Share pins">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.624 458.624" xml:space="preserve">
+      <path
+        d="M339.588 314.529a71.683 71.683 0 0 0-38.621 11.239l-112.682-78.67a72.036 72.036 0 0 0 2.798-19.871c0-6.896-.989-13.557-2.798-19.871l109.64-76.547c11.764 8.356 26.133 13.286 41.662 13.286 39.79 0 72.047-32.257 72.047-72.047S379.378 0 339.588 0c-39.79 0-72.047 32.257-72.047 72.047 0 5.255.578 10.373 1.646 15.308l-112.424 78.491c-10.974-6.759-23.892-10.666-37.727-10.666-39.79 0-72.047 32.257-72.047 72.047s32.256 72.047 72.047 72.047c13.834 0 26.753-3.907 37.727-10.666l113.292 79.097a72.108 72.108 0 0 0-2.514 18.872c0 39.79 32.257 72.047 72.047 72.047s72.047-32.257 72.047-72.047-32.257-72.048-72.047-72.048z" />
+    </svg>
+  </button>
+  <script type="module" src="index.js"></script>
+</body>
+
 </html>

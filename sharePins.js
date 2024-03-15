@@ -1,39 +1,35 @@
 const PIN_WIDTH = 30
 const PIN_HEIGHT = 30
 
-const createPinBtnStyles = {
-  position: "absolute",
-  right: 0,
-  zIndex: 9999,
-  borderRadius: "50%",
-  border: "none",
-  background: "white",
-}
 const pinStyles = {
   width: `${PIN_WIDTH}px`,
-  transform: `translate(-${PIN_WIDTH / 4}px, -${PIN_HEIGHT}px) rotate(30deg)`,
+  transform: `translate(-${PIN_WIDTH / 3}px, -${
+    PIN_HEIGHT / 2
+  }px) rotate(30deg)`,
+  display: "block",
 }
 const markerStyles = ({ width, height }) => ({
   position: "absolute",
-  top: `${width / 2}px`,
-  left: `${height / 2}px`,
-  width: `${PIN_WIDTH}px`,
-  height: `${PIN_HEIGHT}px`,
+  top: `${height / 2}px`,
+  left: `${width / 2}px`,
   zIndex: 999,
+  padding: "0 0 0 4px",
 })
 
 const buttonStyles = {
   border: "none",
   fontSize: "1rem",
   background: "white",
-  padding: "2px 5px",
+  padding: "5px 14px",
 }
 
 const containerStyles = {
   display: "flex",
   gap: "8px",
-  position: "absolute",
+  position: "relative",
   left: "5px",
+  top: "10px",
+  margin: "8px 0 6px",
 }
 
 const inputStyles = {
@@ -41,8 +37,8 @@ const inputStyles = {
   fontSize: "16px",
   marginTop: 0,
   position: "absolute",
-  top: 0,
-  left: "5px",
+  top: "15px",
+  left: "8px",
 }
 
 const applyStyles = (element, styles) => {
@@ -52,14 +48,13 @@ const applyStyles = (element, styles) => {
 }
 
 export const useSharePinModule = (L, map, mapEle) => {
-  const createPinButton = document.createElement("button")
-  createPinButton.id = "create-pin"
-  createPinButton["aria-label"] = "Create a new pin"
-  createPinButton.innerText = "+"
-
-  applyStyles(createPinButton, createPinBtnStyles)
-
-  document.body.prepend(createPinButton)
+  const createPinButton = document.getElementById("create-pin")
+  const sharePin = document.getElementById("share-pins")
+  const leafletControl = document.querySelector(".leaflet-control")
+  document.body.removeChild(createPinButton)
+  document.body.removeChild(sharePin)
+  leafletControl.appendChild(createPinButton)
+  leafletControl.appendChild(sharePin)
 
   // const sharePins = () => {
   //   document.addEventListener("click", (e) => {
@@ -88,7 +83,7 @@ export const useSharePinModule = (L, map, mapEle) => {
   const configureNewPinButton = ({ hideTooltipClass }) => {
     const setMarkerPinOnMap = () => {
       const { width, height } = mapEle.getBoundingClientRect()
-      const marker = document.createElement("div")
+      const marker = document.createElement("form")
       const pinImg = document.createElement("img")
       const input = document.createElement("input")
       const btnContainer = document.createElement("div")
@@ -147,7 +142,11 @@ export const useSharePinModule = (L, map, mapEle) => {
       eventHandler([confirm, cancel], "click", (confirmed) => {
         document.body.removeChild(marker)
         const { lat, lng } = map.containerPointToLatLng([x, y])
-        confirmed && createPin({ latlng: [lat, lng], name: input.value })
+        confirmed &&
+          createPin({
+            latlng: [lat, lng],
+            name: input.value,
+          })
         map.getContainer().classList.remove(hideTooltipClass)
       })
 
