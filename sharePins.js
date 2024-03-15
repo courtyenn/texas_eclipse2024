@@ -52,13 +52,25 @@ const initObj = {
   myPins: [{ name: "", latlng: [] }],
   otherPins: [],
 }
+const convertStringToPin = (pinStr) => {
+  if (pinStr.length === 0) return []
+  const [name, lat, lng] = pinStr.split(",")
+  return { name, latlng: [lat, lng] }
+}
 export const useSharePinModule = (L, map, mapEle) => {
   const createPinButton = document.getElementById("create-pin")
   const sharePin = document.getElementById("share-pins")
   const leafletControl = document.querySelector(".leaflet-control")
-  const { myPins } = JSON.parse(localStorage.getItem("TexasEclipse")) || {
+  const { myPins, otherPins = [] } = JSON.parse(
+    localStorage.getItem("TexasEclipse")
+  ) || {
     myPins: [],
+    otherPins: [],
   }
+
+  const urlPins = new URLSearchParams(window.location.search)
+    .getAll("pin")
+    .map(convertStringToPin)
   // const debug = document.getElementById("debugger")
   document.body.removeChild(createPinButton)
   document.body.removeChild(sharePin)
@@ -85,11 +97,13 @@ export const useSharePinModule = (L, map, mapEle) => {
       latlng,
       name,
     }
-    persist &&
+    if (persist) {
       localStorage.setItem(
         "TexasEclipse",
         JSON.stringify({ myPins: [...myPins, pin] })
       )
+      myPins.push(pin)
+    }
   }
 
   const setSavedPins = (pins, isMyPin) => {
@@ -101,13 +115,27 @@ export const useSharePinModule = (L, map, mapEle) => {
   }
 
   setSavedPins(myPins, true)
+  setSavedPins(otherPins, false)
+  setSavedPins(urlPins, false)
 
-  // const sharePins = () => {
-  //   document.addEventListener("click", (e) => {
-  //     const latlng = map.mouseEventToLatLng(e)
-  //     console.log("click", latlng)
-  //   })
-  // }
+  const sharePins = (e) => {
+    e.preventDefault()
+    const pins = myPins.concat(otherPins).concat(urlPins)
+    // let urlEncodedPins = "https://texas-eclipse2024.vercel.app?"
+    let urlEncodedPins = "http://127.0.0.1:8081?"
+    pins.forEach((pin, i) => {
+      if (i > 0) urlEncodedPins += "&"
+      urlEncodedPins += `pin=${pin.name},${pin.latlng.join(",")}`
+    })
+
+    navigator.clipboard.writeText(urlEncodedPins)
+    sharePin.classList.add("copied")
+    setTimeout(() => {
+      sharePin.classList.remove("copied")
+    }, 2000)
+  }
+
+  sharePin.addEventListener("click", sharePins)
 
   const configureNewPinButton = ({ hideTooltipClass }) => {
     const setMarkerPinOnMap = () => {

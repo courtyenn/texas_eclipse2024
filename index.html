@@ -116,6 +116,26 @@
       font-size: 16px;
       z-index: 100000;
     }
+
+    #copy-link {
+      opacity: 0;
+      position: absolute;
+      background-color: white;
+      color: black;
+      padding: 5px;
+      border-radius: 0 5px 5px 5px;
+      top: 0;
+      left: 34px;
+      z-index: 100000;
+      font-size: 12px;
+      line-height: 1;
+      width: 68px;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .copied>#copy-link {
+      opacity: 1;
+    }
   </style>
   <button id="create-pin" class="custom_pins" aria-label="Create New Pin" title="Create a new pin">
     <svg viewBox="-9.5 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -123,11 +143,12 @@
         d="M6.781 4c3.625 0 6.531 2.969 6.531 6.531C13.312 14.125 6.656 28 6.656 28S0 14.125 0 10.531C0 6.968 2.906 4 6.531 4h.25zm-.125 8.969c1.625 0 2.969-1.375 2.969-3.031a2.988 2.988 0 0 0-2.969-2.969c-1.656 0-3 1.344-3 2.969 0 1.656 1.344 3.031 3 3.031z" />
     </svg>
   </button>
-  <button id="share-pins" class="custom_pins" aria-label="Share pins">
+  <button id="share-pins" class="custom_pins" aria-label="Share pins" title="Share pins">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.624 458.624" xml:space="preserve">
       <path
         d="M339.588 314.529a71.683 71.683 0 0 0-38.621 11.239l-112.682-78.67a72.036 72.036 0 0 0 2.798-19.871c0-6.896-.989-13.557-2.798-19.871l109.64-76.547c11.764 8.356 26.133 13.286 41.662 13.286 39.79 0 72.047-32.257 72.047-72.047S379.378 0 339.588 0c-39.79 0-72.047 32.257-72.047 72.047 0 5.255.578 10.373 1.646 15.308l-112.424 78.491c-10.974-6.759-23.892-10.666-37.727-10.666-39.79 0-72.047 32.257-72.047 72.047s32.256 72.047 72.047 72.047c13.834 0 26.753-3.907 37.727-10.666l113.292 79.097a72.108 72.108 0 0 0-2.514 18.872c0 39.79 32.257 72.047 72.047 72.047s72.047-32.257 72.047-72.047-32.257-72.048-72.047-72.048z" />
     </svg>
+    <div id="copy-link" aria-hidden="true">Copied Link!</div>
   </button>
   <!-- <div id="debugger" /> -->
   <script type="module" src="index.js"></script>
