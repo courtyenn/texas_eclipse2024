@@ -57,7 +57,7 @@ const convertStringToPin = (pinStr) => {
   const [name, lat, lng] = pinStr.split(",")
   return { name, latlng: [lat, lng] }
 }
-export const useSharePinModule = (L, map, mapEle) => {
+export const useSharePinModule = (L, map) => {
   const createPinButton = document.getElementById("create-pin")
   const sharePin = document.getElementById("share-pins")
   const leafletControl = document.querySelector(".leaflet-control")
@@ -71,7 +71,6 @@ export const useSharePinModule = (L, map, mapEle) => {
   const urlPins = new URLSearchParams(window.location.search)
     .getAll("pin")
     .map(convertStringToPin)
-  // const debug = document.getElementById("debugger")
   document.body.removeChild(createPinButton)
   document.body.removeChild(sharePin)
   leafletControl.appendChild(createPinButton)
@@ -122,7 +121,7 @@ export const useSharePinModule = (L, map, mapEle) => {
     e.preventDefault()
     const pins = myPins.concat(otherPins).concat(urlPins)
     let urlEncodedPins = "https://texas-eclipse2024.vercel.app?"
-    // let urlEncodedPins = "http://127.0.0.1:8081?"
+    // let urlEncodedPins = "http://127.0.0.1:8081?" 192.168.86.188:8081
     pins.forEach((pin, i) => {
       if (i > 0) urlEncodedPins += "&"
       urlEncodedPins += `pin=${pin.name},${pin.latlng.join(",")}`
@@ -138,8 +137,11 @@ export const useSharePinModule = (L, map, mapEle) => {
   sharePin.addEventListener("click", sharePins)
 
   const configureNewPinButton = ({ hideTooltipClass }) => {
+    // where the pin wants to be, in the world
+    let latlng = map.getCenter()
+
     const setMarkerPinOnMap = () => {
-      const { width, height } = mapEle.getBoundingClientRect()
+      const { width, height } = map.getContainer().getBoundingClientRect()
       const marker = document.createElement("form")
       const pinImg = document.createElement("img")
       const input = document.createElement("input")
@@ -147,6 +149,7 @@ export const useSharePinModule = (L, map, mapEle) => {
       const confirm = document.createElement("button")
       const cancel = document.createElement("button")
 
+      latlng = map.getCenter()
       marker.id = "new-marker"
       pinImg.src = "/assets/pin.png"
       input.type = "text"
@@ -182,7 +185,6 @@ export const useSharePinModule = (L, map, mapEle) => {
     }
     const trackMarker = () => {
       const { marker, confirm, cancel, input } = setMarkerPinOnMap()
-      let { x, y } = marker.getBoundingClientRect()
       const eventHandler = (eles, eventName, callback) => {
         eles.forEach((ele) =>
           ele.addEventListener(eventName, (e) => {
@@ -197,7 +199,7 @@ export const useSharePinModule = (L, map, mapEle) => {
         )
       }
       eventHandler([confirm, cancel], "click", (e, confirmed) => {
-        const { lat, lng } = map.containerPointToLatLng([x, y])
+        const { lat, lng } = latlng
         confirmed &&
           createPin({
             latlng: [lat, lng],
@@ -209,7 +211,14 @@ export const useSharePinModule = (L, map, mapEle) => {
         document.body.removeChild(marker)
       })
 
-      mapEle.classList.add(hideTooltipClass)
+      map.on("move", () => {
+        latlng = map.getCenter()
+        const { x, y } = map.latLngToContainerPoint(latlng)
+        marker.style.top = `${y}px`
+        marker.style.left = `${x}px`
+      })
+
+      map.getContainer().classList.add(hideTooltipClass)
       map.setZoom(18)
     }
     createPinButton.addEventListener("click", trackMarker)
