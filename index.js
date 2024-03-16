@@ -1,4 +1,20 @@
 import { useSharePinModule } from "/sharePins.js"
+
+// Register the service worker
+if ("serviceWorker" in navigator) {
+  let reg
+  // Wait for the 'load' event to not block other work
+  window.addEventListener("load", async () => {
+    // Try to register the service worker.
+    // Capture the registration for later use, if needed
+
+    reg = await navigator.serviceWorker.register("/service-worker.js", {
+      type: "module",
+    })
+    console.log("registered?", reg)
+  })
+}
+
 const MAX_BOUNDS = [
   [30.863045, -98.421356],
   [30.722219, -98.181716],
