@@ -1,5 +1,24 @@
 import { calcSlippyTiles } from "/tilemaps.js"
-
+const ICONS = [
+  "ambulance",
+  "arrow_right",
+  "art",
+  "blue_pin",
+  "car",
+  "cherry_blossom",
+  "door",
+  "hammer_and_pick",
+  "key",
+  "pin",
+  "pizza",
+  "potable_water",
+  "shopping_bags",
+  "shower",
+  "star",
+  "tent",
+  "transparent_pixel",
+  "tree",
+]
 const CACHE_NAME = "cache-v1"
 
 const registerWorker = async () => {
@@ -13,6 +32,7 @@ const registerWorker = async () => {
     "/utilities/Texas_eclipse_v1.4.json",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+    ...ICONS.map((icon) => `/assets/${icon}.png`),
   ]
 
   // When the service worker is installing, open the cache and add the precache resources to it
