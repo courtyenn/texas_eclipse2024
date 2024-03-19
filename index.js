@@ -1,19 +1,18 @@
 import { useSharePinModule } from "/sharePins.js"
 
-// // Register the service worker
-// if ("serviceWorker" in navigator) {
-//   let reg
-//   // Wait for the 'load' event to not block other work
-//   window.addEventListener("load", async () => {
-//     // Try to register the service worker.
-//     // Capture the registration for later use, if needed
+// // // Register the service worker
+if ("serviceWorker" in navigator) {
+  let reg
+  // Wait for the 'load' event to not block other work
+  window.addEventListener("load", async () => {
+    // Try to register the service worker.
+    // Capture the registration for later use, if needed
 
-//     reg = await navigator.serviceWorker.register("/service-worker.js", {
-//       type: "module",
-//     })
-//     console.log("registered?", reg)
-//   })
-// }
+    reg = await navigator.serviceWorker.register("/service-worker.js", {
+      type: "module",
+    })
+  })
+}
 
 const MAX_BOUNDS = [
   [30.863045, -98.421356],
@@ -26,7 +25,9 @@ const FIT_BOUNDS = [
 const CRS = L.CRS.EPSG3857
 const map = L.map("map", {
   maxBounds: MAX_BOUNDS,
-  zoom: 14,
+  zoom: 15,
+  minZoom: 15,
+  maxZoom: 18,
 })
 map.fitBounds(FIT_BOUNDS)
 map.on("zoomend", function () {
@@ -37,6 +38,14 @@ map.on("zoomend", function () {
   mapEle.classList.remove("zoomed-out")
   if (zoomLevel <= 16) mapEle.classList.add("zoomed-out")
 })
+// document.body.addEventListener("click", (e) => {
+//   const { lat, lng } = map.mouseEventToLatLng(e)
+//   const zoom = map.getZoom()
+//   const { xtile, ytile } = getTileNumber(lat, lng, zoom)
+//   console.log(
+//     `lat: ${lat}, lng: ${lng}, zoom: ${zoom}, getTileNumber: ${xtile}, ${ytile} `
+//   )
+// })
 L.tileLayer(
   `https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY291cnR5ZW4iLCJhIjoiY2x0bXR5bnNzMXM3dTJscGF3NG9kYW1kcCJ9.EikiYGKRyBhxnNBCtWU2sA`,
   {
