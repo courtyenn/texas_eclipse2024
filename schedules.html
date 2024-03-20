@@ -5,22 +5,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Schedules</title>
+  <link href="https://www.unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css" rel="stylesheet" />
 </head>
 
 <body>
-  <div id="app">{{ message }}</div>
-
+  <script type="importmap">
+    { 
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js",
+        "vue-multiselect": "https://www.unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js"
+      }
+    }
+  </script>
+  <div id="app">
+    <input type="text" v-model="search" />
+    <multiselect v-model="selectedTags" :options="tags"></multiselect>
+    <button @click="selectedTags = []">Clear</button>
+    {{value}}
+    <ul>
+      <li v-for="event in filteredEvents" :key="event.id">
+        <h2>{{ event.title }}</h2>
+        <p>{{ event.id }}</p>
+        <p>{{ event.startTime }}</p>
+        <p>{{ event.endTime }}</p>
+        <p>{{ event.tags }}</p>
+        <p>{{ event.description }}</p>
+        <p>{{ event.website }}</p>
+        <p>{{ event.ig }}</p>
+        <p>{{ event.location }}</p>
+      </li>
+    </ul>
+  </div>
   <script type="module">
-    import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+    import { createApp, ref, onMounted, computed } from 'vue'
+    import VueMultiselect from 'vue-multiselect'
+    const removeDuplicates = (arr) => arr.filter((v, i) => arr.indexOf(v) === i);
+    const transformData = (data) => data.map((item) => {
+      return {
+        id: item.eventartistworkshoppresentation.replace(/[\s|&]+/g, '-').toLowerCase(),
+        startTime: new Date(item.starttime),
+        endTime: new Date(item.endtime),
+        tags: item.tags.split(','),
+        title: item.eventartistworkshoppresentation,
+        description: item.description,
+        website: item.website,
+        ig: item.ig,
+        location: item.areastagelatlng
+      }
+    });
 
-    createApp({
+    const app = createApp({
       setup() {
-        const message = ref('Hello vue!')
+        const value = ref();
+        const events = ref([])
+        const search = ref('')
+        const selectedTags = ref([])
+        const tags = ref([])
+        const filteredEvents = computed({
+          get() {
+            return events.value.filter((event) => {
+              return event.title.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length === 0 || event.tags.some((tag) => selectedTags.value.includes(tag)))
+            })
+          }
+        })
+
+        fetch("./utilities/test.json")
+          .then((response) => response.json())
+          .then((data) => {
+            events.value = transformData(data)
+            tags.value = removeDuplicates(events.value.flatMap((event) => event.tags))
+          })
         return {
-          message
+          search,
+          events,
+          filteredEvents,
+          tags,
+          selectedTags,
+          value,
         }
       }
-    }).mount('#app')
+    })
+
+    app.component('multiselect', VueMultiselect)
+
+    app.mount('#app')
   </script>
 </body>
 
