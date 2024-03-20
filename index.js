@@ -103,7 +103,25 @@ const addPlacemark = (placemark, { hoverLabel, ...config }) => {
   }
 }
 
+const initializeFaye = () => {
+  const toggleModal = (show) => {
+    const modal = document.getElementById("spirit")
+    if (show) {
+      modal.showModal()
+    } else {
+      modal.close()
+    }
+  }
+  document
+    .getElementById("allGoodThings")
+    .addEventListener("click", () => toggleModal(false))
+  document
+    .getElementById("faye")
+    .addEventListener("click", () => toggleModal(true))
+}
+
 const TexasEclipse = (data) => {
+  initializeFaye()
   const { Folders, Placemark } = data
   const { configureNewPinButton } = useSharePinModule(L, map)
   configureNewPinButton({ hideTooltipClass: "hide-tooltips" })
