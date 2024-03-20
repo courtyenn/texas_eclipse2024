@@ -69,7 +69,7 @@
           }
         })
 
-        fetch("./utilities/test.json")
+        fetch("./utilities/events.json")
           .then((response) => response.json())
           .then((data) => {
             events.value = transformData(data)
