@@ -24,7 +24,6 @@ function generatePermutations(startIndex, endIndex, zoom) {
 }
 
 export const calcSlippyTiles = () => {
-  const listOfCacheUrls = []
   const boundaryMap = {
     18: [
       { xtile: 59451, ytile: 107468 },

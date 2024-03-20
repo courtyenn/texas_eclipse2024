@@ -18,6 +18,7 @@ const ICONS = [
   "tent",
   "transparent_pixel",
   "tree",
+  "carrot",
 ]
 const CACHE_NAME = "cache-v1"
 
