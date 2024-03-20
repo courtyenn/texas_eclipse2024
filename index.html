@@ -136,6 +136,15 @@
     .copied>#copy-link {
       opacity: 1;
     }
+
+    ::backdrop {
+      background-image: linear-gradient(45deg,
+          magenta,
+          rebeccapurple,
+          dodgerblue,
+          green);
+      opacity: 0.75;
+    }
   </style>
   <button id="create-pin" class="custom_pins" aria-label="Create New Pin" title="Create a new pin">
     <svg viewBox="-9.5 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -150,7 +159,11 @@
     </svg>
     <div id="copy-link" aria-hidden="true">Copied Link!</div>
   </button>
-  <!-- <div id="debugger" /> -->
+  <dialog>
+    <button autofocus>Close</button>
+    <p>This modal dialog has a groovy backdrop!</p>
+  </dialog>
+  <button>Show the dialog</button>
   <script type="module" src="index.js"></script>
 </body>
 

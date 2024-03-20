@@ -1,5 +1,6 @@
 const PIN_WIDTH = 30
 const PIN_HEIGHT = 30
+const STORAGE = "TexasEclipsev2"
 
 const pinStyles = {
   width: `${PIN_WIDTH}px`,
@@ -54,23 +55,27 @@ const initObj = {
 }
 const convertStringToPin = (pinStr) => {
   if (pinStr.length === 0) return []
-  const [name, lat, lng] = pinStr.split(",")
+  const pin = pinStr.split(",")
+  if (pin.length !== 3) return null
+  const [name, lat, lng] = pin
   return { name, latlng: [lat, lng] }
 }
 export const useSharePinModule = (L, map) => {
   const createPinButton = document.getElementById("create-pin")
   const sharePin = document.getElementById("share-pins")
   const leafletControl = document.querySelector(".leaflet-control")
-  const { myPins, otherPins = [] } = JSON.parse(
-    localStorage.getItem("TexasEclipse")
+  const { myPins = [], otherPins = [] } = JSON.parse(
+    localStorage.getItem(STORAGE)
   ) || {
     myPins: [],
     otherPins: [],
   }
 
-  const urlPins = new URLSearchParams(window.location.search)
+  const urlPins = new URLSearchParams(window.location.hash.slice(1))
     .getAll("pin")
     .map(convertStringToPin)
+    .filter((pin) => !!pin)
+
   document.body.removeChild(createPinButton)
   document.body.removeChild(sharePin)
   leafletControl.appendChild(createPinButton)
@@ -96,31 +101,41 @@ export const useSharePinModule = (L, map) => {
       latlng,
       name,
     }
-    if (persist) {
+    if (persist && isMyPin) {
       localStorage.setItem(
-        "TexasEclipse",
+        STORAGE,
         JSON.stringify({ myPins: [...myPins, pin] })
       )
       myPins.push(pin)
+    } else if (persist && !isMyPin) {
+      localStorage.setItem(
+        STORAGE,
+        JSON.stringify({ otherPins: [...otherPins, pin] })
+      )
+      otherPins.push(pin)
     }
   }
 
-  const setSavedPins = (pins, isMyPin) => {
+  const setSavedPins = (pins, isMyPin, persist) => {
     pins.forEach((pin) => {
       const { latlng, name } = pin
       const [lat, lng] = latlng
-      createPin({ latlng: { lat, lng }, name, isMyPin })
+      createPin({ latlng: [lat, lng], name, isMyPin, persist })
     })
   }
 
-  setSavedPins(myPins, true)
-  setSavedPins(otherPins, false)
-  setSavedPins(urlPins, false)
+  myPins.length && setSavedPins(myPins, true)
+  otherPins.length && setSavedPins(otherPins, false)
+
+  if (urlPins?.length) {
+    setSavedPins(urlPins, false, true)
+    window.location.hash = ""
+  }
 
   const sharePins = (e) => {
     e.preventDefault()
-    const pins = myPins.concat(otherPins).concat(urlPins)
-    let urlEncodedPins = "https://texas-eclipse2024.vercel.app?"
+    const pins = myPins.concat(urlPins)
+    let urlEncodedPins = "https://texas-eclipse2024.vercel.app/#"
     // let urlEncodedPins = "http://127.0.0.1:8081?" 192.168.86.188:8081
     pins.forEach((pin, i) => {
       if (i > 0) urlEncodedPins += "&"
