@@ -1070,7 +1070,7 @@
       "open": 1,
       "Placemark": [
         {
-          "name": "Park and Camp",
+          "name": "",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7014",
           "Polygon": {
             "tessellate": 1,
@@ -1118,7 +1118,7 @@
           }
         },
         {
-          "name": "Park and Camp",
+          "name": "",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD700",
           "Polygon": {
             "tessellate": 1,
@@ -1178,18 +1178,18 @@
         {
           "name": "Canyon Lake",
           "LookAt": {
-            "longitude": -98.34432045868529,
-            "latitude": 30.79196830803068,
+            "longitude": -98.34084940129866,
+            "latitude": 30.79179327198423,
             "altitude": 0,
-            "heading": 0.004679101626774779,
-            "tilt": 5.978450473528786,
-            "range": 1225.049610191116,
+            "heading": 0.004504322855291919,
+            "tilt": 8.642929251627088,
+            "range": 1070.757202031841,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin3",
           "Point": {
             "gx:drawOrder": 1,
-            "coordinates": "-98.34268024449464,30.79114773214928,0"
+            "coordinates": "-98.34220399278693,30.79035876621017,0"
           }
         },
         {
@@ -1203,7 +1203,7 @@
             "range": 1225.049610191116,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin18",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34052948011144,30.79114337353582,0"
@@ -1211,6 +1211,7 @@
         },
         {
           "name": "Park and Camp",
+          "icon": "yellow_tent",
           "LookAt": {
             "longitude": -98.34813879595602,
             "latitude": 30.79673691294649,
@@ -1228,6 +1229,7 @@
         },
         {
           "name": "Park and Camp",
+          "icon": "yellow_tent",
           "LookAt": {
             "longitude": -98.34813879595602,
             "latitude": 30.79673691294649,
@@ -1242,6 +1244,42 @@
             "gx:drawOrder": 1,
             "coordinates": "-98.35177932489924,30.79938086185207,0"
           }
+        },
+        {
+          "name": "Park and Camp",
+          "icon": "yellow_tent",
+          "LookAt": {
+            "longitude": -98.34922015312762,
+            "latitude": 30.79080347320902,
+            "altitude": 0,
+            "heading": 0.0002195370834468678,
+            "tilt": 8.642937403504439,
+            "range": 1076.796848961324,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin3",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35129902805264,30.78969119192215,0"
+          }
+        },
+        {
+          "name": "Park and Camp",
+          "icon": "yellow_tent",
+          "LookAt": {
+            "longitude": -98.34084940129866,
+            "latitude": 30.79179327198423,
+            "altitude": 0,
+            "heading": 0.004504322855291919,
+            "tilt": 8.642929251627088,
+            "range": 1070.757202031841,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin3",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.34212051341176,30.79179515791853,0"
+          }
         }
       ]
     },
@@ -1250,8 +1288,7 @@
       "open": 1,
       "Placemark": [
         {
-          "name": "Car Camping",
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7015",
+          "name": "",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1262,7 +1299,7 @@
           }
         },
         {
-          "name": "Car Camping",
+          "name": "",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7012",
           "Polygon": {
             "tessellate": 1,
@@ -1286,7 +1323,7 @@
           }
         },
         {
-          "name": "Grove Car Camping",
+          "name": "",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7013",
           "Polygon": {
             "tessellate": 1,
@@ -1310,7 +1347,7 @@
           }
         },
         {
-          "name": "Car Camping",
+          "name": "",
           "styleUrl": "#__managed_style_3B249C81192F53BFFD722",
           "Polygon": {
             "tessellate": 1,
@@ -1353,18 +1390,18 @@
         {
           "name": "The Flats",
           "LookAt": {
-            "longitude": -98.34540835973979,
-            "latitude": 30.79134667604107,
+            "longitude": -98.34648037386117,
+            "latitude": 30.79212443975,
             "altitude": 0,
-            "heading": 0.004122206497507171,
-            "tilt": 5.978446517275753,
-            "range": 1220.817450038715,
+            "heading": 0.001635054950763274,
+            "tilt": 5.861905839567903,
+            "range": 1353.984032972835,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin3",
           "Point": {
             "gx:drawOrder": 1,
-            "coordinates": "-98.34699247328473,30.79032250879976,0"
+            "coordinates": "-98.34603219678507,30.79122849683997,0"
           }
         },
         {
@@ -1402,7 +1439,7 @@
           }
         },
         {
-          "name": "",
+          "name": "The Grove Car Camping",
           "LookAt": {
             "longitude": -98.34432045868529,
             "latitude": 30.79196830803068,
@@ -1450,6 +1487,60 @@
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.36362890852494,30.79622903490904,0"
+          }
+        },
+        {
+          "name": "Car Camping",
+          "icon": "blue_car",
+          "LookAt": {
+            "longitude": -98.34648037386117,
+            "latitude": 30.79212443975,
+            "altitude": 0,
+            "heading": 0.001635054950763274,
+            "tilt": 5.861905839567903,
+            "range": 1353.984032972835,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin3",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.34725541006821,30.7903492568763,0"
+          }
+        },
+        {
+          "name": "Car Camping",
+          "icon": "blue_car",
+          "LookAt": {
+            "longitude": -98.35099838202878,
+            "latitude": 30.80105875256267,
+            "altitude": 0,
+            "heading": 0.002467283500390413,
+            "tilt": 0.1165552067513814,
+            "range": 1258.982249874664,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin3",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35460499194807,30.80066452984504,0"
+          }
+        },
+        {
+          "name": "Car Camping",
+          "icon": "blue_car",
+          "LookAt": {
+            "longitude": -98.35889709021171,
+            "latitude": 30.79509060552957,
+            "altitude": 0,
+            "heading": -0.001577782595445916,
+            "tilt": 0.1165557694863169,
+            "range": 1289.712272614485,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin3",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.36480521161202,30.79347520383985,0"
           }
         }
       ]
@@ -1571,7 +1662,7 @@
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD580",
       "Placemark": [
         {
-          "name": "Tent camping",
+          "name": "",
           "LookAt": {
             "longitude": -98.35604588923887,
             "latitude": 30.79575281507461,
@@ -1695,7 +1786,7 @@
           }
         },
         {
-          "name": "Hub",
+          "name": "Skylab Station",
           "LookAt": {
             "longitude": -98.35510635188137,
             "latitude": 30.79681563995264,
@@ -1712,7 +1803,7 @@
           }
         },
         {
-          "name": "Hub",
+          "name": "International Space Station",
           "LookAt": {
             "longitude": -98.34342411672927,
             "latitude": 30.79403535150288,
