@@ -42,7 +42,7 @@ const registerWorker = async () => {
     "/index.js",
     "/sharePins.js",
     "/tilemaps.js",
-    "/utilities/Texas_eclipse_v2.0.json",
+    "/utilities/Texas_eclipse_v2.4.json",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
     ...ICONS.map((icon) => `/assets/${icon}.png`),
