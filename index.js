@@ -23,6 +23,7 @@ const FIT_BOUNDS = [
   [30.7907, -98.34513],
 ]
 const CRS = L.CRS.EPSG3857
+const DEFAULT_ICON = 32
 const map = L.map("map", {
   maxBounds: MAX_BOUNDS,
   zoom: 15,
@@ -61,12 +62,20 @@ const convertHslToColor = (hsl) => ({
 })
 
 const addPlacemark = (placemark, { hoverLabel, ...config }) => {
-  const { icon, name, Point, Polygon } = placemark
+  const {
+    icon,
+    name,
+    Point,
+    Polygon,
+    size: pmSize = DEFAULT_ICON,
+    hoverLabel: pmHoverLabel,
+  } = placemark
   const iconConfig = icon
     ? {
         icon: L.icon({
           iconUrl: `/assets/${icon}.png`,
-          iconSize: [34, 34],
+          iconSize: [pmSize, pmSize],
+          className: pmSize < DEFAULT_ICON ? "small-icon" : "",
         }),
       }
     : config
@@ -76,11 +85,10 @@ const addPlacemark = (placemark, { hoverLabel, ...config }) => {
     L.marker([latitude, longitude], iconConfig)
       .addTo(map)
       .bindTooltip(name, {
-        permanent: !hoverLabel,
+        permanent: !hoverLabel && !pmHoverLabel,
         direction: "bottom",
-        className: hoverLabel ? "" : "tooltips",
+        className: hoverLabel || pmHoverLabel ? "" : "tooltips",
       })
-      .openTooltip()
   } else if (Polygon) {
     const { coordinates } = Polygon.outerBoundaryIs.LinearRing
     const hueConfig = convertHslToColor(config.hsl)
@@ -126,38 +134,40 @@ const TexasEclipse = (data) => {
   const { configureNewPinButton } = useSharePinModule(L, map)
   configureNewPinButton({ hideTooltipClass: "hide-tooltips" })
   const initialPlacemarkConfig = {
-    hsl: { hue: 0, saturation: 100, lightness: 70 },
+    hsl: { hue: 308, saturation: 100, lightness: 70 },
     icon: L.icon({
       iconUrl: "/assets/transparent_pixel.png",
       iconSize: [1, 1],
     }),
     hoverLabel: false,
   }
-  for (const folder of Folders) {
-    const { icon, Placemark, hoverLabel = false } = folder
-    const placemarkConfig = { ...initialPlacemarkConfig, hoverLabel }
+  for (const placemark of Placemark) {
+    addPlacemark(placemark, initialPlacemarkConfig)
+    if (Placemark[0].Polygon) {
+      initialPlacemarkConfig.hsl.hue += 60
+    }
+  }
+  initialPlacemarkConfig.hsl.hue = 178
+  Folders.forEach((folder, i) => {
+    const { icon, Placemark, hoverLabel = false, size = DEFAULT_ICON } = folder
+    const placemarkConfig = { ...initialPlacemarkConfig, hoverLabel, size }
 
     if (icon) {
       placemarkConfig.icon = L.icon({
         iconUrl: `/assets/${icon}.png`,
-        iconSize: [34, 34],
+        iconSize: [size, size],
+        className: size < DEFAULT_ICON ? "small-icon" : "",
       })
-      placemarkConfig.iconName = icon
     }
     if (Array.isArray(Placemark)) {
       Placemark.forEach((pm) => addPlacemark(pm, placemarkConfig))
     } else {
       addPlacemark(Placemark, placemarkConfig)
     }
-    initialPlacemarkConfig.hsl.hue += 60
-  }
-  initialPlacemarkConfig.hsl.hue = 30
-  for (const placemark of Placemark) {
-    addPlacemark(placemark, initialPlacemarkConfig)
-    initialPlacemarkConfig.hsl.hue += 60
-  }
+    initialPlacemarkConfig.hsl.hue += 65
+  })
 }
 
-fetch("./utilities/Texas_eclipse_v1.4.json")
+fetch("./utilities/Texas_eclipse_v2.4.json")
   .then((response) => response.json())
   .then(TexasEclipse)

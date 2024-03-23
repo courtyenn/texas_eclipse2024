@@ -4,14 +4,13 @@ import * as url from "url"
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url))
 
 fs.readFile(
-  `${__dirname}/Texas_eclipse_v1.4.kml`,
+  `${__dirname}/Texas_eclipse_v2.3.kml`,
   "utf8",
   (err, xmlDataStr) => {
     if (err) {
       console.error(err)
       return
     }
-    // console.log(data)
 
     const options = {
       ignoreAttributes: false,
@@ -26,7 +25,7 @@ fs.readFile(
         Placemark: jsonObj.kml.Document.Placemark,
       }
       fs.writeFile(
-        `${__dirname}/Texas_eclipse_v1.4.json`,
+        `${__dirname}/Texas_eclipse_v2.3.json`,
         JSON.stringify(myMap, null, 2),
         (err) => {
           if (err) {

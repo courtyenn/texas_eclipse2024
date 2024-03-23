@@ -1,0 +1,4548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1OMS_OTa1uxjSeXYTws_j1YdNehPkQOvL">
+	<name>Texas_eclipse_v2.0</name>
+	<open>1</open>
+	<gx:CascadingStyle kml:id="__managed_style_138427420C2F53BFFD75">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffc06b5c</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4026a7ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_002C1502D02F53BFFD64">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_11541B49492F53BFFD72">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=ffa726<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_38DB9FFF832F53BFFD62">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=f57c00<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_5ADA95CE262F53BFFD71">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=7b1fa2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_21EB76C12C2F53BFFD62">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=f57c00<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_4B4CA997762F53BFFD71">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=7b1fa2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_5B833BE2312F53BFFD72">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffa21f7b</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_2D694F73B82F53BFFD70">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffa21f7b</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_1897644E7E2F53BFFD70">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffa21f7b</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>405053ef</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_52707DC30F2F53BFFD63">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=000000<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_42ED1688012F53BFFD63">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=000000<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_513F11D7D92F53BFFD73">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_21EF453AC72F53BFFD74">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=bdbdbd<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_5177F4DABC2F53BFFD5C">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=757575<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_266B97B5F22F53BFFD71">
+		<Style>
+			<IconStyle>
+				<scale>1.8</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=42a5f5<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.5</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_75B4828B0B2F53BFFD70">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>fffb932d</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_1CA13C6DE12F53BFFD73">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9aa626</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_19AD0948BC2F53BFFD6F">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>40f5a542</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_840629F4F12F53BFFD5C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=26a69a<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_1DE3783E532F53BFFD71">
+		<Style>
+			<IconStyle>
+				<scale>1.5</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=42a5f5<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.5</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_2D5F4D211B2F53BFFD75">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffc06b5c</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4026a7ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_40139792342F53BFFD72">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffa21f7b</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_7C5CD08B312F53BFFD5C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=26a69a<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_40575DCDFD2F53BFFD6F">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff26a7ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>40007cf5</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_4D89CF9DB92F53BFFD5C">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=757575<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_49021FDD8A2F53BFFD73">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2f2fd3</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_20F85BE30D2F53BFFD73">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff9aa626</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_12311E36502F53BFFD5B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_82E61F99B22F53BFFD70">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>fffb932d</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_5B397AAB192F53BFFD74">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=303f9f<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_203264A25C2F53BFFD5B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_44D3874A312F53BFFD74">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=303f9f<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_211B2AE1F32F53BFFD72">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=ffa726<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_123962A4DD2F53BFFD59">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_59F6EF07762F53BFFD6F">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff26a7ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40007cf5</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_5365F248242F53BFFD6E">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40bdbdbd</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_787E3787FE2F53BFFD63">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_48625B5D3A2F53BFFD70">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6abb66</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>406abb66</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_2FB3AB59802F53BFFD5C">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff58eeff</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_4C63A36CEA2F53BFFD5B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff26a7ff</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_5028186F652F53BFFD5B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff26a7ff</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_47901E98202F53BFFD6E">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>40bdbdbd</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_1D8EB777ED2F53BFFD5C">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff58eeff</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_1EEE5D88532F53BFFD58">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_246D3987812F53BFFD6F">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ffd27619</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40f5a542</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_21CC2EB5142F53BFFD59">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_186C6E3CEE2F53BFFD74">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=bdbdbd<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_5AAC182E732F53BFFD70">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6abb66</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>406abb66</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle><gx:CascadingStyle kml:id="__managed_style_215B27F0E62F53BFFD58">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2<![CDATA[&]]>id=2000<![CDATA[&]]>scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"></hotSpot>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Schema name="__managed_schema" id="__managed_schema">
+		<SimpleField type="int" name="0C44CC6C102F53B6B23A"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="055E0EEBA42F28307648"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0B978CAB192F28115892"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0538B735F22F2808CC26"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0A41AE280D2F280533F8"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="068540DF562F26CCF49C"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0396AEBBF12F26B792BE"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0F2061104E2F26B6EAEA"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="06F3D467782F26B4445A"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0A196B770C2F26B3D5F2"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0EF56A89222F26B34488"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0F00C854412F26B2E3CB"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="05824E4E672F102ED6EE"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0FA081DCFB2F102E6B53"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0A4CBA602D2F102E2962"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0B0E139B262F102DD941"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="09FB84F8622F102CDDF4"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="02614C8B0C2F102BB8E1"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="035CD10D6A2F102B8511"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="00E3248D2E2F102A3FDB"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0EC022BC352EE2FAF2FA"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0D317DC5EE2EE2F75612"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0FF199FC962EE2F20145"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0A1C42C88D2EE2F0B5CD"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="06DE17A4CD2EE2EF458C"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="0095B76BD62EE2EEAE3E"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="00687F526C2EE2EE80F8"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="017F7441B22EE2EDF713"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+		<SimpleField type="int" name="085FB70DD62EE2ED6B06"><displayName>Accuracy (m)</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="__managed_style_01E9DE66062F53BFFD70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed44</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_05C3EF58D62F53BFFD5B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed33</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed37</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_05C3EF58D62F53BFFD5B1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_05C3EF58D62F53BFFD5B0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed54</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_06AD4EA42A2F53BFFD59">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed47</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0A72E7ED3B2F53BFFD74">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_186C6E3CEE2F53BFFD74</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21EF453AC72F53BFFD74</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0D59BC85CD2F53BFFD580">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1EEE5D88532F53BFFD58</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_215B27F0E62F53BFFD58</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0D59BC85CD2F53BFFD58">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed51</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0E374655672F53BFFD71">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1DE3783E532F53BFFD71</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_266B97B5F22F53BFFD71</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD700">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed32</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD7013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD705">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed39</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD7012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD701">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed38</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed43</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD7014">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD7011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed49</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD7010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed46</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD7015">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed45</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD704">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD709">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed52</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD708">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD707">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed53</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD706">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed42</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD702">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3388DAE0282F53BFFD703">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3A7FC464752F53BFFD74">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_44D3874A312F53BFFD74</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_5B397AAB192F53BFFD74</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3B249C81192F53BFFD720">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3B249C81192F53BFFD72">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed48</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3B249C81192F53BFFD721">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed35</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_3B249C81192F53BFFD722">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_653444857F2F53BFFD70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed27</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed29</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_6E29400A852F53BFFD5C">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_7C5CD08B312F53BFFD5C</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_840629F4F12F53BFFD5C</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed41">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed40">
+		<PolyStyle>
+			<color>6600eee9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed8">
+		<PolyStyle>
+			<color>6600eee9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed7">
+		<PolyStyle>
+			<color>66ff0065</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed43">
+		<PolyStyle>
+			<color>66f6005f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed44">
+		<PolyStyle>
+			<color>661c15ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed6">
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed9">
+		<PolyStyle>
+			<color>661c15ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed45">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed5">
+		<PolyStyle>
+			<color>660076fa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed39">
+		<PolyStyle>
+			<color>660088f8</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed46">
+		<PolyStyle>
+			<color>669800ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed42">
+		<PolyStyle>
+			<color>660800ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed37">
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed47">
+		<IconStyle>
+			<color>fffff900</color>
+		</IconStyle>
+	</Style>
+	<Style id="failed10">
+		<PolyStyle>
+			<color>66f6005f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed36">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed11">
+		<PolyStyle>
+			<color>66ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed48">
+		<PolyStyle>
+			<color>66ff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed35">
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed49">
+		<PolyStyle>
+			<color>66f60065</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed12">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed34">
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed38">
+		<PolyStyle>
+			<color>66f6005f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed50">
+		<PolyStyle>
+			<color>66f60065</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed13">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed4">
+		<PolyStyle>
+			<color>660076fa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed33">
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed14">
+		<PolyStyle>
+			<color>66f6005f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed51">
+		<PolyStyle>
+			<color>660000ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed15">
+		<PolyStyle>
+			<color>660084f9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed32">
+		<PolyStyle>
+			<color>660076fa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed16">
+		<PolyStyle>
+			<color>660084f9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed52">
+		<PolyStyle>
+			<color>66f6005f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed17">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed3">
+		<PolyStyle>
+			<color>66ff0065</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed18">
+		<PolyStyle>
+			<color>660076fa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed19">
+		<PolyStyle>
+			<color>66f6005f</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed53">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed2">
+		<PolyStyle>
+			<color>660084f9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed20">
+		<PolyStyle>
+			<color>6600eee9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed31">
+		<PolyStyle>
+			<color>660800ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed30">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed21">
+		<IconStyle>
+			<color>fffff900</color>
+		</IconStyle>
+	</Style>
+	<Style id="failed54">
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed29">
+		<PolyStyle>
+			<color>66ff005e</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed28">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed27">
+		<PolyStyle>
+			<color>66ff005e</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed22">
+		<PolyStyle>
+			<color>669800ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed1">
+		<PolyStyle>
+			<color>660076fa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed26">
+		<PolyStyle>
+			<color>6600eee9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed0">
+		<PolyStyle>
+			<color>6600ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed23">
+		<PolyStyle>
+			<color>6600d9ed</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed">
+		<PolyStyle>
+			<color>660088f8</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed25">
+		<PolyStyle>
+			<color>660084f9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="failed24">
+		<PolyStyle>
+			<color>660076fa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin19">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin17</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin19</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin18</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin16">
+		<IconStyle>
+			<color>ff06ff21</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin8">
+		<IconStyle>
+			<color>ff336699</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin13">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<color>ff9469ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin17">
+		<IconStyle>
+			<color>ffcf56fe</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin15">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin18">
+		<IconStyle>
+			<color>ff0880fd</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin19">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<color>ff336699</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<color>ff0affff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin14">
+		<IconStyle>
+			<color>ff0067ff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin12">
+		<IconStyle>
+			<color>ff336699</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<color>ff0880fd</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<color>ff008afc</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<color>ff008afc</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin16">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<color>ffcf56fe</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin15">
+		<IconStyle>
+			<color>ff06ff21</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin17">
+		<IconStyle>
+			<color>ff0880fd</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin14">
+		<IconStyle>
+			<color>ff336699</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<color>ff336699</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<color>ff336699</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin12">
+		<IconStyle>
+			<color>ffffff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin18">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<color>ff0880fd</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<color>ff9469ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin13">
+		<IconStyle>
+			<color>ff0affff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin19">
+		<IconStyle>
+			<color>ff0067ff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+	</Style>
+	<Placemark>
+		<name>Health and Wellness</name>
+		<styleUrl>#__managed_style_3388DAE0282F53BFFD7010</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-98.35392273709776,30.78995187542728,0 -98.35478683031971,30.78998653982782,0 -98.35568260842435,30.79030170605296,0 -98.35635972107072,30.78996921815196,0 -98.3565002144579,30.78984833592605,0 -98.35655166349085,30.78928492561877,0 -98.35664809054947,30.78877337419638,0 -98.35612959495288,30.78825495766784,0 -98.35570726589165,30.78602951047689,0 -98.35543458794757,30.78594073250557,0 -98.35459555907605,30.7869459620158,0 -98.35401167247835,30.78842242946629,0 -98.35424740101359,30.78880803490553,0 -98.35392273709776,30.78995187542728,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark>
+		<name>Health and Wellness</name>
+		<LookAt>
+			<longitude>-98.35411268780418</longitude>
+			<latitude>30.78915038354451</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0003361516901827025</heading>
+			<tilt>0</tilt>
+			<range>1069.911217636982</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin19</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35503770674178,30.78936322623001,0</coordinates>
+		</Point>
+	</Placemark>
+	<Folder id="0A176949332F29F9F3CE">
+		<name>Festival Areas</name>
+		<styleUrl>#__managed_style_0D59BC85CD2F53BFFD580</styleUrl>
+		<Placemark id="012528BB2B2F280A13EB">
+			<name>The Cosmic Experience</name>
+			<LookAt>
+				<longitude>-98.34958704117415</longitude>
+				<latitude>30.7952940210746</latitude>
+				<altitude>305.1334930380511</altitude>
+				<heading>351.1582005677054</heading>
+				<tilt>0</tilt>
+				<range>757.4547014833661</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_0D59BC85CD2F53BFFD58</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34989631237974,30.79520826501836,0 -98.35015829601178,30.79493783370549,0 -98.35017080330641,30.79453863313385,0 -98.3500257860773,30.79394564705834,0 -98.35003306684369,30.79296345170131,0 -98.35060330979793,30.79225878225331,0 -98.34864479074241,30.79222051600842,0 -98.34729669108907,30.79226704197476,0 -98.34747576190108,30.79272452954883,0 -98.34797891691781,30.79411804565542,0 -98.34819458553028,30.79464659938881,0 -98.34843141797495,30.79510370606742,0 -98.34886613112239,30.79522160664501,0 -98.34953261517339,30.79527507711254,0 -98.34989631237974,30.79520826501836,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="02DEFE934A2EE2F8B016">
+			<name>Earth Village</name>
+			<LookAt>
+				<longitude>-98.35359845512808</longitude>
+				<latitude>30.79225246725047</latitude>
+				<altitude>307.8892896299216</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>3184.37890539528</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD706</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35543714718573,30.79391674358178,0 -98.35612652115043,30.79078108548962,0 -98.35522789627147,30.79099930428664,0 -98.35346078583615,30.79196146250711,0 -98.35372460649366,30.79356344300001,0 -98.35431930109254,30.79384344487091,0 -98.35543714718573,30.79391674358178,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="0CB73E4D362EE2F7F223">
+			<name>Visions of the Future</name>
+			<LookAt>
+				<longitude>-98.35325160616159</longitude>
+				<latitude>30.79668760435956</latitude>
+				<altitude>329.5618871183053</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>3162.70618120674</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_01E9DE66062F53BFFD70</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35509957372952,30.79386930677738,0 -98.35426816629361,30.79384669276485,0 -98.35399738025407,30.79550733337299,0 -98.35440217552446,30.79584632497585,0 -98.3541157172203,30.79677500725925,0 -98.35466251809397,30.79706194978463,0 -98.35532642905694,30.79586229392388,0 -98.35542195175799,30.79390416881781,0 -98.35509957372952,30.79386930677738,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="0D575FBA892EE2F6CEE8">
+			<name>Festival area</name>
+			<LookAt>
+				<longitude>-98.35337019897371</longitude>
+				<latitude>30.79657172327853</latitude>
+				<altitude>331.9797805560675</altitude>
+				<heading>359.9999999998815</heading>
+				<tilt>0</tilt>
+				<range>2204.58965176862</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_3B249C81192F53BFFD721</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35396314062986,30.79549447737745,0 -98.35428878302426,30.79381787823552,0 -98.35371268567394,30.79354667746919,0 -98.35344104255495,30.79192298234626,0 -98.35245542605254,30.79201549088159,0 -98.35154691975232,30.79179095576108,0 -98.35064770351383,30.79221477740529,0 -98.3500337545524,30.79298160143516,0 -98.35003610629634,30.79376229905817,0 -98.35006704594439,30.79420592494002,0 -98.35018567379197,30.79472705916364,0 -98.35092385886992,30.79471247064595,0 -98.35103596845993,30.79449987007706,0 -98.35173374780275,30.79451889111366,0 -98.35256049675017,30.79484687483957,0 -98.35314732499984,30.79523871795931,0 -98.35319372879735,30.79565429530803,0 -98.35292902294945,30.79586472226191,0 -98.35262959390631,30.79566467027029,0 -98.35228075041744,30.79609597615883,0 -98.35260220542833,30.79636975208188,0 -98.35359122117625,30.79647153434058,0 -98.35410024265811,30.79682282197806,0 -98.35438978616284,30.79585362397944,0 -98.35396314062986,30.79549447737745,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Entrances</name>
+		<Placemark id="0E9D4096182F28115886">
+			<name>Production Road/ Artist Entrance</name>
+			<LookAt>
+				<longitude>-98.34787521214564</longitude>
+				<latitude>30.80623907127429</latitude>
+				<altitude>357.26778778262</altitude>
+				<heading>357.1448819288536</heading>
+				<tilt>0</tilt>
+				<range>2538.155728288984</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_6E29400A852F53BFFD5C</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="0B978CAB192F28115892">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-98.34496533960937,30.80775326126695,371.4101400202527</coordinates>
+			</Point>
+			<gx:Carousel>
+				<gx:Image kml:id="hosted_image_QUhVR0tncC8zZE5XSjVjdjg2ZHBXejVXd09JdnNhYU52QkhkWE5oYnFieVpPZXo0NWlxcC93cHhYcjcwQVhoclpOMThZdkh2ekM4S3lsOVFkSS84UGNiQmtoZnBnNTRsYjBZeW1VSHYyVFM2N2luMnQxR1g0SGNlUmgrdm9ZKzlObHFZY3lPaStZTjdFQUZ6VFFVNW5adUdGWDQrdTJaMTlsM0Q1VFRIODhZRElHK2YzNGQ2aHZCa2FVU3FpT2RLTkZ0SzhjNTlGcVR2S3RZKzY2SWNBZHNPbDJCWjExWnhuQUt1a0xtSzcwNEJ3dk5rc2g2dFpBTWJHZXJIVWREaGJhSjZyV0ZzakphcEZ0N1BiK1AzWEpDK1hGa1I3RFNWTHh0UQ">
+					<gx:ImageUrl>https://doc-0k-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/hbb4nsjq4ge205kkfba3cmr1c8/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgpd4JGH4mMGjz-4hDlqBkdAf2-1iefSFLXcvpWe_aN4yHOIYyCQclcEQzV-qlMPK9TA-Z6u_TvsB0i5aUQBnHvJW-yW7E9TiEgXoMmMQG0UQV4lQ4ct7qSSzQ6kfJ3CpVIjOcM56FOH8eWRiC7-Qt3YhZrBlhWSKdX5XwipMhZUS-2jjqPK_86DEJA3z3ELFi2XSsyzL9Kh5-8KLtwtK3DjyE3e_Hc__xW7b1k8-hZKZL2-5w?fife=s{size}</gx:ImageUrl>
+				</gx:Image>
+			</gx:Carousel>
+		</Placemark>
+		<Placemark id="05A7AD6BE72F26CCF48D">
+			<name>Emergency exit</name>
+			<LookAt>
+				<longitude>-98.35141744796987</longitude>
+				<latitude>30.81020998583323</latitude>
+				<altitude>357.5325102456538</altitude>
+				<heading>25.06251151945909</heading>
+				<tilt>0</tilt>
+				<range>1027.144797534565</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_0A72E7ED3B2F53BFFD74</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="068540DF562F26CCF49C">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-98.35053168282911,30.81108186072736,357.5964557130525</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="08DCC9C3FF2F26CBE238">
+			<name>RV/ Shuttle entry</name>
+			<LookAt>
+				<longitude>-98.34677708101563</longitude>
+				<latitude>30.80877907289057</latitude>
+				<altitude>369.6128066862188</altitude>
+				<heading>25.06490940996805</heading>
+				<tilt>0</tilt>
+				<range>459.9374405752314</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_3A7FC464752F53BFFD74</styleUrl>
+			<Point>
+				<coordinates>-98.34677708101563,30.80877907289057,369.6128066862188</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0DCE5043192F102CDDED">
+			<name>Main Entrance</name>
+			<LookAt>
+				<longitude>-98.35021830252504</longitude>
+				<latitude>30.81078942508539</latitude>
+				<altitude>357.8827834064832</altitude>
+				<heading>11.19585334187671</heading>
+				<tilt>60.00015711739045</tilt>
+				<range>322.146380605409</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_0E374655672F53BFFD71</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#__managed_schema">
+					<SimpleData name="09FB84F8622F102CDDF4">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<extrude>1</extrude>
+				<coordinates>-98.34932590456931,30.81042981521318,357.0871883315834</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Water Stations</name>
+		<Placemark>
+			<name>Water</name>
+			<LookAt>
+				<longitude>-98.35247389038608</longitude>
+				<latitude>30.7934725359012</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004475621300103104</heading>
+				<tilt>0</tilt>
+				<range>1372.336262223527</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin16</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35597289987712,30.79258661967532,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Water</name>
+			<LookAt>
+				<longitude>-98.35247389038608</longitude>
+				<latitude>30.7934725359012</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0004475621300103104</heading>
+				<tilt>0</tilt>
+				<range>1372.336262223527</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin16</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35141458044875,30.79424108065034,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Water</name>
+			<LookAt>
+				<longitude>-98.35219911734741</longitude>
+				<latitude>30.79385611646614</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003089629418334864</heading>
+				<tilt>0</tilt>
+				<range>1292.10537628055</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3497961123051,30.79402520846003,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0475846EAB2F29FACADC">
+		<name>Food</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0D59BC85CD2F53BFFD580</styleUrl>
+		<Placemark>
+			<name>Food</name>
+			<LookAt>
+				<longitude>-98.35201518865225</longitude>
+				<latitude>30.79274484958745</latitude>
+				<altitude>0</altitude>
+				<heading>-0.000219092484144933</heading>
+				<tilt>0</tilt>
+				<range>1086.03001849637</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35588072297824,30.79301829983631,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food</name>
+			<LookAt>
+				<longitude>-98.35053095495377</longitude>
+				<latitude>30.79460284056604</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005408441271784545</heading>
+				<tilt>0</tilt>
+				<range>1082.643685035784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35496667118959,30.79710327108111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food</name>
+			<LookAt>
+				<longitude>-98.35053095495377</longitude>
+				<latitude>30.79460284056604</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005408441271784545</heading>
+				<tilt>0</tilt>
+				<range>1082.643685035784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35330131788201,30.79519297274348,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food</name>
+			<LookAt>
+				<longitude>-98.35053095495377</longitude>
+				<latitude>30.79460284056604</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005408441271784545</heading>
+				<tilt>0</tilt>
+				<range>1082.643685035784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3506101821191,30.793868874548,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food</name>
+			<LookAt>
+				<longitude>-98.34753202491042</longitude>
+				<latitude>30.79435508517246</latitude>
+				<altitude>0</altitude>
+				<heading>0.001323547520725094</heading>
+				<tilt>9.862485309006173</tilt>
+				<range>1210.57021549455</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34923732751075,30.79348948417911,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Food</name>
+			<LookAt>
+				<longitude>-98.35219911734741</longitude>
+				<latitude>30.79385611646614</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003089629418334864</heading>
+				<tilt>0</tilt>
+				<range>1292.10537628055</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3526297732368,30.79461329098781,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0F16194B5A2F29FAE5F1">
+		<name>Vendors</name>
+		<styleUrl>#__managed_style_0D59BC85CD2F53BFFD580</styleUrl>
+		<Placemark>
+			<name>Vendors</name>
+			<LookAt>
+				<longitude>-98.35158722963618</longitude>
+				<latitude>30.79468831881993</latitude>
+				<altitude>0</altitude>
+				<heading>8.934178100231018e-12</heading>
+				<tilt>0</tilt>
+				<range>1072.788895874559</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35342504244215,30.79633829883051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vendors</name>
+			<LookAt>
+				<longitude>-98.35158722963618</longitude>
+				<latitude>30.79468831881993</latitude>
+				<altitude>0</altitude>
+				<heading>8.934178100231018e-12</heading>
+				<tilt>0</tilt>
+				<range>1072.788895874559</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35094545847919,30.79428694029543,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vendors</name>
+			<LookAt>
+				<longitude>-98.35158722963618</longitude>
+				<latitude>30.79468831881993</latitude>
+				<altitude>0</altitude>
+				<heading>8.934178100231018e-12</heading>
+				<tilt>0</tilt>
+				<range>1072.788895874559</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34816496709286,30.79352501852852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vendors</name>
+			<LookAt>
+				<longitude>-98.35219911734741</longitude>
+				<latitude>30.79385611646614</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0003089629418334864</heading>
+				<tilt>0</tilt>
+				<range>1292.10537628055</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35221261668927,30.79452189421192,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="03C5C8F8BA2F29FB8852">
+		<name>First Aid</name>
+		<styleUrl>#__managed_style_0D59BC85CD2F53BFFD580</styleUrl>
+		<Placemark>
+			<name>First Aid</name>
+			<LookAt>
+				<longitude>-98.35171076082638</longitude>
+				<latitude>30.79460764519455</latitude>
+				<altitude>0</altitude>
+				<heading>-6.640787463148176e-09</heading>
+				<tilt>3.822837384645156</tilt>
+				<range>979.3967355897996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3527531432355,30.79480208068258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>First Aid</name>
+			<LookAt>
+				<longitude>-98.35171076082638</longitude>
+				<latitude>30.79460764519455</latitude>
+				<altitude>0</altitude>
+				<heading>-6.640787463148176e-09</heading>
+				<tilt>3.822837384645156</tilt>
+				<range>979.3967355897996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35044450818023,30.79375782074076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>First Aid</name>
+			<LookAt>
+				<longitude>-98.35171076082638</longitude>
+				<latitude>30.79460764519455</latitude>
+				<altitude>0</altitude>
+				<heading>-6.640787463148176e-09</heading>
+				<tilt>3.822837384645156</tilt>
+				<range>979.3967355897996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34852598660575,30.7943858718746,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Restrooms</name>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35143035389963</longitude>
+				<latitude>30.78986017529981</latitude>
+				<altitude>0</altitude>
+				<heading>0.3434693916086493</heading>
+				<tilt>4.223472684384711</tilt>
+				<range>1135.237301670065</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35494267933164,30.78866337659445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34573136443636</longitude>
+				<latitude>30.79203889046278</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002875845572727351</heading>
+				<tilt>20.55699307439943</tilt>
+				<range>1636.748499693996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35164158973657,30.79122564391858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34573136443636</longitude>
+				<latitude>30.79203889046278</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002875845572727351</heading>
+				<tilt>20.55699307439943</tilt>
+				<range>1636.748499693996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34843366393027,30.78877526001467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34341818038448</longitude>
+				<latitude>30.79434238260557</latitude>
+				<altitude>0</altitude>
+				<heading>0.0008967276184814957</heading>
+				<tilt>20.55695897161652</tilt>
+				<range>1625.93658260089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34311318217759,30.79663066650736,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34424766021064</longitude>
+				<latitude>30.79300333159449</latitude>
+				<altitude>0</altitude>
+				<heading>0.0037620949595225</heading>
+				<tilt>0</tilt>
+				<range>1289.160330758246</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34244255517493,30.79517268811417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34757846208842</longitude>
+				<latitude>30.79605270415793</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001403001732826671</heading>
+				<tilt>13.6550121765913</tilt>
+				<range>1460.886418441372</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35078881240106,30.79830573290677,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34341818038448</longitude>
+				<latitude>30.79434238260557</latitude>
+				<altitude>0</altitude>
+				<heading>0.0008967276184814957</heading>
+				<tilt>20.55695897161652</tilt>
+				<range>1625.93658260089</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34767472232566,30.79602033757691,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.3421303754144</longitude>
+				<latitude>30.79348625841173</latitude>
+				<altitude>0</altitude>
+				<heading>0.001556234626506234</heading>
+				<tilt>20.55693078424063</tilt>
+				<range>1617.000272067171</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.33761411044354,30.79145342962376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.3421303754144</longitude>
+				<latitude>30.79348625841173</latitude>
+				<altitude>0</altitude>
+				<heading>0.001556234626506234</heading>
+				<tilt>20.55693078424063</tilt>
+				<range>1617.000272067171</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34213049849248,30.79129294130469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.3421303754144</longitude>
+				<latitude>30.79348625841173</latitude>
+				<altitude>0</altitude>
+				<heading>0.001556234626506234</heading>
+				<tilt>20.55693078424063</tilt>
+				<range>1617.000272067171</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34309913458804,30.79052071750811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34405059705497</longitude>
+				<latitude>30.79137683592167</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005731591069286061</heading>
+				<tilt>20.55697184457484</tilt>
+				<range>1630.018093150137</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34522805717184,30.79025238097501,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34405059705497</longitude>
+				<latitude>30.79137683592167</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005731591069286061</heading>
+				<tilt>20.55697184457484</tilt>
+				<range>1630.018093150137</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.33976532907919,30.79279309217355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.34573136443636</longitude>
+				<latitude>30.79203889046278</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0002875845572727351</heading>
+				<tilt>20.55699307439943</tilt>
+				<range>1636.748499693996</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35007192328193,30.79000465612273,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35053095495377</longitude>
+				<latitude>30.79460284056604</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005408441271784545</heading>
+				<tilt>0</tilt>
+				<range>1082.643685035784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34831474279189,30.7945490946575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35380190091664</longitude>
+				<latitude>30.79237947842017</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005190464179400807</heading>
+				<tilt>28.90200077771261</tilt>
+				<range>855.639075802779</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35088022886279,30.79230207060069,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35380190091664</longitude>
+				<latitude>30.79237947842017</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005190464179400807</heading>
+				<tilt>28.90200077771261</tilt>
+				<range>855.639075802779</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35332900471917,30.79199868243164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35380190091664</longitude>
+				<latitude>30.79237947842017</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005190464179400807</heading>
+				<tilt>28.90200077771261</tilt>
+				<range>855.639075802779</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35470501797042,30.79133377650679,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35300635744956</longitude>
+				<latitude>30.79240960686559</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004012185569363829</heading>
+				<tilt>20.55700829941933</tilt>
+				<range>1641.576053810208</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35882957908419,30.7902080251504,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35300635744956</longitude>
+				<latitude>30.79240960686559</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004012185569363829</heading>
+				<tilt>20.55700829941933</tilt>
+				<range>1641.576053810208</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.359103567796,30.79252319246442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35300635744956</longitude>
+				<latitude>30.79240960686559</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004012185569363829</heading>
+				<tilt>20.55700829941933</tilt>
+				<range>1641.576053810208</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35592800224603,30.79185204708164,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35300635744956</longitude>
+				<latitude>30.79240960686559</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004012185569363829</heading>
+				<tilt>20.55700829941933</tilt>
+				<range>1641.576053810208</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35507744568052,30.79316889379873,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35338919524814</longitude>
+				<latitude>30.7955801909616</latitude>
+				<altitude>0</altitude>
+				<heading>3.424845327981357e-05</heading>
+				<tilt>0</tilt>
+				<range>1035.931398488404</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35527533457194,30.79538819100292,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35754540198951</longitude>
+				<latitude>30.79653166563106</latitude>
+				<altitude>0</altitude>
+				<heading>-0.006330537551864973</heading>
+				<tilt>20.60107404931444</tilt>
+				<range>2041.307364686788</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.36562934401029,30.79587382995708,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35257593220484</longitude>
+				<latitude>30.80172825450437</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003786928418128812</heading>
+				<tilt>20.60116036310869</tilt>
+				<range>2074.810300465348</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35665275870807,30.80332881577185,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35257593220484</longitude>
+				<latitude>30.80172825450437</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003786928418128812</heading>
+				<tilt>20.60116036310869</tilt>
+				<range>2074.810300465348</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35333364067583,30.80647384581355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35437700224675</longitude>
+				<latitude>30.7993195335433</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004821348174570704</heading>
+				<tilt>24.27287214651455</tilt>
+				<range>1784.959927333613</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35386777377478,30.80318370584295,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35284530361963</longitude>
+				<latitude>30.79521726250431</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003906649858318857</heading>
+				<tilt>21.52542154826735</tilt>
+				<range>1628.648613077487</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3535688338323,30.79902952926549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35455206370862</longitude>
+				<latitude>30.79619100421002</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004782093098890824</heading>
+				<tilt>22.7099410569471</tilt>
+				<range>1865.718944159307</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35650902849522,30.79827330643444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35455206370862</longitude>
+				<latitude>30.79619100421002</latitude>
+				<altitude>0</altitude>
+				<heading>-0.004782093098890824</heading>
+				<tilt>22.7099410569471</tilt>
+				<range>1865.718944159307</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35721659672747,30.79581650000176,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35158722963618</longitude>
+				<latitude>30.79468831881993</latitude>
+				<altitude>0</altitude>
+				<heading>8.934178100231018e-12</heading>
+				<tilt>0</tilt>
+				<range>1072.788895874559</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35301828699464,30.79621775088981,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35053095495377</longitude>
+				<latitude>30.79460284056604</latitude>
+				<altitude>0</altitude>
+				<heading>0.0005408441271784545</heading>
+				<tilt>0</tilt>
+				<range>1082.643685035784</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34984883209249,30.79414871611874,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Restroom</name>
+			<LookAt>
+				<longitude>-98.35338919524814</longitude>
+				<latitude>30.7955801909616</latitude>
+				<altitude>0</altitude>
+				<heading>3.424845327981357e-05</heading>
+				<tilt>0</tilt>
+				<range>1035.931398488404</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35510689456754,30.79621053097879,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Park and Camp</name>
+		<open>1</open>
+		<Placemark>
+			<name>Hillside Camp</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD7014</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35286545142294,30.79169483476469,0 -98.35172473121372,30.7905134329142,0 -98.35244022236526,30.78952653961733,0 -98.35119330621708,30.78849131976699,0 -98.35006150966449,30.78978483956334,0 -98.35036151310057,30.79008712968642,0 -98.34902788779071,30.79217810127624,0 -98.35060904466199,30.79214830059368,0 -98.35114483554143,30.79190258418867,0 -98.35177281665287,30.79130911210491,0 -98.35286545142294,30.79169483476469,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Park and Camp</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD705</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.3418252091861,30.79462013303739,0 -98.34113844125235,30.79516365111403,0 -98.3416514882871,30.79592024717435,0 -98.34547039839082,30.79826714028251,0 -98.34845022738264,30.7985657905659,0 -98.34882269248041,30.79784059989698,0 -98.34373598414199,30.79638392659912,0 -98.3418252091861,30.79462013303739,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Park and Camp</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD702</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35092218864018,30.79837185789665,0 -98.35026536658032,30.79904621526748,0 -98.35108517231613,30.7997952657096,0 -98.35250192569492,30.80011520697857,0 -98.35309815797049,30.79958126632535,0 -98.35232452657149,30.79860308973871,0 -98.35092218864018,30.79837185789665,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Crossover Park and Camp</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD708</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34450043243096,30.79329495087282,0 -98.34465828876614,30.79192419057908,0 -98.34513180360837,30.79162460570738,0 -98.34216285501056,30.79150869844908,0 -98.34208352536292,30.79234157079813,0 -98.34450043243096,30.79329495087282,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Canyon Lake Park and Camp</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD700</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34310532894931,30.79076574165578,0 -98.34319106086458,30.78991816364129,0 -98.3427696388791,30.7898922412684,0 -98.34227002208203,30.78959650990673,0 -98.34209965195851,30.78955717395031,0 -98.34141808191947,30.78962111019973,0 -98.34120347268693,30.79006869858017,0 -98.34107841210566,30.79061618001514,0 -98.3421880703055,30.7908325918908,0 -98.34215697362042,30.79150015544555,0 -98.34323869795774,30.79156010066061,0 -98.34310532894931,30.79076574165578,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Far out Park and Camp</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD703</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34208373518825,30.7923331602883,0 -98.34219168512367,30.79082218496787,0 -98.34117605685211,30.79063972378517,0 -98.34032345237314,30.79056794583115,0 -98.34031351554363,30.78966180873369,0 -98.33816495650818,30.78938894094825,0 -98.33800090606471,30.79077655619694,0 -98.34000673846624,30.7922337733709,0 -98.34208373518825,30.7923331602883,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The Crossover</name>
+			<LookAt>
+				<longitude>-98.34432045868529</longitude>
+				<latitude>30.79196830803068</latitude>
+				<altitude>0</altitude>
+				<heading>0.004679101626774779</heading>
+				<tilt>5.978450473528786</tilt>
+				<range>1225.049610191116</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34384503548722,30.79220503292542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hillside</name>
+			<LookAt>
+				<longitude>-98.34746763894844</longitude>
+				<latitude>30.79130825383998</latitude>
+				<altitude>0</altitude>
+				<heading>0.00306810905752769</heading>
+				<tilt>5.978447436248716</tilt>
+				<range>1221.797930864459</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35060380099631,30.79140084550051,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Canyon Lake</name>
+			<LookAt>
+				<longitude>-98.34432045868529</longitude>
+				<latitude>30.79196830803068</latitude>
+				<altitude>0</altitude>
+				<heading>0.004679101626774779</heading>
+				<tilt>5.978450473528786</tilt>
+				<range>1225.049610191116</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34268024449464,30.79114773214928,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Far Out</name>
+			<LookAt>
+				<longitude>-98.34432045868529</longitude>
+				<latitude>30.79196830803068</latitude>
+				<altitude>0</altitude>
+				<heading>0.004679101626774779</heading>
+				<tilt>5.978450473528786</tilt>
+				<range>1225.049610191116</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34052948011144,30.79114337353582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Park and Camp</name>
+			<LookAt>
+				<longitude>-98.34813879595602</longitude>
+				<latitude>30.79673691294649</latitude>
+				<altitude>0</altitude>
+				<heading>0.00101369013533628</heading>
+				<tilt>9.862464492324627</tilt>
+				<range>1197.039214290042</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34593532823993,30.79784614928769,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Park and Camp</name>
+			<LookAt>
+				<longitude>-98.34813879595602</longitude>
+				<latitude>30.79673691294649</latitude>
+				<altitude>0</altitude>
+				<heading>0.00101369013533628</heading>
+				<tilt>9.862464492324627</tilt>
+				<range>1197.039214290042</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35177932489924,30.79938086185207,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Car Camping</name>
+		<open>1</open>
+		<Placemark>
+			<name>The Pasture Car Camping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD7015</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34987800226729,30.78977162269291,0 -98.35048883107163,30.7890927522694,0 -98.34920423470973,30.78858352907851,0 -98.34748447719659,30.78894287693402,0 -98.34702181936517,30.7921890108314,0 -98.34892124564156,30.79214794895853,0 -98.35024398709042,30.7901294638423,0 -98.34987800226729,30.78977162269291,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The Flats Car Camping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD7012</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34331890702057,30.79153050203274,0 -98.34414241462736,30.79156853964836,0 -98.34559414025667,30.79158877668111,0 -98.34698629710617,30.7921754240598,0 -98.34745273577408,30.78891061581099,0 -98.34346290099514,30.78972110643782,0 -98.34332253484236,30.79009084606087,0 -98.34520540232124,30.78987425447787,0 -98.34530545024667,30.79030944536185,0 -98.34319910369152,30.79069691319894,0 -98.34331890702057,30.79153050203274,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Horseshoe Car Camping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD70</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34666056118331,30.79204860048938,0 -98.34558220699066,30.79158450275543,0 -98.34532497086943,30.79157954318069,0 -98.34472654316417,30.79194461001081,0 -98.34452978869878,30.79339008130194,0 -98.34451713404154,30.79388422608361,0 -98.34550628363937,30.79417006882743,0 -98.3456987637702,30.79446975799721,0 -98.34641325761437,30.79440250621018,0 -98.34706827359564,30.79415955422033,0 -98.34666056118331,30.79204860048938,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Grove Car Camping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD7013</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34200857309534,30.79237699887384,0 -98.34191160915483,30.79294090651418,0 -98.34159915121096,30.7943559297183,0 -98.3426906300442,30.79447746510378,0 -98.3434806985429,30.79395731302591,0 -98.3445131013207,30.79387829650796,0 -98.34453111245,30.79335317316302,0 -98.34200857309534,30.79237699887384,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Vista Car Camping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD707</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34161596895231,30.79437953491245,0 -98.34202665530611,30.79240055175689,0 -98.34001425351425,30.79237311613174,0 -98.33807325856104,30.79087737535086,0 -98.33727194983916,30.7907968394234,0 -98.33707127355277,30.79146339178569,0 -98.33803816452966,30.79230880348756,0 -98.34161596895231,30.79437953491245,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Tower Car Camping</name>
+			<styleUrl>#__managed_style_3B249C81192F53BFFD722</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35733878723606,30.79399576876174,0 -98.35574886630313,30.79327304062285,0 -98.35548311342919,30.7941158480802,0 -98.35540132601956,30.79588125247501,0 -98.35476741953308,30.79710475279945,0 -98.35501896895894,30.7981958937193,0 -98.35502373257692,30.7994290347139,0 -98.35362907699005,30.8001852781113,0 -98.35411565581857,30.80061678021655,0 -98.35151342401356,30.80458210052522,0 -98.35249324021618,30.8044579673573,0 -98.35440831024033,30.80187054374204,0 -98.35567822214043,30.80016347947251,0 -98.35634992354757,30.7997145161573,0 -98.35681425202681,30.79897872401523,0 -98.35756767333635,30.797502491361,0 -98.35770575898668,30.79577773150385,0 -98.35736683368182,30.79547016461179,0 -98.35733878723606,30.79399576876174,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Alamo Car Camping</name>
+			<styleUrl>#__managed_style_3B249C81192F53BFFD720</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.36357457660853,30.7976648376433,0 -98.3659424843496,30.79806138364373,0 -98.36556032184099,30.79198025855296,0 -98.36437000133292,30.79252542470873,0 -98.36299290386545,30.79392661373586,0 -98.3616187861213,30.79600567729235,0 -98.36024930042096,30.79805676159316,0 -98.36235828114354,30.79983487905443,0 -98.36357457660853,30.7976648376433,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The Pasture</name>
+			<LookAt>
+				<longitude>-98.34628621351121</longitude>
+				<latitude>30.79147264783638</latitude>
+				<altitude>0</altitude>
+				<heading>0.00367282635877589</heading>
+				<tilt>5.978449902960899</tilt>
+				<range>1224.440347193198</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3484952497752,30.79124333898029,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Flats</name>
+			<LookAt>
+				<longitude>-98.34540835973979</longitude>
+				<latitude>30.79134667604107</latitude>
+				<altitude>0</altitude>
+				<heading>0.004122206497507171</heading>
+				<tilt>5.978446517275753</tilt>
+				<range>1220.817450038715</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34699247328473,30.79032250879976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Tower Camp</name>
+			<LookAt>
+				<longitude>-98.35325267638736</longitude>
+				<latitude>30.79625935196039</latitude>
+				<altitude>0</altitude>
+				<heading>0.000111467951920423</heading>
+				<tilt>6.396574448021211</tilt>
+				<range>1150.149234214283</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3559316565421,30.79931506755493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Horseshoe</name>
+			<LookAt>
+				<longitude>-98.34432045868529</longitude>
+				<latitude>30.79196830803068</latitude>
+				<altitude>0</altitude>
+				<heading>0.004679101626774779</heading>
+				<tilt>5.978450473528786</tilt>
+				<range>1225.049610191116</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34597672782738,30.79328748666722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Grove</name>
+			<LookAt>
+				<longitude>-98.34432045868529</longitude>
+				<latitude>30.79196830803068</latitude>
+				<altitude>0</altitude>
+				<heading>0.004679101626774779</heading>
+				<tilt>5.978450473528786</tilt>
+				<range>1225.049610191116</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.3427648356228,30.79343571662747,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Vista</name>
+			<LookAt>
+				<longitude>-98.33835991719829</longitude>
+				<latitude>30.79320488636107</latitude>
+				<altitude>0</altitude>
+				<heading>0.006019196749664585</heading>
+				<tilt>9.862451989862237</tilt>
+				<range>1188.91389264608</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34115000123406,30.79311185322228,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Alamo Camp</name>
+			<LookAt>
+				<longitude>-98.3601078044849</longitude>
+				<latitude>30.79621024362818</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003416122849521122</heading>
+				<tilt>10.62065645927547</tilt>
+				<range>1716.517515376125</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.36362890852494,30.79622903490904,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Glamping</name>
+		<open>1</open>
+		<Placemark>
+			<name>Glamping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD704</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35163806540679,30.7975164478331,0 -98.35006506152168,30.79662376532866,0 -98.34977065675501,30.79677269037312,0 -98.34906191695762,30.7975254374989,0 -98.34875734516775,30.79861401442311,0 -98.34893826944207,30.79889832973314,0 -98.34951599933592,30.79918970602882,0 -98.35011126845835,30.79906388726607,0 -98.35163806540679,30.7975164478331,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark id="04402720932F257EB5DD">
+			<name>Glamping</name>
+			<LookAt>
+				<longitude>-98.3593259106822</longitude>
+				<latitude>30.79669770265206</latitude>
+				<altitude>336.7811904541339</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>1235.313849921949</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_05C3EF58D62F53BFFD5B1</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35938742134653,30.79676011911626,0 -98.36051174974236,30.79547989208974,0 -98.36056478562458,30.7953100703619,0 -98.36047786794506,30.79316783774231,0 -98.360361010174,30.78973891552125,0 -98.35858404250396,30.78959864279179,0 -98.35752081572356,30.79283323856408,0 -98.35747222485635,30.79551456571718,0 -98.35938742134653,30.79676011911626,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<gx:Carousel>
+				<gx:Image kml:id="hosted_image_QUhVR0tncHRjQ3hjTG4xTGxNS0lhSUh1bjllQi9tQkMwa3BpZ2tiRTdxL1BqZXZ5VUZpQ0JYdHBtcktoVlZtZUthTnVWQXkyUG5XMStjTFNKbVluTys2MlRzZVVyLzltclVBMSswTHJPcVJaV3gvWWU3bmZlYUpnaDFiaWtKQ1E1cUttTGo4OHNOV3VpN0NrNDAxQXkzb1ZHTnM3dExjVXNvd1NubzVhczg4Zm1BY1hScTVPTU9PYms3T1N2WkdvS1V3bnFtb0MxTUU1aWFERTJXWWk5V2RhOWFVUTV3ai92UWlBbHEyTWFhYnVUbndJamdmRmlhY3FCbUdtaXZZNDkyYUxhUnZRc2owU25oWFNlbDZIeGgyaEJqai9rMnV5SVR2Tg">
+					<gx:ImageUrl>https://doc-0s-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/fcopbhgoifi4l9es0clb0qmvis/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgrAqCKK8EmYOYL7l9RGTApCh5Dt4ToYbop1UCldl0t-CafQf223UlPEWyFDH78jUK8dXQFqE4hrsIEPC-cVCrsTYCaSG_gSf9qVT89B6hEIy6ld0YrRKBySyvSRrUILwTc-7Dyy7r8hLvwj4lToZtSJjBMgLJAv0LVMmlSrTZ0ZSyWvErd-SuTa0NWC4cxMOzAznPKGt1Dppe32jjueBPWWXqPN23iQ4y8dtlwiGoaqiSfiYw?fife=s{size}</gx:ImageUrl>
+				</gx:Image>
+			</gx:Carousel>
+		</Placemark>
+		<Placemark>
+			<name>Glamping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD701</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34345672639944,30.79403349120273,0 -98.34276422383627,30.79452016519113,0 -98.34191919173907,30.79451423704361,0 -98.34315000648509,30.79550450662447,0 -98.34436299448622,30.79585014088737,0 -98.34520316465643,30.7956942579835,0 -98.34590551205596,30.79508913066142,0 -98.34548505481908,30.79424823434136,0 -98.34444863890764,30.79394827896975,0 -98.34345672639944,30.79403349120273,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>The Grove Oasis</name>
+			<LookAt>
+				<longitude>-98.34813879595602</longitude>
+				<latitude>30.79673691294649</latitude>
+				<altitude>0</altitude>
+				<heading>0.00101369013533628</heading>
+				<tilt>9.862464492324627</tilt>
+				<range>1197.039214290042</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34442041982449,30.79530359043656,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Basecamp</name>
+			<LookAt>
+				<longitude>-98.35450702437264</longitude>
+				<latitude>30.79400447694389</latitude>
+				<altitude>0</altitude>
+				<heading>-0.0005485914264366696</heading>
+				<tilt>10.61982042797358</tilt>
+				<range>1211.459890798749</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35910818223792,30.79360320415571,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STARGAZER</name>
+			<LookAt>
+				<longitude>-98.34813879595602</longitude>
+				<latitude>30.79673691294649</latitude>
+				<altitude>0</altitude>
+				<heading>0.00101369013533628</heading>
+				<tilt>9.862464492324627</tilt>
+				<range>1197.039214290042</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34971837803911,30.79852003174658,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Family/Quiet Car Camping</name>
+		<styleUrl>#__managed_style_3B249C81192F53BFFD72</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-98.35469439719792,30.79711843557957,0 -98.35419223308682,30.7968774257153,0 -98.35398089661314,30.79737680407739,0 -98.35332996297343,30.79741610954877,0 -98.35284551641027,30.7981728575934,0 -98.35357173018528,30.79918515313513,0 -98.35386709606004,30.79902854706352,0 -98.35456133386481,30.79918544002853,0 -98.35498363976821,30.79942832344494,0 -98.35496407543017,30.79815130458056,0 -98.35469439719792,30.79711843557957,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Folder id="07D4D890E82F29F7733C">
+		<name>Camping Areas</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0D59BC85CD2F53BFFD580</styleUrl>
+		<Placemark id="0F1C72EAE42EE2FB685C">
+			<name>Tent camping</name>
+			<LookAt>
+				<longitude>-98.35604588923887</longitude>
+				<latitude>30.79575281507461</latitude>
+				<altitude>333.8425372958531</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<range>4277.91176432802</range>
+				<altitudeMode>absolute</altitudeMode>
+				<gx:fovy>35</gx:fovy>
+			</LookAt>
+			<styleUrl>#__managed_style_653444857F2F53BFFD70</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35766151342287,30.79753593879294,0 -98.35690438488865,30.79901174644253,0 -98.35638800568398,30.79976217771513,0 -98.35576782401675,30.80022606046319,0 -98.352170484352,30.80506334117534,0 -98.35320977132369,30.8058320775263,0 -98.35679900825491,30.80047973069369,0 -98.35843235709888,30.79925861400383,0 -98.35935449173027,30.79678317054102,0 -98.35779829675445,30.79578985254215,0 -98.35766151342287,30.79753593879294,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Group Camping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD709</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.34719969337944,30.79231386416778,0 -98.3466922437496,30.79227379460359,0 -98.34717869627868,30.79417592237715,0 -98.34672686711878,30.79492165642855,0 -98.34620155629024,30.79694930145867,0 -98.34860229277666,30.79764719077788,0 -98.3498990567191,30.79643946287301,0 -98.34975675180878,30.7961358191285,0 -98.34850896640032,30.79563147210925,0 -98.34719969337944,30.79231386416778,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Walk-In Camping</name>
+			<styleUrl>#__managed_style_3388DAE0282F53BFFD7011</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35389522092981,30.79732183908358,0 -98.35410766168447,30.79689130102405,0 -98.35357922370083,30.79654901792718,0 -98.35254672599201,30.7964254808769,0 -98.35236369854024,30.79678183162225,0 -98.35328328507043,30.79712408285746,0 -98.35389522092981,30.79732183908358,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Group Camping</name>
+			<LookAt>
+				<longitude>-98.34787479997006</longitude>
+				<latitude>30.79558998973206</latitude>
+				<altitude>0</altitude>
+				<heading>0.00286505490435975</heading>
+				<tilt>6.396596111770943</tilt>
+				<range>1171.794751492293</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34805858812386,30.79640871691867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walk-In Camp</name>
+			<LookAt>
+				<longitude>-98.3498658644699</longitude>
+				<latitude>30.79613594954768</latitude>
+				<altitude>0</altitude>
+				<heading>0.001845645814335596</heading>
+				<tilt>6.396590555432447</tilt>
+				<range>1166.245584080463</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35333994783549,30.79699830144456,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Walk-In Camp</name>
+			<LookAt>
+				<longitude>-98.35325008665468</longitude>
+				<latitude>30.79783471535298</latitude>
+				<altitude>0</altitude>
+				<heading>0.000112695260040125</heading>
+				<tilt>6.397232320347515</tilt>
+				<range>1807.727685309894</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35792198374287,30.79862011503904,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Hubs</name>
+		<Placemark>
+			<name>Hub</name>
+			<LookAt>
+				<longitude>-98.35646141066722</longitude>
+				<latitude>30.79729487545746</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002491120540414462</heading>
+				<tilt>0</tilt>
+				<range>1266.84669704227</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.36078511737803,30.79907841551954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hub</name>
+			<LookAt>
+				<longitude>-98.35510635188137</longitude>
+				<latitude>30.79681563995264</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001797317075143024</heading>
+				<tilt>0</tilt>
+				<range>1269.59331290902</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35543950994554,30.79694727046838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hub</name>
+			<LookAt>
+				<longitude>-98.34342411672927</longitude>
+				<latitude>30.79403535150288</latitude>
+				<altitude>0</altitude>
+				<heading>0.004183681712113185</heading>
+				<tilt>0</tilt>
+				<range>1277.021791226843</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34355813024602,30.79389146792903,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hub</name>
+			<LookAt>
+				<longitude>-98.34424766021064</longitude>
+				<latitude>30.79300333159449</latitude>
+				<altitude>0</altitude>
+				<heading>0.0037620949595225</heading>
+				<tilt>0</tilt>
+				<range>1289.160330758246</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34511338540426,30.79199833365546,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>RV Camping</name>
+		<open>1</open>
+		<Placemark>
+			<name>Turnkey RV Camp</name>
+			<styleUrl>#__managed_style_05C3EF58D62F53BFFD5B0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.35737012135654,30.79282452853683,0 -98.3576026592057,30.79212762587224,0 -98.35707363240523,30.79152640505071,0 -98.356019085391,30.79157863043164,0 -98.35594377953606,30.79189286335891,0 -98.35573669656409,30.79310553789013,0 -98.35732387727813,30.79387231527182,0 -98.35737012135654,30.79282452853683,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>RV Camping</name>
+			<styleUrl>#__managed_style_05C3EF58D62F53BFFD5B</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-98.3609184360644,30.7999987724447,0 -98.35943886972407,30.79859050140075,0 -98.356898301592,30.80052912869246,0 -98.35330195136288,30.80588043330497,0 -98.35741630188724,30.80872974120993,0 -98.3574366282094,30.81053357182849,0 -98.35832902429435,30.81064059741527,0 -98.35816732922225,30.80260462047386,0 -98.3609184360644,30.7999987724447,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>Turnkey RV</name>
+			<LookAt>
+				<longitude>-98.35291528293824</longitude>
+				<latitude>30.79414173535408</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002796190067189945</heading>
+				<tilt>9.575147226327857</tilt>
+				<range>1748.56868166117</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35675096222026,30.79249743738037,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RV Camp</name>
+			<LookAt>
+				<longitude>-98.35064614048203</longitude>
+				<latitude>30.80214488966347</latitude>
+				<altitude>0</altitude>
+				<heading>0.001491965262393929</heading>
+				<tilt>0.05720499605064526</tilt>
+				<range>1901.288544751296</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35864811391455,30.8006964783866,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>MEOWWOLF</name>
+		<LookAt>
+			<longitude>-98.35158722963618</longitude>
+			<latitude>30.79468831881993</latitude>
+			<altitude>0</altitude>
+			<heading>8.934178100231018e-12</heading>
+			<tilt>0</tilt>
+			<range>1072.788895874559</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin14</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35405452128744,30.79525186510604,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Multiversal Dome</name>
+		<LookAt>
+			<longitude>-98.35158722963618</longitude>
+			<latitude>30.79468831881993</latitude>
+			<altitude>0</altitude>
+			<heading>8.934178100231018e-12</heading>
+			<tilt>0</tilt>
+			<range>1072.788895874559</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin14</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35476159037398,30.79548318805753,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Kids Place</name>
+		<LookAt>
+			<longitude>-98.35158722963618</longitude>
+			<latitude>30.79468831881993</latitude>
+			<altitude>0</altitude>
+			<heading>8.934178100231018e-12</heading>
+			<tilt>0</tilt>
+			<range>1072.788895874559</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin7</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35490136391498,30.79654965258134,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>ADA Camping</name>
+		<LookAt>
+			<longitude>-98.35158722963618</longitude>
+			<latitude>30.79468831881993</latitude>
+			<altitude>0</altitude>
+			<heading>8.934178100231018e-12</heading>
+			<tilt>0</tilt>
+			<range>1072.788895874559</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin7</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35641399441492,30.79367565583824,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Shuttle Stations</name>
+		<LookAt>
+			<longitude>-98.35118060552348</longitude>
+			<latitude>30.80503243073994</latitude>
+			<altitude>0</altitude>
+			<heading>0.0002126635843337261</heading>
+			<tilt>0</tilt>
+			<range>1631.182376622857</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin19</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35383025505934,30.80687505860516,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bush Spa</name>
+		<LookAt>
+			<longitude>-98.35099370763271</longitude>
+			<latitude>30.79027912018636</latitude>
+			<altitude>0</altitude>
+			<heading>0.0003072519228152426</heading>
+			<tilt>0</tilt>
+			<range>1669.545613114583</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin19</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35589587991625,30.78869605395596,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Swim</name>
+		<LookAt>
+			<longitude>-98.35411268780418</longitude>
+			<latitude>30.78915038354451</latitude>
+			<altitude>0</altitude>
+			<heading>-0.0003361516901827025</heading>
+			<tilt>0</tilt>
+			<range>1069.911217636982</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin19</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35466283876856,30.78781447391909,0</coordinates>
+		</Point>
+	</Placemark>
+	<Folder id="0080B1B6872F29F623BA">
+		<name>Stages</name>
+		<styleUrl>#__managed_style_0D59BC85CD2F53BFFD580</styleUrl>
+		<Placemark>
+			<name>Space Stage</name>
+			<LookAt>
+				<longitude>-98.35239572977535</longitude>
+				<latitude>30.79530246267435</latitude>
+				<altitude>0</altitude>
+				<heading>-0.003925560085001016</heading>
+				<tilt>25.41684283609552</tilt>
+				<range>1270.201874860734</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_06AD4EA42A2F53BFFD59</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35441705465452,30.7966351076947,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Earth Stage</name>
+			<LookAt>
+				<longitude>-98.35380190091664</longitude>
+				<latitude>30.79237947842017</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005190464179400807</heading>
+				<tilt>28.90200077771261</tilt>
+				<range>855.639075802779</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35414271329812,30.79161506733932,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lonestar Stage</name>
+			<LookAt>
+				<longitude>-98.35380190091664</longitude>
+				<latitude>30.79237947842017</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005190464179400807</heading>
+				<tilt>28.90200077771261</tilt>
+				<range>855.639075802779</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35166165938462,30.79191209154058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eclipse Stage</name>
+			<LookAt>
+				<longitude>-98.35380190091664</longitude>
+				<latitude>30.79237947842017</latitude>
+				<altitude>0</altitude>
+				<heading>-0.005190464179400807</heading>
+				<tilt>28.90200077771261</tilt>
+				<range>855.639075802779</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35292302824237,30.79199103739504,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Moon Stage</name>
+			<LookAt>
+				<longitude>-98.34912573713839</longitude>
+				<latitude>30.79434720054857</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002796493237610064</heading>
+				<tilt>28.90197420706854</tilt>
+				<range>849.5188908143245</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin18</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.35006272613923,30.79493029503545,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sky Stage</name>
+			<LookAt>
+				<longitude>-98.34912573713839</longitude>
+				<latitude>30.79434720054857</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002796493237610064</heading>
+				<tilt>28.90197420706854</tilt>
+				<range>849.5188908143245</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin18</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34868870977304,30.79500415374534,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sun Stage</name>
+			<LookAt>
+				<longitude>-98.34912573713839</longitude>
+				<latitude>30.79434720054857</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002796493237610064</heading>
+				<tilt>28.90197420706854</tilt>
+				<range>849.5188908143245</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin18</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34855073143309,30.7931683285397,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ether Stage</name>
+			<LookAt>
+				<longitude>-98.34782827078234</longitude>
+				<latitude>30.79352465620537</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002132279301853203</heading>
+				<tilt>28.90199052145721</tilt>
+				<range>853.2766553228752</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin18</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-98.34797005198814,30.79255205784789,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>Texas Onchain</name>
+		<LookAt>
+			<longitude>-98.35338919524814</longitude>
+			<latitude>30.7955801909616</latitude>
+			<altitude>0</altitude>
+			<heading>3.424845327981357e-05</heading>
+			<tilt>0</tilt>
+			<range>1035.931398488404</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_ylw-pushpin19</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-98.35526105707794,30.79581856299737,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
