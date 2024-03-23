@@ -96,9 +96,29 @@
       transition: all 0.5s ease-in-out;
     }
 
+    .hub_circle,
+    .hub_leg,
+    .hub_label,
+    .hub_icon {
+      opacity: 0 !important;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .hub_label {
+      font-size: 12px;
+      margin-top: 0;
+    }
+
     .max-zoom-in .satellite,
     .max-zoom-in .tooltips.satellite {
       opacity: 0 !important;
+    }
+
+    .max-zoom-in .hub_circle,
+    .max-zoom-in .hub_leg,
+    .max-zoom-in .hub_label,
+    .max-zoom-in .hub_icon {
+      opacity: 1 !important;
     }
 
     /** Leaflet Controls **/

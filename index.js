@@ -1,4 +1,6 @@
 import { useSharePinModule } from "/sharePins.js"
+const TAU = Math.PI * 2 // 360 degrees, but in radians
+const DEG_45 = TAU / 8 // 45 degrees, but in radians
 
 // // // Register the service worker
 if ("serviceWorker" in navigator) {
@@ -132,6 +134,7 @@ const createHub = ({ icon, Placemark }) => {
     const name = pm.name
     const { coordinates } = pm.Point
     const [longitude, latitude] = coordinates.split(",")
+    const [y, x] = [parseFloat(longitude), parseFloat(latitude)]
     L.marker([latitude, longitude], { icon: hubIcon })
       .addTo(map)
       .bindTooltip(name, {
@@ -139,6 +142,59 @@ const createHub = ({ icon, Placemark }) => {
         permanent: true,
         className: "tooltips satellite",
       })
+
+    L.circle([latitude, longitude], {
+      radius: 5,
+      color: `#b3b3b3`,
+      weight: 2,
+      fillOpacity: 1,
+      className: "hub_circle",
+    }).addTo(map)
+
+    const angles = [45, 90, 135, 225, 270, 315]
+    const icons = [
+      { icon: "droplet", size: 16, name: "Water" },
+      { icon: "shower", size: 16, name: "Shower" },
+      { icon: "restroom", size: 16, name: "Restroom" },
+      { icon: "ambulance", size: 16, name: "First Aid" },
+      { icon: "fuelpump", size: 16, name: "Fuel" },
+      { icon: "store", size: 16, name: "General Store" },
+    ]
+
+    for (const [i, angle] of angles.entries()) {
+      const radian = angle * DEG_45
+      const legLength = 0.00026
+
+      const nextX = x + Math.cos(radian) * legLength
+      const nextY = y + Math.sin(radian) * legLength
+
+      L.polyline(
+        [
+          [latitude, longitude],
+          [nextX, nextY],
+        ],
+        {
+          color: "#b3b3b3",
+          weight: 2,
+          className: "hub_leg",
+        }
+      ).addTo(map)
+
+      L.marker([nextX, nextY], {
+        icon: L.icon({
+          iconUrl: `/assets/${icons[i].icon}.png`,
+          iconSize: [20, 20],
+          className: "hub_icon",
+        }),
+      })
+        .addTo(map)
+        .bindTooltip(icons[i].name, {
+          className: "tooltips hub_label",
+          permanent: true,
+          direction: "bottom",
+        })
+        .openTooltip()
+    }
   })
 }
 
