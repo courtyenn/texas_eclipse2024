@@ -36,17 +36,11 @@ map.on("zoomend", function () {
   console.log("zoom", zoomLevel)
   const mapEle = document.getElementById("map")
 
-  mapEle.classList.remove("zoomed-out")
+  mapEle.classList.remove("zoomed-out", "max-zoom-in")
   if (zoomLevel <= 16) mapEle.classList.add("zoomed-out")
+  else if (zoomLevel === 18) mapEle.classList.add("max-zoom-in")
 })
-// document.body.addEventListener("click", (e) => {
-//   const { lat, lng } = map.mouseEventToLatLng(e)
-//   const zoom = map.getZoom()
-//   const { xtile, ytile } = getTileNumber(lat, lng, zoom)
-//   console.log(
-//     `lat: ${lat}, lng: ${lng}, zoom: ${zoom}, getTileNumber: ${xtile}, ${ytile} `
-//   )
-// })
+
 L.tileLayer(
   `https://api.mapbox.com/v4/mapbox.satellite/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY291cnR5ZW4iLCJhIjoiY2x0bXR5bnNzMXM3dTJscGF3NG9kYW1kcCJ9.EikiYGKRyBhxnNBCtWU2sA`,
   {
@@ -128,6 +122,26 @@ const initializeFaye = () => {
     .addEventListener("click", () => toggleModal(true))
 }
 
+const createHub = ({ icon, Placemark }) => {
+  const hubIcon = L.icon({
+    iconUrl: `/assets/${icon}.png`,
+    iconSize: [DEFAULT_ICON, DEFAULT_ICON],
+    className: "satellite",
+  })
+  Placemark.forEach((pm) => {
+    const name = pm.name
+    const { coordinates } = pm.Point
+    const [longitude, latitude] = coordinates.split(",")
+    L.marker([latitude, longitude], { icon: hubIcon })
+      .addTo(map)
+      .bindTooltip(name, {
+        direction: "bottom",
+        permanent: true,
+        className: "tooltips satellite",
+      })
+  })
+}
+
 const TexasEclipse = (data) => {
   initializeFaye()
   const { Folders, Placemark } = data
@@ -149,20 +163,31 @@ const TexasEclipse = (data) => {
   }
   initialPlacemarkConfig.hsl.hue = 178
   Folders.forEach((folder, i) => {
-    const { icon, Placemark, hoverLabel = false, size = DEFAULT_ICON } = folder
+    const {
+      icon,
+      Placemark,
+      hoverLabel = false,
+      size = DEFAULT_ICON,
+      name: folderName,
+    } = folder
     const placemarkConfig = { ...initialPlacemarkConfig, hoverLabel, size }
 
-    if (icon) {
-      placemarkConfig.icon = L.icon({
-        iconUrl: `/assets/${icon}.png`,
-        iconSize: [size, size],
-        className: size < DEFAULT_ICON ? "small-icon" : "",
-      })
-    }
-    if (Array.isArray(Placemark)) {
-      Placemark.forEach((pm) => addPlacemark(pm, placemarkConfig))
+    if (folderName === "Hubs") {
+      createHub({ icon, Placemark })
     } else {
-      addPlacemark(Placemark, placemarkConfig)
+      if (icon) {
+        placemarkConfig.icon = L.icon({
+          iconUrl: `/assets/${icon}.png`,
+          iconSize: [size, size],
+          className: size < DEFAULT_ICON ? "small-icon" : "",
+        })
+      }
+
+      if (Array.isArray(Placemark)) {
+        Placemark.forEach((pm) => addPlacemark(pm, placemarkConfig))
+      } else {
+        addPlacemark(Placemark, placemarkConfig)
+      }
     }
     initialPlacemarkConfig.hsl.hue += 65
   })

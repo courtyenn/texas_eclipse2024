@@ -91,6 +91,16 @@
       border-bottom-color: transparent;
     }
 
+    .satellite {
+      opacity: 1;
+      transition: all 0.5s ease-in-out;
+    }
+
+    .max-zoom-in .satellite,
+    .max-zoom-in .tooltips.satellite {
+      opacity: 0 !important;
+    }
+
     /** Leaflet Controls **/
     .custom_pins {
       position: relative;

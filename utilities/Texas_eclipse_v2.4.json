@@ -1770,16 +1770,6 @@
       "Placemark": [
         {
           "name": "Hub",
-          "LookAt": {
-            "longitude": -98.35646141066722,
-            "latitude": 30.79729487545746,
-            "altitude": 0,
-            "heading": -0.002491120540414462,
-            "tilt": 0,
-            "range": 1266.84669704227,
-            "gx:altitudeMode": "relativeToSeaFloor"
-          },
-          "styleUrl": "#msn_ylw-pushpin14",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.36078511737803,30.79907841551954,0"
