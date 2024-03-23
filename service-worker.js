@@ -23,6 +23,7 @@ const ICONS = [
   "satellite",
   "shopping_bags",
   "shower",
+  "sleeping",
   "star",
   "swim",
   "tent",
