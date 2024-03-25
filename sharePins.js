@@ -140,8 +140,8 @@ export const useSharePinModule = (L, map) => {
   const sharePins = (e) => {
     e.preventDefault()
     const pins = myPins.concat(urlPins)
-    // let urlEncodedPins = "https://texas-eclipse2024.vercel.app/#"
-    let urlEncodedPins = "http://127.0.0.1:8080/#" // 192.168.86.188:8081
+    let urlEncodedPins = "https://texas-eclipse2024.vercel.app/#"
+    // let urlEncodedPins = "http://127.0.0.1:8080/#" // 192.168.86.188:8081
     pins.forEach((pin, i) => {
       if (i > 0) urlEncodedPins += "&"
       urlEncodedPins += `pin=${encodeURIComponent(pin.name)},${pin.latlng.join(
