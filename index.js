@@ -249,6 +249,6 @@ const TexasEclipse = (data) => {
   })
 }
 
-fetch("./utilities/Texas_eclipse_v2.4.json")
+fetch("./utilities/Texas_eclipse_v2.6.json")
   .then((response) => response.json())
   .then(TexasEclipse)
