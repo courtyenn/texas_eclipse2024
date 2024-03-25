@@ -2,6 +2,7 @@
   "Folders": [
     {
       "name": "Festival Areas",
+      "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD580",
       "Placemark": [
         {
@@ -38,11 +39,11 @@
             "altitudeMode": "absolute",
             "gx:fovy": 35
           },
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD706",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7018",
           "Polygon": {
             "outerBoundaryIs": {
               "LinearRing": {
-                "coordinates": "-98.35543714718573,30.79391674358178,0 -98.35612652115043,30.79078108548962,0 -98.35522789627147,30.79099930428664,0 -98.35346078583615,30.79196146250711,0 -98.35372460649366,30.79356344300001,0 -98.35431930109254,30.79384344487091,0 -98.35543714718573,30.79391674358178,0"
+                "coordinates": "-98.35411319206055,30.79480485830864,0 -98.35537784995263,30.79487285116438,0 -98.3554034899669,30.79411004715134,0 -98.35561155255576,30.79340298497512,0 -98.35612652115043,30.79078108548962,0 -98.35522789627147,30.79099930428664,0 -98.35346078583615,30.79196146250711,0 -98.35372460649366,30.79356344300001,0 -98.35427730873309,30.79381805561441,0 -98.35411319206055,30.79480485830864,0"
               }
             }
           },
@@ -64,7 +65,7 @@
           "Polygon": {
             "outerBoundaryIs": {
               "LinearRing": {
-                "coordinates": "-98.35509957372952,30.79386930677738,0 -98.35426816629361,30.79384669276485,0 -98.35399738025407,30.79550733337299,0 -98.35440217552446,30.79584632497585,0 -98.3541157172203,30.79677500725925,0 -98.35466251809397,30.79706194978463,0 -98.35532642905694,30.79586229392388,0 -98.35542195175799,30.79390416881781,0 -98.35509957372952,30.79386930677738,0"
+                "coordinates": "-98.35409069889492,30.79480468053209,0 -98.35399738025407,30.79550733337299,0 -98.35440217552446,30.79584632497585,0 -98.3541157172203,30.79677500725925,0 -98.35466251809397,30.79706194978463,0 -98.35532642905694,30.79586229392388,0 -98.35538936011993,30.79488244998402,0 -98.35409069889492,30.79480468053209,0"
               }
             }
           },
@@ -82,7 +83,7 @@
             "altitudeMode": "absolute",
             "gx:fovy": 35
           },
-          "styleUrl": "#__managed_style_3B249C81192F53BFFD721",
+          "styleUrl": "#__managed_style_3B249C81192F53BFFD722",
           "Polygon": {
             "outerBoundaryIs": {
               "LinearRing": {
@@ -99,112 +100,55 @@
       "name": "Entrances",
       "Placemark": [
         {
-          "name": "Production Road/ Artist Entrance",
-          "LookAt": {
-            "longitude": -98.34787521214564,
-            "latitude": 30.80623907127429,
-            "altitude": 357.26778778262,
-            "heading": 357.1448819288536,
-            "tilt": 0,
-            "range": 2538.155728288984,
-            "altitudeMode": "absolute",
-            "gx:fovy": 35
-          },
-          "styleUrl": "#__managed_style_6E29400A852F53BFFD5C",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "0B978CAB192F28115892"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "Point": {
-            "extrude": 1,
-            "coordinates": "-98.34496533960937,30.80775326126695,371.4101400202527"
-          },
-          "gx:Carousel": {
-            "gx:Image": {
-              "gx:ImageUrl": "https://doc-0k-8o-mymaps.googleusercontent.com/untrusted/hostedimage/e/b3cuud60hj6ru5negsavqhtco4/hbb4nsjq4ge205kkfba3cmr1c8/1709424000000/CsRGJ5s9_hcVD4zLEv6nIFZO4-O0JxeN/*/4AHUGKgpd4JGH4mMGjz-4hDlqBkdAf2-1iefSFLXcvpWe_aN4yHOIYyCQclcEQzV-qlMPK9TA-Z6u_TvsB0i5aUQBnHvJW-yW7E9TiEgXoMmMQG0UQV4lQ4ct7qSSzQ6kfJ3CpVIjOcM56FOH8eWRiC7-Qt3YhZrBlhWSKdX5XwipMhZUS-2jjqPK_86DEJA3z3ELFi2XSsyzL9Kh5-8KLtwtK3DjyE3e_Hc__xW7b1k8-hZKZL2-5w?fife=s{size}",
-              "@_kml:id": "hosted_image_QUhVR0tncC8zZE5XSjVjdjg2ZHBXejVXd09JdnNhYU52QkhkWE5oYnFieVpPZXo0NWlxcC93cHhYcjcwQVhoclpOMThZdkh2ekM4S3lsOVFkSS84UGNiQmtoZnBnNTRsYjBZeW1VSHYyVFM2N2luMnQxR1g0SGNlUmgrdm9ZKzlObHFZY3lPaStZTjdFQUZ6VFFVNW5adUdGWDQrdTJaMTlsM0Q1VFRIODhZRElHK2YzNGQ2aHZCa2FVU3FpT2RLTkZ0SzhjNTlGcVR2S3RZKzY2SWNBZHNPbDJCWjExWnhuQUt1a0xtSzcwNEJ3dk5rc2g2dFpBTWJHZXJIVWREaGJhSjZyV0ZzakphcEZ0N1BiK1AzWEpDK1hGa1I3RFNWTHh0UQ"
-            }
-          },
-          "@_id": "0E9D4096182F28115886"
-        },
-        {
-          "name": "Emergency exit",
-          "LookAt": {
-            "longitude": -98.35141744796987,
-            "latitude": 30.81020998583323,
-            "altitude": 357.5325102456538,
-            "heading": 25.06251151945909,
-            "tilt": 0,
-            "range": 1027.144797534565,
-            "altitudeMode": "absolute",
-            "gx:fovy": 35
-          },
-          "styleUrl": "#__managed_style_0A72E7ED3B2F53BFFD74",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "068540DF562F26CCF49C"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
-          "Point": {
-            "extrude": 1,
-            "coordinates": "-98.35053168282911,30.81108186072736,357.5964557130525"
-          },
-          "@_id": "05A7AD6BE72F26CCF48D"
-        },
-        {
-          "name": "RV/ Shuttle entry",
-          "LookAt": {
-            "longitude": -98.34677708101563,
-            "latitude": 30.80877907289057,
-            "altitude": 369.6128066862188,
-            "heading": 25.06490940996805,
-            "tilt": 0,
-            "range": 459.9374405752314,
-            "altitudeMode": "absolute",
-            "gx:fovy": 35
-          },
-          "styleUrl": "#__managed_style_3A7FC464752F53BFFD74",
-          "Point": {
-            "coordinates": "-98.34677708101563,30.80877907289057,369.6128066862188"
-          },
-          "@_id": "08DCC9C3FF2F26CBE238"
-        },
-        {
           "name": "Main Entrance",
           "LookAt": {
-            "longitude": -98.35021830252504,
-            "latitude": 30.81078942508539,
-            "altitude": 357.8827834064832,
-            "heading": 11.19585334187671,
-            "tilt": 60.00015711739045,
-            "range": 322.146380605409,
-            "altitudeMode": "absolute",
-            "gx:fovy": 35
+            "longitude": -98.35380611117789,
+            "latitude": 30.81112976392762,
+            "altitude": 0,
+            "heading": -0.001929245367268541,
+            "tilt": 0.1424324399074219,
+            "range": 924.4840488860438,
+            "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#__managed_style_0E374655672F53BFFD71",
-          "ExtendedData": {
-            "SchemaData": {
-              "SimpleData": {
-                "#text": 0,
-                "@_name": "09FB84F8622F102CDDF4"
-              },
-              "@_schemaUrl": "#__managed_schema"
-            }
-          },
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
-            "extrude": 1,
-            "coordinates": "-98.34932590456931,30.81042981521318,357.0871883315834"
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35596019671574,30.81328252347554,0"
+          }
+        },
+        {
+          "name": "RV / Shuttle Entry*",
+          "LookAt": {
+            "longitude": -98.35091083137581,
+            "latitude": 30.80946516216308,
+            "altitude": 0,
+            "heading": -0.001632947729045653,
+            "tilt": 3.368478420539703,
+            "range": 1657.461032359675,
+            "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "@_id": "0DCE5043192F102CDDED"
+          "styleUrl": "#msn_ylw-pushpin5",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35026314624412,30.81111531336513,0"
+          }
+        },
+        {
+          "name": "Production Rd / Emergency",
+          "LookAt": {
+            "longitude": -98.35091083137581,
+            "latitude": 30.80946516216308,
+            "altitude": 0,
+            "heading": -0.001632947729045653,
+            "tilt": 3.368478420539703,
+            "range": 1657.461032359675,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin5",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.34482076941946,30.80799057184607,0"
+          }
         }
       ]
     },
@@ -222,7 +166,7 @@
             "range": 1372.336262223527,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin17",
+          "styleUrl": "#msn_ylw-pushpin19",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35597289987712,30.79258661967532,0"
@@ -239,7 +183,7 @@
             "range": 1372.336262223527,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin17",
+          "styleUrl": "#msn_ylw-pushpin19",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35141458044875,30.79424108065034,0"
@@ -256,7 +200,7 @@
             "range": 1292.10537628055,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin18",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.3497961123051,30.79402520846003,0"
@@ -279,7 +223,7 @@
             "range": 1086.03001849637,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin14",
+          "styleUrl": "#msn_ylw-pushpin16",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35588072297824,30.79301829983631,0"
@@ -296,7 +240,7 @@
             "range": 1082.643685035784,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin14",
+          "styleUrl": "#msn_ylw-pushpin16",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35496667118959,30.79710327108111,0"
@@ -313,7 +257,7 @@
             "range": 1082.643685035784,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin14",
+          "styleUrl": "#msn_ylw-pushpin16",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35330131788201,30.79519297274348,0"
@@ -330,7 +274,7 @@
             "range": 1082.643685035784,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin14",
+          "styleUrl": "#msn_ylw-pushpin16",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.3506101821191,30.793868874548,0"
@@ -347,7 +291,7 @@
             "range": 1210.57021549455,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin7",
+          "styleUrl": "#msn_ylw-pushpin9",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34923732751075,30.79348948417911,0"
@@ -364,7 +308,7 @@
             "range": 1292.10537628055,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin12",
+          "styleUrl": "#msn_ylw-pushpin14",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.3526297732368,30.79461329098781,0"
@@ -388,7 +332,7 @@
             "range": 1072.788895874559,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin6",
+          "styleUrl": "#msn_ylw-pushpin8",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35342504244215,30.79633829883051,0"
@@ -405,7 +349,7 @@
             "range": 1072.788895874559,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin6",
+          "styleUrl": "#msn_ylw-pushpin8",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35094545847919,30.79428694029543,0"
@@ -422,7 +366,7 @@
             "range": 1072.788895874559,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin6",
+          "styleUrl": "#msn_ylw-pushpin8",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34816496709286,30.79352501852852,0"
@@ -439,7 +383,7 @@
             "range": 1292.10537628055,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin13",
+          "styleUrl": "#msn_ylw-pushpin15",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35221261668927,30.79452189421192,0"
@@ -463,7 +407,7 @@
             "range": 979.3967355897996,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin20",
+          "styleUrl": "#msn_ylw-pushpin22",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.3527531432355,30.79480208068258,0"
@@ -480,7 +424,7 @@
             "range": 979.3967355897996,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin20",
+          "styleUrl": "#msn_ylw-pushpin22",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35044450818023,30.79375782074076,0"
@@ -497,7 +441,7 @@
             "range": 979.3967355897996,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin20",
+          "styleUrl": "#msn_ylw-pushpin22",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34852598660575,30.7943858718746,0"
@@ -508,6 +452,7 @@
     },
     {
       "name": "Restrooms",
+      "open": 1,
       "Placemark": [
         {
           "name": "Restroom",
@@ -588,7 +533,7 @@
             "range": 1289.160330758246,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin5",
+          "styleUrl": "#msn_ylw-pushpin7",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34244255517493,30.79517268811417,0"
@@ -741,7 +686,7 @@
             "range": 1082.643685035784,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin4",
+          "styleUrl": "#msn_ylw-pushpin6",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34831474279189,30.7945490946575,0"
@@ -758,7 +703,7 @@
             "range": 855.639075802779,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin2",
+          "styleUrl": "#msn_ylw-pushpin4",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35088022886279,30.79230207060069,0"
@@ -775,7 +720,7 @@
             "range": 855.639075802779,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin2",
+          "styleUrl": "#msn_ylw-pushpin4",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35332900471917,30.79199868243164,0"
@@ -792,7 +737,7 @@
             "range": 855.639075802779,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin11",
+          "styleUrl": "#msn_ylw-pushpin13",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35470501797042,30.79133377650679,0"
@@ -877,7 +822,7 @@
             "range": 1035.931398488404,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin1",
+          "styleUrl": "#msn_ylw-pushpin3",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35527533457194,30.79538819100292,0"
@@ -903,52 +848,52 @@
         {
           "name": "Restroom",
           "LookAt": {
-            "longitude": -98.35257593220484,
-            "latitude": 30.80172825450437,
+            "longitude": -98.3518205867578,
+            "latitude": 30.80170189449635,
             "altitude": 0,
-            "heading": -0.003786928418128812,
-            "tilt": 20.60116036310869,
-            "range": 2074.810300465348,
+            "heading": -0.0003652041050606227,
+            "tilt": 7.768365427976473,
+            "range": 1681.01493775272,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#m_ylw-pushpin",
+          "styleUrl": "#msn_ylw-pushpin2",
           "Point": {
             "gx:drawOrder": 1,
-            "coordinates": "-98.35665275870807,30.80332881577185,0"
+            "coordinates": "-98.35720410113103,30.80211135010361,0"
           }
         },
         {
           "name": "Restroom",
           "LookAt": {
-            "longitude": -98.35257593220484,
-            "latitude": 30.80172825450437,
+            "longitude": -98.35310150448441,
+            "latitude": 30.79999157320274,
             "altitude": 0,
-            "heading": -0.003786928418128812,
-            "tilt": 20.60116036310869,
-            "range": 2074.810300465348,
+            "heading": -0.001021036652117476,
+            "tilt": 7.768373951907368,
+            "range": 1688.037007037164,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#m_ylw-pushpin",
+          "styleUrl": "#msn_ylw-pushpin2",
           "Point": {
             "gx:drawOrder": 1,
-            "coordinates": "-98.35333364067583,30.80647384581355,0"
+            "coordinates": "-98.35599271451497,30.80056358181074,0"
           }
         },
         {
           "name": "Restroom",
           "LookAt": {
-            "longitude": -98.35437700224675,
-            "latitude": 30.7993195335433,
+            "longitude": -98.3518205867578,
+            "latitude": 30.80170189449635,
             "altitude": 0,
-            "heading": -0.004821348174570704,
-            "tilt": 24.27287214651455,
-            "range": 1784.959927333613,
+            "heading": -0.0003652041050606227,
+            "tilt": 7.768365427976473,
+            "range": 1681.01493775272,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#m_ylw-pushpin",
+          "styleUrl": "#msn_ylw-pushpin2",
           "Point": {
             "gx:drawOrder": 1,
-            "coordinates": "-98.35386777377478,30.80318370584295,0"
+            "coordinates": "-98.35556728702907,30.8024505057012,0"
           }
         },
         {
@@ -1013,7 +958,7 @@
             "range": 1072.788895874559,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin0",
+          "styleUrl": "#msn_ylw-pushpin1",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35301828699464,30.79621775088981,0"
@@ -1030,7 +975,7 @@
             "range": 1082.643685035784,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin10",
+          "styleUrl": "#msn_ylw-pushpin12",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34984883209249,30.79414871611874,0"
@@ -1047,7 +992,7 @@
             "range": 1035.931398488404,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin1",
+          "styleUrl": "#msn_ylw-pushpin3",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35510689456754,30.79621053097879,0"
@@ -1060,7 +1005,7 @@
       "Placemark": [
         {
           "name": "Hillside Camp",
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7014",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7016",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1096,7 +1041,7 @@
         },
         {
           "name": "Crossover Park and Camp",
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD708",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD707",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1141,7 +1086,7 @@
             "range": 1303.641845251256,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34341962510149,30.79227877167131,0"
@@ -1158,7 +1103,7 @@
             "range": 1221.797930864459,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35060380099631,30.79140084550051,0"
@@ -1175,7 +1120,7 @@
             "range": 1070.757202031841,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34220399278693,30.79035876621017,0"
@@ -1192,7 +1137,7 @@
             "range": 1225.049610191116,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34052948011144,30.79114337353582,0"
@@ -1209,7 +1154,7 @@
             "range": 1197.039214290042,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34593532823993,30.79784614928769,0"
@@ -1226,7 +1171,7 @@
             "range": 1197.039214290042,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35177932489924,30.79938086185207,0"
@@ -1243,7 +1188,7 @@
             "range": 1076.796848961324,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35129902805264,30.78969119192215,0"
@@ -1260,7 +1205,7 @@
             "range": 1070.757202031841,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34212051341176,30.79179515791853,0"
@@ -1270,11 +1215,10 @@
     },
     {
       "name": "Car Camping",
-      "open": 1,
       "Placemark": [
         {
           "name": "The Pasture Car Camping",
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7015",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7017",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1310,7 +1254,7 @@
         },
         {
           "name": "Grove Car Camping",
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7013",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7014",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1322,7 +1266,7 @@
         },
         {
           "name": "Vista Car Camping",
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD707",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD706",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1334,19 +1278,19 @@
         },
         {
           "name": "Tower Car Camping",
-          "styleUrl": "#__managed_style_3B249C81192F53BFFD722",
+          "styleUrl": "#__managed_style_3B249C81192F53BFFD720",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
               "LinearRing": {
-                "coordinates": "-98.35733878723606,30.79399576876174,0 -98.35574886630313,30.79327304062285,0 -98.35548311342919,30.7941158480802,0 -98.35540132601956,30.79588125247501,0 -98.35476741953308,30.79710475279945,0 -98.35501896895894,30.7981958937193,0 -98.35502373257692,30.7994290347139,0 -98.35362907699005,30.8001852781113,0 -98.35411565581857,30.80061678021655,0 -98.35151342401356,30.80458210052522,0 -98.35249324021618,30.8044579673573,0 -98.35440831024033,30.80187054374204,0 -98.35567822214043,30.80016347947251,0 -98.35634992354757,30.7997145161573,0 -98.35681425202681,30.79897872401523,0 -98.35756767333635,30.797502491361,0 -98.35770575898668,30.79577773150385,0 -98.35736683368182,30.79547016461179,0 -98.35733878723606,30.79399576876174,0"
+                "coordinates": "-98.35733878723606,30.79399576876174,0 -98.35574886630313,30.79327304062285,0 -98.35548311342919,30.7941158480802,0 -98.35540132601956,30.79588125247501,0 -98.35476741953308,30.79710475279945,0 -98.35501896895894,30.7981958937193,0 -98.35502373257692,30.7994290347139,0 -98.35362907699005,30.8001852781113,0 -98.35411565581857,30.80061678021655,0 -98.35361065286737,30.80144242679623,0 -98.35440831024033,30.80187054374204,0 -98.35567822214043,30.80016347947251,0 -98.35634992354757,30.7997145161573,0 -98.35681425202681,30.79897872401523,0 -98.35756767333635,30.797502491361,0 -98.35770575898668,30.79577773150385,0 -98.35736683368182,30.79547016461179,0 -98.35733878723606,30.79399576876174,0"
               }
             }
           }
         },
         {
           "name": "Alamo Car Camping",
-          "styleUrl": "#__managed_style_3B249C81192F53BFFD720",
+          "styleUrl": "#__managed_style_3B249C81192F53BFFD721",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1367,7 +1311,7 @@
             "range": 1224.440347193198,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.3484952497752,30.79124333898029,0"
@@ -1384,7 +1328,7 @@
             "range": 1353.984032972835,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34603219678507,30.79122849683997,0"
@@ -1401,7 +1345,7 @@
             "range": 1150.149234214283,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.3559316565421,30.79931506755493,0"
@@ -1418,7 +1362,7 @@
             "range": 1225.049610191116,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34597672782738,30.79328748666722,0"
@@ -1435,7 +1379,7 @@
             "range": 1225.049610191116,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.3427648356228,30.79343571662747,0"
@@ -1452,7 +1396,7 @@
             "range": 1188.91389264608,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34115000123406,30.79311185322228,0"
@@ -1469,7 +1413,7 @@
             "range": 1716.517515376125,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.36362890852494,30.79622903490904,0"
@@ -1486,7 +1430,7 @@
             "range": 1353.984032972835,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34725541006821,30.7903492568763,0"
@@ -1503,7 +1447,7 @@
             "range": 1258.982249874664,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35460499194807,30.80066452984504,0"
@@ -1520,7 +1464,7 @@
             "range": 1289.712272614485,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin3",
+          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.36480521161202,30.79347520383985,0"
@@ -1555,7 +1499,7 @@
             "altitudeMode": "absolute",
             "gx:fovy": 35
           },
-          "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B1",
+          "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B3",
           "Polygon": {
             "outerBoundaryIs": {
               "LinearRing": {
@@ -1594,7 +1538,7 @@
             "range": 1197.039214290042,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34442041982449,30.79530359043656,0"
@@ -1611,7 +1555,7 @@
             "range": 1211.459890798749,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35910818223792,30.79360320415571,0"
@@ -1628,7 +1572,7 @@
             "range": 1197.039214290042,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34971837803911,30.79852003174658,0"
@@ -1638,6 +1582,7 @@
     },
     {
       "name": "Camping Areas",
+      "open": 1,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD580",
       "Placemark": [
         {
@@ -1656,7 +1601,7 @@
           "Polygon": {
             "outerBoundaryIs": {
               "LinearRing": {
-                "coordinates": "-98.35766151342287,30.79753593879294,0 -98.35690438488865,30.79901174644253,0 -98.35638800568398,30.79976217771513,0 -98.35576782401675,30.80022606046319,0 -98.352170484352,30.80506334117534,0 -98.35320977132369,30.8058320775263,0 -98.35679900825491,30.80047973069369,0 -98.35843235709888,30.79925861400383,0 -98.35935449173027,30.79678317054102,0 -98.35779829675445,30.79578985254215,0 -98.35766151342287,30.79753593879294,0"
+                "coordinates": "-98.35766151342287,30.79753593879294,0 -98.35690438488865,30.79901174644253,0 -98.35638800568398,30.79976217771513,0 -98.35576782401675,30.80022606046319,0 -98.35451572450907,30.80189853600894,0 -98.35562001033004,30.80219889031776,0 -98.35679900825491,30.80047973069369,0 -98.35843235709888,30.79925861400383,0 -98.35935449173027,30.79678317054102,0 -98.35779829675445,30.79578985254215,0 -98.35766151342287,30.79753593879294,0"
               }
             }
           },
@@ -1664,7 +1609,7 @@
         },
         {
           "name": "Group Camping",
-          "styleUrl": "#__managed_style_3388DAE0282F53BFFD709",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD708",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1697,7 +1642,7 @@
             "range": 1171.794751492293,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34805858812386,30.79640871691867,0"
@@ -1714,7 +1659,7 @@
             "range": 1166.245584080463,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35333994783549,30.79699830144456,0"
@@ -1731,7 +1676,7 @@
             "range": 1807.727685309894,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin18",
+          "styleUrl": "#msn_ylw-pushpin20",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35792198374287,30.79862011503904,0"
@@ -1755,7 +1700,7 @@
             "range": 1266.84669704227,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin18",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.36078511737803,30.79907841551954,0"
@@ -1772,7 +1717,7 @@
             "range": 1269.59331290902,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin18",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35543950994554,30.79694727046838,0"
@@ -1789,7 +1734,7 @@
             "range": 1277.021791226843,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin18",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34355813024602,30.79389146792903,0"
@@ -1806,7 +1751,7 @@
             "range": 1289.160330758246,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin16",
+          "styleUrl": "#msn_ylw-pushpin18",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34511338540426,30.79199833365546,0"
@@ -1820,7 +1765,7 @@
       "Placemark": [
         {
           "name": "Turnkey RV Camp",
-          "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B0",
+          "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B2",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1837,7 +1782,7 @@
             "tessellate": 1,
             "outerBoundaryIs": {
               "LinearRing": {
-                "coordinates": "-98.3609184360644,30.7999987724447,0 -98.35943886972407,30.79859050140075,0 -98.356898301592,30.80052912869246,0 -98.35330195136288,30.80588043330497,0 -98.35741630188724,30.80872974120993,0 -98.3574366282094,30.81053357182849,0 -98.35832902429435,30.81064059741527,0 -98.35816732922225,30.80260462047386,0 -98.3609184360644,30.7999987724447,0"
+                "coordinates": "-98.3609184360644,30.7999987724447,0 -98.35943886972407,30.79859050140075,0 -98.356898301592,30.80052912869246,0 -98.35575077353906,30.80223441419402,0 -98.35743378732175,30.8035675968962,0 -98.3575762957976,30.80595370940323,0 -98.35813694531417,30.80599310009087,0 -98.35816732922225,30.80260462047386,0 -98.3609184360644,30.7999987724447,0"
               }
             }
           }
@@ -1853,7 +1798,7 @@
             "range": 1748.56868166117,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin20",
+          "styleUrl": "#msn_ylw-pushpin22",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35675096222026,30.79249743738037,0"
@@ -1870,7 +1815,7 @@
             "range": 1901.288544751296,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin1",
+          "styleUrl": "#msn_ylw-pushpin3",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35864811391455,30.8006964783866,0"
@@ -1910,7 +1855,7 @@
             "range": 855.639075802779,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin9",
+          "styleUrl": "#msn_ylw-pushpin11",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35414271329812,30.79161506733932,0"
@@ -1927,7 +1872,7 @@
             "range": 855.639075802779,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin9",
+          "styleUrl": "#msn_ylw-pushpin11",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35166165938462,30.79191209154058,0"
@@ -1944,7 +1889,7 @@
             "range": 855.639075802779,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin",
+          "styleUrl": "#msn_ylw-pushpin0",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35292302824237,30.79199103739504,0"
@@ -1961,7 +1906,7 @@
             "range": 849.5188908143245,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin19",
+          "styleUrl": "#msn_ylw-pushpin21",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35006272613923,30.79493029503545,0"
@@ -1978,7 +1923,7 @@
             "range": 849.5188908143245,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin19",
+          "styleUrl": "#msn_ylw-pushpin21",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34868870977304,30.79500415374534,0"
@@ -1995,7 +1940,7 @@
             "range": 849.5188908143245,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin19",
+          "styleUrl": "#msn_ylw-pushpin21",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34855073143309,30.7931683285397,0"
@@ -2012,7 +1957,7 @@
             "range": 853.2766553228752,
             "gx:altitudeMode": "relativeToSeaFloor"
           },
-          "styleUrl": "#msn_ylw-pushpin19",
+          "styleUrl": "#msn_ylw-pushpin21",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.34797005198814,30.79255205784789,0"
@@ -2020,6 +1965,196 @@
         }
       ],
       "@_id": "0080B1B6872F29F623BA"
+    },
+    {
+      "name": "Parking",
+      "open": 1,
+      "Placemark": [
+        {
+          "name": "Temporary Staff Parking / Camping",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7013",
+          "Polygon": {
+            "tessellate": 1,
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.35045573400129,30.81107017947451,0 -98.3522099848613,30.81196510805185,0 -98.35275053096437,30.81122240219682,0 -98.35323784958845,30.81063371433479,0 -98.35138099815264,30.8098179009618,0 -98.35045573400129,30.81107017947451,0"
+              }
+            }
+          }
+        },
+        {
+          "name": "North Vehicle Staging",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD709",
+          "Polygon": {
+            "tessellate": 1,
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.35773818203937,30.81369151776545,0 -98.35773983987599,30.81271093415747,0 -98.35664064090255,30.8124881776917,0 -98.35660942098768,30.81336711257247,0 -98.35773818203937,30.81369151776545,0"
+              }
+            }
+          }
+        },
+        {
+          "name": "South Vehicle Staging",
+          "styleUrl": "#__managed_style_3388DAE0282F53BFFD7015",
+          "Polygon": {
+            "tessellate": 1,
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.35594387015924,30.80811526386402,0 -98.35456972525331,30.80808131478175,0 -98.35454058449874,30.8093817257194,0 -98.35661091148762,30.80928446656971,0 -98.35594387015924,30.80811526386402,0"
+              }
+            }
+          }
+        },
+        {
+          "name": "Day Parking",
+          "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B1",
+          "Polygon": {
+            "tessellate": 1,
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.3556985074372,30.80804884397253,0 -98.3562187856591,30.80745292577041,0 -98.35644678568154,30.80718296112893,0 -98.35660154403118,30.80669084029104,0 -98.35621312804737,30.80471286024762,0 -98.35536321570301,30.80412587043968,0 -98.35240105851909,30.80826455813904,0 -98.35366992582546,30.80952558340693,0 -98.35440013798951,30.80919116907546,0 -98.35444413284873,30.80802101520851,0 -98.3556985074372,30.80804884397253,0"
+              }
+            }
+          }
+        },
+        {
+          "name": "Toll Staging Area",
+          "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B0",
+          "Polygon": {
+            "tessellate": 1,
+            "outerBoundaryIs": {
+              "LinearRing": {
+                "coordinates": "-98.35768627633257,30.80855160636316,0 -98.35765004624484,30.80618363517134,0 -98.35667745116085,30.80613186102033,0 -98.35676884605267,30.80669615864786,0 -98.35659328268517,30.80721065272878,0 -98.35646238935252,30.80745108929379,0 -98.35656690348634,30.80781039805004,0 -98.35768627633257,30.80855160636316,0"
+              }
+            }
+          }
+        },
+        {
+          "name": "Staff Camp / Parking",
+          "LookAt": {
+            "longitude": -98.35253936405172,
+            "latitude": 30.80879745229641,
+            "altitude": 0,
+            "heading": -0.0007040544680525419,
+            "tilt": 9.450107726538205,
+            "range": 2468.159243332439,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin2",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35185499406009,30.81107943164778,0"
+          }
+        },
+        {
+          "name": "North Staging Lot",
+          "LookAt": {
+            "longitude": -98.35253936405172,
+            "latitude": 30.80879745229641,
+            "altitude": 0,
+            "heading": -0.0007040544680525419,
+            "tilt": 9.450107726538205,
+            "range": 2468.159243332439,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin2",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35720667820696,30.81312306188245,0"
+          }
+        },
+        {
+          "name": "South Staging Lot",
+          "LookAt": {
+            "longitude": -98.35253936405172,
+            "latitude": 30.80879745229641,
+            "altitude": 0,
+            "heading": -0.0007040544680525419,
+            "tilt": 9.450107726538205,
+            "range": 2468.159243332439,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin2",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.3554457806504,30.80875315995823,0"
+          }
+        },
+        {
+          "name": "Toll Staging",
+          "LookAt": {
+            "longitude": -98.35253936405172,
+            "latitude": 30.80879745229641,
+            "altitude": 0,
+            "heading": -0.0007040544680525419,
+            "tilt": 9.450107726538205,
+            "range": 2468.159243332439,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin2",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35721399760811,30.80730191092736,0"
+          }
+        },
+        {
+          "name": "Day Parking",
+          "LookAt": {
+            "longitude": -98.35253936405172,
+            "latitude": 30.80879745229641,
+            "altitude": 0,
+            "heading": -0.0007040544680525419,
+            "tilt": 9.450107726538205,
+            "range": 2468.159243332439,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin2",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35511828863241,30.80690000201954,0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Emergency",
+      "Placemark": [
+        {
+          "name": "Emergency Exit",
+          "LookAt": {
+            "longitude": -98.35314115949902,
+            "latitude": 30.80630291454099,
+            "altitude": 0,
+            "heading": -0.001384997149798283,
+            "tilt": 2.543894425115515,
+            "range": 2939.254869855659,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin5",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35880255676369,30.81419664859077,0"
+          }
+        },
+        {
+          "name": "Emergency Exit",
+          "LookAt": {
+            "longitude": -98.35314115949902,
+            "latitude": 30.80630291454099,
+            "altitude": 0,
+            "heading": -0.001384997149798283,
+            "tilt": 2.543894425115515,
+            "range": 2939.254869855659,
+            "gx:altitudeMode": "relativeToSeaFloor"
+          },
+          "styleUrl": "#msn_ylw-pushpin5",
+          "Point": {
+            "gx:drawOrder": 1,
+            "coordinates": "-98.35769994468309,30.81393996907275,0"
+          }
+        }
+      ]
     }
   ],
   "Placemark": [
@@ -2036,20 +2171,20 @@
       }
     },
     {
-      "name": "Health and Wellness",
+      "name": "Wellness and Healing",
       "LookAt": {
-        "longitude": -98.35411268780418,
-        "latitude": 30.78915038354451,
+        "longitude": -98.35304486841567,
+        "latitude": 30.79035328610298,
         "altitude": 0,
-        "heading": -0.0003361516901827025,
+        "heading": -0.0008061306853886604,
         "tilt": 0,
-        "range": 1069.911217636982,
+        "range": 1071.826280500653,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin20",
+      "styleUrl": "#msn_ylw-pushpin",
       "Point": {
         "gx:drawOrder": 1,
-        "coordinates": "-98.35503770674178,30.78936322623001,0"
+        "coordinates": "-98.35538055949169,30.78954584902565,0"
       }
     },
     {
@@ -2075,7 +2210,7 @@
         "range": 1072.788895874559,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin15",
+      "styleUrl": "#msn_ylw-pushpin17",
       "Point": {
         "gx:drawOrder": 1,
         "coordinates": "-98.35405452128744,30.79525186510604,0"
@@ -2092,7 +2227,7 @@
         "range": 1072.788895874559,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin15",
+      "styleUrl": "#msn_ylw-pushpin17",
       "Point": {
         "gx:drawOrder": 1,
         "coordinates": "-98.35476159037398,30.79548318805753,0"
@@ -2109,7 +2244,7 @@
         "range": 1072.788895874559,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin8",
+      "styleUrl": "#msn_ylw-pushpin10",
       "Point": {
         "gx:drawOrder": 1,
         "coordinates": "-98.35490136391498,30.79654965258134,0"
@@ -2126,27 +2261,27 @@
         "range": 1072.788895874559,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin8",
+      "styleUrl": "#msn_ylw-pushpin10",
       "Point": {
         "gx:drawOrder": 1,
         "coordinates": "-98.35641399441492,30.79367565583824,0"
       }
     },
     {
-      "name": "Shuttle Stations",
+      "name": "Shuttle Drop-Off",
       "LookAt": {
-        "longitude": -98.35118060552348,
-        "latitude": 30.80503243073994,
+        "longitude": -98.35463188291756,
+        "latitude": 30.8032675963559,
         "altitude": 0,
-        "heading": 0.0002126635843337261,
-        "tilt": 0,
-        "range": 1631.182376622857,
+        "heading": -0.001804852109117416,
+        "tilt": 7.768363393722789,
+        "range": 1679.336078926696,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin20",
+      "styleUrl": "#msn_ylw-pushpin5",
       "Point": {
         "gx:drawOrder": 1,
-        "coordinates": "-98.35383025505934,30.80687505860516,0"
+        "coordinates": "-98.35559786259563,30.80291166147112,0"
       }
     },
     {
@@ -2160,7 +2295,7 @@
         "range": 1669.545613114583,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin20",
+      "styleUrl": "#msn_ylw-pushpin22",
       "Point": {
         "gx:drawOrder": 1,
         "coordinates": "-98.35589587991625,30.78869605395596,0"
@@ -2177,7 +2312,7 @@
         "range": 1069.911217636982,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin20",
+      "styleUrl": "#msn_ylw-pushpin22",
       "Point": {
         "gx:drawOrder": 1,
         "coordinates": "-98.35466283876856,30.78781447391909,0"
@@ -2194,10 +2329,44 @@
         "range": 1035.931398488404,
         "gx:altitudeMode": "relativeToSeaFloor"
       },
-      "styleUrl": "#msn_ylw-pushpin20",
+      "styleUrl": "#msn_ylw-pushpin22",
       "Point": {
         "gx:drawOrder": 1,
         "coordinates": "-98.35526105707794,30.79581856299737,0"
+      }
+    },
+    {
+      "name": "Indigenous Space",
+      "LookAt": {
+        "longitude": -98.35246357750202,
+        "latitude": 30.79272441096667,
+        "altitude": 0,
+        "heading": -0.0005085368912148093,
+        "tilt": 0,
+        "range": 1065.964076633152,
+        "gx:altitudeMode": "relativeToSeaFloor"
+      },
+      "styleUrl": "#msn_ylw-pushpin",
+      "Point": {
+        "gx:drawOrder": 1,
+        "coordinates": "-98.35491529617948,30.7942849303074,0"
+      }
+    },
+    {
+      "name": "Observatory Deck",
+      "LookAt": {
+        "longitude": -98.35138156089394,
+        "latitude": 30.79389344944319,
+        "altitude": 0,
+        "heading": 0.0000454094271775674,
+        "tilt": 0,
+        "range": 1059.961277386231,
+        "gx:altitudeMode": "relativeToSeaFloor"
+      },
+      "styleUrl": "#msn_ylw-pushpin",
+      "Point": {
+        "gx:drawOrder": 1,
+        "coordinates": "-98.35266780052432,30.79574270765093,0"
       }
     }
   ]

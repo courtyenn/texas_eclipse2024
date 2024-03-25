@@ -33,16 +33,19 @@
         <p>{{ event.website }}</p>
         <p>{{ event.ig }}</p>
         <p>{{ event.location }}</p>
+        <button type="button" @click="addToMySchedule(event)">Add to schedule</button>
       </li>
     </ul>
   </div>
   <script type="module">
-    import { createApp, ref, onMounted, computed } from 'vue'
+    import { createApp, ref, onMounted, computed, reactive } from 'vue'
     import VueMultiselect from 'vue-multiselect'
     const removeDuplicates = (arr) => arr.filter((v, i) => arr.indexOf(v) === i);
     const transformData = (data) => data.map((item) => {
+      let newId = item.eventartistworkshoppresentation.replace(/[\s&]+/g, '-').toLowerCase()
+      newId += '-' + item.starttime.replace(/[\s:.]+/g, '-').toLowerCase()
       return {
-        id: item.eventartistworkshoppresentation.replace(/[\s|&]+/g, '-').toLowerCase(),
+        id: newId,
         startTime: new Date(item.starttime),
         endTime: new Date(item.endtime),
         tags: item.tags.split(','),
@@ -56,6 +59,7 @@
 
     const app = createApp({
       setup() {
+        const mySchedule = reactive([]);
         const value = ref();
         const events = ref([])
         const search = ref('')
@@ -68,6 +72,20 @@
             })
           }
         })
+
+        const detectConflict = () => {
+          for (let i = 0; i < mySchedule.length - 1; i++) {
+            if (mySchedule[i].endTime > mySchedule[i + 1].startTime) {
+              console.log("conflict detected")
+            }
+          }
+        }
+        const addToMySchedule = (data) => {
+          mySchedule.push(data);
+          mySchedule.sort((a, b) => a.startTime - b.startTime);
+          console.log("what is mySchedule", mySchedule)
+
+        }
 
         fetch("./utilities/events.json")
           .then((response) => response.json())
@@ -82,6 +100,7 @@
           tags,
           selectedTags,
           value,
+          addToMySchedule,
         }
       }
     })
