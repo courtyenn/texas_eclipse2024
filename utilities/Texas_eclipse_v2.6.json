@@ -322,6 +322,7 @@
     {
       "name": "Vendors",
       "icon": "shopping_bags",
+      "size": 26,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD580",
       "Placemark": [
         {
@@ -1692,6 +1693,7 @@
     {
       "name": "Hubs",
       "icon": "satellite",
+      "size": 30,
       "Placemark": [
         {
           "name": "Hub",
@@ -1822,6 +1824,7 @@
     {
       "name": "Stages",
       "icon": "star",
+      "size": 30,
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD580",
       "Placemark": [
         {
@@ -2321,6 +2324,7 @@
     {
       "name": "Texas Onchain",
       "icon": "purple_heart",
+      "size": 25,
       "LookAt": {
         "longitude": -98.35338919524814,
         "latitude": 30.7955801909616,

@@ -25,7 +25,8 @@ const FIT_BOUNDS = [
   [30.7907, -98.34513],
 ]
 const CRS = L.CRS.EPSG3857
-const DEFAULT_ICON = 32
+const DEFAULT_ICON = 28
+const MAX_SMALL_ICON = 25
 const map = L.map("map", {
   maxBounds: MAX_BOUNDS,
   zoom: 15,
@@ -71,7 +72,7 @@ const addPlacemark = (placemark, { hoverLabel, ...config }) => {
         icon: L.icon({
           iconUrl: `/assets/${icon}.png`,
           iconSize: [pmSize, pmSize],
-          className: pmSize < DEFAULT_ICON ? "small-icon" : "",
+          className: pmSize < MAX_SMALL_ICON ? "small-icon" : "",
         }),
       }
     : config
@@ -235,7 +236,7 @@ const TexasEclipse = (data) => {
         placemarkConfig.icon = L.icon({
           iconUrl: `/assets/${icon}.png`,
           iconSize: [size, size],
-          className: size < DEFAULT_ICON ? "small-icon" : "",
+          className: size < MAX_SMALL_ICON ? "small-icon" : "",
         })
       }
 
