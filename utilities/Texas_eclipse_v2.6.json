@@ -71,7 +71,7 @@
           "@_id": "0CB73E4D362EE2F7F223"
         },
         {
-          "name": "",
+          "name": "Main Festival Area",
           "LookAt": {
             "longitude": "-98.35337019897371",
             "latitude": 30.79657172327853,
@@ -92,8 +92,7 @@
           },
           "@_id": "0D575FBA892EE2F6CEE8"
         }
-      ],
-      "@_id": "0A176949332F29F9F3CE"
+      ]
     },
     {
       "name": "Entrances",
@@ -101,33 +100,12 @@
       "Placemark": [
         {
           "name": "Main Entrance",
-          "LookAt": {
-            "longitude": -98.35380611117789,
-            "latitude": 30.81112976392762,
-            "altitude": 0,
-            "heading": -0.001929245367268541,
-            "tilt": 0.1424324399074219,
-            "range": 924.4840488860438,
-            "gx:altitudeMode": "relativeToSeaFloor"
-          },
-          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
-            "gx:drawOrder": 1,
             "coordinates": "-98.35596019671574,30.81328252347554,0"
           }
         },
         {
           "name": "RV / Shuttle Entry*",
-          "LookAt": {
-            "longitude": -98.35091083137581,
-            "latitude": 30.80946516216308,
-            "altitude": 0,
-            "heading": -0.001632947729045653,
-            "tilt": 3.368478420539703,
-            "range": 1657.461032359675,
-            "gx:altitudeMode": "relativeToSeaFloor"
-          },
-          "styleUrl": "#msn_ylw-pushpin5",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35026314624412,30.81111531336513,0"
@@ -135,18 +113,7 @@
         },
         {
           "name": "Production Rd / Emergency",
-          "LookAt": {
-            "longitude": -98.35091083137581,
-            "latitude": 30.80946516216308,
-            "altitude": 0,
-            "heading": -0.001632947729045653,
-            "tilt": 3.368478420539703,
-            "range": 1657.461032359675,
-            "gx:altitudeMode": "relativeToSeaFloor"
-          },
-          "styleUrl": "#__managed_style_3A7FC464752F53BFFD74",
           "Point": {
-            "gx:drawOrder": 1,
             "coordinates": "-98.34482076941946,30.80799057184607,0"
           }
         }
@@ -212,20 +179,9 @@
     {
       "name": "Food",
       "icon": "pizza",
-      "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD580",
       "Placemark": [
         {
           "name": "Food",
-          "LookAt": {
-            "longitude": -98.35201518865225,
-            "latitude": 30.79274484958745,
-            "altitude": 0,
-            "heading": -0.000219092484144933,
-            "tilt": 0,
-            "range": 1086.03001849637,
-            "gx:altitudeMode": "relativeToSeaFloor"
-          },
-          "styleUrl": "#msn_ylw-pushpin12",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35588072297824,30.79301829983631,0"
@@ -233,16 +189,6 @@
         },
         {
           "name": "Food",
-          "LookAt": {
-            "longitude": -98.35053095495377,
-            "latitude": 30.79460284056604,
-            "altitude": 0,
-            "heading": 0.0005408441271784545,
-            "tilt": 0,
-            "range": 1082.643685035784,
-            "gx:altitudeMode": "relativeToSeaFloor"
-          },
-          "styleUrl": "#msn_ylw-pushpin12",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35496667118959,30.79710327108111,0"
@@ -250,16 +196,6 @@
         },
         {
           "name": "Food",
-          "LookAt": {
-            "longitude": -98.35053095495377,
-            "latitude": 30.79460284056604,
-            "altitude": 0,
-            "heading": 0.0005408441271784545,
-            "tilt": 0,
-            "range": 1082.643685035784,
-            "gx:altitudeMode": "relativeToSeaFloor"
-          },
-          "styleUrl": "#msn_ylw-pushpin12",
           "Point": {
             "gx:drawOrder": 1,
             "coordinates": "-98.35330131788201,30.79519297274348,0"
@@ -996,7 +932,7 @@
       "open": 1,
       "Placemark": [
         {
-          "name": "",
+          "name": "Park and Camp",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7014",
           "Polygon": {
             "tessellate": 1,
@@ -1008,7 +944,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Park and Camp",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD705",
           "Polygon": {
             "tessellate": 1,
@@ -1020,7 +956,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Park and Camp",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD702",
           "Polygon": {
             "tessellate": 1,
@@ -1032,7 +968,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Park and Camp",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD708",
           "Polygon": {
             "tessellate": 1,
@@ -1044,7 +980,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Park and Camp",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD700",
           "Polygon": {
             "tessellate": 1,
@@ -1056,7 +992,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Park and Camp",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD703",
           "Polygon": {
             "tessellate": 1,
@@ -1214,7 +1150,7 @@
       "open": 1,
       "Placemark": [
         {
-          "name": "",
+          "name": "Car Camping",
           "Polygon": {
             "tessellate": 1,
             "outerBoundaryIs": {
@@ -1225,7 +1161,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Car Camping",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7012",
           "Polygon": {
             "tessellate": 1,
@@ -1249,7 +1185,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Car Camping",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7013",
           "Polygon": {
             "tessellate": 1,
@@ -1273,7 +1209,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Car Camping",
           "styleUrl": "#__managed_style_3B249C81192F53BFFD722",
           "Polygon": {
             "tessellate": 1,
@@ -1588,7 +1524,7 @@
       "styleUrl": "#__managed_style_0D59BC85CD2F53BFFD580",
       "Placemark": [
         {
-          "name": "",
+          "name": "Tent Camping",
           "LookAt": {
             "longitude": -98.35604588923887,
             "latitude": 30.79575281507461,
@@ -1610,7 +1546,7 @@
           "@_id": "0F1C72EAE42EE2FB685C"
         },
         {
-          "name": "",
+          "name": "Tent Camping",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD709",
           "Polygon": {
             "tessellate": 1,
@@ -1622,7 +1558,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Tent Camping",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7011",
           "Polygon": {
             "tessellate": 1,
@@ -1760,7 +1696,7 @@
       "open": 1,
       "Placemark": [
         {
-          "name": "",
+          "name": "RV Camping",
           "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B0",
           "Polygon": {
             "tessellate": 1,
@@ -1971,7 +1907,7 @@
       "open": 1,
       "Placemark": [
         {
-          "name": "",
+          "name": "Parking",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7013",
           "Polygon": {
             "tessellate": 1,
@@ -1983,7 +1919,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Parking",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD709",
           "Polygon": {
             "tessellate": 1,
@@ -1995,7 +1931,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Parking",
           "styleUrl": "#__managed_style_3388DAE0282F53BFFD7015",
           "Polygon": {
             "tessellate": 1,
@@ -2007,7 +1943,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Parking",
           "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B1",
           "Polygon": {
             "tessellate": 1,
@@ -2019,7 +1955,7 @@
           }
         },
         {
-          "name": "",
+          "name": "Parking",
           "styleUrl": "#__managed_style_05C3EF58D62F53BFFD5B0",
           "Polygon": {
             "tessellate": 1,
@@ -2270,6 +2206,7 @@
     },
     {
       "name": "Shuttle Drop-Off",
+      "icon": "minibus",
       "LookAt": {
         "longitude": -98.35463188291756,
         "latitude": 30.8032675963559,
