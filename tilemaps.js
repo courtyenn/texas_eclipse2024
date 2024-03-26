@@ -23,6 +23,23 @@ function generatePermutations(startIndex, endIndex, zoom) {
   return permutations
 }
 
+function generatePermutationObjects(startIndex, endIndex, zoom) {
+  const permutations = []
+
+  for (let i = startIndex[0]; i <= endIndex[0]; i++) {
+    for (let j = startIndex[1]; j <= endIndex[1]; j++) {
+      permutations.push({
+        url: `https://api.mapbox.com/v4/mapbox.satellite/${zoom}/${i}/${j}.png?access_token=pk.eyJ1IjoiY291cnR5ZW4iLCJhIjoiY2x0bXR5bnNzMXM3dTJscGF3NG9kYW1kcCJ9.EikiYGKRyBhxnNBCtWU2sA`,
+        zoom,
+        x: i,
+        y: j,
+      })
+    }
+  }
+
+  return permutations
+}
+
 export const calcSlippyTiles = () => {
   const boundaryMap = {
     18: [
@@ -71,7 +88,7 @@ export const calcSlippyTiles = () => {
       ytile2 = boundaryMap[zoomLevel][1].ytile
     }
     permutations = permutations.concat(
-      generatePermutations([xtile, ytile], [xtile2, ytile2], zoomLevel)
+      generatePermutationObjects([xtile, ytile], [xtile2, ytile2], zoomLevel)
     )
     // console.log(`current permutations: ${permutations.length}`)
     // console.log(

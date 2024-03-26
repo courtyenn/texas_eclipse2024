@@ -1,4 +1,4 @@
-import { calcSlippyTiles } from "/tilemaps.js"
+import { calcSlippyTiles } from "/utilities/tilemaps.mjs"
 const ICONS = [
   "ambulance",
   "arrow_right",
@@ -37,7 +37,7 @@ const ICONS = [
   "unicorn_face",
   "wheelchair",
 ]
-const CACHE_NAME = "cache-v1"
+const CACHE_NAME = "cache-v2"
 
 const registerWorker = async () => {
   // List the files to precache
@@ -51,15 +51,15 @@ const registerWorker = async () => {
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
     ...ICONS.map((icon) => `/assets/${icon}.png`),
+    ...calcSlippyTiles().map(
+      (tile) => `/assets/mapbox/${tile.zoom}/${tile.x}/${tile.y}.png`
+    ),
   ]
 
   // When the service worker is installing, open the cache and add the precache resources to it
   self.addEventListener("install", (event) => {
     event.waitUntil(
       Promise.all([
-        caches
-          .open(CACHE_NAME)
-          .then((cache) => cache.addAll(calcSlippyTiles())),
         caches
           .open(CACHE_NAME)
           .then((cache) => cache.addAll(precacheResources)),
