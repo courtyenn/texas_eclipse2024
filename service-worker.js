@@ -46,7 +46,6 @@ const registerWorker = async () => {
     "/index.html",
     "/index.js",
     "/sharePins.js",
-    "/tilemaps.js",
     "/utilities/Texas_eclipse_v2.6.json",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
