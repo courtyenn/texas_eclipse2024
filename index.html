@@ -38,9 +38,14 @@
 <body>
   <div id="map" class="zoomed-out"></div>
   <style>
+    html {
+      font-size: 6.25%;
+    }
+
     body {
       margin: 0;
       font-family: sans-serif;
+      font-size: 16rem;
     }
 
     #map {
@@ -57,9 +62,7 @@
     }
 
     .hide-tooltips .tooltips,
-    .hide-tooltips .area_label,
     .zoomed-out .tooltips,
-    .zoomed-out .area_label,
     .zoomed-out .small-icon {
       opacity: 0 !important;
     }
@@ -76,13 +79,13 @@
       background-color: transparent;
       border: none;
       box-shadow: none;
-      font-size: 1rem;
+      font-size: 13rem;
       color: white;
       text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 3px #000;
       margin-top: 10px;
       opacity: 1;
-      transition: all 0.5s ease-in-out;
+      transition: opacity 0.5s ease-in-out;
     }
 
     .tooltips::before,
@@ -93,7 +96,7 @@
 
     .satellite {
       opacity: 1;
-      transition: all 0.5s ease-in-out;
+      transition: opacity 0.5s ease-in-out;
     }
 
     .hub_circle,
@@ -102,11 +105,6 @@
     .hub_icon {
       opacity: 0 !important;
       transition: opacity 0.5s ease-in-out;
-    }
-
-    .hub_label {
-      font-size: 12px;
-      margin-top: 0;
     }
 
     .max-zoom-in .satellite,
@@ -119,6 +117,15 @@
     .max-zoom-in .hub_label,
     .max-zoom-in .hub_icon {
       opacity: 1 !important;
+    }
+
+    .max-zoom-in .tooltips {
+      font-size: 16rem;
+    }
+
+    .max-zoom-in .hub_label {
+      font-size: 12rem;
+      margin-top: 0;
     }
 
     /** Leaflet Controls **/

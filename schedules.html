@@ -19,7 +19,7 @@
   </script>
   <div id="app">
     <input type="text" v-model="search" />
-    <multiselect v-model="selectedTags" :options="tags"></multiselect>
+    <multiselect v-model="selectedTags" :options="tags" multiple></multiselect>
     <button @click="selectedTags = []">Clear</button>
     {{value}}
     <ul>

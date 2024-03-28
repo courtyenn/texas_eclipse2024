@@ -91,21 +91,12 @@ const addPlacemark = (placemark, { hoverLabel, ...config }) => {
       return [latitude, longitude]
     })
     const poly = L.polygon(latlngs, hueConfig)
-    const center = L.PolyUtil.polygonCenter(latlngs, CRS)
     if (icon !== "transparent_pixel" && icon) {
-      L.marker(center, iconConfig)
-        .addTo(map)
-        .bindTooltip(name, {
-          direction: "bottom",
-          permanent: !hoverLabel,
-          className: hoverLabel ? "" : !!icon ? "tooltips" : "area_label",
-        })
-    } else if (!!name) {
-      poly.bindTooltip(name, {
-        direction: "center",
-      })
+      const center = L.PolyUtil.polygonCenter(latlngs, CRS)
+      L.marker(center, iconConfig).addTo(map)
+      poly.addTo(map)
     }
-    poly.addTo(map)
+    poly.addTo(map).bindPopup(name)
   } else {
     console.error("No point or polygon")
   }
