@@ -81,7 +81,7 @@ const addPlacemark = (placemark, { hoverLabel, ...config }) => {
       .bindTooltip(name, {
         permanent: !hoverLabel && !pmHoverLabel,
         direction: "bottom",
-        className: hoverLabel || pmHoverLabel ? "" : "tooltips",
+        className: hoverLabel || pmHoverLabel ? "hovertip" : "tooltips",
       })
   } else if (Polygon) {
     const { coordinates } = Polygon.outerBoundaryIs.LinearRing
@@ -193,8 +193,20 @@ const createHub = ({ icon, Placemark }) => {
   })
 }
 
+const initializeNav = () => {
+  const nav = document.createElement("nav")
+  const link = document.createElement("a")
+  link.href = "/schedules.html"
+  link.textContent = "Schedules"
+  link.classList.add("nav-link")
+  nav.classList.add("nav")
+  nav.appendChild(link)
+  document.body.prepend(nav)
+}
+
 const TexasEclipse = (data) => {
   initializeFaye()
+  initializeNav()
   const { Folders, Placemark } = data
   const { configureNewPinButton } = useSharePinModule(L, map)
   configureNewPinButton({ hideTooltipClass: "hide-tooltips" })
