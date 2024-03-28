@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Schedules</title>
   <link href="https://www.unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 </head>
 
 <body>
@@ -18,25 +19,55 @@
     }
   </script>
   <div id="app">
-    <input type="text" v-model="search" />
-    <multiselect v-model="selectedTags" :options="tags" multiple></multiselect>
-    <button @click="selectedTags = []">Clear</button>
-    {{value}}
-    <ul>
-      <li v-for="event in filteredEvents" :key="event.id">
-        <h2>{{ event.title }}</h2>
-        <p>{{ event.id }}</p>
-        <p>{{ event.startTime }}</p>
-        <p>{{ event.endTime }}</p>
-        <p>{{ event.tags }}</p>
-        <p>{{ event.description }}</p>
-        <p>{{ event.website }}</p>
-        <p>{{ event.ig }}</p>
-        <p>{{ event.location }}</p>
-        <button type="button" @click="addToMySchedule(event)">Add to schedule</button>
-      </li>
-    </ul>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          Go to Map
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Lineup
+        </h1>
+        <div class="grid">
+          <div class="cell">
+            <multiselect v-model="search" placeholder="Search by name.." :options="eventNames" @remove="onSelect" />
+          </div>
+          <div class="cell">
+            <multiselect v-model="selectedTags" :options="tags" :multiple="true" :clear-on-select="false"
+              :preserve-search="true" :close-on-select="false" placeholder="Select tag(s)"></multiselect>
+          </div>
+          <div class="cell">
+            <button @click="selectedTags = []" class="button">Clear</button>
+          </div>
+        </div>
+        {{value}}
+        <ul>
+          <li v-for="event in filteredEvents" :key="event.id">
+            <h2>{{ event.title }}</h2>
+            <p>{{ event.id }}</p>
+            <p>{{ event.startTime }}</p>
+            <p>{{ event.endTime }}</p>
+            <p>{{ event.tags }}</p>
+            <p>{{ event.description }}</p>
+            <p>{{ event.website }}</p>
+            <p>{{ event.ig }}</p>
+            <p>{{ event.location }}</p>
+            <button type="button" @click="addToMySchedule(event)">Add to schedule</button>
+          </li>
+        </ul>
+      </div>
   </div>
+  </section>
   <script type="module">
     import { createApp, ref, onMounted, computed, reactive } from 'vue'
     import VueMultiselect from 'vue-multiselect'
@@ -48,7 +79,7 @@
         id: newId,
         startTime: new Date(item.starttime),
         endTime: new Date(item.endtime),
-        tags: item.tags.split(','),
+        tags: item.tags.split(', '),
         title: item.eventartistworkshoppresentation,
         description: item.description,
         website: item.website,
@@ -62,13 +93,14 @@
         const mySchedule = reactive([]);
         const value = ref();
         const events = ref([])
+        const eventNames = ref([]);
         const search = ref('')
         const selectedTags = ref([])
         const tags = ref([])
         const filteredEvents = computed({
           get() {
             return events.value.filter((event) => {
-              return event.title.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length === 0 || event.tags.some((tag) => selectedTags.value.includes(tag)))
+              return event.title.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length === 0 || selectedTags.value.every((tag) => event.tags.includes(tag)))
             })
           }
         })
@@ -86,12 +118,15 @@
           console.log("what is mySchedule", mySchedule)
 
         }
-
+        const onSelect = (option) => {
+          search.value = ""
+        }
         fetch("./utilities/events.json")
           .then((response) => response.json())
           .then((data) => {
             events.value = transformData(data)
             tags.value = removeDuplicates(events.value.flatMap((event) => event.tags))
+            eventNames.value = events.value.map((event) => event.title)
           })
         return {
           search,
@@ -101,6 +136,8 @@
           selectedTags,
           value,
           addToMySchedule,
+          eventNames,
+          onSelect,
         }
       }
     })
