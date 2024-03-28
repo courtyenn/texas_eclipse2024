@@ -73,36 +73,32 @@ const registerWorker = async () => {
   // When there's an incoming fetch request, try and respond with a precached resource, otherwise fall back to the network
   self.addEventListener("fetch", async (e) => {
     e.respondWith(
-      (async function () {
-        const cachedResponse = await caches.match(e.request)
-        if (cachedResponse) {
-          return cachedResponse
-        }
-
-        try {
-          const networkResponse = await fetch(e.request)
-
-          const hosts = ["/assets"]
-
-          if (hosts.some((host) => e.request.url.startsWith(host))) {
-            // This clone() happens before `return networkResponse`
+      caches.open(CACHE_NAME).then(async (cache) => {
+        const hosts = [
+          "http://localhost:8080",
+          "https://texas-eclipse2024.vercel.app",
+          "https://unpkg.com",
+          "https://cdn.jsdelivr.net",
+        ]
+        if (hosts.some((host) => e.request.url.startsWith(host))) {
+          // This clone() happens before `return networkResponse`
+          try {
+            const networkResponse = await fetch(e.request)
             const clonedResponse = networkResponse.clone()
 
-            e.waitUntil(
-              (async function () {
-                const cache = await caches.open(CACHE_NAME)
-                // This will be called after `return networkResponse`
-                // so make sure you already have the clone!
-                await cache.put(e.request, clonedResponse)
-              })()
-            )
-          }
+            e.waitUntil(async function () {
+              const cache = await caches.open(CACHE_NAME)
+              // This will be called after `return networkResponse`
+              // so make sure you already have the clone!
+              return await cache.put(e.request, clonedResponse)
+            })
 
-          return networkResponse
-        } catch (error) {
-          console.error("Fetch failed; returning offline page instead.", error)
+            return networkResponse
+          } catch (err) {
+            return cache.match(e.request)
+          }
         }
-      })()
+      })
     )
   })
 }

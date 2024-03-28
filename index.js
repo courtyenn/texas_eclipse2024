@@ -44,6 +44,14 @@ map.on("zoomend", function () {
   else if (zoomLevel === 18) mapEle.classList.add("max-zoom-in")
 })
 
+map.on("locationfound", function (ev) {
+  if (!marker) {
+    marker = L.marker(ev.latlng)
+  } else {
+    marker.setLatLng(ev.latlng)
+  }
+})
+
 L.tileLayer(`/assets/mapbox/{z}/{x}/{y}.png`, {
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',

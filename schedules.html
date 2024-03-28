@@ -42,6 +42,7 @@
           <div class="cell">
             <multiselect v-model="search" placeholder="Search by name.." :options="eventNames" @remove="onSelect" />
           </div>
+
           <div class="cell">
             <multiselect v-model="selectedTags" :options="tags" :multiple="true" :clear-on-select="false"
               :preserve-search="true" :close-on-select="false" placeholder="Select tag(s)"></multiselect>
@@ -94,6 +95,9 @@
         const value = ref();
         const events = ref([])
         const eventNames = ref([]);
+        const stages = ref([])
+        const days = ref([])
+        const eventTypes = ref([])
         const search = ref('')
         const selectedTags = ref([])
         const tags = ref([])
@@ -125,8 +129,13 @@
           .then((response) => response.json())
           .then((data) => {
             events.value = transformData(data)
-            tags.value = removeDuplicates(events.value.flatMap((event) => event.tags))
-            eventNames.value = events.value.map((event) => event.title)
+            for (let event of events.value) {
+              tags.value = removeDuplicates(tags.value.concat(event.tags))
+              eventNames.value.push(event.title)
+              stages.value = removeDuplicates(stages.value.concat(event.location))
+            }
+            // tags.value = removeDuplicates(events.value.flatMap((event) => event.tags))
+            // eventNames.value = events.value.map((event) => event.title)
           })
         return {
           search,
