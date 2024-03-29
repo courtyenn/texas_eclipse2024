@@ -79,10 +79,10 @@
   </section>
   <script type="module">
     import { createApp, ref, onMounted, computed, reactive } from 'vue'
-
+    const STORAGE = 'TexasEclipseSchedulev2';
     const app = createApp({
       setup() {
-        const schedule = ref(localStorage.getItem('TexasEclipseSchedule') ? JSON.parse(localStorage.getItem('TexasEclipseSchedule')) : {});
+        const schedule = ref(localStorage.getItem(STORAGE) ? JSON.parse(localStorage.getItem(STORAGE)) : {});
         for (let day in schedule.value) {
           schedule.value[day] = schedule.value[day].map(event => {
             event.startTime = new Date(event.startTime);
