@@ -52,7 +52,7 @@ const registerWorker = async () => {
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
     "https://unpkg.com/vue@3/dist/vue.esm-browser.js",
-    "https://www.unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js",
+    "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js",
     ...ICONS.map((icon) => `/assets/${icon}.png`),
     ...calcSlippyTiles().map(
       (tile) => `/assets/mapbox/${tile.zoom}/${tile.x}/${tile.y}.png`
