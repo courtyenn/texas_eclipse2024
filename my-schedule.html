@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedules</title>
+  <link href="https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+</head>
+
+<body>
+  <script type="importmap">
+    { 
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+  <div id="app">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          Go to Map
+        </a>
+        <a class="navbar-item" href="/schedules.html">
+          Go to Schedules
+        </a>
+
+        <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a> -->
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          My Schedule
+        </h1>
+        <div class="my-list">
+          <div v-for="day in days" class="list-item">
+            <h2 class="days">{{day}}</h2>
+            <ul class="event-list">
+              <li v-if="schedule[day].length > 0" v-for="event in schedule[day]" class="event">
+                <time style="text-align: right; flex: 1 0 50%">{{event.startTime.toLocaleTimeString([], {timeStyle:
+                  'short'})}} -
+                  {{event.endTime.toLocaleTimeString([], {timeStyle: 'short'})}}:</time>
+                <span style="flex: 0 1 50%">{{event.title}}</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  </section>
+  <script type="module">
+    import { createApp, ref, onMounted, computed, reactive } from 'vue'
+
+    const app = createApp({
+      setup() {
+        const schedule = ref(localStorage.getItem('TexasEclipseSchedule') ? JSON.parse(localStorage.getItem('TexasEclipseSchedule')) : {});
+        for (let day in schedule.value) {
+          schedule.value[day] = schedule.value[day].map(event => {
+            event.startTime = new Date(event.startTime);
+            event.endTime = new Date(event.endTime);
+            return event;
+          })
+        }
+        console.log(schedule.value)
+        const days = Object.keys(schedule.value);
+        return {
+          schedule, days
+        }
+      }
+    })
+
+    app.mount('#app')
+  </script>
+  <style>
+    body {
+      --bulma-title-color: white;
+      color: white;
+      background: black url("assets/solar-eclipse.png") no-repeat top center fixed;
+      background-size: 30%;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background-color: transparent;
+    }
+
+    .my-list {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .list-item {
+      width: 100%;
+      margin: 1rem 0;
+    }
+
+    .event-list {
+      width: 95%;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 20px;
+    }
+
+    .event {
+      display: flex;
+      gap: 10px;
+    }
+
+    @media screen and (min-width: 768px) {
+      .list-item {
+        width: 50%;
+      }
+
+      .event-list {
+        width: 80%;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+
+      .event-list {
+        width: 76%;
+      }
+
+    }
+
+    .days {
+      font-size: 50px;
+      text-shadow: #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px;
+      font-weight: 600;
+
+    }
+  </style>
+</body>
+
+</html>
