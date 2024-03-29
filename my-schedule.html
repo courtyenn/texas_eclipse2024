@@ -4,9 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Schedules</title>
+  <title>The Unofficial Texas Eclipse App - My Schedule</title>
   <link href="https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://texas-eclipse2024.vercel.app/schedules.html" />
+  <meta property="og:title" content="The Unofficial Texas Eclipse App - Keep your Data" />
+  <meta property="og:description"
+    content="View the line-up and discover artists by genre. Add them to your schedule and curate your day. 100% Offline. Your data belongs to you." />
+  <meta property="og:image" content="/assets/preview2.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://texas-eclipse2024.vercel.app/schedules.html" />
+  <meta property="twitter:title" content="The Unofficial Texas Eclipse App - Keep your Data" />
+  <meta property="twitter:description"
+    content="View the line-up and discover artists by genre. Add them to your schedule and curate your day. 100% Offline. Your data belongs to you." />
+  <meta property="twitter:image" content="/assets/preview2.png" />
+
+  <!-- Meta Tags Generated with https://metatags.io -->
 </head>
 
 <body>
@@ -20,10 +37,10 @@
   <div id="app">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <a class="navbar-item has-text-grey" href="/">
           Go to Map
         </a>
-        <a class="navbar-item" href="/schedules.html">
+        <a class="navbar-item has-text-grey" href="/schedules.html">
           Go to Schedules
         </a>
 
@@ -40,7 +57,10 @@
         <h1 class="title stargazer">
           Texas Eclipse 2024
         </h1>
-        <div class="my-list">
+        <div v-if="!schedule[day]">
+          <h2 class="title has-text-light">Nothingh here.. add some events to see cool shit ✨</h2>
+        </div>
+        <div v-if="schedule[day]?.length" class="my-list">
           <div v-for="day in days" class="list-item">
             <h2 class="days">{{day}}</h2>
             <ul class="event-list">
