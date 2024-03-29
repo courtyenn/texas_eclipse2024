@@ -192,10 +192,10 @@
         const addToMySchedule = (data) => {
           const day = daysOfWeek.value[data.startTime.getDay()]
           if (savedData[day].length > 0) {
-            let indexToSlice = 0;
+            let indexToSlice = savedData[day].length;
             for (let i = 0; i < savedData[day].length; i++) {
               const event = savedData[day][i];
-              if (event.startTime > data.startTime) {
+              if (event.startTime >= data.startTime) {
                 indexToSlice = i;
                 break;
               }
@@ -219,7 +219,7 @@
             let indexToSlice = 0;
             for (let i = 0; i < savedData[day].length; i++) {
               const event = savedData[day][i];
-              if (event.startTime === data.startTime) {
+              if (event.id === data.id) {
                 indexToSlice = i;
                 break;
               }
