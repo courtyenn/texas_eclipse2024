@@ -71,6 +71,7 @@ const registerWorker = async () => {
 
   // When the service worker is installing, open the cache and add the precache resources to it
   self.addEventListener("install", (event) => {
+    self.skipWaiting()
     event.waitUntil(
       Promise.all([
         caches
