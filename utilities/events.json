@@ -1,5 +1,230 @@
 [
   {
+    "starttime": "2024-04-05T22:30:00.000Z",
+    "endtime": "2024-04-05T23:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Yuri's Night - Opening Performance and Awards",
+    "tags": "presentation, space",
+    "description": "Yuri’s Night: Celebrating Humanity in Space and Space for Humanity - Opening Performance and Awards"
+  },
+  {
+    "starttime": "2024-04-05T23:00:00.000Z",
+    "endtime": "2024-04-06T00:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Yuri's Night - Future Space Explorers Panel",
+    "tags": "presentation, space",
+    "description": "“Yuri’s Night: Celebrating Humanity in Space and Space for Humanity” - Future Space Explorers Panel"
+  },
+  {
+    "starttime": "2024-04-06T00:00:00.000Z",
+    "endtime": "2024-04-06T01:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Yuri's Night - Flown Astronaut Panel",
+    "tags": "presentation, space",
+    "description": "“Yuri’s Night: Celebrating Humanity in Space and Space for Humanity” - Flown Astronaut Panel"
+  },
+  {
+    "starttime": "2024-04-05T18:00:00.000Z",
+    "endtime": "2024-04-05T18:30:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Music, Digital Art, & Light Show ",
+    "tags": "presentation, art, light show",
+    "website": "atxdao.com"
+  },
+  {
+    "starttime": "2024-04-05T18:30:00.000Z",
+    "endtime": "2024-04-05T19:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "\"The History of Math and Astrology: Katy Bohinc, The Ratio Space \"",
+    "tags": "presentation, math, astrology",
+    "ig": "instagram.com/katybooberry",
+    "website": "atxdao.com"
+  },
+  {
+    "starttime": "2024-04-05T19:00:00.000Z",
+    "endtime": "2024-04-05T19:30:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Preparing for a World with 1 Billion Displaced People: Mike Zuckerman, United Refuge",
+    "tags": "presentation, humanitarianism",
+    "description": "I create spaces and have designed everything from environmental nightclubs to a global network of [freespaces]. For the last 6 years I turned my focus to the global human migration crisis where I've been setting up alternatives to traditional refugee camps where the refugees themselves take a leading role in their design and implementation, flipping the traditional humanitarian model. As project manager for Elpida Home in 2016, I lead a team of volunteers, refugees and local Greek contractors to build a prototype camp that what was widely recognized as the most dignified living conditions for refugees in all of Greece. Since leaving Greece I've continued investigating refugee situations from integration in Europe to the protracted and new situations that exist in Uganda and Bangladesh. The cutting edge thoughts on the future of education, work, governance, place making, blockchain and protests can be applied to advancing the cause of displaced peoples around the globe. Like many others, I believe that the current system of international aid is broken and we need to actively create many alternative prototypes... and fast. Refugee camps are the cities of the future where leapfrog urbanism is possible. In order for this vision to become a reality it will take all of us, refugees themselves and the general population, especially those who don't see themselves as traditional humanitarians. Together we will figure this out.",
+    "ig": "instagram.com/mike.zuckerman"
+  },
+  {
+    "starttime": "2024-04-05T19:30:00.000Z",
+    "endtime": "2024-04-05T20:15:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Fear and Hope in the Age of AI: De Kai, HKUST & Berkeley ICSI",
+    "tags": "presentation, AI, innovation",
+    "description": "De Kai is Professor of Computer Science and Engineering at HKUST, and Distinguished Research Scholar at Berkeley's International Computer Science Institute. He is among only 17 scientists worldwide named by the Association for Computational Linguistics as a Founding ACL Fellow, for his pioneering contributions to machine translation and machine learning foundations of systems like the Google/Yahoo/Microsoft translators. Recruited as founding faculty of HKUST directly from UC Berkeley, where his PhD thesis was one of the first to spur the paradigm shift toward machine learning based natural language processing technologies, he founded HKUST's internationally funded Human Language Technology Center which launched the world's first web translator over twenty years ago.\n\nDe Kai's cross-disciplinary work relating music, language, intelligence, and culture centers on enabling cultures to relate, and stems from a liberal arts perspective emphasizing creativity in both technical and humanistic dimensions. A native of St Louis, he worked and traveled extensively in San Francisco, New York, Germany, Spain, China, India and Canada before joining Hong Kong's ambitious creation of Asia's now top-ranked HKUST, where his pioneering contributions to machine learning of the cognitive relationships between different languages led to the foundations of modern machine translation technology, with broad applications in computer music and computational musicology as well as human language processing.\n\nDuring his doctoral studies in cognitive science, artificial intelligence and computational linguistics at Berkeley, he worked on seminal projects on intelligent conversational dialog agents. His PhD dissertation employing maximum entropy to model human perception and interpretation of ambiguities was one of the first to spur the paradigm shift toward today's state-of-the-art statistical natural language processing technologies. De Kai also holds an executive MBA from Kellogg (Northwestern University) and HKUST. His undergraduate degree at UCSD was awarded cum laude, Phi Beta Kappa, and won the liberal arts oriented Revelle College's department award.\n\nIn 2015, Debrett's HK 100 named De Kai as one of the 100 most influential figures of Hong Kong.\n\nIn 2019, Google named De Kai as one of eight inaugural members of its AI Ethics council, ATEAC (Advanced Technology External Advisory Council).",
+    "ig": "instagram.com/dekai1",
+    "website": "dek.ai"
+  },
+  {
+    "starttime": "2024-04-05T20:15:00.000Z",
+    "endtime": "2024-04-05T21:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Digital Media Innovation Panel",
+    "description": "Digital Media Innovation Panel: Moderator/Panelist: Andrew Bragg (Ape Beverages), Zend Vibes, Tom Shea (Adgile Media Group), Andrew Antar (Tune.FM), Mina Salib (Axiom Space)",
+    "tags": "presentation, innovation"
+  },
+  {
+    "starttime": "2024-04-05T21:00:00.000Z",
+    "endtime": "2024-04-05T22:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Future of Payments Panel",
+    "tags": "presentation, crypto",
+    "description": "Connor Emma: Founder of tryboop, Co-Founder of RCS Ventures, formerly Coinbase",
+    "website": "rcsv.xyz"
+  },
+  {
+    "starttime": "2024-04-05T22:00:00.000Z",
+    "endtime": "2024-04-05T23:45:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Snark Tank",
+    "tags": "presentation, comedy",
+    "description": "Snark Tank: Host: Noah Advisors: Matt Mckibbin, Kevin Lehtiniitty, Meagan Crawford (Co-Founder, Spacefund), Amber Allen (CEO Double A Labs) Founders: Ny Bass (Beach Bungalow/Phynx), Tom Shea (Adgile Media Group), Connor Emma (Boop), Abhinav Sridharan (Cofipass) Comedians: Brent Pella. Mike Eaton, A.B. Farrelly, Margaux Avedisian"
+  },
+  {
+    "starttime": "2024-04-05T23:45:00.000Z",
+    "endtime": "2024-04-05T23:45:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Fou, Fou, Ha: Ending Dance Procession with Music Track",
+    "tags": "presentation, art"
+  },
+  {
+    "starttime": "2024-04-06T00:00:00.000Z",
+    "endtime": "2024-04-06T01:00:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Old Gold",
+    "tags": "music, experimental, bass, dnb",
+    "description": "undefined"
+  },
+  {
+    "starttime": "2024-04-06T00:00:00.000Z",
+    "endtime": "2024-04-06T01:00:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Bogl",
+    "tags": "music, experimental, bass, dnb, classy, downtempo, jazzy",
+    "description": "BOGL is a man of mystery, DJ and music enthusiast originally from Las Vegas, NV. With his parties, Soundpieces, Bogl has been able to host and play alongside current left-field artists from around the world in San Francisco and beyond for years. His charisma is like that of a friendly ghost; he is kept close to your heart as one would a godfather, while basically existing as an untouchable phenomenon. He’s become known for appearing out of what seems like thin air to play an eclectic selection of bass heavy productions, take you to an unfathomable dimension, then suddenly vanishing to another far off place. It make us wonder how it’s even possible for Bogl to exist.",
+    "soundcloud": "soundcloud.com/griffinbogl"
+  },
+  {
+    "starttime": "2024-04-06T02:00:00.000Z",
+    "endtime": "2024-04-06T06:00:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Skream (dubstep set)",
+    "tags": "music, dubstep, dnb, vocals, progressive, bass, bpm, hardstyle, dreamy, electronica, jazzy, hip hop",
+    "soundcloud": "soundcloud.com/skreamizm",
+    "ig": "instagram.com/skreamizm"
+  },
+  {
+    "starttime": "2024-04-06T00:00:00.000Z",
+    "endtime": "2024-04-06T01:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "TF Marz",
+    "tags": "music, lo-fi, downtempo, dreamy, vocals, bass, dnb, hip hop, jungle, dark",
+    "description": "By fusing hip-hop and sound system cultures, the all:Lo collective bends genres of downtempo bass music and lofi hip-hop with an intention to shed light on the growing electronic music scene",
+    "soundcloud": "soundcloud.com/tfmarz",
+    "ig": "instagram.com/tfmarz",
+    "website": "all-lo.com"
+  },
+  {
+    "starttime": "2024-04-06T01:00:00.000Z",
+    "endtime": "2024-04-06T02:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "pheel.",
+    "tags": "music, eerie, soundscape, sophistication, jazzy, downtempo, lo-fi",
+    "description": "By fusing hip-hop and sound system cultures, the all:Lo collective bends genres of downtempo bass music and lofi hip-hop with an intention to shed light on the growing electronic music scene",
+    "soundcloud": "soundcloud.com/pheel518",
+    "website": "all-lo.com"
+  },
+  {
+    "starttime": "2024-04-06T02:00:00.000Z",
+    "endtime": "2024-04-06T03:15:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Thought Process",
+    "tags": "music, upbeat, happy, dnb, jazzy, acoustics, bass",
+    "description": "By fusing hip-hop and sound system cultures, the all:Lo collective bends genres of downtempo bass music and lofi hip-hop with an intention to shed light on the growing electronic music scene",
+    "soundcloud": "soundcloud.com/thought_process_music",
+    "website": "all-lo.com"
+  },
+  {
+    "starttime": "2024-04-06T03:15:00.000Z",
+    "endtime": "2024-04-06T04:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "parkbreezy",
+    "tags": "music, synth, psywave, hip hop, jazzy, retro, funky, vocals",
+    "description": "By fusing hip-hop and sound system cultures, the all:Lo collective bends genres of downtempo bass music and lofi hip-hop with an intention to shed light on the growing electronic music scene",
+    "soundcloud": "soundcloud.com/parkbreezy",
+    "website": "all-lo.com"
+  },
+  {
+    "starttime": "2024-04-06T04:00:00.000Z",
+    "endtime": "2024-04-06T05:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "all:Lo Collective",
+    "tags": "music, hip hop, retro, jazzy, funky, synth, hardstyle, dnb, bass",
+    "description": "By fusing hip-hop and sound system cultures, the all:Lo collective bends genres of downtempo bass music and lofi hip-hop with an intention to shed light on the growing electronic music scene",
+    "website": "all-lo.com"
+  },
+  {
+    "starttime": "2024-04-06T05:00:00.000Z",
+    "endtime": "2024-04-06T05:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Handsome Tiger",
+    "tags": "music, dnb, ethnic, tribal, bass, tranquil, bpm, indigenous, synth, psywave, jungle",
+    "description": "Handsome Tiger is an Anishinaabe Métis, North African music producer/dj from Turtle Island, residing in Vancouver BC.\nHis production blends traditional sounds from his culture alongside other indigenous sounds, interwoven into the contemporary sounds of electronic bass music today.",
+    "soundcloud": "soundcloud.com/handsometiger",
+    "ig": "instagram.com/handsome.tiger",
+    "website": "handsometiger.com"
+  },
+  {
+    "starttime": "2024-04-05T22:00:00.000Z",
+    "endtime": "2024-04-05T23:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Renegade Opera",
+    "tags": "music, opera, vocals",
+    "description": "RENEGADE OPERA was launched by Jewelz Moyer in 2019. Jewelz is a trained vocalist and has sung with various auditioned choirs, jazz and funk bands, including being a backup vocalist for P-Funk Allstar, Ronkat Spearman. She was also a Soprano in the prestigious Oakland Symphony Chorus/Chamber Singers. After being commissioned to sing opera at various SF Bay Area parties and events, she decided that Opera is a passion that pushes her musicianship and performance skill levels. She originally created a one woman show as a Lyric Soprano accompanied by complete orchestral background tracks to famous operatic arias from the classics. You may catch her popping up and performing on the streets of San Francisco, or at a prestigious event like the Edwardian Ball SF (3 years in a row performing in the main Ballroom) or even at well known festivals like Lightning in a Bottle (2 years in a row on Grand Artique Stage), Oregon Country Fair, Piedmont Foodfest, and much much more. She also integrates her experience as a performer in theater and circus arts. A pleasure to your ear and soul....she hopes you catch a Renegade Opera performance near you!",
+    "website": "renegadeopera.com"
+  },
+  {
+    "starttime": "2024-04-06T00:00:00.000Z",
+    "endtime": "2024-04-06T01:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Balkan Bump",
+    "tags": "music, folk"
+  },
+  {
+    "starttime": "2024-04-06T01:45:00.000Z",
+    "endtime": "2024-04-06T03:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Atash",
+    "tags": "music, spiritual, consciousness, acoustics, vocals, tribal",
+    "description": "Atash combines master musicians from around the globe to create a powerful, worldly original sound that inspires people of all ages and from all walks of life to dance and commune in a celebration of life!",
+    "ig": "instagram.com/atashmusic",
+    "website": "atash.com"
+  },
+  {
+    "starttime": "2024-04-06T03:30:00.000Z",
+    "endtime": "2024-04-06T05:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Danni G",
+    "tags": "music, afro, indigenous, jazzy",
+    "description": "Danni G the Venezuelan transplant now living in Los Angeles ca Started his music career in New York City year 2006 at the Dub Spot DJ/Production Academy.\nHis unique sounds involves anything from original music, remixes of Afro, Amapiano, Gqom, Dancehall, hip hop, Latin and new forward thinking genres. Danni G has played at some the most pristine festivals and venues all across USA and the world captivating the audience with his radiant energy and his music knowledge",
+    "ig": "instagram.com/afromantiscollective",
+    "website": "afromantis.com"
+  },
+  {
+    "starttime": "2024-04-06T05:45:00.000Z",
+    "endtime": "2024-04-06T06:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Golden Dawn Arkestra",
+    "tags": "music, funky, afro, indigenous, jazzy, retro, upbeat, spiritual, consciousness, tranquil, vocals",
+    "description": "Golden Dawn Arkestra continues to spread a message of love, light & tolerance in the hope that Earth beings can someday live in unity, having learned to love one another despite their many differences. To aid in this purpose, Golden Dawn Arkestra conducts extra-dimensional experiments involving space and time travel through the use of sound and movement. Their followers delight in these rituals; all bear witnesses to their higher selves and joyously bask in the eternal light that joins us all as one. The Arkestra ’s theatrical visuals inspired by Sun Ra Arkestra are enriched further by appearances from various dancers who, like the musicians, are adorned in shimmering garments reminiscent of intergalactic kingdoms of yore. Inspired to exuberance by ritualistic practices such as processions, chanting, and the power of the music itself, the audience falls into spellbound frenzies. GOLDEN DAWN ARKESTRA invites you to join in their cosmic explorations in the hopes that you too may experience the ecstatic joy of drifting upon the ever-loving rays of RA.",
+    "soundcloud": "soundcloud.com/golden-dawn-arkestra",
+    "website": "goldendawnarkestra.com"
+  },
+  {
     "starttime": "2024-04-05T20:00:00.000Z",
     "endtime": "2024-04-05T22:00:00.000Z",
     "areastagelatlng": "Sun",
@@ -35,7 +260,7 @@
     "tags": "music, psytrance, consciousness, spiritual, trippy, vocals, progressive, bpm, hardstyle",
     "description": "Avalon is one of the leading and most in-demand artists in the Psy-Trance scene today and for over a decade one of the top headliners at most major psychedelic trance events around the globe and has worked with Tristan, Ajja, Vini Vici, Astrix, Burn In Noise, Ace Ventura to name a few.",
     "soundcloud": "soundcloud.com/avalon",
-    "website": "avalonthegroup.com/"
+    "website": "avalonthegroup.com"
   },
   {
     "starttime": "2024-04-06T02:00:00.000Z",
@@ -82,7 +307,7 @@
     "description": "A rhythmic duality of sound emerges on his dance floor. “Dirty lows and pretty highs.” Frequencies that ground and elevate simultaneously, transmuting, clearing, bringing you  out of your head, into your body and back into symbiosis.\n\nHis music is deep, evocative and laced with a distinctive undertone of his Hispanic roots. His sound is a profound expression of his old soul.\n\nHe stands as a rising artist in the San Francisco Bay Area scene and music has taken him from Costa Rica to Berlin to everywhere in-between.\n\nJoin him somewhere on the musical plain, and be ready to embark on a journey of self discovery through sound…",
     "soundcloud": "soundcloud.com/ejesound",
     "ig": "instagram.com/ejesound",
-    "website": "ejesound.com/"
+    "website": "ejesound.com"
   },
   {
     "starttime": "2024-04-05T21:45:00.000Z",
@@ -108,10 +333,10 @@
     "endtime": "2024-04-06T01:45:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Zenti",
-    "tags": "music, house, ethnic, vocals, consciousness",
+    "tags": "music, house, ethnic, vocals, consciousness, soundscape, dreamy, techno",
     "description": "ZENTI's enchanting melodies serve as cosmic missives, weaving heartfelt and intuitive expressions of worldly sounds. His expansive sonic alchemy doesn't merely entertain but transports listeners to ethereal realms with elevating vibrations and driving bass lines. ",
     "soundcloud": "soundcloud.com/zentimusic",
-    "ig": "instagram.com/zentimusic/"
+    "ig": "instagram.com/zentimusic"
   },
   {
     "starttime": "2024-04-06T01:45:00.000Z",
@@ -121,7 +346,7 @@
     "tags": "music, house, consciousness, vocals",
     "description": "Pope’s live electronic sets enthrall massive crowds by featuring world class musicians melding seamlessly with phenomenal mixes. His DJ sets rock the masses while taking them on unforgettable journeys.",
     "soundcloud": "soundcloud.com/henry-pope",
-    "ig": "instagram.com/henrypope/"
+    "ig": "instagram.com/henrypope"
   },
   {
     "starttime": "2024-04-06T03:15:00.000Z",
@@ -185,7 +410,7 @@
     "tags": "music, psytrance, consciousness, spiritual, ethnic",
     "description": "Music is magic. Music and dance allow for us to transcend our thinking minds. I view Dj’ing as shamanistic activity. Nothing else I have witnessed can uplift so many, simultaneously.  The art form is about rhythm, discipline and timing, which are applicable to all aspects of ones life.  Essential to the art form is playing the right music for the moment, beyond the boundaries of genre and fables of labels. ",
     "soundcloud": "soundcloud.com/swami-harami",
-    "ig": "instagram.com/swami_harami/"
+    "ig": "instagram.com/swami_harami"
   },
   {
     "starttime": "2024-04-06T20:00:00.000Z",
@@ -234,7 +459,7 @@
     "tags": "music, psytrance, hardstyle, bpm, ethnic",
     "description": "Hello Lovely Trance Freaks & Psychedelics. I always aiming for you\n\nRegarding his playstyle, he ranges from 120-160 BPM to create a story throughout his play. He has a passion for constantly searching for cutting edge underground tracks from all around the word, and naturally incorporates them into his own playstyle. Featuring hardcore spirited upper groove and fractal psychedelic sounds, he turns the highest vibes to an emotion heavy atmosphere, leaving a teary-eyed dancefloor.",
     "soundcloud": "soundcloud.com/ryooky",
-    "ig": "instagram.com/ryooky_ls_d/"
+    "ig": "instagram.com/ryooky_ls_d"
   },
   {
     "starttime": "2024-04-07T03:30:00.000Z",
@@ -244,7 +469,7 @@
     "tags": "music, psytrance, futuristic",
     "description": "Growling Mad Scientists",
     "soundcloud": "soundcloud.com/growling-mad-scientists",
-    "ig": "instagram.com/this_is_gms_official/"
+    "ig": "instagram.com/this_is_gms_official"
   },
   {
     "starttime": "2024-04-07T05:30:00.000Z",
@@ -272,7 +497,7 @@
     "eventartistworkshoppresentation": "m.O.N.R.O.E",
     "tags": "music, house, bpm, funky",
     "soundcloud": "soundcloud.com/m-o-n-r-o-e",
-    "ig": "instagram.com/m.o.n.r.o.e._music/"
+    "ig": "instagram.com/m.o.n.r.o.e._music"
   },
   {
     "starttime": "2024-04-06T09:00:00.000Z",
@@ -321,7 +546,7 @@
     "tags": "music, house, psytrance, electronica, dreamy",
     "description": "rounded sound. poetic pleasure. euphoric revolution.",
     "soundcloud": "soundcloud.com/lemonella",
-    "ig": "instagram.com/lemonella_music/"
+    "ig": "instagram.com/lemonella_music"
   },
   {
     "starttime": "2024-04-06T21:30:00.000Z",
@@ -331,7 +556,7 @@
     "tags": "music, house, dreamy, electronica, sophistication",
     "description": "\"Mixes are time capsules of sound. Each capturing a moment in time that will not be repeated the same way. Each mix is meant to transport the listener in their own time machine to their own destination. These are soundtracks for daily living...\"",
     "soundcloud": "soundcloud.com/djmarkfarina",
-    "ig": "instagram.com/djmarkfarina/"
+    "ig": "instagram.com/djmarkfarina"
   },
   {
     "starttime": "2024-04-06T22:45:00.000Z",
@@ -433,7 +658,7 @@
     "eventartistworkshoppresentation": "The String Cheese Incident",
     "tags": "music, folk, electronica, blues, folktronica, jazzy, progressive, vocals, acoustics, dnb",
     "description": "Their music has elements of bluegrass sounds, as well as rock, electronica, calypso, country, funk, jazz, Latin, progressive rock, reggae, and psychedelia. All members write original compositions and sing.",
-    "ig": "instagram.com/sci_official/",
+    "ig": "instagram.com/sci_official",
     "website": "stringcheeseincident.com/"
   },
   {
@@ -463,7 +688,7 @@
     "tags": "music, psytrance, techno, bpm, electronica, hardstyle, house",
     "description": "@nano_records | @atto.music.label @8ternal_beings Label Boss-Man, DJ, Musician, Festival Producer, Music Addict | Psytrance / Techno",
     "soundcloud": "youtube.com/watch?v=-tWW8A0Cq7Q",
-    "ig": "instagram.com/regan_nano/"
+    "ig": "instagram.com/regan_nano"
   },
   {
     "starttime": "2024-04-07T11:00:00.000Z",
@@ -473,7 +698,7 @@
     "tags": "music, psytrance, bpm, hardstyle, techno, futuristic, funky, sophistication, retro",
     "description": "HAILING FROM SUNNY CALIFORNIA WITH DEEP ROOTS IN THE INDIAN PSYTRANCE SCENE, DIGITAL HIPPIE’S MUSICAL JOURNEY BEGAN AT THE MIGHTY SHIVA VALLEY CIRCA 2008.\n\nHER STYLE IS BEST DESCRIBED AS FUNKY, GROOVY, SOPHISTICATED FULL-ON THAT REFERENCES OLD SCHOOL GOA TRANCE WITH A NEW SCHOOL TWIST. 2020 SAW SAVITHA RELEASE HER FIRST SINGLE WITH TRISTAN ENTITLED ‘HELLO COCONUT’ ON NANO RECORDS DEBUTING HER PRODUCTION TALENTS TO THE WORLD. SHE RECENTLY JOINED NANO RECORDS AND HAS A DICKSTER COLLABORATION IN THE WORKS AS WELL AS HER FIRST SOLO RELEASE IN EARLY 2024.",
     "soundcloud": "soundcloud.com/digitalhippie",
-    "ig": "instagram.com/digitalhippieofficial/",
+    "ig": "instagram.com/digitalhippieofficial",
     "website": "nanomusic.net/artist/digital-hippie/"
   },
   {
@@ -507,6 +732,7 @@
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Spryos",
     "tags": "music, psytrance, groovy, funky, electronica, synth, vocals, house, bpm, trippy",
+    "description": "undefined",
     "soundcloud": "soundcloud.com/spyromusic"
   },
   {
@@ -517,7 +743,7 @@
     "tags": "music, psytrance, indigenous, progressive, electronica, spiritual, house",
     "description": "Rising Dust is the musical expression of two bright minds that coexist in perfect harmony with the purpose of touching & elevating one's spirit.\nJohn Aharon & Ami Dahan, are longtime friends and have both been individually active in the world of electronic based dance floor music production.\nTheir collaboration sparked a big light and led to the formation of the Rising Dust elevating & positive expression.\nIn the past few years the duo has been gaining popularity on both local & international level, accomplishing one remarkable milestone after the other.",
     "soundcloud": "soundcloud.com/risingdust",
-    "ig": "instagram.com/rising_dust/"
+    "ig": "instagram.com/rising_dust"
   },
   {
     "starttime": "2024-04-08T00:00:00.000Z",
@@ -527,7 +753,7 @@
     "tags": "music, psytrance, electronica, sophistication, spiritual, trance, synth",
     "description": "The original founder and chief of the legendary PsyTribe productions in Los Angeles, started in 1997. In its 19 years of existence, Psytribe has paved the way for many producers, promoters and DJs which have flourished out of the L.A. scene. Psytibe has, and continues to set the standards and capture the essence of a true psychedellic trance party.",
     "soundcloud": "soundcloud.com/barakuda",
-    "website": "insomniac.com/music/artists/barakuda/"
+    "website": "insomniac.com/music/artists/barakuda"
   },
   {
     "starttime": "2024-04-08T01:30:00.000Z",
@@ -546,8 +772,8 @@
     "tags": "music, psytrance, vocals, trippy, electronica, bpm, sophistication",
     "description": "Ajja is an eclectic and multi-talented Swiss artist who channels his creativity through parallel careers as musician, producer, label manager, graphic artist, software developer and painter.",
     "soundcloud": "soundcloud.com/ajja",
-    "ig": "instagram.com/ajjaleu/",
-    "website": "ajjaleu.com/"
+    "ig": "instagram.com/ajjaleu",
+    "website": "ajjaleu.com"
   },
   {
     "starttime": "2024-04-08T05:30:00.000Z",
@@ -693,7 +919,7 @@
     "endtime": "2024-04-08T08:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Parus",
-    "tags": "music, psytrance",
+    "tags": "music, psytrance, space, techno, trance, electronica",
     "description": "PARUS is a psychedelic trance music project. Written and produced by twin brothers Valentin and Mark Tarasov. The twins were born March of 1981 in Riga, Latvia. In early nineties moved to San Francisco, CA . Since the beginning of 2000, PARUS sound was presented at some of the most spectacular psychedelic trance gatherings around the world. From San Francisco to New York from Russia to Japan, reaching beautiful shores of Portugal and energizing BOOM Festival dance floor. Brothers Valentin and Mark Tarasov performed alongside some of the worlds most renowned Acts in the psychedelic trance community.",
     "soundcloud": "soundcloud.com/parusmusic"
   },
@@ -702,42 +928,60 @@
     "endtime": "2024-04-08T10:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Superluminal",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, electronica, trance, forest, futuristic, bpm",
+    "description": "Superluminal is the project of Kabayun and his partner, muse, and wife Yasmin. Those who know them together are aware of how much of a symbiosis they are in various ways. She doing art to his music and vice versa - constantly inspiring each other. Now they have taken the next level by making music together! Superluminal is the next logical step and the result of both their energies and their love for each other as well as for psychedelic culture. With pumping basslines and twisted soundscapes, it’s the perfect sound to kick up some dust and shake your chakras!"
   },
   {
     "starttime": "2024-04-08T10:00:00.000Z",
     "endtime": "2024-04-08T11:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Gu",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, trance, groovy, bass, dark",
+    "description": "A psychedelic trance producer Gu a.k.a Takumi Yamaguchi was a born in Japan. In 2004 he wondered onto the Indian sub-continent, and stumbled into Goa, completely unaware that he was about to have his life changed. In Goa he had his first encounter with this thing known as Trance Music. After dancing at a couple of parties he decided to become a DJ. He is heavily influenced by sound by all psychedelic music in the world. In 2006, with the aid of DAW, he wanted to create an original sound. He then went on to begin producing his own music. Gu is full of dark sounds with groovy bass lines being his signature.",
+    "soundcloud": "soundcloud.com/gu-jp",
+    "ig": "instagram.com/gu.parvati",
+    "website": "parvati-records.com/gu"
   },
   {
     "starttime": "2024-04-08T11:30:00.000Z",
     "endtime": "2024-04-08T13:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Egon's Embrace",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, trance, dark, eerie, dreamy, emo",
+    "description": "As a form of personal therapy, Egon’s Embrace is an alter ego, an ongoing metamorphosis that allows me to explore parts of my personality that are often impossible to explore in everyday life. I often see myself as an anomaly in psychedelic trance world as my guiding thread in creating music is self-indulgence. I take my feelings and introspections about a world and people as a starting point and turn them into an expressive art form that is almost like a painting drawn with sounds. As such, Egon’s Embrace is very personal and expressive testimony to challenging, often harrowing, periods of my life. As a combination of despair, melancholy, anguish, joy, and ultimately hope, it is as much philosophy or poetry as it is music. I see it as an open invitation for the audience to have a voyeuristic peak into my soul and endure whatever screams back at them. After all, all I want is to create something that takes them someplace otherworldly.\n\nIn the end, although Egon’s Embrace is drawn towards the darker psychedelic sound, there is still a bit of a dreamer in it otherwise. Close your eyes, take a deep breath, and drown with me.",
+    "soundcloud": "soundcloud.com/egonsembrace",
+    "website": "parvati-records.com/egons-embrace"
   },
   {
     "starttime": "2024-04-08T13:00:00.000Z",
     "endtime": "2024-04-08T14:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Dylalien",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, glitch, synth, techno, hip hop, remix",
+    "description": "Imagine: you're floating through a kaleidoscope of surreal soundscapes, where reality and fantasy intertwine like vines in a dense forest. Each note? A brushstroke on the canvas of the cosmos, painting a picture of all of us, vibing together like a perfect and silly symphony.",
+    "soundcloud": "soundcloud.com/fractalcowboys",
+    "ig": "instagram.com/alienpugdj",
+    "website": "westpsy.com/"
   },
   {
     "starttime": "2024-04-08T14:30:00.000Z",
     "endtime": "2024-04-08T16:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Daijiro",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, techno, downtempo, vocals, emo synth, dreamy",
+    "description": "Founder of DIGITALBLOCK\n\nDJ from Yokohama Japan",
+    "soundcloud": "soundcloud.com/dj-daijiro",
+    "ig": "instagram.com/suzukidaijiro"
   },
   {
     "starttime": "2024-04-08T16:00:00.000Z",
     "endtime": "2024-04-08T19:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Perfect Stranger",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, progressive, trance, techno, indigenous, vocals, glitch, consciousness, retro, synth, soundscape",
+    "description": "Perfect Stranger is the stage name for California-based, Israeli electronic musician Yuli Fershtat. The Perfect Stranger project was created in February 2005 and within 2 years of its debut became critically acclaimed all over the globe. Perfect Stranger ultimately created his own sub-genre in the psychedelic scene by presenting a totally distinctive sound characterized by groovy playful beats and patiently built compositions that often bridge between progressive trance and techno with a presence of tribal and psychedelic elements.\n\nPerfect Stranger has released 3 full artist albums, 3 remix albums, 3 compilations and appears on well over a hundred other releases (compilations, EPs, albums, etc.). He also owns & runs the “Digital Structures” label, where he publishes more tech-orientated sounds under the Yuli Fershtat moniker.\n",
+    "soundcloud": "soundcloud.com/perfect-stranger",
+    "website": "perfectlystrange.com"
   },
   {
     "starttime": "2024-04-08T19:30:00.000Z",
@@ -751,42 +995,60 @@
     "endtime": "2024-04-08T23:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Captain Hook",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, dreamy, soundscape, bpm, sophistication, synth",
+    "description": "Captain Hook is one of the top DJs, musicians and producers on the Psychedelic Trance (Psytrance) & Progressive Trance scene. Traveling a diverse musical path, Reshef Harari always achieved success guided by the frequencies. From the early days of DJing with vinyls, through the successful collaborative project Quantize, the visit to Techno-land as Sheff with releases at top labels, and finally as Captain Hook, with which he took over the world by storm. Following his heart and sonic manipulations he keeps innovating and never stagnating. With two top selling albums at Iboga Records, countless single and compilation releases and collaborating with the best electronic music producers, Captain Hook has been playing in every conceivable festival, party and venue all around the globe.",
+    "soundcloud": "soundcloud.com/captain-hook",
+    "ig": "instagram.com/djcaptainhook"
   },
   {
     "starttime": "2024-04-08T23:00:00.000Z",
     "endtime": "2024-04-09T00:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Freedom Fighters",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, space, soundscape, acoustics, techno, futuristic, space, tranquil, bpm",
+    "description": "Freedom Fighters - Tel Aviv, Israel",
+    "soundcloud": "soundcloud.com/freedomfighters",
+    "ig": "facebook.com/freedomfightersofficial",
+    "website": "twitter.com/FF_Official_"
   },
   {
     "starttime": "2024-04-09T00:30:00.000Z",
     "endtime": "2024-04-09T02:00:00.000Z",
     "areastagelatlng": "Sun",
-    "eventartistworkshoppresentation": "\tOut Of Orbit",
-    "tags": "music, psytrance"
+    "eventartistworkshoppresentation": "Out Of Orbit",
+    "tags": "music, psytrance, techno, acid, downtempo",
+    "description": "Eitan Reiter goes Out of Orbit! One of electronic music’s more prolific and diverse voices has a new project. Out of Orbit sees Eitan venture into the world of Psychedelic Trance from a different perspective, the outcome of exploring music and sound and extrapolating them into Psytrance. Eitan is well known as one half of LOUD in the Psytrance world and from his ventures into Techno, Acid & Downtempo music as well as a sought-after remixer under his own name. He now takes things up a notch.",
+    "soundcloud": "soundcloud.com/out-of-orbit-space",
+    "website": "outoforbitmusic.com/"
   },
   {
     "starttime": "2024-04-09T02:00:00.000Z",
     "endtime": "2024-04-09T03:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Atmos",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, progressive, house",
+    "description": "ATMOS Is a Electronic music Producer based in Antwerp, Belgium.\n\nHe started experimenting with electronic music at the early age of 17. When he began, his focus was primarily on jump-up drum & bass but after a few years he grew out of that specific style and started exploring different sub-genres and harmonics. Jump-up was just the beginning of his creative journey. Training and practicing days after days he created a new, unique style to surprise the audience.\n\nAfter years of practice ATMOS realised that dedication and consistency is the way to keep expanding knowledge and skills to reach his full potential.",
+    "soundcloud": "soundcloud.com/atmosdnb",
+    "ig": "instagram.com/atmosmusicbe"
   },
   {
     "starttime": "2024-04-09T03:30:00.000Z",
     "endtime": "2024-04-09T05:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Khromata",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, progressive, techno",
+    "description": "Embodying boundless energy, elegance, and power, Khromata is among the most internationally admired and recognized American psytrance DJs. A label DJ for the legendary Iboga Records, she brings infectious enthusiasm, musical versatility, and technical mastery to her performances, each set a unique blend of sounds, style, and substance.\n\nHer musical repertoire is as wide-reaching as her global career, spanning progressive and psychedelic trance, progressive house, psydub, and psybreaks. Khromata has brought her high-energy sets to cities like San Francisco, New York, Las Vegas, Los Angeles, and Seattle, with her international appearances including Germany, the UK, Denmark, Mexico, Canada, Panama, Hungary, South Africa, and Ukraine. \n\nWith her varied psychedelic spectrum of musical tastes and her vivacious energy channeled with intelligence and precision, Khromata continues to delight and thrill audiences across the globe with her engaging, uplifting, playful, and powerful presentations of the latest cutting-edge flavors of electronic dance music.",
+    "soundcloud": "soundcloud.com/khromata"
   },
   {
     "starttime": "2024-04-09T05:00:00.000Z",
     "endtime": "2024-04-09T06:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Modus",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, trance",
+    "description": "Modus is a psychedelic music project, manifested by the Israeli producer - Asaf Tsemach (1989). Emerging into the Psytrance scene in a high volume debut on HOMmega Records, presenting a rare and missed flavor of sound designing, well spiced and served on his single “Organic Panic” (2017).\nFollowed by numerous releases on HOMmega, Nano Records, and Stereo Society (which became his home label), the young composer made high, stormy waves on all 5 continents within his first touring year, capturing the mind, hearts, and ears of anyone who had a chance to catch his performance on the well-known dance floors of Ozora Festival, Universo Paralello, Antaris Festival, Freedom Festival, and Esoteric Festival.",
+    "soundcloud": "soundcloud.com/modus-music",
+    "ig": "instagram.com/Modus.Official"
   },
   {
     "starttime": "2024-04-08T06:00:00.000Z",
@@ -926,56 +1188,77 @@
     "endtime": "2024-04-09T08:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Tron",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance",
+    "description": "Tron has been a force of nature since his landing on the Psytrance scene. His unique style and superb production placed him on the top of the pack since day 1.\nOne of the most recognised producers from his homeland, Mexico.",
+    "ig": "instagram.com/patriciotron"
   },
   {
     "starttime": "2024-04-09T08:00:00.000Z",
     "endtime": "2024-04-09T09:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Hatta",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, colorful",
+    "description": "Hatta started his illustrious trance DJ career in ’96. The range of activities he covers in the scene are colorful and varied – being a distributor of dance music media in Japan for over a decade, organizing the trance stage of the famous Nagisa Music Festival, as well as founding Grasshopper Records, and heading its A&R/management. His festival track record is awe-inspiring, to say the least – covering countless acclaimed gatherings across Asia, North/Central/South America, the Middle East, and Europe. He has also put together a plethora of compilations: three volumes of the “V.A./ROUND OF NIGHT” series and his label’s tenth anniversary opus, “V.A./TEN YEARS OF GRASSHOPPER.” 2019 already has a host of local and international tours in store for him, plus a legion of releases",
+    "soundcloud": "soundcloud.com/grasshopper-rec",
+    "ig": "instagram.com/hatta_grasshopper",
+    "website": "grasshopper-records.com/en/artists/84.html"
   },
   {
     "starttime": "2024-04-09T09:30:00.000Z",
     "endtime": "2024-04-09T11:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Shove",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance",
+    "description": "undefined"
   },
   {
     "starttime": "2024-04-09T11:00:00.000Z",
     "endtime": "2024-04-09T12:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Poli",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, club, techno",
+    "description": "Poli is an old fashioned dj. He has been on the field for over 30 years. His musical skills are very broad, but we can say that his talent was fulfilled in electronic music. From house to disco to techno, all styles are represented in his sets. Thanks to his unique style, he is a highly influential performer in Hungary.",
+    "soundcloud": "soundcloud.com/poli_felicitarecords",
+    "ig": "instagram.com/poli.felicitarecords"
   },
   {
     "starttime": "2024-04-09T12:30:00.000Z",
     "endtime": "2024-04-09T14:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Brian Sentient",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, funky, happy",
+    "description": "Label administrator and resident DJ of Zero1 Music, Brian Sentient hails from Los Angeles, California, where he has been one of the top psytrance DJs for many years.",
+    "soundcloud": "soundcloud.com/briansentient",
+    "ig": "instagram.com/briansentient"
   },
   {
     "starttime": "2024-04-09T14:00:00.000Z",
     "endtime": "2024-04-09T15:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Digoa",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, switch",
+    "description": "Diego Coelho A.K.A. DJ Digoa Originating from Brazil he found his roots and his mixing fingers over 11 years ago playing in his own parties, before making the move to London in 2003. His move to London involved a closer study of music and a refinement of his djing techniques,This was to ignite his musical career, leading to performances at various parties, clubs and festivals in, Austria, Australia, Italy, Poland, Peru, Hungary, Ibiza, Brazil, India (Goa) Portugal, Marocco, Belgium, Japan, Netherlands, Germany and Wales.",
+    "soundcloud": "soundcloud.com/dj-digoa"
   },
   {
     "starttime": "2024-04-09T15:30:00.000Z",
     "endtime": "2024-04-09T16:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "1200 Mics by Riktam",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, bpm, hardstyle, techno, futuristic, consciousness",
+    "description": "200 Micrograms are Riktam & Bansi of GMS with Raja Ram and Chicago. The combination of these guys talents, enthusiasm and sheer joy bursts out into the tracks whenever they get chance to lock into the studio in Ibiza. Its not beats per minute (BPM) but thrills per minute (TPM) and they hit high. Action packed Psy Trance that fills the biggest of festivals with hysteria...if you are not a follower be so now.",
+    "soundcloud": "soundcloud.com/1200-micrograms"
   },
   {
     "starttime": "2024-04-09T16:30:00.000Z",
     "endtime": "2024-04-09T18:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Tsuyoshi Suzuki",
-    "tags": "music, psytrance"
+    "tags": "music, psytrance, consciousness, spiritual, futuristic, dnb, synth, vocals, tribal",
+    "description": "Tsuyoshi Suzuki is an internationally-acclaimed DJ and producer from Tokyo. At the leading edge of the psychedelic trance movement for a quarter of a century, Tsuyoshi continues to thrill crowds all over the world with his uniquely focused style of mixing and psychedelic music selection.\nA former art department film student at Nippon University in the 1980s, Tsuyoshi’s life turned to music when he was exposed to the evocative and futuristic DJ’ing of KUDO at the club Yellow in Nishi-Azabu, Tokyo in the early 1990s. Visiting India and immersing himself in the emerging Goa sound, Tsuyoshi formed the band Taiyo (which would later become Prana) with Nick Taylor, who had also been influenced by KUDO’s music.",
+    "soundcloud": "soundcloud.com/matsuritsuyoshi",
+    "ig": "instagram.com/tsuyoshi_suzuki_official",
+    "website": "matsuri-digital.com/"
   },
   {
     "starttime": "2024-04-09T06:00:00.000Z",

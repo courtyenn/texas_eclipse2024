@@ -44,9 +44,11 @@ const registerWorker = async () => {
   const precacheResources = [
     "/",
     "/index.html",
+    "/schedules.html",
     "/index.js",
     "/sharePins.js",
     "/utilities/Texas_eclipse_v2.6.json",
+    "/utilities/events.json",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
     "https://unpkg.com/vue@3/dist/vue.esm-browser.js",

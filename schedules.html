@@ -25,12 +25,12 @@
           Go to Map
         </a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </a> -->
       </div>
     </nav>
     <section class="section">
@@ -51,28 +51,39 @@
             <button @click="selectedTags = []" class="button">Clear</button>
           </div>
         </div>
-        {{value}}
-        <ul>
+        <ul class="event-list">
           <li v-for="event in filteredEvents" :key="event.id">
-            <div class="card">
+            <div :class="`card ${event.location?.toLowerCase()?.replace(' ', '')}`">
               <div class="card-content">
                 <h2 class="title is-flex is-justify-content-space-between">
-                  {{ event.title }}
-                  <button class="button is-primary" type="button" @click="addToMySchedule(event)">
-                    Add to schedule
-                  </button>
+                  <span class="">{{ event.title }}</span>
+                  <div class="is-flex is-flex-direction-column">
+                    <button class="button is-primary" type="button" @click="addToMySchedule(event)">
+                      Add to schedule
+                    </button>
+                    <time class="is-size-4">{{ daysOfWeek[event.startTime.getDay()] }}</time>
+                    <time :datetime="event.startTime" class="is-size-6">
+                      {{ event.startTime.toLocaleTimeString([], {timeStyle: 'short'}) }} - {{
+                      event.endTime.toLocaleTimeString([], {timeStyle: 'short'}) }}
+                    </time>
+                  </div>
                 </h2>
                 <h3 v-if="event.ig" class="subtitle">
-                  <a :href=`https://www.${event.ig}` class="has-text-dark">@{{event.ig.split('/').pop()}}</a>
+                  <a :href="`https://www.${event.ig}`" class=" has-text-primary">@{{event.ig.split('/').pop()}}</a>
                 </h3>
                 <div class="content">
-                  <p>{{ event.startTime }}</p>
-                  <p>{{ event.endTime }}</p>
-                  <p>{{ event.tags }}</p>
-                  <p>{{ event.description }}</p>
-                  <p>{{ event.website }}</p>
-                  <p>{{ event.location }}</p>
+                  <p v-if="event.description">{{ event.description }}</p>
+                  <p v-if="event.website">{{ event.website }}</p>
+                  <div class="tags">
+                    <span v-for="tag in event.tags" :key="tag"
+                      :class="`tag ${Object.keys(tagMap).filter(k => tagMap[k].includes(tag))[0]}`">{{ tag }}
+                    </span>
+                  </div>
                 </div>
+                <img v-if="coreStages.includes(event.location)" class="symbol"
+                  :src="`/assets/${event.location?.toLowerCase()?.replace(' ', '')}_stage.png`"
+                  :alt="`${event.location} area`" />
+                <h4 v-if="!coreStages.includes(event.location)" class="title is-size-4">Stage: {{event.location}}</h4>
               </div>
             </div>
           </li>
@@ -83,6 +94,17 @@
   <script type="module">
     import { createApp, ref, onMounted, computed, reactive } from 'vue'
     import VueMultiselect from 'vue-multiselect'
+    const tagMap = ref({
+      "is-dark": ["dark", "emo", "rock", "experimental", "club", "space", "psywave", "acid", "tranquil", "art"],
+      "is-primary": ["electronica", "synth", "bass", "indie", "sophistication", "slo-mo", "soundscape", "light show"],
+      "is-link": ["house", "ethnic", "jungle", "retro", "lo-fi", "futuristic", "glitch", "math"],
+      "is-info": ["blues", "afro", "folk", "psytrance", "dnb", "disco", "hardstyle", "hip hop", "astrology"],
+      "is-warning": ["happy", "jazzy", "folktronica", "funky", "dubstep", "bpm", "humanitarianism", "comedy"],
+      "is-danger": ["renegade", "industrial", "upbeat", "indigenous", "eerie", "classy", "AI"],
+      "is-success": ["spiritual", "trippy", "vocals", "trance", "forest", "downtempo", "innovation"],
+      "is-light": ["progressive", "consciousness", "techno", "remix", "dreamy", "acoustics", "crypto"],
+    });
+    const coreStages = ["Sky", "Sun", "Lone Star", "Earth", "Eclipse", "Moon"];
     const removeDuplicates = (arr) => arr.filter((v, i) => arr.indexOf(v) === i);
     const transformData = (data) => data.map((item) => {
       let newId = item.eventartistworkshoppresentation.replace(/[\s&]+/g, '-').toLowerCase()
@@ -102,6 +124,7 @@
 
     const app = createApp({
       setup() {
+        const daysOfWeek = ref(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']);
         const mySchedule = reactive([]);
         const value = ref();
         const events = ref([])
@@ -116,7 +139,7 @@
           get() {
             return events.value.filter((event) => {
               return event.title.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length === 0 || selectedTags.value.every((tag) => event.tags.includes(tag)))
-            })
+            }).sort((a, b) => a.startTime - b.startTime)
           }
         })
 
@@ -158,6 +181,9 @@
           addToMySchedule,
           eventNames,
           onSelect,
+          daysOfWeek,
+          tagMap,
+          coreStages,
         }
       }
     })
@@ -166,6 +192,68 @@
 
     app.mount('#app')
   </script>
+  <style>
+    .title {
+      gap: 20px;
+    }
+
+    .event-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .sky {
+      --bulma-card-background-color: #d7f3ff;
+      --bulma-primary-h: 197;
+      --bulma-primary-s: 100%;
+      --bulma-primary-l: 61%;
+    }
+
+    .sun {
+      --bulma-card-background-color: #fefee0;
+      --bulma-primary-h: 49;
+      --bulma-primary-s: 100%;
+      --bulma-primary-l: 58%;
+    }
+
+    .lonestar {
+      --bulma-card-background-color: #ffcbcb;
+      --bulma-primary-h: 0;
+      --bulma-primary-s: 100%;
+      --bulma-primary-l: 73%;
+    }
+
+    .earth {
+      --bulma-card-background-color: #d1ffd1;
+      --bulma-primary-h: 120;
+      --bulma-primary-s: 52%;
+      --bulma-primary-l: 57%;
+    }
+
+    .eclipse {
+      --bulma-card-background-color: #c8c8c8;
+    }
+
+    .eclipse button.is-primary {
+      background: hsl(0, 0%, 38%);
+      color: white;
+    }
+
+    .moon {
+      background: #bea9c8;
+    }
+
+    .moon button.is-primary {
+      background: #8b4baa;
+      color: white;
+    }
+
+    .tags {
+      display: flex;
+      gap: 3px;
+    }
+  </style>
 </body>
 
 </html>

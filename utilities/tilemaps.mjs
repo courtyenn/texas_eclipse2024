@@ -43,7 +43,7 @@ function generatePermutationObjects(startIndex, endIndex, zoom) {
 export const calcSlippyTiles = () => {
   const boundaryMap = {
     18: [
-      { xtile: 59447, ytile: 107468 },
+      { xtile: 59442, ytile: 107468 },
       { xtile: 59463, ytile: 107493 },
     ],
     17: [
