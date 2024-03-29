@@ -54,16 +54,27 @@
         {{value}}
         <ul>
           <li v-for="event in filteredEvents" :key="event.id">
-            <h2>{{ event.title }}</h2>
-            <p>{{ event.id }}</p>
-            <p>{{ event.startTime }}</p>
-            <p>{{ event.endTime }}</p>
-            <p>{{ event.tags }}</p>
-            <p>{{ event.description }}</p>
-            <p>{{ event.website }}</p>
-            <p>{{ event.ig }}</p>
-            <p>{{ event.location }}</p>
-            <button type="button" @click="addToMySchedule(event)">Add to schedule</button>
+            <div class="card">
+              <div class="card-content">
+                <h2 class="title is-flex is-justify-content-space-between">
+                  {{ event.title }}
+                  <button class="button is-primary" type="button" @click="addToMySchedule(event)">
+                    Add to schedule
+                  </button>
+                </h2>
+                <h3 v-if="event.ig" class="subtitle">
+                  <a :href=`https://www.${event.ig}` class="has-text-dark">@{{event.ig.split('/').pop()}}</a>
+                </h3>
+                <div class="content">
+                  <p>{{ event.startTime }}</p>
+                  <p>{{ event.endTime }}</p>
+                  <p>{{ event.tags }}</p>
+                  <p>{{ event.description }}</p>
+                  <p>{{ event.website }}</p>
+                  <p>{{ event.location }}</p>
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
