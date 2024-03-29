@@ -63,6 +63,7 @@ const registerWorker = async () => {
     "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css",
     "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js",
     "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css",
+    "https://buttons.github.io/buttons.js",
     ...ICONS.map((icon) => `/assets/${icon}.png`),
     ...calcSlippyTiles().map(
       (tile) => `/assets/mapbox/${tile.zoom}/${tile.x}/${tile.y}.png`

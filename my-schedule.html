@@ -57,10 +57,10 @@
         <h1 class="title stargazer">
           Texas Eclipse 2024
         </h1>
-        <div v-if="!schedule[day]">
+        <!-- <div v-if="">
           <h2 class="title has-text-light">Nothingh here.. add some events to see cool shit ✨</h2>
-        </div>
-        <div v-if="schedule[day]?.length" class="my-list">
+        </div> -->
+        <div class="my-list">
           <div v-for="day in days" class="list-item">
             <h2 class="days">{{day}}</h2>
             <ul class="event-list">
