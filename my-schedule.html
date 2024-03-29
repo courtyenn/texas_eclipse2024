@@ -35,20 +35,20 @@
         </a> -->
       </div>
     </nav>
-    <section class="section">
-      <div class="container">
-        <h1 class="title">
-          My Schedule
+    <section class="section galaxy">
+      <div class="">
+        <h1 class="title stargazer">
+          Texas Eclipse 2024
         </h1>
         <div class="my-list">
           <div v-for="day in days" class="list-item">
             <h2 class="days">{{day}}</h2>
             <ul class="event-list">
               <li v-if="schedule[day].length > 0" v-for="event in schedule[day]" class="event">
-                <time style="text-align: right; flex: 1 0 50%">{{event.startTime.toLocaleTimeString([], {timeStyle:
+                <time class="time">{{event.startTime.toLocaleTimeString([], {timeStyle:
                   'short'})}} -
                   {{event.endTime.toLocaleTimeString([], {timeStyle: 'short'})}}:</time>
-                <span style="flex: 0 1 50%">{{event.title}}</span>
+                <span class="artist">{{event.title}}</span>
               </li>
             </ul>
           </div>
@@ -84,13 +84,30 @@
     body {
       --bulma-title-color: white;
       color: white;
-      background: black url("assets/solar-eclipse.png") no-repeat top center fixed;
-      background-size: 30%;
+      background: black url("assets/solar-eclipse.png") no-repeat 50% 3%;
+      background-size: 78%;
       min-height: 100vh;
     }
 
-    .navbar {
-      background-color: transparent;
+    .galaxy {
+      padding-top: 28%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .stargazer {
+      text-align: center;
+      font-size: 3.5rem;
+      color: white;
+
+      text-shadow: #cd610ebd -3px 0px 11px, #cd610ebd 5px 0px 9px, #cd610e 0px -1px 11px, #cd610e 0px 1px 11px;
+    }
+
+    .days {
+      font-size: 2.5rem;
+      text-shadow: #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px;
+      font-weight: 600;
+      margin-bottom: 2rem;
     }
 
     .my-list {
@@ -98,6 +115,9 @@
       flex-wrap: wrap;
       text-align: center;
       justify-content: center;
+      gap: 2rem 0;
+      padding-left: 2%;
+      padding-right: 2%;
     }
 
     .list-item {
@@ -105,8 +125,46 @@
       margin: 1rem 0;
     }
 
+    .time {
+      text-align: right;
+      flex: 0 0 200px;
+      font-size: 1rem;
+    }
+
+    .artist {
+      flex: 1 1 5;
+    }
+
+    @media screen and (min-width: 768px) {
+      body {
+        background: black url("assets/solar-eclipse.png") no-repeat 50% 0%;
+        background-size: 52%;
+      }
+
+      .galaxy {
+        padding-top: 16%;
+      }
+
+      .stargazer {
+        font-size: 7rem;
+        margin-bottom: 113px !important;
+      }
+
+      .my-list {
+        gap: 0 2%;
+      }
+
+      .list-item {
+        width: 49%;
+      }
+    }
+
+    .navbar {
+      background-color: transparent;
+    }
+
     .event-list {
-      width: 95%;
+      width: 99%;
       margin: 0 auto;
       text-align: left;
       font-size: 20px;
@@ -117,29 +175,10 @@
       gap: 10px;
     }
 
-    @media screen and (min-width: 768px) {
-      .list-item {
-        width: 50%;
-      }
-
-      .event-list {
-        width: 80%;
-      }
-    }
-
     @media screen and (min-width: 1024px) {
-
-      .event-list {
-        width: 76%;
+      .days {
+        font-size: 2.8rem;
       }
-
-    }
-
-    .days {
-      font-size: 50px;
-      text-shadow: #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px, #cd610e 1px 1px 1px;
-      font-weight: 600;
-
     }
   </style>
 </body>
