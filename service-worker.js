@@ -36,6 +36,12 @@ const ICONS = [
   "tree",
   "unicorn_face",
   "wheelchair",
+  "sun_stage",
+  "sky_stage",
+  "moon_stage",
+  "eclipse_stage",
+  "lonestar_stage",
+  "earth_stage",
 ]
 const CACHE_NAME = "cache-v3"
 
