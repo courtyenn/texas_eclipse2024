@@ -308,6 +308,24 @@
       --bulma-primary-l: 61%;
     }
 
+    @media (prefers-color-scheme: dark) {
+
+      .lonestar,
+      .moon,
+      .eclipse,
+      .earth,
+      .sky,
+      .sun {
+        --bulma-text-strong: black;
+        --bulma-card-color: rgb(60, 60, 60);
+      }
+
+      .has-text-grey-dark,
+      .is-color-grey-dark {
+        color: #717d98 !important;
+      }
+    }
+
     .sun {
       --bulma-card-background-color: #fefee0;
       --bulma-primary-h: 49;
@@ -338,8 +356,18 @@
       color: white;
     }
 
+    .eclipse [class*=has-text-primary],
+    [class*=is-color-primary] {
+      color: hsl(0, 0%, 38%) !important;
+    }
+
     .moon {
       background: #bea9c8;
+    }
+
+    .moon [class*=has-text-primary],
+    [class*=is-color-primary] {
+      color: #8b4baa !important;
     }
 
     .moon button.is-primary {
