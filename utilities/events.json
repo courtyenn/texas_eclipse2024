@@ -116,8 +116,8 @@
     "description": "undefined"
   },
   {
-    "starttime": "2024-04-06T00:00:00.000Z",
-    "endtime": "2024-04-06T01:00:00.000Z",
+    "starttime": "2024-04-06T01:00:00.000Z",
+    "endtime": "2024-04-06T02:00:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Bogl",
     "tags": "music, experimental, bass, dnb, classy, downtempo, jazzy",
@@ -185,7 +185,7 @@
   },
   {
     "starttime": "2024-04-06T05:00:00.000Z",
-    "endtime": "2024-04-06T05:00:00.000Z",
+    "endtime": "2024-04-06T06:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Handsome Tiger",
     "tags": "music, dnb, ethnic, tribal, bass, tranquil, bpm, indigenous, synth, psywave, jungle",
@@ -527,14 +527,14 @@
   },
   {
     "starttime": "2024-04-07T00:45:00.000Z",
-    "endtime": "2024-04-07T00:45:00.000Z",
+    "endtime": "2024-04-07T01:45:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Level Up",
     "tags": "music, hardstyle, industrial, bpm, experimental, bass, dnb, industrial",
     "soundcloud": "soundcloud.com/levelup999"
   },
   {
-    "starttime": "2024-04-07T00:45:00.000Z",
+    "starttime": "2024-04-07T01:45:00.000Z",
     "endtime": "2024-04-07T02:45:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Truth",
@@ -696,8 +696,8 @@
     "soundcloud": "https://soundcloud.com/ashee_music"
   },
   {
-    "starttime": "2024-04-07T07:30:00.000Z",
-    "endtime": "2024-04-07T08:45:00.000Z",
+    "starttime": "2024-04-06T07:30:00.000Z",
+    "endtime": "2024-04-06T08:45:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Vincent Antone",
     "tags": "music, club, hip hop, remix, dubstep, funky",
@@ -705,8 +705,8 @@
     "soundcloud": "https://soundcloud.com/vincentantone"
   },
   {
-    "starttime": "2024-04-07T09:00:00.000Z",
-    "endtime": "2024-04-07T10:30:00.000Z",
+    "starttime": "2024-04-06T09:00:00.000Z",
+    "endtime": "2024-04-06T10:30:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Logie",
     "tags": "music, remix, funky, house, afro, ethnic",
@@ -714,24 +714,24 @@
     "soundcloud": "https://soundcloud.com/logiemusic"
   },
   {
-    "starttime": "2024-04-07T18:00:00.000Z",
-    "endtime": "2024-04-07T19:30:00.000Z",
+    "starttime": "2024-04-06T18:00:00.000Z",
+    "endtime": "2024-04-06T19:30:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Manynames",
     "tags": "music, bass, house, remix, techno, ambient, consciousness",
     "soundcloud": "https://soundcloud.com/keyframe_entertainment"
   },
   {
-    "starttime": "2024-04-07T19:30:00.000Z",
-    "endtime": "2024-04-07T21:00:00.000Z",
+    "starttime": "2024-04-06T19:30:00.000Z",
+    "endtime": "2024-04-06T21:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Ajja & Tanina",
     "tags": "music, consciousness, ambient, spiritual, indigenous, acoustics ",
     "soundcloud": "https://soundcloud.com/ozora-festival/ajjataniao15"
   },
   {
-    "starttime": "2024-04-07T21:30:00.000Z",
-    "endtime": "2024-04-07T22:45:00.000Z",
+    "starttime": "2024-04-06T21:30:00.000Z",
+    "endtime": "2024-04-06T22:45:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Souleye",
     "tags": "music, hip hop, bass, club, ",
@@ -739,32 +739,32 @@
     "soundcloud": "https://soundcloud.com/souleye"
   },
   {
-    "starttime": "2024-04-07T23:00:00.000Z",
-    "endtime": "2024-04-08T00:15:00.000Z",
+    "starttime": "2024-04-06T23:00:00.000Z",
+    "endtime": "2024-04-07T00:15:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Lis",
     "tags": "music, vocals, downtempo, lo-fi, bass",
     "soundcloud": "https://soundcloud.com/lis"
   },
   {
-    "starttime": "2024-04-08T00:45:00.000Z",
-    "endtime": "2024-04-08T02:00:00.000Z",
+    "starttime": "2024-04-07T00:45:00.000Z",
+    "endtime": "2024-04-07T02:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Mah Ze Tar",
     "tags": "music, tribal, bass, vocals, ethnic, downtempo, dubstep",
     "soundcloud": "https://soundcloud.com/akriza/akriza-mah-ze-tar-epirus"
   },
   {
-    "starttime": "2024-04-08T02:15:00.000Z",
-    "endtime": "2024-04-08T03:30:00.000Z",
+    "starttime": "2024-04-07T02:15:00.000Z",
+    "endtime": "2024-04-07T03:30:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Govinda",
     "tags": "music, bass, ambient, vocals, dreamy, lo-fi ",
     "soundcloud": "https://soundcloud.com/govindamusic"
   },
   {
-    "starttime": "2024-04-08T03:45:00.000Z",
-    "endtime": "2024-04-08T05:15:00.000Z",
+    "starttime": "2024-04-07T03:45:00.000Z",
+    "endtime": "2024-04-07T05:15:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Desert Dwellers",
     "tags": "music, vocals, spiritual, trippy, techno, downtempo, trance",
@@ -1793,13 +1793,13 @@
   },
   {
     "starttime": "2024-04-08T22:55:00.000Z",
-    "endtime": "2024-04-08T23:55:00.000Z",
+    "endtime": "2024-04-08T23:45:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Duffrey",
     "tags": "music"
   },
   {
-    "starttime": "2024-04-08T23:55:00.000Z",
+    "starttime": "2024-04-08T23:45:00.000Z",
     "endtime": "2024-04-09T00:45:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Tripp St.",
@@ -2312,7 +2312,7 @@
   },
   {
     "starttime": "2024-04-09T01:45:00.000Z",
-    "endtime": "2024-04-09T03:45:00.000Z",
+    "endtime": "2024-04-09T03:15:00.000Z",
     "areastagelatlng": "Lone Star",
     "eventartistworkshoppresentation": "STS9",
     "tags": "music"

@@ -205,7 +205,7 @@ const initializeNav = () => {
   const nav = document.createElement("nav")
   const link = document.createElement("a")
   link.href = "/schedules.html"
-  link.textContent = "Schedules"
+  link.textContent = "Lineup"
   link.classList.add("nav-link")
   nav.classList.add("nav")
   nav.appendChild(link)
