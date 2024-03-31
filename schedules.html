@@ -77,6 +77,11 @@
                 <div class="title houston">
                   <h2 class="lunar-rover">
                     {{ event.title }}
+                    <div class="tags">
+                      <span v-for="tag in event.tags" :key="tag"
+                        :class="`tag ${Object.keys(tagMap).filter(k => tagMap[k].includes(tag))[0]}`">{{ tag }}
+                      </span>
+                    </div>
                     <span v-if="event.ig" class="subtitle">
                       <a :href="`https://www.${event.ig}`" class=" has-text-primary">@{{event.ig.split('/').pop()}}</a>
                     </span>
@@ -100,11 +105,6 @@
                 <div class="content">
                   <p v-if="event.description">{{ event.description }}</p>
                   <p v-if="event.website">{{ event.website }}</p>
-                  <div class="tags">
-                    <span v-for="tag in event.tags" :key="tag"
-                      :class="`tag ${Object.keys(tagMap).filter(k => tagMap[k].includes(tag))[0]}`">{{ tag }}
-                    </span>
-                  </div>
                 </div>
                 <img v-if="coreStages.includes(event.location)" class="symbol"
                   :src="`/assets/${event.location?.toLowerCase()?.replace(' ', '')}_stage.png`"
@@ -121,14 +121,14 @@
     import { createApp, ref, onMounted, computed, reactive } from 'vue'
     import VueMultiselect from 'vue-multiselect'
     const tagMap = ref({
-      "is-dark": ["dark", "emo", "rock", "experimental", "club", "space", "psywave", "acid", "tranquil", "art"],
+      "is-dark": ["dark", "emo", "rock", "experimental", "club", "space", "psywave", "acid", "tranquil", "art", "riddim"],
       "is-primary": ["electronica", "synth", "bass", "indie", "sophistication", "slo-mo", "soundscape", "light show"],
-      "is-link": ["house", "ethnic", "jungle", "retro", "lo-fi", "futuristic", "glitch", "math"],
+      "is-link": ["house", "ethnic", "jungle", "retro", "lo-fi", "futuristic", "glitch", "math", "arcade"],
       "is-info": ["blues", "afro", "folk", "psytrance", "dnb", "disco", "hardstyle", "hip hop", "astrology"],
       "is-warning": ["happy", "jazzy", "folktronica", "funky", "dubstep", "bpm", "humanitarianism", "comedy"],
-      "is-danger": ["renegade", "industrial", "upbeat", "indigenous", "eerie", "classy", "AI"],
-      "is-success": ["spiritual", "trippy", "vocals", "trance", "forest", "downtempo", "innovation"],
-      "is-light": ["progressive", "consciousness", "techno", "remix", "dreamy", "acoustics", "crypto"],
+      "is-danger": ["renegade", "industrial", "upbeat", "indigenous", "eerie", "classy", "AI", "b2b"],
+      "is-success": ["spiritual", "trippy", "vocals", "trance", "forest", "downtempo", "innovation", "trap"],
+      "is-light": ["progressive", "consciousness", "techno", "remix", "dreamy", "acoustics", "crypto", "ambient"],
     });
     const coreStages = ["Sky", "Sun", "Lone Star", "Earth", "Eclipse", "Moon"];
     const STORAGE = 'TexasEclipseSchedulev2';
@@ -293,6 +293,7 @@
       display: flex;
       flex-direction: column;
       flex: 1 0 50%;
+      gap: 10px;
     }
 
     .timewarp {

@@ -24,6 +24,22 @@
     "description": "“Yuri’s Night: Celebrating Humanity in Space and Space for Humanity” - Flown Astronaut Panel"
   },
   {
+    "starttime": "2024-04-06T01:00:00.000Z",
+    "endtime": "2024-04-06T02:30:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Yuri's Night - Fireside Overview Experience",
+    "tags": "presentation, space",
+    "description": "Rave Mehta, Leaders in Space / Moderator; Dr. Pascal Lee, Seti Institute; Jane Poynter, Space Perspective; Rachel Lyons, Space for Humanity"
+  },
+  {
+    "starttime": "2024-04-06T02:30:00.000Z",
+    "endtime": "2024-04-06T06:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Yuri's Night - Musical Performances",
+    "tags": "presentation, space, music",
+    "description": "Flow sound bath overview effect meditation. Annu, Concert. Test Shot Starfish Concert, featuring Everyday Astronaut and Dr. Sian Proctor. Dr Chrispy DJ Set"
+  },
+  {
     "starttime": "2024-04-05T18:00:00.000Z",
     "endtime": "2024-04-05T18:30:00.000Z",
     "areastagelatlng": "Texas Onchain",
@@ -64,8 +80,8 @@
     "endtime": "2024-04-05T21:00:00.000Z",
     "areastagelatlng": "Texas Onchain",
     "eventartistworkshoppresentation": "Digital Media Innovation Panel",
-    "description": "Digital Media Innovation Panel: Moderator/Panelist: Andrew Bragg (Ape Beverages), Zend Vibes, Tom Shea (Adgile Media Group), Andrew Antar (Tune.FM), Mina Salib (Axiom Space)",
-    "tags": "presentation, innovation"
+    "tags": "presentation, innovation",
+    "description": "Digital Media Innovation Panel: Moderator/Panelist: Andrew Bragg (Ape Beverages), Zend Vibes, Tom Shea (Adgile Media Group), Andrew Antar (Tune.FM), Mina Salib (Axiom Space)"
   },
   {
     "starttime": "2024-04-05T21:00:00.000Z",
@@ -368,6 +384,118 @@
     "ig": "instagram.com/christianmartin"
   },
   {
+    "starttime": "2024-04-06T15:30:00.000Z",
+    "endtime": "2024-04-06T16:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Cosmic Perspective Immersive Show",
+    "tags": "presentation, space, art",
+    "description": "Annu, Cosmic Perspective Immersive Show"
+  },
+  {
+    "starttime": "2024-04-06T16:00:00.000Z",
+    "endtime": "2024-04-06T18:30:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "The Artemis Generation to the Moon",
+    "tags": "presentation, space",
+    "description": "Tim Dodd, Everyday Astronaut / dearMoon. Chris Sembroski, Inspiration4 / Blue Origin; Brendan Hall, dearMoon; Yemi AD, dearMoon;"
+  },
+  {
+    "starttime": "2024-04-06T18:30:00.000Z",
+    "endtime": "2024-04-06T21:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Soace and Equity Policy",
+    "tags": "presentation, space",
+    "description": "Oren Wyche-Shaw, US Executive Director and the African Development Bank; Inara Tabir, Multiplanetary Society; Dr. Chris Boshuizen, Blue Origin Astroanut / Dr Chrispy Music; Zephanii Smith Eisenstat, NAACP Foundation; Lambert Hogenhout, United Nations; Chris Huie, Virgin Galactic; Dr. Sian Proctor, Inspiration4/Space2Inspire"
+  },
+  {
+    "starttime": "2024-04-06T21:00:00.000Z",
+    "endtime": "2024-04-06T23:30:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "The Future of Space Science",
+    "tags": "presentation, space",
+    "description": "Oren Wyche-Shaw, US Executive Director and the African Development Bank; Inara Tabir, Multiplanetary Society; Dr. Chris Boshuizen, Blue Origin Astroanut / Dr Chrispy Music; Zephanii Smith Eisenstat, NAACP Foundation; Lambert Hogenhout, United Nations; Chris Huie, Virgin Galactic; Dr. Sian Proctor, Inspiration4/Space2Inspire"
+  },
+  {
+    "starttime": "2024-04-06T23:30:00.000Z",
+    "endtime": "2024-04-07T00:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Closing Performance",
+    "tags": "presentation, space",
+    "description": "Joel Dietz, Multiversal; SVENRA x Vau de Vire Performers"
+  },
+  {
+    "starttime": "2024-04-06T16:30:00.000Z",
+    "endtime": "2024-04-06T17:15:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Keynote: \"Storytelling with Immersive Technologies\"",
+    "tags": "presentation, crypto",
+    "description": "Vladimir Petkovic"
+  },
+  {
+    "starttime": "2024-04-06T17:15:00.000Z",
+    "endtime": "2024-04-06T18:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Technology Enabled Events",
+    "tags": "presentation, crypto",
+    "description": "Moderator/Panelist: Ny Bass (CEO Phynx | Operations Manager @ Avalon), Evin McCMullen (Disco.XYZ), Peter Hui (Moongate), David Casey (Funding the Commons)"
+  },
+  {
+    "starttime": "2024-04-06T18:00:00.000Z",
+    "endtime": "2024-04-06T19:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "OnChain Media Panel",
+    "tags": "presentation, crypto",
+    "description": "Moderator: Loxley Fernandes (Rug Radio), Lucas Campbell (Pods.Media), Evin McMullen (Disco.XYZ), Andrew Antar (tune.fm), Sher Chaundry (Playground Studios)"
+  },
+  {
+    "starttime": "2024-04-06T19:00:00.000Z",
+    "endtime": "2024-04-06T19:45:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Eclipsing Nation States Panel",
+    "tags": "presentation, crypto",
+    "description": "Moderator/Panelist: Yalor Moon (EigenLayer Foundation), James Waugh (Fire_Eyes DAO), Jesse Katz, Cassie Shih (Fora)"
+  },
+  {
+    "starttime": "2024-04-06T19:45:00.000Z",
+    "endtime": "2024-04-06T20:30:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Endaoment NFP Panel",
+    "tags": "presentation, crypto",
+    "description": "Robbie Heeger, Gwen Obermeyer (Re:Wild), Justin (Values.co)"
+  },
+  {
+    "starttime": "2024-04-06T20:30:00.000Z",
+    "endtime": "2024-04-06T21:30:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Web3 / NFTs as a Tool to Foster Fan Engagement in Music",
+    "tags": "presentation, crypto",
+    "description": "Dirtybird NFTs, Imagine Case Study - Participants: Erik Schneider (Twos Group), Ketan Rahangdale (Unitea), Lauren Halstead (Chainlink, Artist), Robert Mann (Moderator)"
+  },
+  {
+    "starttime": "2024-04-06T21:30:00.000Z",
+    "endtime": "2024-04-06T22:30:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Benefits of a DAO",
+    "tags": "presentation, crypto",
+    "description": "DAO = Decentralized Autonomous Organization; James Waugh (Moderator; Fire Eyes DAO), Mason Lynaugh (ATX DAO), Lucas Campbell (Fire Eyes DAO), Connor O'Day"
+  },
+  {
+    "starttime": "2024-04-06T22:30:00.000Z",
+    "endtime": "2024-04-07T00:15:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Snark Tank",
+    "tags": "presentation, crypto",
+    "description": "Snark Tank: Noah (Host), Matt Mckibbin (Investor), Kyle SLeeper (Investor), Kevin Lehtinitty (Investor), Founders: Destin George Bell (Card.io), Andrew Grant Bragg (Ape Water), Lucas Campbell (pods.media), ben Haldeman (lLifeship), Comedians: Brent Prella, Mike Eaton, A.B Farrelly"
+  },
+  {
+    "starttime": "2024-04-07T00:15:00.000Z",
+    "endtime": "2024-04-07T00:35:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Ending Dance Procession",
+    "tags": "presentation, crypto",
+    "description": "Foum Fou, Ha"
+  },
+  {
     "starttime": "2024-04-06T06:30:00.000Z",
     "endtime": "2024-04-06T08:00:00.000Z",
     "areastagelatlng": "Sun",
@@ -446,7 +574,7 @@
     "endtime": "2024-04-07T02:00:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Treavor Moontribe",
-    "tags": "music, psytrance, house, techno, electronica",
+    "tags": "music, psytrance, house, techno, electronica, hip hop",
     "description": "Treavor Moontribe is one of the founders of the Los Angeles based “Moontribe Collective” and its legendary full moon desert gatherings. Since 1993, these events have been at the core of Southern California’s underground electronic music scene and these events are still ongoing to this day. Treavor established himself as one of the top Djs in LA thru these events and has since traveled the world from Brazil to Japan to Morocco, Portugal, Germany and all over North America. As a Dj it’s always been his diversity that’s set him apart, as his love for music spans multiple genres and his DJing reflects this. Over the years Treavor has also established himself as a dynamic music producer having released music under several project names. His most notable project is Desert Dwellers with his partner on the project Amani Friend. In recent years he has started a new solo project called PheuZen that focuses on more abstract forms of Electronica.",
     "soundcloud": "soundcloud.com/treavor-moontribe",
     "ig": "instagram.com/treavormoontribe"
@@ -563,7 +691,7 @@
     "endtime": "2024-04-07T00:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Peter Blick",
-    "tags": "music, house, vocals, remix, disco, funky, slo-mo, downtempo",
+    "tags": "music, house, vocals, remix, disco, funky, slo-mo, downtempo, bass, psytrance",
     "description": "Peter Blick- has been dj'ing since the late 90s. Known for eclectic sets- mixing everything from deep house, minimal techno, slo-mo house, disco, funk, downtempo, breaks & classics. As a Promoter and DJ, he knows the importance of playing the right music at the right time and being versatile..",
     "soundcloud": "soundcloud.com/blicksmix"
   },
@@ -604,7 +732,7 @@
     "endtime": "2024-04-06T20:30:00.000Z",
     "areastagelatlng": "Lone Star",
     "eventartistworkshoppresentation": "Snow Raven",
-    "tags": "music, electronica, vocals, ethnic, bass, progressive, dnb, consciousness, indigenous, dubstep",
+    "tags": "music, electronica, vocals, ethnic, bass, progressive, dnb, consciousness, indigenous, dubstep, experimental",
     "description": "Indigenous Sakha from Arctic Siberia (1,2M+ on TikTok)❄️Musician/Dreamer/Founder",
     "soundcloud": "youtube.com/channel/UC6d_O7imTsUeUvk8KFuAtIQ",
     "ig": "instagram.com/snowravenofficial"
@@ -660,6 +788,149 @@
     "description": "Their music has elements of bluegrass sounds, as well as rock, electronica, calypso, country, funk, jazz, Latin, progressive rock, reggae, and psychedelia. All members write original compositions and sing.",
     "ig": "instagram.com/sci_official",
     "website": "stringcheeseincident.com/"
+  },
+  {
+    "starttime": "2024-04-07T15:30:00.000Z",
+    "endtime": "2024-04-07T16:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Opening Performance",
+    "tags": "presentation, space, music",
+    "description": "Nyota"
+  },
+  {
+    "starttime": "2024-04-07T16:00:00.000Z",
+    "endtime": "2024-04-07T18:30:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Space Impact and Economy",
+    "tags": "presentation, space",
+    "description": "Rick Tumlinson, Earthlight Foundation; Junaid Mian, Space Fund; Kim Macharia, Space Prize; Jim Sheets, Eagle Canyon Ranch Observatory; Chris Sembroski, Inspiration4 / Blue Origin"
+  },
+  {
+    "starttime": "2024-04-07T18:30:00.000Z",
+    "endtime": "2024-04-07T19:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Solar Eclipse from The Orbital Perspective",
+    "tags": "presentation, space",
+    "description": "Ron Garan, NASA Astronaut / ispace-US, ARI Eisenstat, University of Hawaii"
+  },
+  {
+    "starttime": "2024-04-07T19:00:00.000Z",
+    "endtime": "2024-04-07T21:30:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Space Tech and Culture",
+    "tags": "presentation, space",
+    "description": "Dr. Robin Newhouse, CERN / AWS / UBC; Dr. Steven Vance, NASA JPL; Maynard Okereke, Hip Hop MD; Sean Graham, Karman Line; Roberto Carlino, NASA Ames"
+  },
+  {
+    "starttime": "2024-04-07T21:30:00.000Z",
+    "endtime": "2024-04-07T22:30:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Space STEAM",
+    "tags": "presentation, space, art",
+    "description": "Christina Korp, Space for a Better World; Ashley Zelenski, JWST Art; Jake Garan, Astrophotographer; Jason Achilles, Mars 2020 Perseverance Acoustics Engineer; Dr. Jancy Mcphee, SciArt Exchange"
+  },
+  {
+    "starttime": "2024-04-07T22:30:00.000Z",
+    "endtime": "2024-04-07T23:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Closing Performance",
+    "tags": "presentation, space, music",
+    "description": "ReOrientate"
+  },
+  {
+    "starttime": "2024-04-07T16:30:00.000Z",
+    "endtime": "2024-04-07T17:30:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Keynote: Lavinia D. Obourne",
+    "tags": "presentation, crypto",
+    "description": "Keynote"
+  },
+  {
+    "starttime": "2024-04-07T17:30:00.000Z",
+    "endtime": "2024-04-07T18:30:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "OnChain Fashion Panel",
+    "tags": "presentation, crypto, art",
+    "description": "Panel: Ethan Bazarganfard, Margaux Avedisian, Evin McMullen"
+  },
+  {
+    "starttime": "2024-04-07T18:30:00.000Z",
+    "endtime": "2024-04-07T19:15:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Future of Festivals Panel",
+    "tags": "presentation, crypto",
+    "description": "Mitch Morales, Corey Nocco, Superfly and David Casey (Funding the Commons)"
+  },
+  {
+    "starttime": "2024-04-07T19:15:00.000Z",
+    "endtime": "2024-04-07T20:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "OnChain Media Panel",
+    "tags": "presentation, crypto",
+    "description": "Andrew Medearis (Cake / Moderator / Panelist), Ethan Bazarganfard (Playground), Joe Pitts (medallion.fm), Andrew Antar (tune.fm)"
+  },
+  {
+    "starttime": "2024-04-07T20:00:00.000Z",
+    "endtime": "2024-04-07T20:45:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Justin Markell (Values.co)",
+    "tags": "presentation, crypto",
+    "description": "Justin Markell, Will Cady"
+  },
+  {
+    "starttime": "2024-04-07T20:45:00.000Z",
+    "endtime": "2024-04-07T21:15:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "What is Digital Sovreignty?",
+    "tags": "presentation, crypto",
+    "description": "Digital Sovreignty is the authority and control over your own identity and data. By Duke Jones"
+  },
+  {
+    "starttime": "2024-04-07T21:15:00.000Z",
+    "endtime": "2024-04-07T22:15:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Special Event with JT",
+    "tags": "presentation, crypto",
+    "description": "TBA"
+  },
+  {
+    "starttime": "2024-04-07T22:15:00.000Z",
+    "endtime": "2024-04-07T23:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Drone Panel: NOVA Sky Stories",
+    "tags": "presentation, drone",
+    "description": "Drone Panel w/ Jono Millin (Drone Deploy) and NOVA Sky stories"
+  },
+  {
+    "starttime": "2024-04-07T23:00:00.000Z",
+    "endtime": "2024-04-07T23:45:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Building in Web3",
+    "tags": "presentation, crypto",
+    "description": "Dan Rodman (Moderator), Matt Cutler (CEO of Blocknative), Rob McCarty (Illust), Michael Jelen, Justin David Reyes"
+  },
+  {
+    "starttime": "2024-04-07T23:45:00.000Z",
+    "endtime": "2024-04-08T01:00:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Special Event with Joel Dietz",
+    "tags": "presentation, crypto",
+    "description": "TBA"
+  },
+  {
+    "starttime": "2024-04-08T01:00:00.000Z",
+    "endtime": "2024-04-07T16:15:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Dan Held Keynote",
+    "tags": "presentation, crypto",
+    "description": "Keynote"
+  },
+  {
+    "starttime": "2024-04-07T16:15:00.000Z",
+    "endtime": "2024-04-07T16:45:00.000Z",
+    "areastagelatlng": "Texas Onchain",
+    "eventartistworkshoppresentation": "Groucho Fractal",
+    "tags": "presentation, crypto"
   },
   {
     "starttime": "2024-04-07T06:30:00.000Z",
@@ -800,98 +1071,117 @@
     "endtime": "2024-04-07T09:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Dana Nada & Dandan",
-    "tags": "music"
+    "tags": "music, house, b2b, industrial, techno, trance, downtempo",
+    "soundcloud": "soundcloud.com/dananada-and-dandan",
+    "ig": "instagram.com/dananada.and.dandan"
   },
   {
     "starttime": "2024-04-07T09:00:00.000Z",
     "endtime": "2024-04-07T10:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "DJ Yazi",
-    "tags": "music"
+    "tags": "music,  house, trance, eerie, ambient, soundscape",
+    "soundcloud": "soundcloud.com/morgendaemmerung/sets/dj-yazi"
   },
   {
     "starttime": "2024-04-07T10:30:00.000Z",
     "endtime": "2024-04-07T12:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Kojiro",
-    "tags": "music"
+    "tags": "music, house"
   },
   {
     "starttime": "2024-04-07T12:00:00.000Z",
     "endtime": "2024-04-07T14:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Turmspringer",
-    "tags": "music"
+    "tags": "music, house, arcade, retro, techno, trance, psytrance",
+    "soundcloud": "soundcloud.com/turmspringer"
   },
   {
     "starttime": "2024-04-07T14:00:00.000Z",
     "endtime": "2024-04-07T16:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Matt Caines",
-    "tags": "music"
+    "tags": "music, house, downtempo, ambient, synth, futuristic, space, soundscape",
+    "soundcloud": "soundcloud.com/mattcaines"
   },
   {
     "starttime": "2024-04-07T19:00:00.000Z",
     "endtime": "2024-04-07T20:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Swaylo",
-    "tags": "music"
+    "tags": "music, house, dnb, synth, upbeat, club, hip hop, bass, futuristic, techno",
+    "description": "For the seekers, dreamers, creators, and adventurers. Swayló is a movement and a mission driven initiative. Every aspect of a Swayló experience is rooted in ancient tradition and is a symbolic expression of art, connection and ritual. His roots in ­New Mexico, Mexico, and Southern Africa are the ingredients which inspired his experiential sound and event series Swayló Nights­­, an immersive music and art gathering with the goal of cultivating connection and encouraging expression, creativity, and imagination. Swayló fosters universality, oneness, and liberation through the power of music and experiential activations.",
+    "soundcloud": "soundcloud.com/swaylonights"
   },
   {
     "starttime": "2024-04-07T20:30:00.000Z",
     "endtime": "2024-04-07T22:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Magupi",
-    "tags": "music"
+    "tags": "music, house, vocals, ethnic, afro, electronica, acoustics, trippy, hip hop, classy",
+    "description": "Márcio Pinto aka Magupi, is a talented\nmulti-instrumentalist and composer,\nequiped with a degree in Classical Studies,\nspecialized in the marimba, balafon and\nafrican percussion. He taught masterclass\nlevel at the renowned Oporto Music\nUniversity and played in a number of\nWorld Music bands and orchestras\nincluding Oporto Symphonic Orchestra.\nMagupi also spent a lot of time in West\nAfrica learning from his masters and\ndrinking inspiration, rhythms and sounds.\nHe integrates his classical, afro and\nelectronic knowledge into his live sets,\nplaying the electro-acoustic marimba with\na diverse aray of tracks widely influenced\nby music around the world, with organic,\ndeep and unique elements.\nMagupi sets have varied from afternoon\nacoustic ambience to late night dance\nfloor bangers, igniting each scenario with\nhis magnetic energy and sound!",
+    "soundcloud": "soundcloud.com/magupi"
   },
   {
     "starttime": "2024-04-07T22:00:00.000Z",
     "endtime": "2024-04-07T23:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Treavor Moontribe",
-    "tags": "music"
+    "tags": "music, psytrance, house, techno, electronica, hip hop",
+    "description": "Treavor Moontribe is one of the founders of the Los Angeles based “Moontribe Collective” and its legendary full moon desert gatherings. Since 1993, these events have been at the core of Southern California’s underground electronic music scene and these events are still ongoing to this day. Treavor established himself as one of the top Djs in LA thru these events and has since traveled the world from Brazil to Japan to Morocco, Portugal, Germany and all over North America. As a Dj it’s always been his diversity that’s set him apart, as his love for music spans multiple genres and his DJing reflects this. Over the years Treavor has also established himself as a dynamic music producer having released music under several project names. His most notable project is Desert Dwellers with his partner on the project Amani Friend. In recent years he has started a new solo project called PheuZen that focuses on more abstract forms of Electronica."
   },
   {
     "starttime": "2024-04-07T23:30:00.000Z",
     "endtime": "2024-04-08T01:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Eitan Reiter",
-    "tags": "music"
+    "tags": "music, house, remix, progressive, lo-fi, ambient",
+    "soundcloud": "soundcloud.com/eitanreiter"
   },
   {
     "starttime": "2024-04-08T01:00:00.000Z",
     "endtime": "2024-04-08T02:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Yuli Fershtat",
-    "tags": "music"
+    "tags": "music, house, trippy, acid, ethnic",
+    "description": "Perfect Stranger",
+    "soundcloud": "soundcloud.com/perfect-stranger"
   },
   {
     "starttime": "2024-04-08T02:30:00.000Z",
     "endtime": "2024-04-08T04:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Mira",
-    "tags": "music"
+    "tags": "music, house, soundscape, ambient, club, funky, retro, trance ",
+    "description": "Mira is that rare kind of DJ whose music can immediately transport you into her world - a midnight circus in Berlin, where time loses all definition and anything becomes possible.\nAs a resident at Bar25, Kater Holzig and her current home of Kater Blau, Mira has been a defining proponent of a deeper, more soulful and organic kind of dance music.\nHer yearly birthday events at Kater Blau 'Katzen Tanzen auf'm Tisch' attract thousands of international visitors every year, and have hosted a multitude of previously unknown artists who have now gone on to tour the globe.\nIn the studio and behind the decks, Mira often collaborates with her partner-in-crime Christopher Schwarzwälder, and the two of them have released a host of chart-topping singles.",
+    "soundcloud": "soundcloud.com/mira_kater"
   },
   {
     "starttime": "2024-04-08T04:00:00.000Z",
     "endtime": "2024-04-08T06:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Bob Moses (club set)",
-    "tags": "music"
+    "tags": "music, house, remix, progressive, electronic, club, emo",
+    "description": "Occupying the fertile ground between organic band land and an all-electronic production project, Bob Moses draw on the two poles to vividly resonate across both.",
+    "soundcloud": "soundcloud.com/the-bob-moses"
   },
   {
     "starttime": "2024-04-07T20:00:00.000Z",
     "endtime": "2024-04-07T20:45:00.000Z",
     "areastagelatlng": "Lone Star",
     "eventartistworkshoppresentation": "Moontricks",
-    "tags": "music"
+    "tags": "music, jazzy, emo, funky, slo-mo, bass, dreamy, folktronica",
+    "soundcloud": "soundcloud.com/moontricks"
   },
   {
     "starttime": "2024-04-07T21:45:00.000Z",
     "endtime": "2024-04-07T22:45:00.000Z",
     "areastagelatlng": "Lone Star",
     "eventartistworkshoppresentation": "Sunsquabi",
-    "tags": "music"
+    "tags": "music",
+    "soundcloud": "soundcloud.com/sunsquabi"
   },
   {
     "starttime": "2024-04-07T23:45:00.000Z",
@@ -913,6 +1203,54 @@
     "areastagelatlng": "Lone Star",
     "eventartistworkshoppresentation": "Vulfpeck",
     "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T16:00:00.000Z",
+    "endtime": "2024-04-08T18:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Transformational Space Futures",
+    "tags": "presentation, space",
+    "description": "Nicole Stott, NASA Astronaut / Space for Art; Kiko Dontchev, SpaceX; Roberto Carlino, NASA Ames - Astrobee and Solar Sail; Rick Tumlinson, Earthlight Foundation"
+  },
+  {
+    "starttime": "2024-04-08T18:00:00.000Z",
+    "endtime": "2024-04-08T19:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Future of Space Medicine",
+    "tags": "presentation, space",
+    "description": "Shawna Pandya, Project PoSSUM; Alexander Layendecker, SpaceBorn United"
+  },
+  {
+    "starttime": "2024-04-08T19:00:00.000Z",
+    "endtime": "2024-04-08T20:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Total Solar Eclipse Performance",
+    "tags": "presentation, space, art",
+    "description": "Jason Schilles, Mars 2020 Acoustics Engineer; Jake Garan, Astrophotographer"
+  },
+  {
+    "starttime": "2024-04-08T20:00:00.000Z",
+    "endtime": "2024-04-08T20:45:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Earth Blooming: Expansion of Life and Consciousness",
+    "tags": "presentation, space",
+    "description": "Henk Rogers, International Moonbase Alliance / HiSeas / Tetris; Ben Haldeman, Lifeship; Barbara Belvisi, Interstellar Lab"
+  },
+  {
+    "starttime": "2024-04-08T20:45:00.000Z",
+    "endtime": "2024-04-08T22:30:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Epoch Eclipse UP Game",
+    "tags": "presentation, space",
+    "description": "UNA-USA Outer Space Innovation and Advocacy Closing Roundtable; Lucian Tarnowski, UP Game; Tatiana Tarnowski, Space4Girls / Leaders on Purpose; Bryan Talebi, Ahura AI / Astroguardians; Roberto Carlino, NASA Ames - Astrobee and Solar Sail; Ari Eisenstat, University of Hawaii; and many more"
+  },
+  {
+    "starttime": "2024-04-08T22:30:00.000Z",
+    "endtime": "2024-04-08T23:00:00.000Z",
+    "areastagelatlng": "Space",
+    "eventartistworkshoppresentation": "Closing Performance",
+    "tags": "presentation, space, music",
+    "description": "Reed Stark x Vau de Vire Performance"
   },
   {
     "starttime": "2024-04-08T07:00:00.000Z",
@@ -1005,7 +1343,7 @@
     "endtime": "2024-04-09T00:30:00.000Z",
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Freedom Fighters",
-    "tags": "music, psytrance, space, soundscape, acoustics, techno, futuristic, space, tranquil, bpm",
+    "tags": "music, psytrance, space, soundscape, acoustics, techno, futuristic, tranquil, bpm",
     "description": "Freedom Fighters - Tel Aviv, Israel",
     "soundcloud": "soundcloud.com/freedomfighters",
     "ig": "facebook.com/freedomfightersofficial",
@@ -1055,21 +1393,24 @@
     "endtime": "2024-04-08T07:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Beauty/Beast\n(Philipp Jung b2b Holmar)",
-    "tags": "music"
+    "tags": "music, house, b2b, industrial, techno, trance, downtempo, retro, afro",
+    "soundcloud": "soundcloud.com/holmarmusik/sets/beauty-beast"
   },
   {
     "starttime": "2024-04-08T07:30:00.000Z",
     "endtime": "2024-04-08T09:45:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Konstantin",
-    "tags": "music"
+    "tags": "music, house, electronica, funky, techno, jazzy, downtempo",
+    "soundcloud": "soundcloud.com/herr-koreander"
   },
   {
     "starttime": "2024-04-08T09:45:00.000Z",
     "endtime": "2024-04-08T12:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Maayan Nidam",
-    "tags": "music"
+    "tags": "music, house, futuristic, space, spiritual, progressive, psywave, eerie, experimental, indigenous",
+    "soundcloud": "soundcloud.com/maayan"
   },
   {
     "starttime": "2024-04-08T12:00:00.000Z",
@@ -1083,42 +1424,48 @@
     "endtime": "2024-04-08T15:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Galen",
-    "tags": "music"
+    "tags": "music,  house, trance, eerie, ambient, soundscape, progressive, funky, ethnic",
+    "description": "Galen developed his signature sound through these weekly jams and as well as his technically proficient yet fluid dj style. The psychedelic music scene of 90s San Francisco provided a launching point to his extensive vinyl collection that spans many genres from classic disco to post-punk to roots reggae and modern house music. His sets can travel a diverse range yet maintain a conscious groove of cohesiveness, always appropriate to the time and place. They are thoughtful, yet never pre-planned, with artfully-timed track selections that spark any dance floor, appealing to the old school just as much as the new. Galen has toured extensively in his career throughout the United States as well major clubs and festivals in Europe, Central America, and Asia.",
+    "soundcloud": "soundcloud.com/dj-galen"
   },
   {
     "starttime": "2024-04-08T15:30:00.000Z",
     "endtime": "2024-04-08T17:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Shawna",
-    "tags": "music"
+    "tags": "music, house, ambient, vocals, futuristic, eerie, downtempo, glitch",
+    "description": "Shawna's passion for music began in early childhood attending the Winnipeg Music Folk festival in Canada, where she grew up. There, she was exposed to musical genius from all over the planet, refining her ear for the origins of all types of music. In 1999, she began to perform as DJ. Her sets are eclectic, genre-bending fusions of Future/Global Bass, Techno, House, Deep House, Moombahton, Hip Hop, Dancehall, R&B, Cumbia, Disco, UK Funky, Tropical.\nShe has the ability to read what any dance floor needs. Played next to many a known name such as: Bassnectar, Mimosa, Glitch Mob, Beats Antique, Moderat, Freak Nasty, DirtyBird, Tipper, etc..\nand has a musical project with Zoe Jakes-\n(of Beat Antique)- called Pussymonster.\nShe plays for the dancers!!!",
+    "soundcloud": "soundcloud.com/dj-shawna"
   },
   {
     "starttime": "2024-04-08T17:00:00.000Z",
     "endtime": "2024-04-08T18:45:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Heimlich Knüller",
-    "tags": "music"
+    "tags": "music, house, progressive, remix, slo-mo, folk",
+    "soundcloud": "soundcloud.com/heimlich-muller"
   },
   {
     "starttime": "2024-04-08T20:00:00.000Z",
     "endtime": "2024-04-08T21:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Tiga",
-    "tags": "music"
+    "tags": "music, house, hip hop, funky, trance, club",
+    "description": "Tiga is a Canadian DJ, Producer, and Record Label Owner. He was awarded Canada’s Juno Award in 2007, and has released three full length albums on some of the most influential labels in electronic music. Tiga has remixed songs from The xx, LCD Soundsystem, Moby, Depeche Mode, and Justice. In addition, Tiga has toured the world extensively, playing legendary festivals and nightclubs such as Coachella, Sónar Festival, Berghain, Stereo Montreal, and Tomorrowland. Tiga founded the record label Turbo Recordings as a platform to harness & develop the community that was building during the early days of electronic music. 300+ releases later, the label has been integral in the success of acts like Chromeo, Azari & III, Gesaffelstein, Duke Dumont, ANNA, Charlotte de Witte, and Kenny Glasgow, amongst others. Both Tiga and his label Turbo Recordings, have been foundational pillars of Canadian electronic music since the genre’s very inception"
   },
   {
     "starttime": "2024-04-08T21:30:00.000Z",
     "endtime": "2024-04-08T23:30:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Kenergy",
-    "tags": "music"
+    "tags": "music, funky, hip hop, upbeat, dnb, club"
   },
   {
     "starttime": "2024-04-08T23:30:00.000Z",
     "endtime": "2024-04-09T01:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "LP Giobbi",
-    "tags": "music"
+    "tags": "music, upbeat, club, ambient"
   },
   {
     "starttime": "2024-04-09T01:00:00.000Z",
