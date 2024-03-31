@@ -496,6 +496,283 @@
     "description": "Foum Fou, Ha"
   },
   {
+    "starttime": "2024-04-06T21:00:00.000Z",
+    "endtime": "2024-04-06T21:50:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Nik P",
+    "tags": "music, experimental"
+  },
+  {
+    "starttime": "2024-04-06T21:50:00.000Z",
+    "endtime": "2024-04-06T22:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Floret Loret",
+    "tags": "music, remix, dubstep, dnb, trance, futuristic, bass, eerie, experimental, bpm",
+    "soundcloud": "soundcloud.com/floretloret"
+  },
+  {
+    "starttime": "2024-04-06T22:45:00.000Z",
+    "endtime": "2024-04-06T23:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Megan Hamilton",
+    "tags": "music, bass, dnb, hip hop, experimental, club",
+    "description": "Megan Hamilton is a well-equipped rocket in the electronic orbit: her mix of hypnotic bass, funky riffs and house grooves push the envelope with each track. As both a producer & vocalist with hip hop roots, she’s able to spin toplines atop beats at the flip of a technicolored hat."
+  },
+  {
+    "starttime": "2024-04-06T23:45:00.000Z",
+    "endtime": "2024-04-07T00:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Saka",
+    "tags": "music, house, bass, vocals, techno, bpm"
+  },
+  {
+    "starttime": "2024-04-07T00:45:00.000Z",
+    "endtime": "2024-04-07T00:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Level Up",
+    "tags": "music, hardstyle, industrial, bpm, experimental, bass, dnb, industrial",
+    "soundcloud": "soundcloud.com/levelup999"
+  },
+  {
+    "starttime": "2024-04-07T00:45:00.000Z",
+    "endtime": "2024-04-07T02:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Truth",
+    "tags": "music, experimental, industrial, bass, hardstyle, bpm"
+  },
+  {
+    "starttime": "2024-04-07T02:45:00.000Z",
+    "endtime": "2024-04-07T03:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Dirt Monkey",
+    "tags": "music, bass, house, dnb, trippy, acid, upbeat, hip hop, experimental",
+    "description": "Dirt Monkey, the alias of Patrick Megeath, embodies the identity of a forward-thinking electronic music artist in every sense. Cutting-edge sound design is the name of his game, proven by his constant releases that span a broad spectrum of genres. From dubstep, to house, to drum & bass and beyond — it's no surprise that Dirt Monkey is regarded as a producer's producer and a fan-favorite performer in the electronic music world.\n"
+  },
+  {
+    "starttime": "2024-04-07T03:45:00.000Z",
+    "endtime": "2024-04-07T04:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Boogie T",
+    "tags": "music, rock, vocals, remix, acoustics, hardstyle, bass, bpm, dnb, dark, progressive, dubstep",
+    "description": "Producer/DJ from New Orleans, Louisiana",
+    "soundcloud": "soundcloud.com/boogietmusic",
+    "ig": "instagram.com/boogietrio",
+    "website": "boogiet.net/"
+  },
+  {
+    "starttime": "2024-04-07T04:45:00.000Z",
+    "endtime": "2024-04-06T06:00:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "SUBTRONICS",
+    "tags": "music, industrial, hardstyle, bpm, bass, dnb, futuristic, upbeat",
+    "soundcloud": "soundcloud.com/SUBTRONICS"
+  },
+  {
+    "starttime": "2024-04-06T06:00:00.000Z",
+    "endtime": "2024-04-06T07:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "The Librarian",
+    "tags": "music, techno, upbeat, trance, dnb",
+    "description": "Andrea Graham, better known by her stage name The Librarian, is a celebrated DJ, producer, and curator. She is the co-founder and music director of Bass Coast Music Festival – known internationally for its forward thinking music programming and installation art – and is widely considered one of bass music's leading creative minds and tastemakers. Equally an artist and entrepreneur, Andrea’s reputation as an inclusive community-builder in the electronic world has brought her a legion of fans and industry followers across the globe.",
+    "soundcloud": "https://soundcloud.com/the-librarian"
+  },
+  {
+    "starttime": "2024-04-06T07:00:00.000Z",
+    "endtime": "2024-04-06T08:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Zen Selekta",
+    "tags": "music, indigenous, funky, hip hop, ethnic, club",
+    "description": "Straight from the city of Atlanta, Georgia, and embracing the cultural richness of her Spanish heritage, Zen Selekta makes music that gracefully intertwines moody, deep, and dark frequencies with ethereal melodies and ethnic influences.",
+    "soundcloud": "https://soundcloud.com/zenselekta"
+  },
+  {
+    "starttime": "2024-04-06T08:00:00.000Z",
+    "endtime": "2024-04-06T09:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Ashez",
+    "tags": "music, psytrance, dubstep, eerie, ambient ",
+    "soundcloud": "https://soundcloud.com/ashezmusic"
+  },
+  {
+    "starttime": "2024-04-06T09:00:00.000Z",
+    "endtime": "2024-04-06T10:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Anna Morgan",
+    "tags": "music, vocals, jazzy, bass, upbeat, tranquil",
+    "soundcloud": "https://soundcloud.com/annamorgan_dj"
+  },
+  {
+    "starttime": "2024-04-06T10:00:00.000Z",
+    "endtime": "2024-04-06T11:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Bogl",
+    "tags": "music, hip hop, synth, tranquil, ambient, bass, club, futuristic",
+    "description": "BOGL is a man of mystery, DJ and music enthusiast originally from Las Vegas, NV. With his parties, Soundpieces, Bogl has been able to host and play alongside current left-field artists from around the world in San Francisco and beyond for years.",
+    "soundcloud": "https://soundcloud.com/griffinbogl"
+  },
+  {
+    "starttime": "2024-04-06T11:00:00.000Z",
+    "endtime": "2024-04-06T12:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Christian Martin (DNB)",
+    "tags": "music, house, dnb, techno, futuristic, trippy, disco, ambient",
+    "soundcloud": "https://soundcloud.com/christianmartin"
+  },
+  {
+    "starttime": "2024-04-06T12:00:00.000Z",
+    "endtime": "2024-04-06T13:30:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "El Papachango",
+    "tags": "music, dubstep, ethnic, vocals, club, afro, bass, trance",
+    "description": "Argentinian Dj sensation, El Papachango has been at the forefront of the West Coast Bass music scene since co-founding the legendary performance and avant-garde production crew, El Circo in 2002. He brought with him a love of music from South America that he blends with west coast underground beats to create a groove that is unique and infectious wherever he goes. His sound is characterized by sexy, soulful banging Global Bass fusion, with a Latin sazon that is quintessential to his name.",
+    "soundcloud": "https://soundcloud.com/elpapachangomusic"
+  },
+  {
+    "starttime": "2024-04-06T21:00:00.000Z",
+    "endtime": "2024-04-06T22:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Mood Swing & Chevy Bass",
+    "tags": "music, rock, hip hop, techno, bass, house, funky, remix",
+    "description": "Mood Swing and Chevy Bass have cemented their spot as one Australia’s most exciting and entertaining live acts and undisputed party starters. The genre bending live electronic duo conduct their shows like ring masters of a circus, encouraging crowds to surrender their inhibitions to the rhythm and let loose their inner party animals.",
+    "soundcloud": "https://soundcloud.com/moodswingandchevybass"
+  },
+  {
+    "starttime": "2024-04-06T22:00:00.000Z",
+    "endtime": "2024-04-06T23:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Beat Kitty",
+    "tags": "music, rock, remix, dark, dnb, dubstep, vocals, psywave, hip hop",
+    "description": "Hailing from the vibrant intersection of creativity and rhythm, Beat Kitty emerges as a trailblazing force in the realm of electronic music. As both a visionary producer and a dynamic DJ, she defies the confines of genre, sculpting sonic landscapes that captivate the senses and propel listeners into uncharted realms of auditory bliss.",
+    "soundcloud": "https://soundcloud.com/thebeatkitty"
+  },
+  {
+    "starttime": "2024-04-06T23:00:00.000Z",
+    "endtime": "2024-04-07T00:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Being",
+    "tags": "music, dnb, spiritual, trippy, consciousness, spiritual, dnb , dark",
+    "description": "PsyFi DnB + Psy Bass",
+    "soundcloud": "https://soundcloud.com/being-music-uk"
+  },
+  {
+    "starttime": "2024-04-07T00:00:00.000Z",
+    "endtime": "2024-04-07T01:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Aaya",
+    "tags": "music, house, indigenous, ethnic, acoustics, bass, indie, spiritual",
+    "soundcloud": "https://soundcloud.com/aayamuzik"
+  },
+  {
+    "starttime": "2024-04-07T01:00:00.000Z",
+    "endtime": "2024-04-07T02:30:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Old Gold",
+    "tags": "music, funky, jazzy, glitch, bass",
+    "soundcloud": "https://soundcloud.com/oldgoldbeats"
+  },
+  {
+    "starttime": "2024-04-07T02:30:00.000Z",
+    "endtime": "2024-04-07T04:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "DrrtyWulvz",
+    "tags": "music, ethnic, indigenous, bass, downtempo, ambient",
+    "soundcloud": "https://soundcloud.com/DRRTYWULVZ"
+  },
+  {
+    "starttime": "2024-04-07T04:00:00.000Z",
+    "endtime": "2024-04-07T05:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Iterate",
+    "tags": "music, bass, trippy, glitch, ambient",
+    "description": "Andrei has been a staple of the West coast bass music scene for 15 years, and has toured extensively to festivals and clubs around the world.  Iterate is the newest iteration of Andrei’s sound, blending beats, bass, intricate glitch edits, and psychedelic sound design.",
+    "website": "https://www.mutimusic.com/artist/iterate/"
+  },
+  {
+    "starttime": "2024-04-07T05:00:00.000Z",
+    "endtime": "2024-04-07T06:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Ashee",
+    "tags": "music, techno, vocals, trippy, eerie",
+    "soundcloud": "https://soundcloud.com/ashee_music"
+  },
+  {
+    "starttime": "2024-04-07T07:30:00.000Z",
+    "endtime": "2024-04-07T08:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Vincent Antone",
+    "tags": "music, club, hip hop, remix, dubstep, funky",
+    "description": "Vincent Antone (full name Vincent Antone Seidl) is an American producer and recording artist based in Austin, TX. He is a multi instrumentalist; playing guitar for over 20 years, Drums for 15, and Piano and Bass for 10. He has produced music for over 8 years now and has found a passion for combining elements of Dance music with all sorts of genres. His style runs from Future Funk, Hip Hop, Future Bass, House, Trap, and everything in between.",
+    "soundcloud": "https://soundcloud.com/vincentantone"
+  },
+  {
+    "starttime": "2024-04-07T09:00:00.000Z",
+    "endtime": "2024-04-07T10:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Logie",
+    "tags": "music, remix, funky, house, afro, ethnic",
+    "description": "Michigan raised. LA based. Groove lover. Drummer. Connector.\r\n\r\nThanks for listening.",
+    "soundcloud": "https://soundcloud.com/logiemusic"
+  },
+  {
+    "starttime": "2024-04-07T18:00:00.000Z",
+    "endtime": "2024-04-07T19:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Manynames",
+    "tags": "music, bass, house, remix, techno, ambient, consciousness",
+    "soundcloud": "https://soundcloud.com/keyframe_entertainment"
+  },
+  {
+    "starttime": "2024-04-07T19:30:00.000Z",
+    "endtime": "2024-04-07T21:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Ajja & Tanina",
+    "tags": "music, consciousness, ambient, spiritual, indigenous, acoustics ",
+    "soundcloud": "https://soundcloud.com/ozora-festival/ajjataniao15"
+  },
+  {
+    "starttime": "2024-04-07T21:30:00.000Z",
+    "endtime": "2024-04-07T22:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Souleye",
+    "tags": "music, hip hop, bass, club, ",
+    "description": "Souleye’s musical journey began when he was a teenager in rural Massachusetts, freestyling around a camp fire to entertain his friends. Blending traditional elements of hip hop, EDM and numerous other styles; Souleye’s music crosses the boundaries of genre, defies convention and inspires listeners with uplifting lyrics coupled with both traditional and unusual hip hop beats and samples.",
+    "soundcloud": "https://soundcloud.com/souleye"
+  },
+  {
+    "starttime": "2024-04-07T23:00:00.000Z",
+    "endtime": "2024-04-08T00:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Lis",
+    "tags": "music, vocals, downtempo, lo-fi, bass",
+    "soundcloud": "https://soundcloud.com/lis"
+  },
+  {
+    "starttime": "2024-04-08T00:45:00.000Z",
+    "endtime": "2024-04-08T02:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Mah Ze Tar",
+    "tags": "music, tribal, bass, vocals, ethnic, downtempo, dubstep",
+    "soundcloud": "https://soundcloud.com/akriza/akriza-mah-ze-tar-epirus"
+  },
+  {
+    "starttime": "2024-04-08T02:15:00.000Z",
+    "endtime": "2024-04-08T03:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Govinda",
+    "tags": "music, bass, ambient, vocals, dreamy, lo-fi ",
+    "soundcloud": "https://soundcloud.com/govindamusic"
+  },
+  {
+    "starttime": "2024-04-08T03:45:00.000Z",
+    "endtime": "2024-04-08T05:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Desert Dwellers",
+    "tags": "music, vocals, spiritual, trippy, techno, downtempo, trance",
+    "description": "Desert Dwellers is a globally-recognized electronic music project hailing from the deserts of New Mexico and California. Comprised of Amani Friend and Treavor Moontribe, the duo has been creating and performing music together for over 20 years. Inspired by the vast and rugged beauty of the desert landscapes, they have crafted a unique sound that has captivated audiences around the world and has garnered them a devoted following of listeners who appreciate their sonic oasis for the mind and body.",
+    "soundcloud": "https://soundcloud.com/desertdwellers",
+    "website": "https://desertdwellers.org/"
+  },
+  {
     "starttime": "2024-04-06T06:30:00.000Z",
     "endtime": "2024-04-06T08:00:00.000Z",
     "areastagelatlng": "Sun",
@@ -752,7 +1029,7 @@
     "endtime": "2024-04-06T23:45:00.000Z",
     "areastagelatlng": "Lone Star",
     "eventartistworkshoppresentation": "Boogie T.rio",
-    "tags": "music, rock, vocals, remix, acoustics, hardstyle, bass, bpm, dnb, dark, progressive, dubstep",
+    "tags": "music, rock, vocals, remix, acoustics, hardstyle, bass, bpm, dnb, dark, progressive, dubstep, experimental",
     "description": "Producer/DJ from New Orleans, Louisiana",
     "soundcloud": "soundcloud.com/boogietmusic",
     "ig": "instagram.com/boogietrio",
@@ -930,7 +1207,255 @@
     "endtime": "2024-04-07T16:45:00.000Z",
     "areastagelatlng": "Texas Onchain",
     "eventartistworkshoppresentation": "Groucho Fractal",
-    "tags": "presentation, crypto"
+    "tags": "presentation, crypto, music"
+  },
+  {
+    "starttime": "2024-04-07T21:30:00.000Z",
+    "endtime": "2024-04-07T22:30:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Spaces",
+    "tags": "music, remix, glitch, dnb, experimental, industrial",
+    "soundcloud": "https://soundcloud.com/listentospaces"
+  },
+  {
+    "starttime": "2024-04-07T22:30:00.000Z",
+    "endtime": "2024-04-07T23:30:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Cosmic Trigger",
+    "tags": "music",
+    "description": "Cosmic Trigger is a young innovative producer with a penchant for psychedelic sound design with oodles of studio experience with the likes of Shpongle, Hollie Cook, The Orb, Jesus & The Mary Chain and many more.",
+    "soundcloud": "https://soundcloud.com/cosmictriggeruk"
+  },
+  {
+    "starttime": "2024-04-07T23:30:00.000Z",
+    "endtime": "2024-04-08T00:30:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Bwoy De Bhajan",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T00:30:00.000Z",
+    "endtime": "2024-04-08T01:30:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Somatoast",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T01:30:00.000Z",
+    "endtime": "2024-04-08T02:30:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Tipper (Twilight Set)",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T02:30:00.000Z",
+    "endtime": "2024-04-08T03:30:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Barclay Crenshaw",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T03:30:00.000Z",
+    "endtime": "2024-04-08T04:30:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Of The Trees",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T04:45:00.000Z",
+    "endtime": "2024-04-08T06:00:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Zeds Dead",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T06:00:00.000Z",
+    "endtime": "2024-04-07T07:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Khiva",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T07:00:00.000Z",
+    "endtime": "2024-04-07T08:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Truth",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T08:00:00.000Z",
+    "endtime": "2024-04-07T09:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Distinct Motive",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T09:00:00.000Z",
+    "endtime": "2024-04-07T10:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Abstrakt Sonance",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T10:00:00.000Z",
+    "endtime": "2024-04-07T11:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Nahlith",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T11:00:00.000Z",
+    "endtime": "2024-04-07T12:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Saka",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T12:00:00.000Z",
+    "endtime": "2024-04-07T13:15:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Attya",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T13:15:00.000Z",
+    "endtime": "2024-04-07T14:15:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Josh Teed",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T20:30:00.000Z",
+    "endtime": "2024-04-07T22:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Captain Hook",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T22:00:00.000Z",
+    "endtime": "2024-04-07T23:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "LED Burnside",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T23:00:00.000Z",
+    "endtime": "2024-04-08T00:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Irieyes",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T00:00:00.000Z",
+    "endtime": "2024-04-08T02:30:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Spektrum, Nas JA, Jesse Brede, Dabis",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T02:30:00.000Z",
+    "endtime": "2024-04-08T04:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "ZIV",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T04:00:00.000Z",
+    "endtime": "2024-04-08T05:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Spoonbill",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T05:00:00.000Z",
+    "endtime": "2024-04-08T06:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Skeler",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T06:00:00.000Z",
+    "endtime": "2024-04-07T07:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Fanna-Fi-Allah",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T07:45:00.000Z",
+    "endtime": "2024-04-07T09:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "David Dtarfire",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T09:30:00.000Z",
+    "endtime": "2024-04-07T11:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Red Giant Project",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T18:15:00.000Z",
+    "endtime": "2024-04-07T19:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Kr3ture",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T19:15:00.000Z",
+    "endtime": "2024-04-07T20:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Pxlmtrees",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T20:30:00.000Z",
+    "endtime": "2024-04-07T22:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Mark Farina",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T22:30:00.000Z",
+    "endtime": "2024-04-07T23:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Coupe Deville",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-07T23:45:00.000Z",
+    "endtime": "2024-04-08T00:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Dragonfly",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T00:45:00.000Z",
+    "endtime": "2024-04-08T02:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Fanna-Fi-Allah",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T02:15:00.000Z",
+    "endtime": "2024-04-08T02:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Temple Step",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T03:45:00.000Z",
+    "endtime": "2024-04-08T05:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Soohan",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T05:00:00.000Z",
+    "endtime": "2024-04-08T06:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Mose",
+    "tags": "music"
   },
   {
     "starttime": "2024-04-07T06:30:00.000Z",
@@ -1253,6 +1778,265 @@
     "description": "Reed Stark x Vau de Vire Performance"
   },
   {
+    "starttime": "2024-04-08T21:30:00.000Z",
+    "endtime": "2024-04-08T22:05:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Jordnmoody",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T22:05:00.000Z",
+    "endtime": "2024-04-08T22:55:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Axel Thesleff",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T22:55:00.000Z",
+    "endtime": "2024-04-08T23:55:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Duffrey",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T23:55:00.000Z",
+    "endtime": "2024-04-09T00:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Tripp St.",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T00:45:00.000Z",
+    "endtime": "2024-04-09T01:45:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Opiuo",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T00:55:00.000Z",
+    "endtime": "2024-04-09T03:10:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "CloZee (Sunset Set)",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T03:20:00.000Z",
+    "endtime": "2024-04-09T04:40:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "Zingara",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T04:45:00.000Z",
+    "endtime": "2024-04-09T06:00:00.000Z",
+    "areastagelatlng": "Eclipse",
+    "eventartistworkshoppresentation": "LSDream",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T06:00:00.000Z",
+    "endtime": "2024-04-08T07:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Ivy Lab",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T07:00:00.000Z",
+    "endtime": "2024-04-08T08:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Dimond Saints",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T08:00:00.000Z",
+    "endtime": "2024-04-08T09:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "K.L.O",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T09:00:00.000Z",
+    "endtime": "2024-04-08T10:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Anna Morgan",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T10:00:00.000Z",
+    "endtime": "2024-04-08T11:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "DOVI",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T11:00:00.000Z",
+    "endtime": "2024-04-08T12:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Ashez",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T12:00:00.000Z",
+    "endtime": "2024-04-08T13:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "KLL SMTH",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T21:00:00.000Z",
+    "endtime": "2024-04-08T22:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Yohm",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T22:00:00.000Z",
+    "endtime": "2024-04-08T23:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "JuJu",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T23:00:00.000Z",
+    "endtime": "2024-04-09T00:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Adam Meow",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T00:00:00.000Z",
+    "endtime": "2024-04-09T01:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Cannaba55",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T01:00:00.000Z",
+    "endtime": "2024-04-09T02:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Saint Sinner (Sunset Set)",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T02:00:00.000Z",
+    "endtime": "2024-04-09T03:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Sylph",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T03:00:00.000Z",
+    "endtime": "2024-04-09T04:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "K + Lab",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T04:00:00.000Z",
+    "endtime": "2024-04-09T05:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Khiva",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T05:00:00.000Z",
+    "endtime": "2024-04-09T06:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Sicaria",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T07:15:00.000Z",
+    "endtime": "2024-04-08T08:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "High Step Society",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T09:00:00.000Z",
+    "endtime": "2024-04-08T10:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Martha Van Straaten",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T10:30:00.000Z",
+    "endtime": "2024-04-08T12:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Equanimous",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T12:00:00.000Z",
+    "endtime": "2024-04-08T13:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Skysia",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T13:30:00.000Z",
+    "endtime": "2024-04-08T14:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Spoonbill",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T14:30:00.000Z",
+    "endtime": "2024-04-08T15:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Shamani",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T15:45:00.000Z",
+    "endtime": "2024-04-08T17:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "M.Rux",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T20:15:00.000Z",
+    "endtime": "2024-04-08T21:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Ephcto Jaguartivist",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T22:00:00.000Z",
+    "endtime": "2024-04-08T23:00:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Tooker & Wazoo",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-08T23:15:00.000Z",
+    "endtime": "2024-04-09T00:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Joaqopelli x Knowa Lusion",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T01:00:00.000Z",
+    "endtime": "2024-04-09T02:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "TV Broken Ft. Katie Skene",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T02:30:00.000Z",
+    "endtime": "2024-04-09T03:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Dragonfly",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T04:15:00.000Z",
+    "endtime": "2024-04-09T05:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Cocorosie",
+    "tags": "music"
+  },
+  {
     "starttime": "2024-04-08T07:00:00.000Z",
     "endtime": "2024-04-08T08:30:00.000Z",
     "areastagelatlng": "Sun",
@@ -1528,6 +2312,111 @@
     "endtime": "2024-04-09T06:00:00.000Z",
     "areastagelatlng": "Lone Star",
     "eventartistworkshoppresentation": "Joe Russo's Almost Dead",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T06:00:00.000Z",
+    "endtime": "2024-04-09T07:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Hamdi",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T07:00:00.000Z",
+    "endtime": "2024-04-09T08:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Visages",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T08:00:00.000Z",
+    "endtime": "2024-04-09T09:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Eprom",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T09:00:00.000Z",
+    "endtime": "2024-04-09T10:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Monty",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T10:00:00.000Z",
+    "endtime": "2024-04-09T11:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Esseks",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T11:00:00.000Z",
+    "endtime": "2024-04-09T12:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Chmura",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T12:00:00.000Z",
+    "endtime": "2024-04-09T13:15:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Potions",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T13:15:00.000Z",
+    "endtime": "2024-04-09T18:00:00.000Z",
+    "areastagelatlng": "Moon",
+    "eventartistworkshoppresentation": "Electric Safari",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T06:00:00.000Z",
+    "endtime": "2024-04-09T07:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Lemonella",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T07:45:00.000Z",
+    "endtime": "2024-04-09T09:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Evan Hatfield",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T09:30:00.000Z",
+    "endtime": "2024-04-09T10:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Liquid Bloom",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T10:45:00.000Z",
+    "endtime": "2024-04-09T12:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Davej",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T12:15:00.000Z",
+    "endtime": "2024-04-09T13:45:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Hideyo Blackmoon",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T14:00:00.000Z",
+    "endtime": "2024-04-09T15:15:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Logie",
+    "tags": "music"
+  },
+  {
+    "starttime": "2024-04-09T15:15:00.000Z",
+    "endtime": "2024-04-09T16:30:00.000Z",
+    "areastagelatlng": "Earth",
+    "eventartistworkshoppresentation": "Danni G",
     "tags": "music"
   },
   {
