@@ -176,7 +176,7 @@
     const app = createApp({
       setup() {
         const daysOfWeek = ref(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']);
-        const presentationTags = ref(['presentation', 'art', 'space', 'crypto', 'math', 'light show', 'humanitarianism', 'innovation', 'AI', 'comedy']);
+        const presentationTags = ref(['presentation', 'art', 'crypto', 'math', 'light show', 'humanitarianism', 'innovation', 'AI', 'comedy', 'astrology']);
         const mySchedule = reactive([]);
         const value = ref();
         const events = ref([])
@@ -255,20 +255,40 @@
         const onSelect = (option) => {
           search.value = ""
         }
+        const sortTags = (a, b) => {
+          if (a === 'music' || a === 'presentation') return -1;
+          if (b === 'music' || b === 'presentation') return 1;
+          if (presentationTags.value.includes(b)) return -1;
+          if (presentationTags.value.includes(a)) return 1;
+          return 0
+        }
         fetch("./utilities/events.json")
           .then((response) => response.json())
           .then((data) => {
             events.value = transformData(data)
+
             for (let event of events.value) {
-              tags.value = removeDuplicates(tags.value.concat(event.tags))
+              tags.value = tags.value.concat(event.tags)
               eventNames.value.push(event.title)
             }
+            tags.value = removeDuplicates(tags.value).sort(sortTags)
             stages.value = removeDuplicates(events.value.map((event) => event.location))
             if (savedData['Monday'].length === 0) {
               savedData['Monday'].push(events.value.filter((event) => event.title === "TOTAL SOLAR ECLIPSE")[0])
               localStorage.setItem(STORAGE, JSON.stringify(savedData))
             }
           })
+        const onTagChange = (search) => {
+          console.log("search", search)
+          if (search === 'music') {
+            tags.value = tags.value.filter(tag => !presentationTags.value.includes(tag))
+          }
+        }
+        const onTagRemove = (search) => {
+          if (search === 'music') {
+            tags.value = tags.value.filter(tag => !presentationTags.value.includes(tag))
+          }
+        }
         return {
           search,
           events,
@@ -288,6 +308,7 @@
           selectedDays,
           selectedStages,
           stages,
+          onTagChange,
         }
       }
     })
