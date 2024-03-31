@@ -30,10 +30,12 @@
   <script type="importmap">
     { 
       "imports": {
-        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js",
+        "modern-screenshot": "https://unpkg.com/modern-screenshot@4.4.37/dist/index.js"
       }
     }
   </script>
+
   <div id="app">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -43,42 +45,43 @@
         <a class="navbar-item has-text-grey" href="/schedules.html">
           Go to Schedules
         </a>
-
-        <!-- <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a> -->
+        <button @click="downloadSchedule" class="navbar-item has-text-grey">
+          Download Schedule
+        </button>
       </div>
     </nav>
-    <section class="section galaxy">
-      <div class="">
-        <h1 class="title stargazer">
-          Texas Eclipse 2024
-        </h1>
-        <!-- <div v-if="">
-          <h2 class="title has-text-light">Nothingh here.. add some events to see cool shit ✨</h2>
-        </div> -->
-        <div class="my-list">
-          <div v-for="day in days" class="list-item">
-            <h2 class="days">{{day}}</h2>
-            <ul class="event-list">
-              <li v-if="schedule[day].length > 0" v-for="event in schedule[day]" class="event">
-                <time class="time">{{event.startTime.toLocaleTimeString([], {timeStyle:
-                  'short'})}} -
-                  {{event.endTime.toLocaleTimeString([], {timeStyle: 'short'})}}:</time>
-                <span class="artist">{{event.title}}</span>
-              </li>
-            </ul>
+    <div id="capture">
+      <section class="section galaxy">
+        <div class="">
+          <h1 class="title stargazer">
+            Texas Eclipse 2024
+            <div class="schedule" contenteditable="true">Schedule</div>
+          </h1>
+          <div class="color-code">
+            <div v-for="location in ['Lone Star', 'Earth', 'Eclipse', 'Moon', 'Sun', 'Sky', 'Texas On Chain', 'Space']"
+              :class="`code ${location.replace(/[\s]/g, '').toLowerCase()}-code`">{{location.toUpperCase()}}</div>
           </div>
+          <div class="my-list">
+            <div v-for="day in days" class="list-item">
+              <h2 class="days">{{day}}</h2>
+              <ul class="event-list">
+                <li v-if="schedule[day].length > 0" v-for="event in schedule[day]" class="event">
+                  <time class="time">{{event.startTime.toLocaleTimeString([], {timeStyle:
+                    'short'})}} -
+                    {{event.endTime.toLocaleTimeString([], {timeStyle: 'short'})}}:</time>
+                  <span :class="`artist ${event.location.replace(/[\s]/g, '').toLowerCase()}`">{{event.title}}</span>
+                </li>
+              </ul>
+            </div>
 
+          </div>
         </div>
-      </div>
+    </div>
   </div>
   </section>
   <script type="module">
     import { createApp, ref, onMounted, computed, reactive } from 'vue'
+    import 'modern-screenshot'
     const STORAGE = 'TexasEclipseSchedulev2';
     const app = createApp({
       setup() {
@@ -90,10 +93,21 @@
             return event;
           })
         }
-        console.log(schedule.value)
         const days = Object.keys(schedule.value);
+        const downloadSchedule = () => {
+          globalThis.modernScreenshot.domToPng(document.getElementById('capture'), {
+            backgroundColor: 'black',
+            background: `black url("assets/solar-eclipse.png") no-repeat 50% 0%`,
+            "background-size": "42%"
+          }).then(data => {
+            const link = document.createElement('a')
+            link.download = 'TexasEclipseSchedule2024.png'
+            link.href = data;
+            link.click();
+          })
+        }
         return {
-          schedule, days
+          schedule, days, downloadSchedule
         }
       }
     })
@@ -104,13 +118,39 @@
     body {
       --bulma-title-color: white;
       color: white;
-      background: black url("assets/solar-eclipse.png") no-repeat 50% 3%;
-      background-size: 78%;
       min-height: 100vh;
     }
 
+    #capture {
+      background: black url("assets/solar-eclipse.png") no-repeat 50% 3%;
+      background-size: 78%;
+    }
+
+    .schedule {
+      font-size: 2rem;
+    }
+
+    .color-code {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+    }
+
+    .code {
+      padding: 0px 20px;
+      text-align: center;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      min-width: 123px;
+      justify-content: center;
+    }
+
     .galaxy {
-      padding-top: 28%;
+      padding-top: 34%;
       padding-left: 0;
       padding-right: 0;
     }
@@ -156,18 +196,19 @@
     }
 
     @media screen and (min-width: 768px) {
-      body {
+      #capture {
         background: black url("assets/solar-eclipse.png") no-repeat 50% 0%;
-        background-size: 52%;
+        background-size: 42%;
       }
 
       .galaxy {
-        padding-top: 16%;
+        padding-top: 13%;
+        margin-top: auto;
       }
 
       .stargazer {
-        font-size: 7rem;
-        margin-bottom: 113px !important;
+        font-size: 4rem;
+        margin-bottom: 169px !important;
       }
 
       .my-list {
@@ -184,7 +225,8 @@
     }
 
     .navbar {
-      background-color: transparent;
+      background-color: black;
+      position: fixed;
     }
 
     .event-list {
@@ -200,6 +242,87 @@
     .event {
       display: flex;
       gap: 10px;
+    }
+
+    .totalsolareclipse {
+      background: black url("assets/solar-eclipse.png") no-repeat;
+      background-size: 134%;
+      flex: 1;
+      background-position-x: center;
+      background-position-y: center;
+      text-align: center;
+    }
+
+    .lonestar {
+      color: hsl(0, 100%, 73%);
+    }
+
+    .lonestar-code {
+      color: white;
+      background-color: hsl(0, 100%, 73%);
+    }
+
+    .earth {
+      color: hsl(120, 52%, 57%);
+    }
+
+    .earth-code {
+      color: white;
+      background-color: hsl(120, 52%, 57%);
+    }
+
+    .eclipse {
+      color: hsl(0, 0%, 38%);
+    }
+
+    .eclipse-code {
+      color: white;
+      background-color: hsl(0, 0%, 47%);
+    }
+
+    .moon {
+      color: #8b4baa;
+    }
+
+    .moon-code {
+      color: white;
+      background-color: #8b4baa;
+    }
+
+    .sun {
+      color: hsl(49, 100%, 58%);
+    }
+
+    .sun-code {
+      color: black;
+      background-color: hsl(49, 100%, 58%);
+    }
+
+    .sky {
+      color: hsl(197, 100%, 61%);
+    }
+
+    .sky-code {
+      color: white;
+      background-color: hsl(197, 100%, 61%);
+    }
+
+    .texasonchain {
+      color: rgb(181, 0, 106);
+    }
+
+    .texasonchain-code {
+      color: white;
+      background-color: rgb(181, 0, 106);
+    }
+
+    .space {
+      color: rgb(107, 135, 189);
+    }
+
+    .space-code {
+      color: black;
+      background-color: rgb(107, 135, 189);
     }
 
     @media screen and (min-width: 1024px) {

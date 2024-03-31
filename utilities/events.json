@@ -1222,7 +1222,7 @@
     "endtime": "2024-04-07T23:30:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Cosmic Trigger",
-    "tags": "music",
+    "tags": "music, upbeat, trance, dnb, bass",
     "description": "Cosmic Trigger is a young innovative producer with a penchant for psychedelic sound design with oodles of studio experience with the likes of Shpongle, Hollie Cook, The Orb, Jesus & The Mary Chain and many more.",
     "soundcloud": "https://soundcloud.com/cosmictriggeruk"
   },
@@ -2106,8 +2106,18 @@
     "website": "perfectlystrange.com"
   },
   {
+    "starttime": "2024-04-08T17:00:00.000Z",
+    "endtime": "2024-04-08T20:00:00.000Z",
+    "areastagelatlng": "TOTAL SOLAR ECLIPSE",
+    "eventartistworkshoppresentation": "iUnify Eclipse Meditation Circle",
+    "tags": "eclipse",
+    "description": "Meet at Meditation Mountain. Seating for outer meditation circle begins at 11. Arrive early. Additional add-on available for comfy seating with cacao and pillows.",
+    "website": "instagram.com/iunify"
+  },
+  {
     "starttime": "2024-04-08T19:30:00.000Z",
     "endtime": "2024-04-08T19:40:00.000Z",
+    "areastagelatlng": "TOTAL SOLAR ECLIPSE",
     "eventartistworkshoppresentation": "TOTAL SOLAR ECLIPSE",
     "tags": "eclipse",
     "description": "Eclipse starts at 1:34pm and lasts about 4mins 20 secs"

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The TEF Lineup</title>
+  <title>The Unofficial Texas Eclipse App - Lineup</title>
   <link href="https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
   <!-- Primary Meta Tags -->
@@ -57,17 +57,33 @@
         <h1 class="title">
           Lineup
         </h1>
-        <div class="grid">
-          <div class="cell">
-            <multiselect v-model="search" placeholder="Search by name.." :options="eventNames" @remove="onSelect" />
-          </div>
+        <div class="spacex fixed-grid has-1-cols-mobile has-2-cols">
+          <div class="grid">
+            <div class="cell">
+              <multiselect v-model="search" placeholder="Search by name.." :options="eventNames" @remove="onSelect" />
+            </div>
 
-          <div class="cell">
-            <multiselect v-model="selectedTags" :options="tags" :multiple="true" :clear-on-select="false"
-              :preserve-search="true" :close-on-select="false" placeholder="Select tag(s)"></multiselect>
-          </div>
-          <div class="cell">
-            <button @click="selectedTags = []" class="button">Clear</button>
+            <div class="cell">
+              <multiselect v-model="selectedTags" :options="tags" :multiple="true" :preserve-search="true"
+                :close-on-select="false" placeholder="Select tag(s)"></multiselect>
+            </div>
+            <div class="cell">
+              <multiselect v-model="selectedStages" :options="stages" :multiple="true" :close-on-select="false"
+                placeholder="Select Stage(s)"></multiselect>
+            </div>
+            <div class="cell">
+              <multiselect v-model="selectedDays"
+                :options="[{label: 'Friday', value: 5}, {label: 'Saturday', value: 6}, {label: 'Sunday', value: 0}, {label: 'Monday', value: 1}, {label: 'Tuesday', value: 2}]"
+                :multiple="true" :close-on-select="false" placeholder="Select Day(s)" track-by="value" label="label">
+              </multiselect>
+            </div>
+            <div class="cell">
+              <button @click="selectedTags = [];search='';selectedDays=[];selectedStages=[];"
+                class="button">Clear</button>
+            </div>
+            <div class="cell">
+              Results: {{ filteredEvents.length }}
+            </div>
           </div>
         </div>
         <ul class="event-list">
@@ -160,6 +176,7 @@
     const app = createApp({
       setup() {
         const daysOfWeek = ref(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']);
+        const presentationTags = ref(['presentation', 'art', 'space', 'crypto', 'math', 'light show', 'humanitarianism', 'innovation', 'AI', 'comedy']);
         const mySchedule = reactive([]);
         const value = ref();
         const events = ref([])
@@ -170,10 +187,12 @@
         const search = ref('')
         const selectedTags = ref([])
         const tags = ref([])
+        const selectedStages = ref([])
+        const selectedDays = ref([])
         const filteredEvents = computed({
           get() {
             return events.value.filter((event) => {
-              return event.title.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length === 0 || selectedTags.value.every((tag) => event.tags.includes(tag)))
+              return event.title.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length === 0 || selectedTags.value.every((tag) => event.tags.includes(tag))) && (selectedDays.value.length === 0 || selectedDays.value.find(v => v.value === event.startTime.getDay())) && (selectedStages.value.length === 0 || selectedStages.value.includes(event.location))
             }).sort((a, b) => a.startTime - b.startTime)
           }
         })
@@ -214,6 +233,7 @@
           */
         }
         const removeFromMySchedule = (data) => {
+          if (data.title === 'TOTAL SOLAR ECLIPSE') return;
           const day = daysOfWeek.value[data.startTime.getDay()]
           if (savedData[day].length > 1) {
             let indexToSlice = 0;
@@ -242,10 +262,12 @@
             for (let event of events.value) {
               tags.value = removeDuplicates(tags.value.concat(event.tags))
               eventNames.value.push(event.title)
-              stages.value = removeDuplicates(stages.value.concat(event.location))
             }
-            // tags.value = removeDuplicates(events.value.flatMap((event) => event.tags))
-            // eventNames.value = events.value.map((event) => event.title)
+            stages.value = removeDuplicates(events.value.map((event) => event.location))
+            if (savedData['Monday'].length === 0) {
+              savedData['Monday'].push(events.value.filter((event) => event.title === "TOTAL SOLAR ECLIPSE")[0])
+              localStorage.setItem(STORAGE, JSON.stringify(savedData))
+            }
           })
         return {
           search,
@@ -263,6 +285,9 @@
           tagMap,
           coreStages,
           dayContainsEvent,
+          selectedDays,
+          selectedStages,
+          stages,
         }
       }
     })
@@ -272,6 +297,11 @@
     app.mount('#app')
   </script>
   <style>
+    .spacex {
+      position: relative;
+      z-index: 9999;
+    }
+
     .title {
       gap: 20px;
     }
@@ -307,6 +337,7 @@
       --bulma-primary-h: 197;
       --bulma-primary-s: 100%;
       --bulma-primary-l: 61%;
+
     }
 
     @media (prefers-color-scheme: dark) {
@@ -332,6 +363,7 @@
       --bulma-primary-h: 49;
       --bulma-primary-s: 100%;
       --bulma-primary-l: 58%;
+
     }
 
     .sun [class*=has-text-primary],
@@ -344,6 +376,7 @@
       --bulma-primary-h: 0;
       --bulma-primary-s: 100%;
       --bulma-primary-l: 73%;
+
     }
 
     .earth {
@@ -351,6 +384,7 @@
       --bulma-primary-h: 120;
       --bulma-primary-s: 52%;
       --bulma-primary-l: 57%;
+
     }
 
     .eclipse {
