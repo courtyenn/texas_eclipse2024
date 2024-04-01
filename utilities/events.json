@@ -112,8 +112,7 @@
     "endtime": "2024-04-06T00:00:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Old Gold",
-    "tags": "music, experimental, bass, dnb",
-    "description": "undefined"
+    "tags": "music, experimental, bass, dnb, breaking-through"
   },
   {
     "starttime": "2024-04-06T00:00:00.000Z",
@@ -208,7 +207,7 @@
     "endtime": "2024-04-06T00:15:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Balkan Bump",
-    "tags": "music, folk"
+    "tags": "music, folk, folktronica"
   },
   {
     "starttime": "2024-04-06T00:45:00.000Z",
@@ -500,7 +499,7 @@
     "endtime": "2024-04-06T20:50:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Nik P",
-    "tags": "music, experimental"
+    "tags": "music, breaking-through"
   },
   {
     "starttime": "2024-04-06T20:50:00.000Z",
@@ -734,7 +733,7 @@
     "endtime": "2024-04-06T21:45:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Souleye",
-    "tags": "music, hip hop, bass, club, ",
+    "tags": "music, hip hop, bass, club",
     "description": "Souleye’s musical journey began when he was a teenager in rural Massachusetts, freestyling around a camp fire to entertain his friends. Blending traditional elements of hip hop, EDM and numerous other styles; Souleye’s music crosses the boundaries of genre, defies convention and inspires listeners with uplifting lyrics coupled with both traditional and unusual hip hop beats and samples.",
     "soundcloud": "https://soundcloud.com/souleye"
   },
@@ -1215,7 +1214,7 @@
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Spaces",
     "tags": "music, remix, glitch, dnb, experimental, industrial",
-    "soundcloud": "https://soundcloud.com/listentospaces"
+    "soundcloud": "soundcloud.com/listentospaces"
   },
   {
     "starttime": "2024-04-07T21:30:00.000Z",
@@ -1224,7 +1223,7 @@
     "eventartistworkshoppresentation": "Cosmic Trigger",
     "tags": "music, upbeat, trance, dnb, bass",
     "description": "Cosmic Trigger is a young innovative producer with a penchant for psychedelic sound design with oodles of studio experience with the likes of Shpongle, Hollie Cook, The Orb, Jesus & The Mary Chain and many more.",
-    "soundcloud": "https://soundcloud.com/cosmictriggeruk"
+    "soundcloud": "soundcloud.com/cosmictriggeruk"
   },
   {
     "starttime": "2024-04-07T22:30:00.000Z",
@@ -1232,7 +1231,7 @@
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Bwoy De Bhajan",
     "tags": "music, vocals, club, bass, glitch, dubstep, dnb ",
-    "soundcloud": "https://soundcloud.com/bwoydebhajan"
+    "soundcloud": "soundcloud.com/bwoydebhajan"
   },
   {
     "starttime": "2024-04-07T23:30:00.000Z",
@@ -1269,7 +1268,7 @@
     "eventartistworkshoppresentation": "Of The Trees",
     "tags": "music, forrest, dubstep, vocals, ambient, trance ",
     "soundcloud": "https://soundcloud.com/ofthetrees",
-    "ig": "https://www.instagram.com/ofthetreesmusic/?hl=en",
+    "ig": "https://www.instagram.com/ofthetreesmusic",
     "website": "https://www.ofthetreesmusic.com/"
   },
   {
@@ -1279,7 +1278,7 @@
     "eventartistworkshoppresentation": "Zeds Dead",
     "tags": "music, bass, hip hop, dubstep, dnb, house, ethnic, remix, vocals",
     "soundcloud": "https://soundcloud.com/ZEDSDEAD",
-    "ig": "https://www.instagram.com/zedsdead/?hl=en",
+    "ig": "https://www.instagram.com/zedsdead",
     "website": "https://www.zedsdead.net/"
   },
   {
@@ -1289,7 +1288,7 @@
     "eventartistworkshoppresentation": "Khiva",
     "tags": "music, vocals, spiritual, trippy, eerie ",
     "soundcloud": "https://soundcloud.com/realkhiva",
-    "ig": "https://www.instagram.com/khivamusic/?hl=en"
+    "ig": "https://www.instagram.com/khivamusic"
   },
   {
     "starttime": "2024-04-07T06:00:00.000Z",
@@ -1308,7 +1307,7 @@
     "eventartistworkshoppresentation": "Distinct Motive",
     "tags": "music, hip hop, dubstep",
     "soundcloud": "https://soundcloud.com/distinctmotive",
-    "ig": "https://www.instagram.com/distinctmotive/?hl=en"
+    "ig": "https://www.instagram.com/distinctmotive"
   },
   {
     "starttime": "2024-04-07T08:00:00.000Z",
@@ -1316,7 +1315,7 @@
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Abstrakt Sonance",
     "tags": "music, dnb, dubstep, vocals, ambient, dark",
-    "ig": "https://www.instagram.com/abstraktsonance/"
+    "ig": "https://www.instagram.com/abstraktsonance"
   },
   {
     "starttime": "2024-04-07T09:00:00.000Z",
@@ -1325,7 +1324,7 @@
     "eventartistworkshoppresentation": "Nahlith",
     "tags": "music, dark, ambient, dnb, dubstep",
     "soundcloud": "https://soundcloud.com/nahlith",
-    "ig": "https://www.instagram.com/nahlith/?hl=en"
+    "ig": "https://www.instagram.com/nahlith"
   },
   {
     "starttime": "2024-04-07T10:00:00.000Z",
@@ -1343,7 +1342,7 @@
     "eventartistworkshoppresentation": "Attya",
     "tags": "music, eerie, soundscape, remix, vocals, bass, dubstep, downtempo",
     "soundcloud": "https://soundcloud.com/ATYYA",
-    "ig": "https://www.instagram.com/_atyya_/?hl=en",
+    "ig": "https://www.instagram.com/_atyya_",
     "website": "https://www.atyya.com/"
   },
   {
@@ -1353,7 +1352,7 @@
     "eventartistworkshoppresentation": "Josh Teed",
     "tags": "music, jazzy,downtempo, ambient, dubstep, hip hop, bass",
     "soundcloud": "https://soundcloud.com/jgtmusic",
-    "ig": "https://www.instagram.com/joshteedmusic/?hl=en"
+    "ig": "https://www.instagram.com/joshteedmusic"
   },
   {
     "starttime": "2024-04-07T19:30:00.000Z",
@@ -1362,6 +1361,7 @@
     "eventartistworkshoppresentation": "Captain Hook Bass",
     "tags": "music, psytrance, progressive, funky, dnb, techno",
     "description": "Captain Hook is one of the top artists, musicians and producers in the Psychedelic & Progressive Trance scene. Traveling a diverse musical path, Reshef Harari has always achieved success guided by the frequencies",
+    "soundcloud": "https://soundcloud.com/captain-hook",
     "website": "https://www.insomniac.com/music/artists/captain-hook/"
   },
   {
@@ -1369,56 +1369,72 @@
     "endtime": "2024-04-07T22:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "LED Burnside",
-    "tags": "music"
+    "tags": "music, breaking-through"
   },
   {
     "starttime": "2024-04-07T22:00:00.000Z",
     "endtime": "2024-04-07T23:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Irieyes",
-    "tags": "music"
+    "tags": "music, jungle, dubstep, dnb, ethnic, vocals",
+    "soundcloud": "https://soundcloud.com/irieyes"
   },
   {
     "starttime": "2024-04-07T23:00:00.000Z",
     "endtime": "2024-04-08T01:30:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Spektrum, Nas JA, Jesse Brede, Dabis",
-    "tags": "music"
+    "tags": "music, ambient, glitch, dnb, hip hop, future, bass, ethnic, dubstep , b2b",
+    "soundcloud": "https://soundcloud.com/giovanni-lotrecchiano, https://soundcloud.com/jessebrede, https://soundcloud.com/nasjamusic, ",
+    "ig": "https://www.instagram.com/jesse.brede, https://www.instagram.com/iamspektrum"
   },
   {
     "starttime": "2024-04-08T01:30:00.000Z",
     "endtime": "2024-04-08T03:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "ZIV",
-    "tags": "music"
+    "tags": "music , dreamy, dnb, dubstep, glitch",
+    "description": "Z.i.V is an Israeli born, world wide tune slinger and musician, based in Byron Bay, Australia. Z.i.V has always had a passion for music,playing guitar in punk-rock bands since the age of 13 traveling round the world as a street musician.\r\nThe messages music portrays and sound system culture as a whole. ",
+    "soundcloud": "https://soundcloud.com/ziv-k"
   },
   {
     "starttime": "2024-04-08T03:00:00.000Z",
     "endtime": "2024-04-08T04:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Spoonbill",
-    "tags": "music"
+    "tags": "music, glitch, funky, techno, bass",
+    "description": "Spoonbill is a restless sonic author constantly defying genres and experimenting with the potential of the vast sonic canvas. He has carved a unique niche within contemporary electronic music, building a worldwide reputation for his idiosyncratic sound design and richly textured high production values.",
+    "soundcloud": "https://soundcloud.com/spoonbill",
+    "ig": "https://www.instagram.com/spoonbillmusic",
+    "website": "https://www.spoonbill.net.au/"
   },
   {
     "starttime": "2024-04-08T04:00:00.000Z",
     "endtime": "2024-04-08T05:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Skeler",
-    "tags": "music"
+    "tags": "music, ambient, vocals, hip hop, funky",
+    "soundcloud": "https://soundcloud.com/skelermusic",
+    "ig": "https://www.instagram.com/skelerofficial"
   },
   {
     "starttime": "2024-04-07T05:00:00.000Z",
     "endtime": "2024-04-07T06:30:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Fanna-Fi-Allah",
-    "tags": "music"
+    "tags": "music, indigenous, ethnic, hip hop, vocals",
+    "soundcloud": "https://soundcloud.com/sardar-awais-shaheen-khan/sets/fanna-fi-allah",
+    "ig": "https://www.instagram.com/fanna_fi_allah",
+    "website": "https://fanna-fi-allah.com/"
   },
   {
     "starttime": "2024-04-07T06:45:00.000Z",
     "endtime": "2024-04-07T08:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "David Dtarfire",
-    "tags": "music"
+    "tags": "music, dupstep, hip hop, vocals, ",
+    "ig": "https://www.instagram.com/davidstarfire",
+    "website": "https://www.davidstarfire.com/"
   },
   {
     "starttime": "2024-04-07T08:30:00.000Z",
@@ -2141,9 +2157,9 @@
   {
     "starttime": "2024-04-08T16:00:00.000Z",
     "endtime": "2024-04-08T19:00:00.000Z",
-    "areastagelatlng": "TOTAL SOLAR ECLIPSE",
+    "areastagelatlng": "Meditation Mountain",
     "eventartistworkshoppresentation": "iUnify Eclipse Meditation Circle",
-    "tags": "eclipse",
+    "tags": "eclipse, event",
     "description": "Meet at Meditation Mountain. Seating for outer meditation circle begins at 11. Arrive early. Additional add-on available for comfy seating with cacao and pillows.",
     "website": "instagram.com/iunify"
   },
