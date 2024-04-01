@@ -1979,112 +1979,148 @@
     "endtime": "2024-04-08T21:05:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Jordnmoody",
-    "tags": "music"
+    "tags": "music, dubstep, hip hop, bass",
+    "soundcloud": "https://soundcloud.com/jordnmoody",
+    "ig": "https://www.instagram.com/jordnmoody/?hl=en"
   },
   {
     "starttime": "2024-04-08T21:05:00.000Z",
     "endtime": "2024-04-08T21:55:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Axel Thesleff",
-    "tags": "music"
+    "tags": "music, tranquil, vocals, techno",
+    "description": "Electronic music from the heart.",
+    "soundcloud": "https://soundcloud.com/axelthesleff",
+    "ig": "https://www.instagram.com/axelthesleff/?hl=en",
+    "website": "https://www.axelthesleff.com/"
   },
   {
     "starttime": "2024-04-08T21:55:00.000Z",
     "endtime": "2024-04-08T22:45:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Duffrey",
-    "tags": "music"
+    "tags": "music, jazzy, funky, dubstep, dnb, bass",
+    "website": "https://www.duffreymusic.net/"
   },
   {
     "starttime": "2024-04-08T22:45:00.000Z",
     "endtime": "2024-04-08T23:45:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Tripp St.",
-    "tags": "music"
+    "tags": "music, remix, bass, techno, dnb",
+    "soundcloud": "https://soundcloud.com/tripp_st",
+    "ig": "https://www.instagram.com/tripp_st/",
+    "website": "https://trippst.com/"
   },
   {
     "starttime": "2024-04-08T23:45:00.000Z",
     "endtime": "2024-04-09T00:45:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Opiuo",
-    "tags": "music"
+    "tags": "music, acoustics, experimental, dubstep, funky",
+    "soundcloud": "https://soundcloud.com/opiuo",
+    "ig": "https://www.instagram.com/opiuo/?hl=en",
+    "website": "https://opiuo.com/"
   },
   {
     "starttime": "2024-04-08T23:55:00.000Z",
     "endtime": "2024-04-09T02:10:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "CloZee (Sunset Set)",
-    "tags": "music"
+    "tags": "music, dreamy, downtempo, ambient, synth, lo-fi",
+    "soundcloud": "https://soundcloud.com/joe-listro/clozee-sunset-dreamtempo-set"
   },
   {
     "starttime": "2024-04-09T02:20:00.000Z",
     "endtime": "2024-04-09T03:40:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "Zingara",
-    "tags": "music"
+    "tags": "music, dreamy, downtempo, ambient, vocals, dubstep, hip hop",
+    "soundcloud": "https://soundcloud.com/zingaraa",
+    "ig": "https://www.instagram.com/zingaramusic/?hl=en",
+    "website": "https://www.zingaramusic.com/"
   },
   {
     "starttime": "2024-04-09T03:45:00.000Z",
     "endtime": "2024-04-09T05:00:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "LSDream",
-    "tags": "music"
+    "tags": "music, dupstep, remix, hip hop, trippy, vocals, spiritual  ",
+    "description": "A spiritual being having a human experience\n\n",
+    "soundcloud": "https://soundcloud.com/lsdream",
+    "ig": "https://www.instagram.com/lsdream/",
+    "website": "https://www.lsdreammusic.com/"
   },
   {
     "starttime": "2024-04-08T05:00:00.000Z",
     "endtime": "2024-04-08T06:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Ivy Lab",
-    "tags": "music"
+    "tags": "music, bass, experimental, dnb, techno ",
+    "soundcloud": "https://soundcloud.com/ivylab",
+    "ig": "https://www.instagram.com/ivylab/?hl=en"
   },
   {
     "starttime": "2024-04-08T06:00:00.000Z",
     "endtime": "2024-04-08T07:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Dimond Saints",
-    "tags": "music"
+    "tags": "music, vocals, dnb, hip hop",
+    "description": "Deep in the heart of the Dimond District in the land of oaks, out of the ashes and the bleakness comes a new sound tearing and bursting the bubble of mediocrity. The music drips of passion, boldness, and the unknown. We are the Dimond\r\nSaints.",
+    "soundcloud": "https://soundcloud.com/dimondsaints",
+    "ig": "https://www.instagram.com/dimondsaints/?hl=en"
   },
   {
     "starttime": "2024-04-08T07:00:00.000Z",
     "endtime": "2024-04-08T08:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "K.L.O",
-    "tags": "music"
+    "tags": "music, dubstep, experimental, downtempo, hip hop",
+    "soundcloud": "https://soundcloud.com/kloofficial",
+    "ig": "https://www.instagram.com/klonoise/"
   },
   {
     "starttime": "2024-04-08T08:00:00.000Z",
     "endtime": "2024-04-08T09:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Anna Morgan",
-    "tags": "music"
+    "tags": "music, remix, dnb, hip hop, vocals, techno",
+    "soundcloud": "https://soundcloud.com/annamorgan_dj",
+    "ig": "https://www.instagram.com/annamorgandj/"
   },
   {
     "starttime": "2024-04-08T09:00:00.000Z",
     "endtime": "2024-04-08T10:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "DOVI",
-    "tags": "music"
+    "tags": "music breaking-through"
   },
   {
     "starttime": "2024-04-08T10:00:00.000Z",
     "endtime": "2024-04-08T11:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Ashez",
-    "tags": "music"
+    "tags": "music, dark, hip hop, dreamy, dubstep",
+    "description": "kiwi bass producer 🇳🇿",
+    "soundcloud": "https://soundcloud.com/ashezmusic",
+    "ig": "https://www.instagram.com/ashezmusic/?hl=en"
   },
   {
     "starttime": "2024-04-08T11:00:00.000Z",
     "endtime": "2024-04-08T12:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "KLL SMTH",
-    "tags": "music"
+    "tags": "music, dnb, dubstep, vocals, ambient, dark, hip hop",
+    "soundcloud": "https://soundcloud.com/KLLSMTH",
+    "ig": "https://www.instagram.com/kllsmth/?hl=en"
   },
   {
     "starttime": "2024-04-08T20:00:00.000Z",
     "endtime": "2024-04-08T21:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Yohm",
-    "tags": "music"
+    "tags": "music",
+    "soundcloud": "https://soundcloud.com/yohm"
   },
   {
     "starttime": "2024-04-08T21:00:00.000Z",
@@ -2602,7 +2638,7 @@
     "starttime": "2024-04-09T09:45:00.000Z",
     "endtime": "2024-04-09T11:15:00.000Z",
     "areastagelatlng": "Earth",
-    "eventartistworkshoppresentation": "Davej",
+    "eventartistworkshoppresentation": "Savej",
     "tags": "music"
   },
   {
