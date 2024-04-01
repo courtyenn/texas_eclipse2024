@@ -156,14 +156,24 @@
     const coreStages = ["Sky", "Sun", "Lone Star", "Earth", "Eclipse", "Moon"];
     const STORAGE = 'TexasEclipseSchedulev2';
     const TIMEZONE = 'America/Chicago'
-    const savedData = reactive(JSON.parse(localStorage.getItem(STORAGE)) || {
+    const schedule = JSON.parse(localStorage.getItem(STORAGE)) || {
       Friday: [],
       Saturday: [],
       Sunday: [],
       Monday: [],
       Tuesday: [],
-    });
+    };
+    for (let k in schedule) {
+      schedule[k] = schedule[k].map((event) => {
+        event.startTime = new Date(event.startTime)
+        event.endTime = new Date(event.endTime)
+        return event
+      })
+    }
 
+    const savedData = reactive(schedule)
+
+    /** DATA SCRIPTS **/
     const fixData = (events) => {
       const STORAGE_FIX = 'fixedIds'
       const didFixIds = ref(localStorage.getItem(STORAGE_FIX) ? JSON.parse(localStorage.getItem(STORAGE_FIX)) : false);
@@ -194,7 +204,22 @@
         localStorage.setItem(STORAGE_FIX, JSON.stringify(true));
       }
     }
-
+    const fixScheduleSort = () => {
+      const FIX = 'didSortSavedSchedule'
+      const didSortSavedSchedule = localStorage.getItem(FIX) ? JSON.parse(localStorage.getItem(FIX)) : false;
+      if (!didSortSavedSchedule) {
+        for (let day in savedData) {
+          savedData[day] = savedData[day].sort((a, b) => {
+            if (a.startTime > b.startTime) return 1;
+            if (a.startTime < b.startTime) return -1
+            return 0
+          })
+        }
+        localStorage.setItem(STORAGE, JSON.stringify(savedData));
+        localStorage.setItem(FIX, JSON.stringify(true));
+      }
+    }
+    /** End Data scripts **/
     const removeDuplicates = (arr) => arr.filter((v, i) => arr.indexOf(v) === i);
     const transformData = (data) => data.map((item) => {
       let newId = item.eventartistworkshoppresentation.replace(/[\s&]+/g, '-').toLowerCase()
@@ -331,6 +356,7 @@
             })
 
             fixData(events.value);
+            fixScheduleSort();
 
             const foundEclipse = savedData['Monday'].find(event => event.title === 'TOTAL SOLAR ECLIPSE');
             if (!foundEclipse) {
