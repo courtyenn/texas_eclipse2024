@@ -563,7 +563,7 @@
     "endtime": "2024-04-06T05:00:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "SUBTRONICS",
-    "tags": "music, industrial, hardstyle, bpm, bass, dnb, futuristic, upbeat",
+    "tags": "music, industrial, bpm, bass, dnb, futuristic, upbeat, dubstep, experimental",
     "soundcloud": "soundcloud.com/SUBTRONICS"
   },
   {
@@ -1295,7 +1295,7 @@
     "endtime": "2024-04-07T07:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Truth",
-    "tags": "music, hip hop, dubstep",
+    "tags": "music, hip hop, dubstep, eerie, bass",
     "description": "Sonic architects of songs with an emotional heft as heavy as the subwoofer rupturing basslines that underpin their work, TRUTH are one of New Zealand's finest creative exports. Respected across the globe since inception, TRUTH have as both award winning producers and world-class DJs, cut a clear pathway through the international dubstep scene.",
     "soundcloud": "https://soundcloud.com/truthdubstep",
     "website": "https://www.truthdubstep.com/"
@@ -1441,7 +1441,10 @@
     "endtime": "2024-04-07T10:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Red Giant Project",
-    "tags": "music"
+    "tags": "music",
+    "description": "Psychedelic Mathletes, pushing boundaries.",
+    "ig": "https://www.instagram.com/redgiantproject/?hl=en",
+    "website": "https://redgiantproject.com/"
   },
   {
     "starttime": "2024-04-07T17:15:00.000Z",
@@ -1455,7 +1458,8 @@
     "endtime": "2024-04-07T19:15:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Pxlmtrees",
-    "tags": "music"
+    "tags": "music",
+    "description": "Red Giant Project fuses original electronic production with live instrumentation, soul, blues & world funk."
   },
   {
     "starttime": "2024-04-07T19:30:00.000Z",
@@ -1469,7 +1473,8 @@
     "endtime": "2024-04-07T22:45:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Coupe Deville",
-    "tags": "music"
+    "tags": "music",
+    "description": "“Combining the sounds of neo-soul and hip-hop with experimental bass and additional electronic elements make Red Giant Project an expertly crafted body of work..a classic feel to it yet is injected with fresh, new-age production that makes it truly memorable….dips into many genres, allowing it to take on a life of its own ...If you love funky electronic music and want to get down and dirty on a makeshift dancefloor, then this is unique album is one you definitely need to listen to.” - EDM Identity"
   },
   {
     "starttime": "2024-04-07T22:45:00.000Z",
@@ -1483,7 +1488,8 @@
     "endtime": "2024-04-08T01:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Fanna-Fi-Allah",
-    "tags": "music"
+    "tags": "music",
+    "description": "“Red Giant Project thrives in live shows, especially festivals. Onstage, they show off some of their instrumental weapons, including John Avery on tenor sax, Tah Rei who plays a vast assortment of unique instruments, including the Piccadilly baritone sax, various clarinets, and the Theremin. Plus, when available, Rolling Stones’ sax player Karl Denson who’s also featured throughout the recorded album, will join in on the live show. All the sounds and voices of Red Giant Project hold their own while blending in immaculate sound production...at their shows, they can play up to 90-minute sets without breaks, making the performance a true experience. The sound starts off psychedelic and then takes off for other realms.” -Source Magazine."
   },
   {
     "starttime": "2024-04-08T01:15:00.000Z",
@@ -1497,7 +1503,8 @@
     "endtime": "2024-04-08T04:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Soohan",
-    "tags": "music"
+    "tags": "music",
+    "description": "“Red Giant Project has an interesting sound that can truly be described as experimental....the Album digs into all ends of their sound, with a range of styles and variations as you move through the tracks...they continue to forge a new path in music and create beautiful and intentional works of art.” - Hip Hop Weekly."
   },
   {
     "starttime": "2024-04-08T04:00:00.000Z",
@@ -1512,7 +1519,7 @@
     "areastagelatlng": "Sun",
     "eventartistworkshoppresentation": "Avalon",
     "tags": "music, psytrance, consciousness, spiritual, trippy, progressive, trance, bpm, hardstyle",
-    "description": "Avalon has grown massively from his UK underground roots into one of the leading and most in-demand artists in the Psy-Trance scene today. He is one of the top headliners at most major psychedelic trance events around the globe and has worked with Tristan, Vini Vici, Astrix, Burn In Noise, Ace Ventura to name a few.\nAvalon's collaboration projects (Killerwatts with DJ Tristan a with Sonic Species under his progressive alias ‘Future Frequency’) have also garnered mass appeal. ",
+    "description": "It’s fresh yet Mature. Live, yet premeditated. An authentic collection of different abilities, maximized, within a vast detail of sound-design.",
     "soundcloud": "soundcloud.com/avalon",
     "website": "avalonthegroup.com/"
   },
