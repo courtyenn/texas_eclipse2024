@@ -56,7 +56,7 @@
     </nav>
     <div class="github">
       <iframe src="https://ghbtns.com/github-btn.html?user=courtyenn&repo=texas_eclipse2024&type=star&count=true"
-        frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+        frameborder="0" scrolling="0" width="90" height="20" title="GitHub"></iframe>
     </div>
     <section class="section">
       <div class="container">
@@ -358,9 +358,9 @@
             fixData(events.value);
             fixScheduleSort();
 
-            const foundEclipse = savedData['Monday'].find(event => event.title === 'TOTAL SOLAR ECLIPSE');
+            const foundEclipse = savedData['Monday'].find(event => event.id === 'total-solar-eclipse-2024-04-08t18-30-00-000z');
             if (!foundEclipse) {
-              const eclipse = events.value.find(event => event.title === 'TOTAL SOLAR ECLIPSE');
+              const eclipse = events.value.find(event => event.id === 'total-solar-eclipse-2024-04-08t18-30-00-000z');
               addToMySchedule(eclipse);
             }
           })
