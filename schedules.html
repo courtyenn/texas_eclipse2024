@@ -184,7 +184,7 @@
               if (hour.length < 2) hour = "0" + hour;
               return day + "t" + hour + rest;
             });
-            return events.find(realEvent => realEvent.id === event.id);
+            return events.find(realEvent => realEvent.id === event.id) || event;
           })
           savedData[day] = schedule[day]
         }
@@ -259,6 +259,8 @@
         }
         const addToMySchedule = (data) => {
           const day = daysOfWeek.value[data.startTime.getDay()]
+          data.formatStartTime = formatInTimeZone(data.startTime, TIMEZONE, 'p')
+          data.formatEndTime = formatInTimeZone(data.endTime, TIMEZONE, 'p')
           if (savedData[day].length > 0) {
             let indexToSlice = savedData[day].length;
             for (let i = 0; i < savedData[day].length; i++) {
@@ -318,12 +320,14 @@
             }
             tags.value = removeDuplicates(tags.value).sort(sortTags)
             stages.value = removeDuplicates(events.value.map((event) => event.location))
-            if (savedData['Monday'].length === 0) {
-              savedData['Monday'].push(events.value.filter((event) => event.title === "TOTAL SOLAR ECLIPSE")[0])
-              localStorage.setItem(STORAGE, JSON.stringify(savedData))
-            }
 
             fixData(events.value);
+
+            const foundEclipse = savedData['Monday'].find(event => event.title === 'TOTAL SOLAR ECLIPSE');
+            if (!foundEclipse) {
+              const eclipse = events.value.find(event => event.title === 'TOTAL SOLAR ECLIPSE');
+              addToMySchedule(eclipse);
+            }
           })
         const onTagChange = (search) => {
           console.log("search", search)
