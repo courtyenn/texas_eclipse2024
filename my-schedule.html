@@ -65,20 +65,19 @@
             <div v-for="location in ['Lone Star', 'Earth', 'Eclipse', 'Moon', 'Sun', 'Sky', 'Texas On Chain', 'Space']"
               :class="`code ${location.replace(/[\s]/g, '').toLowerCase()}-code`">{{location.toUpperCase()}}</div>
           </div>
-          <div class="my-list">
+          <div v-if="fixIds" class="my-list">
             <div v-for="day in days" class="list-item">
               <h2 class="days">{{day}}</h2>
               <ul class="event-list">
                 <li v-if="schedule[day].length > 0" v-for="event in schedule[day]" class="event">
-                  <time class="time">{{event.startTime.toLocaleTimeString([], {timeStyle:
-                    'short'})}} -
-                    {{event.endTime.toLocaleTimeString([], {timeStyle: 'short'})}}:</time>
+                  <time class="time">{{event.formatStartTime}} -
+                    {{event.formatEndTime}}:</time>
                   <span :class="`artist ${event.location.replace(/[\s]/g, '').toLowerCase()}`">{{event.title}}</span>
                 </li>
               </ul>
             </div>
-
           </div>
+          <div v-if="!fixIds">Data is old, go to Lineup to refresh with new data</div>
         </div>
     </div>
   </div>
@@ -87,16 +86,11 @@
     import { createApp, ref, onMounted, computed, reactive } from 'vue'
     import 'modern-screenshot'
     const STORAGE = 'TexasEclipseSchedulev2';
+    const FIX_STORAGE = 'fixedIds'
     const app = createApp({
       setup() {
         const schedule = ref(localStorage.getItem(STORAGE) ? JSON.parse(localStorage.getItem(STORAGE)) : {});
-        for (let day in schedule.value) {
-          schedule.value[day] = schedule.value[day].map(event => {
-            event.startTime = new Date(event.startTime);
-            event.endTime = new Date(event.endTime);
-            return event;
-          })
-        }
+        const fixIds = ref(localStorage.getItem(FIX_STORAGE) ? JSON.parse(localStorage.getItem(FIX_STORAGE)) : false);
         const days = Object.keys(schedule.value);
         const downloadSchedule = () => {
           globalThis.modernScreenshot.domToPng(document.getElementById('capture'), {
@@ -111,7 +105,7 @@
           })
         }
         return {
-          schedule, days, downloadSchedule
+          schedule, days, downloadSchedule, fixIds
         }
       }
     })

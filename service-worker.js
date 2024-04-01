@@ -63,7 +63,9 @@ const registerWorker = async () => {
     "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css",
     "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js",
     "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css",
-    "https://buttons.github.io/buttons.js",
+    "https://ghbtns.com/github-btn.html?user=courtyenn&repo=texas_eclipse2024&type=star&count=true",
+    "https://cdn.jsdelivr.net/npm/date-fns@3.6.0/+esm",
+    "https://cdn.jsdelivr.net/npm/date-fns-tz@3.0.0-beta.3/+esm",
     ...ICONS.map((icon) => `/assets/${icon}.png`),
     ...calcSlippyTiles().map(
       (tile) => `/assets/mapbox/${tile.zoom}/${tile.x}/${tile.y}.png`

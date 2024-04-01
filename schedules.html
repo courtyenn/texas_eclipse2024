@@ -37,7 +37,9 @@
     { 
       "imports": {
         "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js",
-        "vue-multiselect": "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js"
+        "vue-multiselect": "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js",
+        "date-fns": "https://cdn.jsdelivr.net/npm/date-fns@3.6.0/+esm",
+        "date-fns-tz": "https://cdn.jsdelivr.net/npm/date-fns-tz@3.0.0-beta.3/+esm"
       }
     }
   </script>
@@ -113,9 +115,9 @@
                       Remove from schedule
                     </button>
                     <time class="is-size-4">{{ daysOfWeek[event.startTime.getDay()] }}</time>
-                    <time :datetime="event.startTime" class="is-size-6 has-text-grey-dark">
-                      {{ event.startTime.toLocaleTimeString([], {timeStyle: 'short'}) }} - {{
-                      event.endTime.toLocaleTimeString([], {timeStyle: 'short'}) }}
+                    <time :datetime="event.formatStartTime" class="is-size-6 has-text-grey-dark">
+                      {{ event.formatStartTime }} - {{
+                      event.formatEndTime }}
                     </time>
                   </div>
                 </div>
@@ -137,6 +139,8 @@
   <script type="module">
     import { createApp, ref, onMounted, computed, reactive } from 'vue'
     import VueMultiselect from 'vue-multiselect'
+    import { formatInTimeZone, zonedTimeToUtc, utcToZonedTime, format } from 'date-fns-tz'
+
     const tagMap = ref({
       "is-dark": ["dark", "emo", "rock", "experimental", "club", "space", "psywave", "acid", "tranquil", "art", "riddim"],
       "is-primary": ["electronica", "synth", "bass", "indie", "sophistication", "slo-mo", "soundscape", "light show"],
@@ -149,6 +153,7 @@
     });
     const coreStages = ["Sky", "Sun", "Lone Star", "Earth", "Eclipse", "Moon"];
     const STORAGE = 'TexasEclipseSchedulev2';
+    const TIMEZONE = 'America/Chicago'
     const savedData = reactive(JSON.parse(localStorage.getItem(STORAGE)) || {
       Friday: [],
       Saturday: [],
@@ -157,14 +162,57 @@
       Tuesday: [],
     });
 
+    const fixData = (events) => {
+      const STORAGE_FIX = 'fixedIds'
+      const didFixIds = ref(localStorage.getItem(STORAGE_FIX) ? JSON.parse(localStorage.getItem(STORAGE_FIX)) : false);
+      if (!didFixIds.value) {
+        const schedule = localStorage.getItem(STORAGE) ? JSON.parse(localStorage.getItem('TexasEclipseSchedulev2')) : {};
+        for (let day in schedule) {
+          // old ID: loopus-in-fabula-2024-04-05t20-00-00-000z
+          // new ID: loopus-in-fabula-2024-04-05t19-00-00-000z
+          schedule[day] = schedule[day].map(event => {
+            event.id = event.id.replace(/([0-9]{2})t([0-9]{2})(-[0-9]{2}-[0-9]{2}-[0-9]{3}z)$/, (_, day, hour, rest) => {
+              hour = parseInt(hour);
+              if (hour === 0) {
+                day = parseInt(day);
+                day -= 1;
+                day = "" + day;
+                return day.padStart(2, "0") + "t23" + rest;
+              }
+              hour -= 1;
+              hour = "" + hour;
+              if (hour.length < 2) hour = "0" + hour;
+              return day + "t" + hour + rest;
+            });
+            return events.find(realEvent => realEvent.id === event.id);
+          })
+          savedData[day] = schedule[day]
+        }
+        localStorage.setItem(STORAGE, JSON.stringify(schedule));
+        localStorage.setItem(STORAGE_FIX, JSON.stringify(true));
+      }
+    }
+
     const removeDuplicates = (arr) => arr.filter((v, i) => arr.indexOf(v) === i);
     const transformData = (data) => data.map((item) => {
       let newId = item.eventartistworkshoppresentation.replace(/[\s&]+/g, '-').toLowerCase()
       newId += '-' + item.starttime.replace(/[\s:.]+/g, '-').toLowerCase()
+
+      const startTime = new Date(item.starttime)
+      const endTime = new Date(item.endtime)
+      const timeZoneStart = utcToZonedTime(startTime, TIMEZONE)
+      const timeZoneEnd = utcToZonedTime(endTime, TIMEZONE)
       return {
         id: newId,
-        startTime: new Date(item.starttime),
-        endTime: new Date(item.endtime),
+        /*
+         * Start time and End time are deprecated in favor of timeZoneStart and timeZoneEnd. Instead of updating people's app every time, check for the new values and if they are there then perform an update.
+        */
+        startTime,
+        endTime,
+        timeZoneStart,
+        timeZoneEnd,
+        formatStartTime: formatInTimeZone(startTime, TIMEZONE, 'p'),
+        formatEndTime: formatInTimeZone(endTime, TIMEZONE, 'p'),
         tags: item.tags.split(', '),
         title: item.eventartistworkshoppresentation,
         description: item.description,
@@ -194,7 +242,7 @@
           get() {
             return events.value.filter((event) => {
               return event.title.toLowerCase().includes(search.value.toLowerCase()) && (selectedTags.value.length === 0 || selectedTags.value.every((tag) => event.tags.includes(tag))) && (selectedDays.value.length === 0 || selectedDays.value.find(v => v.value === event.startTime.getDay())) && (selectedStages.value.length === 0 || selectedStages.value.includes(event.location))
-            }).sort((a, b) => a.startTime - b.startTime)
+            }).sort((a, b) => a.startTime - b.endTime)
           }
         })
         const dayContainsEvent = (event) => {
@@ -227,11 +275,7 @@
             savedData[day].push(data);
           }
           localStorage.setItem(STORAGE, JSON.stringify(savedData))
-          /*
-          mySchedule.push(data);
-          mySchedule.sort((a, b) => a.startTime - b.startTime);
-          console.log("what is mySchedule", mySchedule)
-          */
+
         }
         const removeFromMySchedule = (data) => {
           if (data.title === 'TOTAL SOLAR ECLIPSE') return;
@@ -278,6 +322,8 @@
               savedData['Monday'].push(events.value.filter((event) => event.title === "TOTAL SOLAR ECLIPSE")[0])
               localStorage.setItem(STORAGE, JSON.stringify(savedData))
             }
+
+            fixData(events.value);
           })
         const onTagChange = (search) => {
           console.log("search", search)
