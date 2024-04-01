@@ -62,7 +62,8 @@
             <div class="schedule" contenteditable="true">Schedule</div>
           </h1>
           <div class="color-code">
-            <div v-for="location in ['Lone Star', 'Earth', 'Eclipse', 'Moon', 'Sun', 'Sky', 'Texas On Chain', 'Space']"
+            <div
+              v-for="location in ['Lone Star', 'Consciousness', 'Earth', 'Eclipse', 'Moon', 'Sun', 'Sky', 'Texas On Chain', 'Space']"
               :class="`code ${location.replace(/[\s]/g, '').toLowerCase()}-code`">{{location.toUpperCase()}}</div>
           </div>
           <div v-if="fixIds" class="my-list">
@@ -327,6 +328,15 @@
     .space-code {
       color: black;
       background-color: rgb(107, 135, 189);
+    }
+
+    .consciousness {
+      color: #ffa932;
+    }
+
+    .consciousness-code {
+      color: black;
+      background-color: #ffa932;
     }
 
     @media screen and (min-width: 1024px) {

@@ -125,9 +125,11 @@
                   <p v-if="event.description">{{ event.description }}</p>
                   <p v-if="event.website">{{ event.website }}</p>
                 </div>
-                <img v-if="coreStages.includes(event.location)" class="symbol"
-                  :src="`/assets/${event.location?.toLowerCase()?.replace(' ', '')}_stage.png`"
-                  :alt="`${event.location} area`" />
+                <div class="cats" v-if="coreStages.includes(event.location)">
+                  <img class="symbol" :src="`/assets/${event.location?.toLowerCase()?.replace(' ', '')}_stage.png`"
+                    :alt="`${event.location} area`" />
+                  <h4 class="title is-size-4"> {{event.location}}</h4>
+                </div>
                 <h4 v-if="!coreStages.includes(event.location)" class="title is-size-4">Stage: {{event.location}}</h4>
               </div>
             </div>
@@ -146,7 +148,7 @@
       "is-primary": ["electronica", "synth", "bass", "indie", "sophistication", "slo-mo", "soundscape", "light show"],
       "is-link": ["house", "ethnic", "jungle", "retro", "lo-fi", "futuristic", "glitch", "math", "arcade"],
       "is-info": ["blues", "afro", "folk", "psytrance", "dnb", "disco", "hardstyle", "hip hop", "astrology"],
-      "is-warning": ["happy", "jazzy", "folktronica", "funky", "dubstep", "bpm", "humanitarianism", "comedy"],
+      "is-warning": ["happy", "jazzy", "folktronica", "funky", "dubstep", "bpm", "humanitarianism", "comedy", "medicine"],
       "is-danger": ["renegade", "industrial", "upbeat", "indigenous", "eerie", "classy", "AI", "b2b"],
       "is-success": ["spiritual", "trippy", "vocals", "trance", "forest", "downtempo", "innovation", "trap"],
       "is-light": ["progressive", "consciousness", "techno", "remix", "dreamy", "acoustics", "crypto", "ambient"],
@@ -369,6 +371,11 @@
     app.mount('#app')
   </script>
   <style>
+    .cats {
+      display: flex;
+      align-items: center;
+    }
+
     .github {
       position: fixed;
       top: 12px;
