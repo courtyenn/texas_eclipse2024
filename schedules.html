@@ -226,6 +226,7 @@
 
     const app = createApp({
       setup() {
+        const sortedStages = ['Consciousness', 'Earth', 'Eclipse', 'Lone Star', 'Moon', 'Sky', 'Space', 'Sun', 'Texas On Chain'];
         const daysOfWeek = ref(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']);
         const presentationTags = ref(['presentation', 'art', 'crypto', 'math', 'light show', 'humanitarianism', 'innovation', 'AI', 'comedy', 'astrology']);
         const mySchedule = reactive([]);
@@ -321,7 +322,13 @@
               eventNames.value.push(event.title)
             }
             tags.value = removeDuplicates(tags.value).sort(sortTags)
-            stages.value = removeDuplicates(events.value.map((event) => event.location))
+            stages.value = removeDuplicates(events.value.map((event) => event.location)).sort((a, b) => {
+              if (!sortedStages.includes(a) && !sortedStages.includes(b)) return 1;
+              if (sortedStages.includes(a) && sortedStages.includes(b)) return sortedStages.indexOf(a) > sortedStages.indexOf(b) ? 1 : -1;
+              if (sortedStages.includes(b)) return 1
+
+              return -1;
+            })
 
             fixData(events.value);
 
