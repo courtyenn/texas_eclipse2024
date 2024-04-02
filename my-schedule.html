@@ -63,7 +63,7 @@
           </h1>
           <div class="color-code">
             <div
-              v-for="location in ['Lone Star', 'Consciousness', 'Earth', 'Eclipse', 'Moon', 'Sun', 'Sky', 'Texas On Chain', 'Space']"
+              v-for="location in ['Lone Star', 'Consciousness', 'Earth', 'Eclipse', 'Moon', 'Sun', 'Sky', 'Texas On Chain', 'Space', 'Ether']"
               :class="`code ${location.replace(/[\s]/g, '').toLowerCase()}-code`">{{location.toUpperCase()}}</div>
           </div>
           <div v-if="fixIds" class="my-list">
@@ -270,12 +270,21 @@
     }
 
     .earth {
-      color: hsl(120, 52%, 68%);
+      color: #5bd367;
     }
 
     .earth-code {
-      color: white;
+      color: black;
       background-color: hsl(120, 52%, 57%);
+    }
+
+    .ether {
+      color: #769a79;
+    }
+
+    .ether-code {
+      color: white;
+      background-color: #769a79;
     }
 
     .eclipse {
@@ -310,7 +319,7 @@
     }
 
     .sky-code {
-      color: white;
+      color: black;
       background-color: hsl(197, 100%, 61%);
     }
 
@@ -333,7 +342,7 @@
     }
 
     .consciousness {
-      color: #ffa932;
+      color: #ff9b10;
     }
 
     .consciousness-code {

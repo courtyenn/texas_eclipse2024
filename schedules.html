@@ -264,7 +264,7 @@
 
     const app = createApp({
       setup() {
-        const sortedStages = ['Consciousness', 'Earth', 'Eclipse', 'Lone Star', 'Moon', 'Sky', 'Space', 'Sun', 'Texas On Chain'];
+        const sortedStages = ['Consciousness', 'Earth', 'Eclipse', 'Ether', 'Lone Star', 'Moon', 'Sky', 'Space', 'Sun', 'Texas On Chain'];
         const daysOfWeek = ref(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']);
         const presentationTags = ref(['presentation', 'art', 'crypto', 'math', 'light show', 'humanitarianism', 'innovation', 'AI', 'comedy', 'astrology']);
         const mySchedule = reactive([]);
@@ -470,7 +470,11 @@
       --bulma-primary-h: 197;
       --bulma-primary-s: 100%;
       --bulma-primary-l: 61%;
+    }
 
+    .ether {
+      --bulma-text-strong: white;
+      --bulma-card-color: rgb(189, 189, 189);
     }
 
     @media (prefers-color-scheme: dark) {
@@ -488,6 +492,10 @@
       .has-text-grey-dark,
       .is-color-grey-dark {
         color: #717d98 !important;
+      }
+
+      .ether .has-text-grey-dark {
+        color: #3e3e3e !important;
       }
     }
 
@@ -517,7 +525,13 @@
       --bulma-primary-h: 120;
       --bulma-primary-s: 52%;
       --bulma-primary-l: 57%;
+    }
 
+    .ether {
+      --bulma-card-background-color: #769a79;
+      --bulma-primary-h: 125;
+      --bulma-primary-s: 29%;
+      --bulma-primary-l: 46%;
     }
 
     .eclipse {
