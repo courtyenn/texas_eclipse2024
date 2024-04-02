@@ -219,6 +219,19 @@
         localStorage.setItem(FIX, JSON.stringify(true));
       }
     }
+    const fixNameFn = (events) => {
+      const fixName = localStorage.getItem('bigredmachine') ? JSON.parse(localStorage.getItem('bigredmachine')) : false;
+
+      if (!fixName) {
+        const index = savedData['Friday'].findIndex(e => e.title === 'Big Red Machine')
+        schedule['Friday'][index].id = 'bigredmachine-2024-04-05t20-45-00-000z';
+        if (index >= 0) {
+          savedData['Friday'][index] = events.find(e => e.id === savedData['Friday'][index].id)
+        }
+        localStorage.setItem(STORAGE, JSON.stringify(savedData));
+        localStorage.setItem('bigredmachine', true)
+      }
+    }
     /** End Data scripts **/
     const removeDuplicates = (arr) => arr.filter((v, i) => arr.indexOf(v) === i);
     const transformData = (data) => data.map((item) => {
@@ -357,6 +370,7 @@
 
             fixData(events.value);
             fixScheduleSort();
+            fixNameFn(events.value);
 
             const foundEclipse = savedData['Monday'].find(event => event.id === 'total-solar-eclipse-2024-04-08t18-30-00-000z');
             if (!foundEclipse) {

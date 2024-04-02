@@ -92,6 +92,7 @@
       setup() {
         const schedule = ref(localStorage.getItem(STORAGE) ? JSON.parse(localStorage.getItem(STORAGE)) : {});
         const fixIds = ref(localStorage.getItem(FIX_STORAGE) ? JSON.parse(localStorage.getItem(FIX_STORAGE)) : false);
+
         const days = Object.keys(schedule.value);
         const downloadSchedule = () => {
           globalThis.modernScreenshot.domToPng(document.getElementById('capture'), {
