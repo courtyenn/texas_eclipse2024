@@ -241,7 +241,7 @@
     const fixNameFn = (events) => {
       const fixName = localStorage.getItem('bigredmachine') ? JSON.parse(localStorage.getItem('bigredmachine')) : false;
 
-      if (!fixName) {
+      if (!fixName && schedule['Friday'].length > 0) {
         const index = savedData['Friday'].findIndex(e => e.title === 'Big Red Machine')
         schedule['Friday'][index].id = 'bigredmachine-2024-04-05t20-45-00-000z';
         if (index >= 0) {
