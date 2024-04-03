@@ -179,7 +179,7 @@
     "endtime": "2024-04-05T23:00:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Armando Kroma",
-    "tags": "music, techno, pystrance, indie, house",
+    "tags": "music, techno, psytrance, indie, house",
     "soundcloud": "https://soundcloud.com/armando-kroma",
     "ig": "https://www.instagram.com/terrakroma"
   },
@@ -806,7 +806,7 @@
     "endtime": "2024-04-06T21:30:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Hydro Generator",
-    "tags": "music, psy trance, trance ",
+    "tags": "music, psytrance, trance, trippy",
     "soundcloud": "https://soundcloud.com/hydrogenerator"
   },
   {
@@ -1891,7 +1891,7 @@
     "endtime": "2024-04-07T08:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "David Dtarfire",
-    "tags": "music, dupstep, hip hop, vocals",
+    "tags": "music, dubstep, hip hop, vocals",
     "ig": "https://www.instagram.com/davidstarfire",
     "website": "https://www.davidstarfire.com/"
   },
@@ -2388,7 +2388,7 @@
     "endtime": "2024-04-09T05:00:00.000Z",
     "areastagelatlng": "Eclipse",
     "eventartistworkshoppresentation": "LSDream",
-    "tags": "music, dupstep, remix, hip hop, trippy, vocals, spiritual  ",
+    "tags": "music, dubstep, remix, hip hop, trippy, vocals, spiritual",
     "description": "A spiritual being having a human experience\n\n",
     "soundcloud": "https://soundcloud.com/lsdream",
     "ig": "https://www.instagram.com/lsdream",
@@ -2493,7 +2493,7 @@
     "endtime": "2024-04-09T02:00:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Ingraval",
-    "tags": "music, dak, psytrance, dnb, bass",
+    "tags": "music, dark, psytrance, dnb, bass",
     "soundcloud": "https://soundcloud.com/ingraval"
   },
   {
@@ -2501,7 +2501,7 @@
     "endtime": "2024-04-09T03:30:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Parus",
-    "tags": "music, psy trance, trance, dark ",
+    "tags": "music, psytrance, trance, dark",
     "description": "PARUS is a psychedelic trance music project. Written and produced by twin brothers Valentin and Mark Tarasov. ",
     "soundcloud": "https://soundcloud.com/parusmusic"
   },
@@ -2630,7 +2630,7 @@
     "eventartistworkshoppresentation": "Saint Sinner (Sunset Set)",
     "tags": "music, techno, dnb, breaking-through",
     "soundcloud": "https://soundcloud.com/saint_sinner_official",
-    "ig": "https://www.instagram.com/saint_sinner_music/?hl=en"
+    "ig": "https://www.instagram.com/saint_sinner_music"
   },
   {
     "starttime": "2024-04-09T01:00:00.000Z",
@@ -3212,7 +3212,7 @@
     "endtime": "2024-04-09T07:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Visages",
-    "tags": "music, dnb, dubtep, bass, hip hop",
+    "tags": "music, dnb, dubstep, bass, hip hop",
     "soundcloud": "https://soundcloud.com/visagesmusic",
     "ig": "https://www.instagram.com/visages.music"
   },
@@ -3249,7 +3249,7 @@
     "endtime": "2024-04-09T11:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "Chmura",
-    "tags": "music, bass, dupstep, downtempo",
+    "tags": "music, bass, dubstep, downtempo",
     "soundcloud": "https://soundcloud.com/chmuramusic",
     "ig": "https://www.instagram.com/chmuramusic"
   },
