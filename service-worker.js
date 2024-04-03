@@ -43,7 +43,7 @@ const ICONS = [
   "lonestar_stage",
   "earth_stage",
 ]
-const CACHE_NAME = "cache-v3"
+const CACHE_NAME = "cache-v6"
 
 const registerWorker = async () => {
   // List the files to precache
@@ -84,8 +84,12 @@ const registerWorker = async () => {
     )
   })
 
-  self.addEventListener("activate", (event) => {
+  self.addEventListener("activate", async (event) => {
     console.log("Service worker activate event!")
+    const existingCaches = await caches.keys()
+    const invalidCaches = existingCaches.filter((c) => c !== CACHE_NAME)
+    invalidCaches.map((ic) => caches.delete(ic))
+    clients.claim()
   })
 
   // When there's an incoming fetch request, try and respond with a precached resource, otherwise fall back to the network
