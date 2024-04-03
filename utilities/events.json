@@ -52,7 +52,7 @@
     "starttime": "2024-04-05T17:30:00.000Z",
     "endtime": "2024-04-05T18:00:00.000Z",
     "areastagelatlng": "Texas Onchain",
-    "eventartistworkshoppresentation": "\"The History of Math and Astrology: Katy Bohinc, The Ratio Space \"",
+    "eventartistworkshoppresentation": "The History of Math and Astrology: Katy Bohinc, The Ratio Space ",
     "tags": "presentation, math, astrology",
     "ig": "instagram.com/katybooberry",
     "website": "atxdao.com"
@@ -172,7 +172,7 @@
     "eventartistworkshoppresentation": "Manuman",
     "tags": "music, hip hop, techno, house",
     "soundcloud": "https://soundcloud.com/manuman",
-    "ig": "https://www.instagram.com/djmanuman/"
+    "ig": "https://www.instagram.com/djmanuman"
   },
   {
     "starttime": "2024-04-05T21:30:00.000Z",
@@ -181,7 +181,7 @@
     "eventartistworkshoppresentation": "Armando Kroma",
     "tags": "music, techno, pystrance, indie, house",
     "soundcloud": "https://soundcloud.com/armando-kroma",
-    "ig": "https://www.instagram.com/terrakroma/?hl=en"
+    "ig": "https://www.instagram.com/terrakroma"
   },
   {
     "starttime": "2024-04-05T23:00:00.000Z",
@@ -197,7 +197,7 @@
     "eventartistworkshoppresentation": "Jossie X Kleiman",
     "tags": "music, techno, psytrance, trance, progressive",
     "soundcloud": "https://soundcloud.com/gabriel-kleiman",
-    "ig": "https://www.instagram.com/kleiman_music/"
+    "ig": "https://www.instagram.com/kleiman_music"
   },
   {
     "starttime": "2024-04-06T02:00:00.000Z",
@@ -719,7 +719,10 @@
     "endtime": "2024-04-06T06:30:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Crescendoll",
-    "tags": "music"
+    "tags": "music, psytrance, techno, trance, dark",
+    "description": "\"The hellfire queen of gutter techno\", \"Music for darkside degenerates.\" - Joe Giuliano, Buzzbands LA",
+    "soundcloud": "https://soundcloud.com/crescendoll",
+    "ig": "https://www.instagram.com/crescendollmusic/?hl=en"
   },
   {
     "starttime": "2024-04-06T06:30:00.000Z",
@@ -736,7 +739,10 @@
     "endtime": "2024-04-06T09:30:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Xompax",
-    "tags": "music"
+    "tags": "music, psytrance, trance, techno, dark, progressive",
+    "description": "Xompax is a live modular-analog Sci-Tech/Dark-prog act based in Mexico.\r\nHis musical expression utilizes continuous exploration of live synths and digital entities, creating a sonic journey infused with minimalism oriented of dark grooves.",
+    "soundcloud": "https://soundcloud.com/xompaxmusic",
+    "ig": "https://www.instagram.com/xompax/?hl=en"
   },
   {
     "starttime": "2024-04-06T09:30:00.000Z",
@@ -762,7 +768,7 @@
     "eventartistworkshoppresentation": "Dust 2.0",
     "tags": "music, progressive, trance, house, techno",
     "soundcloud": "https://soundcloud.com/daniel-foibletech",
-    "ig": "https://www.instagram.com/dust__2.0/"
+    "ig": "https://www.instagram.com/dust__2.0"
   },
   {
     "starttime": "2024-04-06T14:00:00.000Z",
@@ -786,7 +792,7 @@
     "eventartistworkshoppresentation": "Ulixx",
     "tags": "music, trance, psytrance, progressive, acoustics",
     "soundcloud": "https://soundcloud.com/dj-ulixxx",
-    "ig": "https://www.instagram.com/ulixx_active/"
+    "ig": "https://www.instagram.com/ulixx_active"
   },
   {
     "starttime": "2024-04-06T18:30:00.000Z",
@@ -952,7 +958,7 @@
     "starttime": "2024-04-06T20:00:00.000Z",
     "endtime": "2024-04-06T21:00:00.000Z",
     "areastagelatlng": "Multiversal Dome",
-    "eventartistworkshoppresentation": "\"From Neuro-Genetic Engineering to Telepathy\"",
+    "eventartistworkshoppresentation": "From Neuro-Genetic Engineering to Telepathy",
     "tags": "presentation, medicine",
     "description": "Future Brains & Bodies: Dr DJ Seo (Co-Founder, Nerolink), Prof. Nick Bouilis (Neurosurgeon and Director, Gene Cell Therapy for Neruorestoration Laboratory)"
   },
@@ -960,7 +966,7 @@
     "starttime": "2024-04-06T21:00:00.000Z",
     "endtime": "2024-04-06T22:00:00.000Z",
     "areastagelatlng": "Multiversal Dome",
-    "eventartistworkshoppresentation": "\"AI and Your Future Body: Adam Ghetti\"",
+    "eventartistworkshoppresentation": "AI and Your Future Body: Adam Ghetti",
     "tags": "presentation, medicine",
     "description": "Future Brains & Bodies: \"AI and Your Future Body: Adam Ghetti\" (Co-founder, Adapter); Dr. Adam Lipson (Founder, STRYDO)"
   },
@@ -968,7 +974,7 @@
     "starttime": "2024-04-06T22:00:00.000Z",
     "endtime": "2024-04-06T23:00:00.000Z",
     "areastagelatlng": "Multiversal Dome",
-    "eventartistworkshoppresentation": "\"Exponential Human Longevity and Abundance\" keynote with Dr. Peter Diamandis",
+    "eventartistworkshoppresentation": "Exponential Human Longevity and Abundance keynote with Dr. Peter Diamandis",
     "tags": "presentation, medicine",
     "description": "Future Brains & Bodies: \"Exponential Human Longevity and Abundance\" keynote with Dr. Peter Diamandis (Founder, XPRIZE)"
   },
@@ -1619,14 +1625,14 @@
     "tags": "music, dark, psytrance, space, trance, bpm",
     "description": "Hitech DJ in Minneapolis, delivering a groovy arrangement of high BPM psytrance.",
     "soundcloud": "https://soundcloud.com/kelsiferrr",
-    "ig": "https://www.instagram.com/kelsiferrr_/"
+    "ig": "https://www.instagram.com/kelsiferrr_"
   },
   {
     "starttime": "2024-04-07T09:30:00.000Z",
     "endtime": "2024-04-07T11:00:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Forresta",
-    "tags": "music breaking-through"
+    "tags": "music, breaking-through"
   },
   {
     "starttime": "2024-04-07T11:00:00.000Z",
@@ -1698,7 +1704,7 @@
     "eventartistworkshoppresentation": "Tarzan",
     "tags": "music, jungle, techno, trance",
     "soundcloud": "https://soundcloud.com/user-711621310/rebirth-festival-20211015-beat-sex-do-shock-boooze/s-PAYaLtFVb8T?ref=clipboard&p=a&c=1&si=3ad6ffb8c6224d22b4ed714abcb1f58e&utm_campaign=social_sharing&utm_medium=text&utm_source=clipboard",
-    "ig": "https://www.instagram.com/nowhere_man777/"
+    "ig": "https://www.instagram.com/nowhere_man777"
   },
   {
     "starttime": "2024-04-08T00:30:00.000Z",
@@ -1715,7 +1721,7 @@
     "tags": "music, techno, dnb, eerie, bass",
     "description": "U-SRD is a DJ/Producer duo from San Francisco, California launched in 2016 by Loammi Rodas, and Fabrizio Uscanga. Coming from distinctly different musical backgrounds, both artists found common ground with a shared love of Techno after many years of DJing.",
     "soundcloud": "https://soundcloud.com/usrd",
-    "ig": "https://www.instagram.com/usrdmusic/"
+    "ig": "https://www.instagram.com/usrdmusic"
   },
   {
     "starttime": "2024-04-08T03:30:00.000Z",
@@ -1725,7 +1731,7 @@
     "tags": "music, house, techno, dnb",
     "description": "Kojiro is a highly active creator and contributor from Japanese electronic music scene. He has been involved and co-worked with many leading organizations and pioneer artists since 2003.\r\nIn 2013, he started “Re:birth Festival” with several organizers and festival crew.",
     "soundcloud": "https://soundcloud.com/kjr",
-    "ig": "https://www.instagram.com/rebirthfes/"
+    "ig": "https://www.instagram.com/rebirthfes"
   },
   {
     "starttime": "2024-04-07T05:00:00.000Z",
@@ -1922,7 +1928,7 @@
     "endtime": "2024-04-07T21:00:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Mark Farina (Mushroom Jazz Set)",
-    "tags": "music, jazzy, ambient, ",
+    "tags": "music, jazzy, ambient",
     "soundcloud": "https://soundcloud.com/djmarkfarina/umc-mushroom-jazz-set-may-2021"
   },
   {
@@ -2415,7 +2421,7 @@
     "endtime": "2024-04-08T11:30:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Momo",
-    "tags": "music breaking-through"
+    "tags": "music, breaking-through"
   },
   {
     "starttime": "2024-04-08T11:30:00.000Z",
@@ -2425,7 +2431,7 @@
     "tags": "music, house, ambient, acoustics, experimental, vocals, techno",
     "description": "For Chris Tooker, the first decade of his artistic journey was immersed in bands while the second was engaged in wandering the realms of electronica in the form of creator, composer and engineer for DJ duo KMLN. ",
     "soundcloud": "https://soundcloud.com/tookermusic",
-    "ig": "https://www.instagram.com/tookermusic/"
+    "ig": "https://www.instagram.com/tookermusic"
   },
   {
     "starttime": "2024-04-08T13:00:00.000Z",
@@ -2440,7 +2446,7 @@
     "endtime": "2024-04-08T16:00:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Coral",
-    "tags": "music breaking-through, psytrance",
+    "tags": "music, breaking-through, psytrance",
     "soundcloud": "https://soundcloud.com/coral-1"
   },
   {
@@ -2480,7 +2486,7 @@
     "tags": "music, dark, psytrance, dnb, bass, forrest",
     "description": "Xelph is the project of USA-based producer and DJ Gryphon (Wolf) O'Shea. With years of deep roots in the production of experimental Breakcore and IDM, his recent years have been dedicated entirely to bringing his passion for production to the worldwide dancefloor of the psychedelic scene ",
     "soundcloud": "https://soundcloud.com/xelphmusic",
-    "ig": "https://www.instagram.com/xelphmusic/"
+    "ig": "https://www.instagram.com/xelphmusic"
   },
   {
     "starttime": "2024-04-09T00:30:00.000Z",
@@ -2557,7 +2563,7 @@
     "endtime": "2024-04-08T10:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "DOVI",
-    "tags": "music breaking-through"
+    "tags": "music, breaking-through"
   },
   {
     "starttime": "2024-04-08T10:00:00.000Z",
@@ -2592,10 +2598,10 @@
     "endtime": "2024-04-08T22:00:00.000Z",
     "areastagelatlng": "Moon",
     "eventartistworkshoppresentation": "JuJu",
-    "tags": "music, downtempo, vocals, hip hop, ethnic, dnb",
+    "tags": "music, downtempo, vocals, hip hop, ethnic, dnb, jungle",
     "description": "Serving a mixed-genre variety pack of sexy beats\r\n\r",
     "soundcloud": "https://soundcloud.com/juju_jungle_beats",
-    "ig": "https://www.instagram.com/jujujunglebeats/"
+    "ig": "https://www.instagram.com/jujujunglebeats"
   },
   {
     "starttime": "2024-04-08T22:00:00.000Z",
@@ -2605,7 +2611,7 @@
     "tags": "music, hip hop, techno, bass, dnb",
     "description": "Adam Meow is the one all the cats are talking about. This LA-based DJ and music producer is a seasoned tastemaker and master vibe-setter, well known in the underground for his sonic alchemy.",
     "soundcloud": "https://soundcloud.com/adammeow",
-    "ig": "https://www.instagram.com/adammeowmusic/"
+    "ig": "https://www.instagram.com/adammeowmusic"
   },
   {
     "starttime": "2024-04-08T23:00:00.000Z",
@@ -2615,7 +2621,7 @@
     "tags": "music, dnb, ethnic, hip hop, bass",
     "description": "CANNABASS is a conglomeration of Bass, Rap, Dancehall, Grime, Hip Hop, and the foundation music dub",
     "soundcloud": "https://soundcloud.com/cannaba55",
-    "ig": "https://www.instagram.com/cannaba55/"
+    "ig": "https://www.instagram.com/cannaba55"
   },
   {
     "starttime": "2024-04-09T00:00:00.000Z",
@@ -2633,7 +2639,7 @@
     "eventartistworkshoppresentation": "Sylph",
     "tags": "music, downtempo, vocals, jungle, dnb, dubstep",
     "soundcloud": "https://soundcloud.com/sylphsounds",
-    "ig": "https://www.instagram.com/sylphsounds/"
+    "ig": "https://www.instagram.com/sylphsounds"
   },
   {
     "starttime": "2024-04-09T02:00:00.000Z",
@@ -2642,7 +2648,7 @@
     "eventartistworkshoppresentation": "K + Lab",
     "tags": "music, funky, bass, hip hop, dnb, indie, dubstep",
     "soundcloud": "https://soundcloud.com/klabnz",
-    "ig": "https://www.instagram.com/captainklab/?hl=en",
+    "ig": "https://www.instagram.com/captainklab",
     "website": "https://www.captainklab.com/"
   },
   {
@@ -2661,7 +2667,7 @@
     "eventartistworkshoppresentation": "Sicaria",
     "tags": "music, bass, club, dubstep, dnb",
     "soundcloud": "https://soundcloud.com/sicariaonline",
-    "ig": "https://www.instagram.com/sicariaonline/?hl=en"
+    "ig": "https://www.instagram.com/sicariaonline"
   },
   {
     "starttime": "2024-04-08T05:00:00.000Z",
@@ -2678,7 +2684,7 @@
     "tags": "music, vocals, jazzy, bass, house, techno, sophistication",
     "description": "High Step Society is a dance party from another dimension; a high-flying, beat-dropping, big band rocket ship with an ear to the past, and both feet on the gas. This dynamic band is bringing jazz back to the party, where it belongs.",
     "soundcloud": "https://soundcloud.com/high-step-society",
-    "ig": "https://www.instagram.com/highstepsociety/?hl=en",
+    "ig": "https://www.instagram.com/highstepsociety",
     "website": "https://www.highstepsociety.com/"
   },
   {
@@ -2686,9 +2692,9 @@
     "endtime": "2024-04-08T09:30:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Martha Van Straaten",
-    "tags": "music, ethnic, tranquil, futuristic vocals",
+    "tags": "music, ethnic, tranquil, futuristic, vocals",
     "soundcloud": "https://soundcloud.com/marthavanstraaten",
-    "ig": "https://www.instagram.com/marthavanstraaten/?hl=en"
+    "ig": "https://www.instagram.com/marthavanstraaten"
   },
   {
     "starttime": "2024-04-08T09:30:00.000Z",
@@ -2698,7 +2704,7 @@
     "tags": "music, ethnic, dubstep, vocals, downtempo, bass",
     "description": "Equanimous is a music producer, DJ, and multi-instrumentalist. He gathers elements from the world around him to create a sound that defies genres, pushes boundaries, and can only accurately be described as a one of a kind heart-expansive experience.",
     "soundcloud": "https://soundcloud.com/equanimous",
-    "ig": "https://www.instagram.com/equanimouslove/?hl=en"
+    "ig": "https://www.instagram.com/equanimouslove"
   },
   {
     "starttime": "2024-04-08T11:00:00.000Z",
@@ -2708,7 +2714,7 @@
     "tags": "music, bass, techno, tranquil, dreamy",
     "description": "Skysia, emerging from Denver's dynamic music scene, is a standout artist renowned for his unique blend of ethereal, organic, and melodic sounds with a new focus on sound design and bass. ",
     "soundcloud": "https://soundcloud.com/skysia",
-    "ig": "https://www.instagram.com/skysiamusic/",
+    "ig": "https://www.instagram.com/skysiamusic",
     "website": "https://www.skysiamusic.com/"
   },
   {
@@ -2766,7 +2772,7 @@
     "eventartistworkshoppresentation": "Joaqopelli x Knowa Lusion",
     "tags": "music, breaking-through, hip hop, remix, slo-mo",
     "soundcloud": "https://soundcloud.com/knowa",
-    "ig": "https://www.instagram.com/knowalusion/?hl=en"
+    "ig": "https://www.instagram.com/knowalusion"
   },
   {
     "starttime": "2024-04-09T00:00:00.000Z",
@@ -2775,7 +2781,7 @@
     "eventartistworkshoppresentation": "TV Broken Ft. Katie Skene",
     "tags": "music, funky, retro, acoustics, rock",
     "soundcloud": "https://soundcloud.com/tv-broken-3rd-eye-open, https://soundcloud.com/katieskenemusic",
-    "ig": "https://www.instagram.com/tvbroken3rdeyeopen/, https://www.instagram.com/katie_skene/?hl=en",
+    "ig": "https://www.instagram.com/tvbroken3rdeyeopen, https://www.instagram.com/katie_skene",
     "website": "https://www.katieskene.com/"
   },
   {
@@ -2791,9 +2797,9 @@
     "endtime": "2024-04-09T04:45:00.000Z",
     "areastagelatlng": "Earth",
     "eventartistworkshoppresentation": "Cocorosie",
-    "tags": "music, hip hop, folktronica, vocals, ",
+    "tags": "music, hip hop, folktronica, vocals",
     "soundcloud": "https://soundcloud.com/larealcocorosie",
-    "ig": "https://www.instagram.com/cocorosie_official/?hl=en",
+    "ig": "https://www.instagram.com/cocorosie_official",
     "website": "https://www.cocorosiemusic.com/"
   },
   {
@@ -3110,7 +3116,7 @@
     "endtime": "2024-04-09T07:30:00.000Z",
     "areastagelatlng": "Ether",
     "eventartistworkshoppresentation": "Cindervomit",
-    "tags": "music, ambient, dark, bpm,  ",
+    "tags": "music, ambient, dark, bpm",
     "description": "WARNING: The Reality Master General has determined that Mr. Vomit may significantly alter your reality.",
     "soundcloud": "https://soundcloud.com/cindervomit"
   },
@@ -3217,7 +3223,7 @@
     "eventartistworkshoppresentation": "Eprom",
     "tags": "music, techno, vocals, acid, dubstep",
     "soundcloud": "https://soundcloud.com/EPROMOFFICIAL",
-    "ig": "https://www.instagram.com/eprombeats/?hl=en"
+    "ig": "https://www.instagram.com/eprombeats"
   },
   {
     "starttime": "2024-04-09T08:00:00.000Z",
@@ -3245,7 +3251,7 @@
     "eventartistworkshoppresentation": "Chmura",
     "tags": "music, bass, dupstep, downtempo",
     "soundcloud": "https://soundcloud.com/chmuramusic",
-    "ig": "https://www.instagram.com/chmuramusic/?hl=en"
+    "ig": "https://www.instagram.com/chmuramusic"
   },
   {
     "starttime": "2024-04-09T11:00:00.000Z",
@@ -3422,7 +3428,7 @@
     "tags": "music, techno, dnb",
     "description": "Pushing forward-thinking electronic music and playing around the world since 1993.\r\n\r\nThe founder of the label 70 Drums and the co-brewer of KIKK IPA.",
     "soundcloud": "https://soundcloud.com/ken-ishii-70drums",
-    "ig": "https://www.instagram.com/_kenishii_/?hl=en",
+    "ig": "https://www.instagram.com/_kenishii_",
     "website": "https://kenishii.com/"
   },
   {
@@ -3433,7 +3439,7 @@
     "tags": "music, techno, trance, psytrance",
     "description": "I've created a beautiful heads down hypnotic journey with a dusting of psychedelic for you, as always starts deep then heads to a driving conclusion.",
     "soundcloud": "https://soundcloud.com/john00fleming",
-    "ig": "https://www.instagram.com/john00fleming/?hl=en",
+    "ig": "https://www.instagram.com/john00fleming",
     "website": "https://www.john00fleming.com/"
   },
   {
@@ -3444,23 +3450,23 @@
     "tags": "music, house, techno, acid",
     "description": "When you hear creeping high hats, hypnotic beats and a pop of acid, chances are you‘re hearing Britta Arnold from the console of her musical spaceship",
     "soundcloud": "https://soundcloud.com/britta-1",
-    "ig": "https://www.instagram.com/brittaarnold25/?hl=en"
+    "ig": "https://www.instagram.com/brittaarnold25"
   },
   {
     "starttime": "2024-04-09T11:00:00.000Z",
     "endtime": "2024-04-09T13:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Giz",
-    "tags": "music",
+    "tags": "music, techno, house, dnb, disco, ethnic",
     "soundcloud": "https://soundcloud.com/gizmusic",
-    "ig": "https://www.instagram.com/gizmusic/?hl=en"
+    "ig": "https://www.instagram.com/gizmusic"
   },
   {
     "starttime": "2024-04-09T13:00:00.000Z",
     "endtime": "2024-04-09T15:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Martha van Straaten b2b M.Rux",
-    "tags": "music",
+    "tags": "music, ethnic, tranquil, futuristic, vocals, experimental, trippy, futuristic",
     "soundcloud": "https://soundcloud.com/marthavanstraaten, https://soundcloud.com/mrux"
   },
   {
@@ -3468,6 +3474,8 @@
     "endtime": "2024-04-09T17:00:00.000Z",
     "areastagelatlng": "Sky",
     "eventartistworkshoppresentation": "Lotte Ahoi",
-    "tags": "music"
+    "tags": "music, disco, downtempo, techno, house",
+    "soundcloud": "https://soundcloud.com/lotte-ahoi",
+    "ig": "https://www.instagram.com/lotteahoi"
   }
 ]

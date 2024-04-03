@@ -84,8 +84,8 @@
               </multiselect>
             </div>
             <div class="cell">
-              <button @click="selectedTags = [];search='';selectedDays=[];selectedStages=[];"
-                class="button">Clear</button> Results: {{ filteredEvents.length }}
+              <button @click="selectedTags = [];search='';selectedDays=[];selectedStages=[];" class="button">Clear
+                All</button> Results: {{ filteredEvents.length }}
             </div>
           </div>
         </div>
@@ -264,6 +264,7 @@
 
     const app = createApp({
       setup() {
+        const sortedCoreTags = ['music', 'presentation', 'workshop', 'event']
         const sortedStages = ['Consciousness', 'Earth', 'Eclipse', 'Ether', 'Lone Star', 'Moon', 'Sky', 'Space', 'Sun', 'Texas On Chain'];
         const daysOfWeek = ref(['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']);
         const presentationTags = ref(['presentation', 'art', 'crypto', 'math', 'light show', 'humanitarianism', 'innovation', 'AI', 'comedy', 'astrology']);
@@ -344,11 +345,16 @@
           search.value = ""
         }
         const sortTags = (a, b) => {
-          if (a === 'music' || a === 'presentation') return -1;
-          if (b === 'music' || b === 'presentation') return 1;
-          if (presentationTags.value.includes(b)) return -1;
-          if (presentationTags.value.includes(a)) return 1;
-          return 0
+          if (!sortedCoreTags.includes(a) && !sortedCoreTags.includes(b)) return 1;
+          if (sortedCoreTags.includes(a) && sortedCoreTags.includes(b)) return sortedCoreTags.indexOf(a) > sortedCoreTags.indexOf(b) ? 1 : -1;
+          if (sortedCoreTags.includes(b)) return 1
+          return -1;
+        }
+        const sortStages = (a, b) => {
+          if (!sortedStages.includes(a) && !sortedStages.includes(b)) return 1;
+          if (sortedStages.includes(a) && sortedStages.includes(b)) return sortedStages.indexOf(a) > sortedStages.indexOf(b) ? 1 : -1;
+          if (sortedStages.includes(b)) return 1
+          return -1;
         }
         fetch("./utilities/events.json")
           .then((response) => response.json())
@@ -359,14 +365,9 @@
               tags.value = tags.value.concat(event.tags)
               eventNames.value.push(event.title)
             }
+            eventNames.value = eventNames.value.sort()
             tags.value = removeDuplicates(tags.value).sort(sortTags)
-            stages.value = removeDuplicates(events.value.map((event) => event.location)).sort((a, b) => {
-              if (!sortedStages.includes(a) && !sortedStages.includes(b)) return 1;
-              if (sortedStages.includes(a) && sortedStages.includes(b)) return sortedStages.indexOf(a) > sortedStages.indexOf(b) ? 1 : -1;
-              if (sortedStages.includes(b)) return 1
-
-              return -1;
-            })
+            stages.value = removeDuplicates(events.value.map((event) => event.location)).sort(sortStages)
 
             fixData(events.value);
             fixScheduleSort();
