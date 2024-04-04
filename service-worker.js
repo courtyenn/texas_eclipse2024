@@ -77,9 +77,9 @@ const registerWorker = async () => {
     self.skipWaiting()
     event.waitUntil(
       Promise.all([
-        caches
-          .open(CACHE_NAME)
-          .then((cache) => cache.addAll(precacheResources)),
+        caches.open(CACHE_NAME).then(async (cache) => {
+          await cache.addAll(precacheResources)
+        }),
       ])
     )
   })

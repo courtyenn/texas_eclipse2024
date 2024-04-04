@@ -53,9 +53,7 @@ const myError = (e) => {
   throw e
 }
 const setMyLocation = (ev) => {
-  const {
-    coords: { latitude, longitude },
-  } = ev.coords
+  const { latitude, longitude } = ev.coords
   if (!myMarker) {
     myMarker = L.marker([latitude, longitude], {
       icon: L.divIcon({ className: "my-location-icon" }),
