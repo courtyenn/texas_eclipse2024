@@ -184,7 +184,7 @@ const createHub = ({ icon, Placemark }) => {
 
     for (const [i, angle] of angles.entries()) {
       const radian = angle * DEG_45
-      const legLength = 0.00026
+      const legLength = 0.00019
 
       const nextX = x + Math.cos(radian) * legLength
       const nextY = y + Math.sin(radian) * legLength
@@ -204,7 +204,7 @@ const createHub = ({ icon, Placemark }) => {
       L.marker([nextX, nextY], {
         icon: L.icon({
           iconUrl: `/assets/${icons[i].icon}.png`,
-          iconSize: [20, 20],
+          iconSize: [14, 14],
           className: "hub_icon",
         }),
       })
@@ -216,6 +216,33 @@ const createHub = ({ icon, Placemark }) => {
         })
         .openTooltip()
     }
+  })
+}
+const createSmallIcons = ({ Placemark }) => {
+  let iconNum = 10
+  Placemark.forEach((pm) => {
+    const div = document.createElement("div")
+    const name = pm.name
+    div.classList.add("custom-icons")
+    div.classList.add(`icon-${iconNum}`)
+
+    div.innerText = pm.name
+      .split(" ")
+      .map((name) => name[0])
+      .join("")
+    const { coordinates } = pm.Point
+    const [longitude, latitude] = coordinates.split(",")
+    L.marker([latitude, longitude], {
+      icon: L.divIcon({ html: div, className: "test" }),
+    })
+      .addTo(map)
+      .bindTooltip(name, {
+        direction: "bottom",
+        permanent: false,
+        className: "small-icon",
+      })
+    iconNum += 10
+    if (iconNum > 50) iconNum = 10
   })
 }
 
@@ -263,6 +290,8 @@ const TexasEclipse = (data) => {
 
     if (folderName === "Hubs") {
       createHub({ icon, Placemark })
+    } else if (folderName === "Small_Icons") {
+      createSmallIcons({ Placemark })
     } else {
       if (icon) {
         placemarkConfig.icon = L.icon({
@@ -282,6 +311,6 @@ const TexasEclipse = (data) => {
   })
 }
 
-fetch("./utilities/Texas_eclipse_v2.7.json")
+fetch("./utilities/Texas_eclipse_v2.9.json")
   .then((response) => response.json())
   .then(TexasEclipse)

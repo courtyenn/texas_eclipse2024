@@ -43,7 +43,7 @@ const ICONS = [
   "lonestar_stage",
   "earth_stage",
 ]
-const CACHE_NAME = "cache-v7"
+const CACHE_NAME = "cache-v9"
 
 const registerWorker = async () => {
   // List the files to precache
@@ -54,7 +54,7 @@ const registerWorker = async () => {
     "/my-schedule.html",
     "/index.js",
     "/sharePins.js",
-    "/utilities/Texas_eclipse_v2.6.json",
+    "/utilities/Texas_eclipse_v2.9.json",
     "/utilities/events.json",
     "/assets/solar-eclipse.png",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
