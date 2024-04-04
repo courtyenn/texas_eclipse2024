@@ -44,13 +44,29 @@ map.on("zoomend", function () {
   else if (zoomLevel === 18) mapEle.classList.add("max-zoom-in")
 })
 
-map.on("locationfound", function (ev) {
-  if (!marker) {
-    marker = L.marker(ev.latlng)
+let myMarker = null
+let myId = null
+const myError = (e) => {
+  throw e
+}
+const setMyLocation = (ev) => {
+  const {
+    coords: { latitude, longitude },
+  } = ev.coords
+  if (!myMarker) {
+    myMarker = L.marker([30.7884996, -98.3341804], {
+      icon: L.divIcon({ className: "my-location-icon" }),
+    }).addTo(map)
   } else {
-    marker.setLatLng(ev.latlng)
+    myMarker.setLatLng([latitude, longitude])
+    console.log("UPDATED LOCATION,", ev.latlng)
   }
-})
+}
+
+navigator.geolocation.getCurrentPosition(setMyLocation, myError)
+myId = navigator.geolocation.watchPosition(setMyLocation, myError)
+
+map.on("locationfound", setMyLocation)
 
 L.tileLayer(`/assets/mapbox/{z}/{x}/{y}.png`, {
   attribution:
@@ -60,7 +76,8 @@ L.tileLayer(`/assets/mapbox/{z}/{x}/{y}.png`, {
 const convertHslToColor = (hsl) => ({
   color: `hsl(${hsl.hue}, ${hsl.saturation}%, ${hsl.lightness}%)`,
   weight: 4,
-  fillOpacity: 0.5,
+  fillOpacity: 0.2,
+  opacity: 0.5,
 })
 
 const addPlacemark = (placemark, { hoverLabel, ...config }) => {

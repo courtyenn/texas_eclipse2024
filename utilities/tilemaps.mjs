@@ -48,7 +48,7 @@ export const calcSlippyTiles = () => {
     ],
     17: [
       { xtile: 29718, ytile: 53731 },
-      { xtile: 29732, ytile: 53747 },
+      { xtile: 29735, ytile: 53747 },
     ],
     16: [
       { xtile: 14857, ytile: 26863 },

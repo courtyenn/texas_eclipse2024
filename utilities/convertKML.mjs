@@ -4,7 +4,7 @@ import * as url from "url"
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url))
 
 fs.readFile(
-  `${__dirname}/Texas_eclipse_v2.5.kml`,
+  `${__dirname}/Texas_eclipse_v2.7.kml`,
   "utf8",
   (err, xmlDataStr) => {
     if (err) {
@@ -25,7 +25,7 @@ fs.readFile(
         Placemark: jsonObj.kml.Document.Placemark,
       }
       fs.writeFile(
-        `${__dirname}/Texas_eclipse_v2.6.json`,
+        `${__dirname}/Texas_eclipse_v2.7.json`,
         JSON.stringify(myMap, null, 2),
         (err) => {
           if (err) {
