@@ -47,6 +47,9 @@ map.on("zoomend", function () {
 let myMarker = null
 let myId = null
 const myError = (e) => {
+  // myMarker = L.marker([30.7968346, -98.3576996], {
+  //   icon: L.divIcon({ className: "my-location-icon", iconSize: [20, 20] }),
+  // }).addTo(map)
   throw e
 }
 const setMyLocation = (ev) => {
@@ -54,7 +57,7 @@ const setMyLocation = (ev) => {
     coords: { latitude, longitude },
   } = ev.coords
   if (!myMarker) {
-    myMarker = L.marker([30.7884996, -98.3341804], {
+    myMarker = L.marker([latitude, longitude], {
       icon: L.divIcon({ className: "my-location-icon" }),
     }).addTo(map)
   } else {
@@ -281,6 +284,6 @@ const TexasEclipse = (data) => {
   })
 }
 
-fetch("./utilities/Texas_eclipse_v2.6.json")
+fetch("./utilities/Texas_eclipse_v2.7.json")
   .then((response) => response.json())
   .then(TexasEclipse)
