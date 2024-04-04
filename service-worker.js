@@ -43,7 +43,7 @@ const ICONS = [
   "lonestar_stage",
   "earth_stage",
 ]
-const CACHE_NAME = "cache-v6"
+const CACHE_NAME = "cache-v7"
 
 const registerWorker = async () => {
   // List the files to precache
