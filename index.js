@@ -65,7 +65,7 @@ const setMyLocation = (ev) => {
 }
 
 navigator.geolocation.getCurrentPosition(setMyLocation, myError)
-myId = navigator.geolocation.watchPosition(setMyLocation, myError)
+// myId = navigator.geolocation.watchPosition(setMyLocation, myError)
 
 map.on("locationfound", setMyLocation)
 
