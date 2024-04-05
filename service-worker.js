@@ -59,28 +59,32 @@ const registerWorker = async () => {
     "/assets/solar-eclipse.png",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
     "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
-    "https://unpkg.com/vue@3/dist/vue.esm-browser.js",
+    "/assets/vue.esm-browser.js",
     "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.css",
     "https://unpkg.com/vue-multiselect@3.0.0-beta.3/dist/vue-multiselect.esm.js",
-    "https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css",
+    "/assets/bulma.min.css",
     "https://ghbtns.com/github-btn.html?user=courtyenn&repo=texas_eclipse2024&type=star&count=true",
     "https://cdn.jsdelivr.net/npm/date-fns@3.6.0/+esm",
     "https://cdn.jsdelivr.net/npm/date-fns-tz@3.0.0-beta.3/+esm",
     ...ICONS.map((icon) => `/assets/${icon}.png`),
-    ...calcSlippyTiles().map(
-      (tile) => `/assets/mapbox/${tile.zoom}/${tile.x}/${tile.y}.png`
-    ),
   ]
 
   // When the service worker is installing, open the cache and add the precache resources to it
   self.addEventListener("install", (event) => {
     self.skipWaiting()
     event.waitUntil(
-      Promise.all([
-        caches.open(CACHE_NAME).then(async (cache) => {
+      caches
+        .open(CACHE_NAME)
+        .then(async (cache) => {
           await cache.addAll(precacheResources)
-        }),
-      ])
+          return cache
+        })
+        .then(async (cache) => {
+          const urls = await calcSlippyTiles().map(
+            (tile) => `/assets/mapbox/${tile.zoom}/${tile.x}/${tile.y}.png`
+          )
+          cache.addAll(urls)
+        })
     )
   })
 
